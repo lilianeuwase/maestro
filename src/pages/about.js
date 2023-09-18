@@ -7,6 +7,9 @@ const About = () => {
         <div className='row'>
           <h3>This is the About page</h3>
         </div>
+        <div className='row'>
+          <h3>This is the About page</h3>
+        </div>
       </div>
     </div>
   );
