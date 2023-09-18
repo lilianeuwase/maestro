@@ -21,24 +21,26 @@ const Header = ({ history, dimensions }) => {
   });
 
   return (
-    <div className='header'>
-      <div className='container'>
-        <div className='row v-center space-between'>
-          <div className='logo'>
-            <NavLink to='/' exact>
+    <div className="header">
+      <div className="container">
+        <div className="row v-center space-between">
+          <div className="logo">
+            <NavLink to="/" exact>
               MAESTRO
             </NavLink>
           </div>
-          <div className='nav-toggle'>
+          <div className="nav-toggle">
             <div
               onClick={() => setMenuState({ menuOpened: true })}
-              className='hamburger-menu'>
+              className="hamburger-menu"
+            >
               <span></span>
               <span></span>
             </div>
             <div
-              className='hamburger-menu-close'
-              onClick={() => setMenuState({ menuOpened: false })}>
+              className="hamburger-menu-close"
+              onClick={() => setMenuState({ menuOpened: false })}
+            >
               <UpArrow />
             </div>
           </div>

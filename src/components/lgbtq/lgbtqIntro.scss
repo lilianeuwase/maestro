@@ -138,12 +138,13 @@ $black: #191919;
                         color: #fff;
                         width: 300px;
                         h3 {
-                            font-size: 1.2rem;
+                            font-size: 2.5rem;
                             margin: 8px auto;
                         }
                         p {
                             margin: 0 auto;
-                            font-size: 0.8rem;
+                            font-size: 1.1rem;
+                            letter-spacing: 0.5px;
                         }
                     }
                 }
@@ -152,7 +153,7 @@ $black: #191919;
                     bottom: -80px;
                     color: #fff;
                     margin-top: 16px;
-                    font-size: 0.8rem;
+                    font-size: 1rem;
                     font-weight: 600;
                     span {
                         cursor: pointer;

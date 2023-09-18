@@ -14,18 +14,18 @@ import {
   staggerRevealClose,
 } from "./introAnimations";
 
-import dallas from "../../assets/dallas.webp";
-import austin from "../../assets/austin.webp";
-import newyork from "../../assets/newyork.webp";
-import sanfrancisco from "../../assets/sanfrancisco.webp";
-import beijing from "../../assets/beijing.webp";
+import orange from "../../assets/orange.jpeg";
+import yellow from "../../assets/Yellow.jpeg";
+import green from "../../assets/green.jpeg";
+import blue from "../../assets/blue.jpeg";
+import violet from "../../assets/violet.jpeg";
 
 const cities = [
-  { name: "Dallas", image: dallas },
-  { name: "Austin", image: austin },
-  { name: "New York", image: newyork },
-  { name: "San Francisco", image: sanfrancisco },
-  { name: "Beijing", image: beijing },
+  { name: "Lesbian", image: orange },
+  { name: "Gay", image: yellow },
+  { name: "Bisexual", image: green },
+  { name: "Transgender", image: blue },
+  { name: "Queer+", image: violet },
 ];
 
 const LGBTQIntro = () => {
@@ -67,9 +67,9 @@ const LGBTQIntro = () => {
                         onMouseEnter={(e) => handleHover(e)}
                         onMouseOut={(e) => handleHoverExit(e)}
                         ref={(el) => (line1 = el)}
-                        to="/opportunities"
+                        to="/lgbtq/#choice"
                       >
-                        Opportunities
+                       Choice
                       </Link>
                     </li>
                     <li>
@@ -77,9 +77,9 @@ const LGBTQIntro = () => {
                         onMouseEnter={(e) => handleHover(e)}
                         onMouseOut={(e) => handleHoverExit(e)}
                         ref={(el) => (line2 = el)}
-                        to="/solutions"
+                        to="/lgbtq/#choice"
                       >
-                        Solutions
+                        Consultation
                       </Link>
                     </li>
                     <li>
@@ -87,9 +87,9 @@ const LGBTQIntro = () => {
                         onMouseEnter={(e) => handleHover(e)}
                         onMouseOut={(e) => handleHoverExit(e)}
                         ref={(el) => (line3 = el)}
-                        to="/contact-us"
+                        to="/getinvolved"
                       >
-                        Contact us
+                        Get Involved
                       </Link>
                     </li>
                   </ul>
@@ -98,16 +98,19 @@ const LGBTQIntro = () => {
                   // ref={el => (info = el)}
                   className="infoLG"
                 >
-                  <h3>Our Promise</h3>
+                  <h3>A Kind Reminder</h3>
                   <p>
-                    The passage experienced a surge in popularity during the
-                    1960s when Letraset used it on their dry-transfer sheets,
-                    and again during the 90s as desktop publishers bundled the
-                    text with their software.
+                    Finding the right mental health professional
+                    could involve trying out a few options. If you're not
+                    comfortable with your initial choice, remember that it's
+                    completely acceptable to look for another professional who
+                    better suits your requirements and preferences. Prioritize
+                    your well-being and don't hesitate to reach out for help
+                    when needed.
                   </p>
                 </div>
                 <div className="locationsLG">
-                  Locations:
+                  Inclusion:
                   {/* Returning the list of cities */}
                   {cities.map((el) => (
                     <span
