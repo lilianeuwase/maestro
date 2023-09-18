@@ -13,6 +13,7 @@ import Home from "./pages/home";
 import { MotivePic } from "./components/home/motivePic";
 import { SpacePic } from "./components/home/spacePic";
 import { RelaxPic } from "./components/home/relaxPic";
+import ScrollToTop from "./components/ScrollToTop";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -60,6 +61,7 @@ function App() {
   });
   return (
     <>
+    <ScrollToTop/>
       <Header dimensions={dimensions} />
       <div className="App">
         {routes.map(({ path, Component }) => (
