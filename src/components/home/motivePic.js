@@ -5,10 +5,7 @@ export function MotivePic() {
     <div>
       <CasePicture
         image={require("../../assets/Colorflag.jpeg")}
-        description="In a world where the weight of daily challenges can often become overwhelming, Maestro Mind stands as
-a beacon of hope. Our website is dedicated to providing a safe haven for those navigating the complex
-terrain of mental health and substance use concerns. We recognize that these struggles are more than
-just battles – they are journeys, and we are here to walk alongside you every step of the way."
+        description="In a world where the troubles of each day can feel like a lot, Maestro Mind is a symbol of hope. Our website is here to be a safe place for people dealing with the complicated world of mental health. We understand that these challenges are more than fights – they're journeys, and we're here to support you all along the path."
       />
     </div>
   );

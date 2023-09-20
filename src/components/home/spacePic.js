@@ -5,11 +5,9 @@ export function SpacePic() {
     <div>
       <CasePicture
         image={require("../../assets/howareyou.jpeg")}
-        description="Depression can cast a heavy cloud over life's brightest moments, making each day feel like an uphill
-climb. At Maestro Mind, we believe that even the tiniest spark of hope can ignite a profound
-transformation. Through compassionate articles, personal stories of resilience, and practical coping
-strategies, we aim to help you find your path to recovery. Remember, you are not alone – we are here to
-remind you of your strength and worth."
+        description="Depression is a feeling of deep sadness, hopelessness, and a lack of interest or pleasure in activities that lasts for a long time and affects a person's thoughts, feelings, and daily life. Depression can make even the happiest times seem hard, like a tough climb every day. At Maestro Mind, we think that even a small bit of hope can start a big change. The World Health Organization (WHO) estimates that around 322 million people worldwide are affected by depression. 
+We want to help you find your way to feeling better with caring articles, stories of people who got stronger, and useful ways to cope for free. You're not by yourself – we're here to help you see how strong and important you are.
+"
       />
     </div>
   );

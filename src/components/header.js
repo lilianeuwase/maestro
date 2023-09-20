@@ -7,6 +7,8 @@ import { openMenu, closeMenu } from "../animations/menuAnimations";
 // Define reducer
 
 const Header = ({ history, dimensions }) => {
+
+  
   const [menuState, setMenuState] = useState({ menuOpened: false });
   useEffect(() => {
     //Listening for page changes.
@@ -14,6 +16,7 @@ const Header = ({ history, dimensions }) => {
       setMenuState({ menuOpened: false });
     });
     if (menuState.menuOpened === true) {
+      window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
       openMenu(dimensions.width);
     } else if (menuState.menuOpened === false) {
       closeMenu();
@@ -26,7 +29,8 @@ const Header = ({ history, dimensions }) => {
         <div className="row v-center space-between">
           <div className="logo">
             <NavLink to="/" exact>
-              MAESTRO
+            <img src={require("../assets/5.png")} width={30} height={30} /> {" "}
+              MAESTRO.
             </NavLink>
           </div>
           <div className="nav-toggle">

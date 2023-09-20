@@ -5,11 +5,7 @@ export function RelaxPic() {
     <div>
       <CasePicture
         image={require("../../assets/Relaxation.jpeg")}
-        description="Anxiety can be a relentless companion, its grasp getting tighter as thoughts keep passing by. At Maestro
-Mind, we offer a sanctuary of tranquility and understanding. Our platform is a treasure trove of
-mindfulness practices, relaxation techniques, and expert insights that can guide you toward a more
-peaceful state of mind. Together, we'll unravel the threads of worry and work towards a life marked by
-serenity and balance."
+        description="Anxiety is a feeling of being worried, nervous, or scared about things, even when they might not be dangerous and it can manifest physically with symptoms like restlessness, rapid heart rate, and sweating. Anxiety can feel like a constant friend that won't leave, making you more worried as thoughts come and go. Anxiety disorders are among the most common mental health disorders globally. The WHO states that nearly 300 million people of all ages suffer from anxiety disorders. At Maestro Mind, we have a peaceful and understanding place for you. Our website has lots of ways to help you relax and be mindful, like calming exercises and advice from experts. Let's work together to reduce your worries and aim for a calm and balanced life."
       />
     </div>
   );

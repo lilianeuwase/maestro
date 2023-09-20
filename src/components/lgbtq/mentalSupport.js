@@ -44,7 +44,7 @@ const MentalSupport = ({ imageDetails, image }) => (
               <div className='titleWelcome'>Mental Health</div>
               {/* <div className='titleWelcome'>CLICK ON THE IMAGE</div> */}
               <div className='locationWelcome'>
-                <span>HealthY</span>
+                <span>Healthy</span>
                 <span>Mind</span>
               </div>
             </motion.div>

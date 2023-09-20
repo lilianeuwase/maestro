@@ -1,6 +1,10 @@
 import HomeIntro from "../components/home/homeIntro";
 import React, { useEffect} from "react";
 import gsap from "gsap";
+import WhyMental from "../components/home/whyMental";
+import { HomeWelcome } from "../components/home/homeWelcome";
+import JoinCommunity from "../components/home/joinCommunity";
+import JoinSm from "../components/home/joinSm";
 
 const Home = () => {
 
@@ -39,6 +43,10 @@ const Home = () => {
   return (
     <div>
       <HomeIntro dimensions={dimensions} />
+      <HomeWelcome/>
+      {/* <JoinCommunity/> */}
+      {/* <JoinSm/> */}
+      <WhyMental/>
     </div>
   );
 };

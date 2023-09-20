@@ -11,8 +11,6 @@ const LGBTQ = () => {
     <>
       <div>
         <LGBTQIntro />
-      </div>
-      <div>
         <MentalSupport imageDetails={imageDetails} />
       </div>
     </>

@@ -19,7 +19,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   container: {
-    height: rem(608),
+    height: rem(700),
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-end",
@@ -77,34 +77,29 @@ export function CasePicture(props) {
 
   return (
     <div className={classes.hero}>
-       <BackgroundImage
+      <BackgroundImage
         src={props.image}
         // radius="sm"
       >
-      <Overlay
-        gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)"
-        opacity={1}
-        zIndex={0}
-      />
-      <Container className={classes.container}>
-        <Title className={classes.title}>
-          {/* In a world where the weight of daily challenges can often become
-          overwhelming, Maestro Mind stands as a beacon of hope. Our website is
-          dedicated to providing a safe haven for those navigating the complex
-          terrain of mental health and substance use concerns. We recognize that
-          these struggles are more than just battles – they are journeys, and we
-          are here to walk alongside you every step of the way */} {props.description}
-        </Title>
-        {/* <Text className={classes.description} size="xl" mt="xl">
-          Build fully functional accessible web applications faster than ever – Mantine includes
-          more than 120 customizable components and hooks to cover you in any situation
-        </Text> */}
-        <NavLink to="/" style={{ textDecoration: "none" }}>
-          <Button variant="gradient" gradient={{ from: 'orange', to: 'red' }} size="xl" className={classes.control}>
-            Get back
-          </Button>
-        </NavLink>
-      </Container>
+        <Overlay
+          gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)"
+          opacity={1}
+          zIndex={0}
+        />
+        <Container className={classes.container}>
+          <Title className={classes.title}>{props.description}</Title>
+
+          <NavLink to="/" style={{ textDecoration: "none" }}>
+            <Button
+              variant="gradient"
+              gradient={{ from: "orange", to: "red" }}
+              size="xl"
+              className={classes.control}
+            >
+              Get back
+            </Button>
+          </NavLink>
+        </Container>
       </BackgroundImage>
     </div>
   );
