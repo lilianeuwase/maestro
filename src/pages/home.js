@@ -4,7 +4,6 @@ import gsap from "gsap";
 import WhyMental from "../components/home/whyMental";
 import { HomeWelcome } from "../components/home/homeWelcome";
 import JoinCommunity from "../components/home/joinCommunity";
-import JoinSm from "../components/home/joinSm";
 
 const Home = () => {
 
@@ -45,7 +44,6 @@ const Home = () => {
       <HomeIntro dimensions={dimensions} />
       <HomeWelcome/>
       {/* <JoinCommunity/> */}
-      {/* <JoinSm/> */}
       <WhyMental/>
     </div>
   );

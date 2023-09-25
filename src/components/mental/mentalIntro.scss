@@ -206,7 +206,7 @@ main {
             }
         }
         .bottom-rowWelcome {
-            height: 50vh;
+            height: 35vh;
             position: relative;
             .bottomWelcome {
                 height: 100%;
@@ -229,7 +229,7 @@ main {
             }
             .scroll-for-moreWelcome {
                 position: absolute;
-                bottom: 200px;
+                bottom: 100px;
                 left: 200px;
                 z-index: 20;
                 .iconWelcome {
@@ -250,7 +250,7 @@ main {
 
 .detailed-informationWelcome {
     margin-top: 200px;
-    height: 600px;
+    height: 200px;
     .containerWelcome {
         .rowWelcome {
             justify-content: space-between;

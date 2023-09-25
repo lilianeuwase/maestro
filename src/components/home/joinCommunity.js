@@ -1,19 +1,19 @@
 import { motion } from "framer-motion";
 import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import React, { useLayoutEffect, useRef } from "react";
 import styled from "styled-components";
 
-import img1 from "../../assets/blackback.jpeg";
-import img2 from "../../assets/blackback.jpeg";
-import img3 from  "../../assets/blackback.jpeg";
-import img4 from  "../../assets/blackback.jpeg";
-import img5 from  "../../assets/blackback.jpeg";
-import img6 from  "../../assets/blackback.jpeg";
-import img7 from  "../../assets/blackback.jpeg";
-import img8 from  "../../assets/blackback.jpeg";
-import img9 from "../../assets/blackback.jpeg";
-import img10 from  "../../assets/blackback.jpeg";
+import img1 from "../../assets/2hands.jpeg";
+import img2 from "../../assets/2hands.jpeg";
+import img3 from "../../assets/2hands.jpeg";
+import img4 from "../../assets/2hands.jpeg";
+import img5 from "../../assets/2hands.jpeg";
+import img6 from "../../assets/2hands.jpeg";
+import img7 from "../../assets/2hands.jpeg";
+import img8 from "../../assets/2hands.jpeg";
+import img9 from "../../assets/2hands.jpeg";
+import img10 from "../../assets/2hands.jpeg";
 
 const Section = styled(motion.section)`
   min-height: 100vh;
@@ -142,6 +142,7 @@ const Product = ({ img, title = "" }) => {
 };
 
 const JoinCommunity = () => {
+
   gsap.registerPlugin(ScrollTrigger);
   const ref = useRef(null);
 
@@ -190,12 +191,12 @@ const JoinCommunity = () => {
 
     return () => {
       t1.kill();
-      ScrollTrigger.kill();
+      // ScrollTrigger.kill();
     };
   }, []);
 
   return (
-    <Section ref={ref} id="join">
+    <Section ref={ref} id="shop">
       <Title data-scroll data-scroll-speed="-1">
         New Collection
       </Title>

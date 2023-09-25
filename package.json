@@ -10,15 +10,18 @@
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
         "@testing-library/user-event": "^7.1.2",
-        "framer-motion": "^2.0.0-beta.77",
-        "gsap": "^3.1.1",
-        "locomotive-scroll": "^4.1.4",
+        "framer-motion": "3.1.1",
+        "gsap": "^3.9.1",
         "install": "^0.13.0",
+        "locomotive-scroll": "^4.1.4",
+        "memfs": "^4.3.0",
         "nvm": "0.0.4",
         "preline": "^1.9.0",
         "react": "^16.12.0",
+        "react-bootstrap": "^2.8.0",
         "react-dom": "^16.12.0",
         "react-locomotive-scroll": "^0.2.0",
+        "react-lorem-ipsum": "1.4.4",
         "react-progressive-image": "^0.6.0",
         "react-router-dom": "^5.1.2",
         "react-scripts": "5.0.1",
@@ -50,6 +53,7 @@
         ]
     },
     "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
         "sass": "^1.66.1",
         "tailwindcss": "^3.3.3"
     }

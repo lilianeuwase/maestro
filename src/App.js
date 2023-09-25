@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { gsap } from "gsap";
 import "./styles/App.scss";
 import Header from "./components/header";
 import Navigation from "./components/navigation";
-
 import LGBTQ from "./pages/lgbtq";
 import Mental from "./pages/mental";
 import Services from "./pages/services";
@@ -14,17 +13,19 @@ import { MotivePic } from "./components/home/motivePic";
 import { SpacePic } from "./components/home/spacePic";
 import { RelaxPic } from "./components/home/relaxPic";
 import ScrollToTop from "./components/ScrollToTop";
+import CardsAnimation from "./components/TBU/cards/cardsAnimation";
+import { AnimateSharedLayout } from "framer-motion";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
-  { path: "/mentalhealth", name: "mental", Component: Mental },
+  { path: "/mentalhealth", name: "mentalhealth", Component: Mental },
   { path: "/lgbtq", name: "lgbtq", Component: LGBTQ },
-  
+  { path: "/motive", name: "motive", Component: MotivePic },
+  { path: "/space", name: "space", Component: SpacePic },
+  { path: "/relax", name: "relax", Component: RelaxPic },
+
   { path: "/services", name: "services", Component: Services },
   { path: "/about-us", name: "about", Component: About },
-  { path: "/motive", name: "motive", Component: MotivePic },
-  { path: "/space", name: "motive", Component: SpacePic },
-  { path: "/relax", name: "motive", Component: RelaxPic },
 ];
 
 function debounce(fn, ms) {
@@ -61,14 +62,21 @@ function App() {
   });
   return (
     <>
-    <ScrollToTop/>
+      <ScrollToTop />
       <Header dimensions={dimensions} />
       <div className="App">
-        {routes.map(({ path, Component }) => (
-          <Route key={path} exact path={path}>
-            <Component dimensions={dimensions} />
+        <Switch>
+          {routes.map(({ path, Component, id }) => (
+            <Route key={path} exact path={path}>
+              <Component dimensions={dimensions} id={id} />
+            </Route>
+          ))}
+          <AnimateSharedLayout type="crossfade">
+          <Route exact path={["/mentalhealth/:id", "/mentalhealth"]}>
+            <CardsAnimation />
           </Route>
-        ))}
+          </AnimateSharedLayout>
+        </Switch>
       </div>
       <Navigation />
     </>

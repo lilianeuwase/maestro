@@ -1,0 +1,265 @@
+/* .App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow-y: scroll;
+    --secondary: rgb(161, 161, 161);
+    --divider: #343434;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: ".SFNSText", "SFProText-Regular", "SFUIText-Regular", ".SFUIText", Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+} */
+
+#rootCard {
+    display: flex;
+    justify-content: center;
+}
+
+.screenCard {
+    width: 100%;
+    height: 100%;
+}
+
+.containerCard {
+    max-width: 990px;
+    flex: 1 1 100%;
+    padding: 45px 25px;
+}
+
+
+/* h1 {
+    font-weight: bold;
+    color: white;
+    margin: 6px 0 12px;
+} */
+
+.dateCard {
+    color: var(--secondary);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.headerCard {
+    border-bottom: 1px solid var(--divider);
+    position: relative;
+}
+
+.avatarCard {
+    background: var(--divider);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    overflow: hidden;
+}
+
+.avatarCard,
+.avatarCard img {
+    width: 40px;
+    height: 40px;
+}
+
+.ulCard,
+.liCard {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card-listCard {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.cardCard {
+    box-sizing: border-box;
+    position: relative;
+    padding: 25px;
+    height: 460px;
+    flex: 0 0 40%;
+    max-width: 25%;
+}
+
+.cardCard:nth-child(4n + 1),
+.cardCard:nth-child(4n + 4) {
+    flex: 0 0 60%;
+    max-width: 25%;
+}
+
+.cardCard:nth-child(odd) {
+    padding-left: 10;
+}
+
+.cardCard:nth-child(even) {
+    padding-right: 10;
+}
+
+.card-content-containerCard {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    pointer-events: none;
+}
+
+.card-content-containerCard.openCard {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.card-contentCard {
+    pointer-events: auto;
+    position: relative;
+    border-radius: 20px;
+    background: #e8e8ed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.openCard .card-contentCard {
+    height: auto;
+    max-width: 700px;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.card-open-linkCard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.card-image-containerCard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 420px;
+    width: 100vw;
+}
+
+.openCard .card-image-containerCard,
+.openCard .title-containerCard {
+    z-index: 1;
+}
+
+.title-containerCard {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    max-width: 300px;
+}
+
+.openCard .title-containerCard {
+    top: 30px;
+    left: 30px;
+}
+
+
+/* h2 {
+  color: #fff;
+  margin: 8px 0;
+} */
+
+.categoryCard {
+    color: rgba(234, 230, 230, 0.8);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.subtitleCard {
+    color: rgba(30, 28, 28, 0.8);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* .subtitleCardb {
+    color: rgba(30, 28, 28, 0.8);
+    font-size: 20px;
+    font-weight: 400;
+} */
+
+.overlayCard {
+    z-index: 1;
+    position: fixed;
+    background: rgba(234, 230, 230, 0.8);
+    will-change: opacity;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1500px;
+}
+
+.overlayCard a {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content-containerCard {
+    padding: 460px 35px 35px 35px;
+    max-width: 650px;
+    width: 90vw;
+}
+
+
+/* p {
+    color: #9d9ca1;
+    font-size: 20px;
+    line-height: 28px;
+} */
+
+@media only screen and (max-width: 800px) {
+    .cardCard {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .cardCard:nth-child(4n + 1),
+    .cardCard:nth-child(4n + 4) {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cardCard {
+        flex: 1 0 100%;
+        max-width: 100%;
+        padding: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cardCard:nth-child(4n + 1),
+    .cardCard:nth-child(4n + 4) {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+    .card-content-containerCard.openCard {
+        padding: 0;
+    }
+}
