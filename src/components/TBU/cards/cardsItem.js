@@ -32,7 +32,7 @@ export function CardItem({ id }) {
           >
             <img
               className="card-image"
-              src={require("../../../assets/cards.png")}
+              src={require(`../../../assets/${id}.png`)}
               alt=""
             />
           </motion.div>

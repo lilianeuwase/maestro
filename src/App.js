@@ -15,6 +15,7 @@ import { RelaxPic } from "./components/home/relaxPic";
 import ScrollToTop from "./components/ScrollToTop";
 import CardsAnimation from "./components/TBU/cards/cardsAnimation";
 import { AnimateSharedLayout } from "framer-motion";
+import { Footer } from "./components/footer";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -79,6 +80,7 @@ function App() {
         </Switch>
       </div>
       <Navigation />
+      <Footer/>
     </>
   );
 }

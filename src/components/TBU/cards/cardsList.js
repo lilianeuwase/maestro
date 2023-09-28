@@ -3,6 +3,8 @@ import { items } from "./cardsData";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+
+
 function Card({ id, title, subtitle, photo, category, theme }) {
   return (
     <li className={`cardCard ${theme}`}>
@@ -12,7 +14,7 @@ function Card({ id, title, subtitle, photo, category, theme }) {
             className="card-image-containerCard"
             layoutId={`card-image-container-${id}`}
           >
-            <img className="card-image" src={`images/${id}.png`} alt="" />
+            <img className="card-image"   src={require(`../../../assets/${id}.png`)} alt="" />
           </motion.div>
           <motion.div
             className="title-containerCard"
