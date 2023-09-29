@@ -7,11 +7,11 @@ export const openMenu = width => {
     css: { display: "block" }
   })
     .to("body", 0, { css: { overflow: "hidden" } })
-    .to(".App", 1, {
-      y: width <= 654 ? "70vh" : window.innerHeight / 2,
+    .to(".AppHome", 1, {
+      y: width <= 654 ? "70vh" : window.innerHeight / 1.7,
       ease: "expo.inOut"
     })
-    .to(".hamburger-menu span", 0.6, {
+    .to(".hamburger-menuHome span", 0.6, {
       delay: -1,
       scaleX: 0,
       transformOrigin: "50% 0%",
@@ -45,14 +45,14 @@ export const openMenu = width => {
       },
       ease: "expo.inOut"
     })
-    .to(".hamburger-menu-close", 0.6, {
+    .to(".hamburger-menu-closeHome", 0.6, {
       delay: -0.8,
       css: { display: "block" }
     });
 };
 
 export const closeMenu = () => {
-  tl.to(".App", 1, {
+  tl.to(".AppHome", 1, {
     y: 0,
     ease: "expo.inOut"
   })
@@ -84,13 +84,13 @@ export const closeMenu = () => {
         strokeDasharray: 40
       }
     })
-    .to(".hamburger-menu span", 0.6, {
+    .to(".hamburger-menuHome span", 0.6, {
       delay: -0.6,
       scaleX: 1,
       transformOrigin: "50% 0%",
       ease: "expo.inOut"
     })
-    .to(".hamburger-menu-close", 0, {
+    .to(".hamburger-menu-closeHome", 0, {
       delay: -0.1,
       css: { display: "none" }
     })

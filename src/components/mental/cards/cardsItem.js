@@ -31,7 +31,7 @@ export function CardItem({ id }) {
             layoutId={`card-image-container-${id}`}
           >
             <img
-              className="card-image"
+              className="card-imageCard"
               src={require(`../../../assets/${id}.png`)}
               alt=""
             />
@@ -40,8 +40,8 @@ export function CardItem({ id }) {
             className="title-containerCard"
             layoutId={`title-container-${id}`}
           >
-            <span className="categoryCard">{category}</span>
-            <h2>{title}</h2>
+            <span className="categoryCard">{category}</span><br/><br/>
+            <span className="h2Card">{title}</span>
           </motion.div>
           <motion.div className="content-containerCard" animate>
             {/* <LoremIpsum

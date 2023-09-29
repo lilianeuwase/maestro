@@ -29,8 +29,8 @@ const caseStudies = [
 
 const Cases = () => {
   return (
-    <section className="cases">
-      <div className="container-fluid">
+    <section className="casesHome">
+      <div className="container-fluidHome">
         {/* <div className='cases-navigation'>
           <div className='cases-arrow prev disabled'>
             <CasesPrev />
@@ -39,16 +39,16 @@ const Cases = () => {
             <CasesNext />
           </div>
         </div> */}
-        <div className="row">
+        <div className="rowHome">
           {caseStudies.map((caseItem) => (
             <NavLink to={caseItem.link} style={{ textDecoration: "none" }}>
-              <div className="case" key={caseItem.id}>
-                <div className="case-details">
+              <div className="caseHome" key={caseItem.id}>
+                <div className="case-detailsHome">
                   <span>{caseItem.subtitle}</span>
 
                   <h2>{caseItem.title}</h2>
                 </div>
-                <div className="case-image">
+                <div className="case-imageHome">
                   <img
                     src={require(`../../assets/${caseItem.img}.jpeg`)}
                     alt={caseItem.title}

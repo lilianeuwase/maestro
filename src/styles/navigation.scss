@@ -30,7 +30,7 @@ nav {
             }
         }
     }
-    .nav-columns {
+    .nav-columnsHome {
         transform: translateY(125px);
         display: flex;
         padding: 0 32px;
@@ -40,7 +40,7 @@ nav {
                 padding: 0 16px;
             }
         }
-        .nav-column {
+        .nav-columnHome {
             width: 45%;
             @include media("<=654px") {
                 width: 100%;
@@ -51,7 +51,7 @@ nav {
                     width: 100%;
                 }
             }
-            .nav-label {
+            .nav-labelHome {
                 margin-bottom: 3rem;
                 font-size: 1.2rem;
                 @include media("<=tablet") {
@@ -63,13 +63,13 @@ nav {
                     margin-bottom: 1.2rem;
                 }
             }
-            .nav-infos {
+            .nav-infosHome {
                 display: flex;
                 flex-wrap: wrap;
                 @include media("<=654px") {
                     justify-content: space-between;
                 }
-                .nav-info {
+                .nav-infoHome {
                     padding: 0;
                     width: 50%;
                     &:nth-child(2),
@@ -78,7 +78,7 @@ nav {
                             display: none;
                         }
                     }
-                    .nav-info-label {
+                    .nav-info-labelHome {
                         font-weight: 600;
                     }
                     li {
@@ -101,12 +101,12 @@ nav {
                     }
                 }
             }
-            .nav-links {
+            .nav-linksHome {
                 padding: 0;
                 margin: 0;
                 li {
                     list-style: none;
-                    margin-bottom: 2.4rem;
+                    margin-bottom: 2rem;
                     @include media("<=phone") {
                         margin-bottom: 1.6rem;
                     }

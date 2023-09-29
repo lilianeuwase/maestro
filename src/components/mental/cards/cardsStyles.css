@@ -34,16 +34,16 @@ body {
     padding: 45px 25px;
 }
 
-
-/* h1 {
+.h1Card {
+    font-size: 30px;
     font-weight: bold;
-    color: white;
+    color: black;
     margin: 6px 0 12px;
-} */
+}
 
 .dateCard {
     color: var(--secondary);
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 
@@ -173,11 +173,12 @@ body {
     left: 30px;
 }
 
-
-/* h2 {
-  color: #fff;
-  margin: 8px 0;
-} */
+.h2Card {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin: 8px 0;
+}
 
 .categoryCard {
     color: rgba(234, 230, 230, 0.8);
@@ -187,16 +188,15 @@ body {
 
 .subtitleCard {
     color: rgba(30, 28, 28, 0.8);
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 400;
 }
 
-
-/* .subtitleCardb {
+.subtitleCardb {
     color: rgba(30, 28, 28, 0.8);
     font-size: 20px;
     font-weight: 400;
-} */
+}
 
 .overlayCard {
     z-index: 1;
@@ -227,12 +227,11 @@ body {
     width: 90vw;
 }
 
-
-/* p {
+.pCard {
     color: #9d9ca1;
     font-size: 20px;
     line-height: 28px;
-} */
+}
 
 @media only screen and (max-width: 800px) {
     .cardCard {

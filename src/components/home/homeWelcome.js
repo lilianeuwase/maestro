@@ -11,7 +11,7 @@ import {
   rem,
 } from "@mantine/core";
 import { IconArrowAutofitUp, IconCandle, IconCheck, IconEar, IconHandGrab, IconHeart, IconHourglassEmpty } from "@tabler/icons-react";
-import "../lgbtq/lgbtqIntro.scss";
+import "../../styles/lgbtq/lgbtqIntro.scss";
 
 const useStyles = createStyles((theme) => ({
   inner: {
@@ -104,10 +104,10 @@ export function HomeWelcome() {
   const { classes } = useStyles();
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-6xl sm:py-48 lg:py-0 ">
+      <div className="mx-auto max-w-8xl sm:py-48 lg:py-0">
         <div className={classes.inner}>
           <div className={classes.content}>
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               <Title className={classes.title}>
                 At <span className={classes.highlight}>Maestro</span>{" "}
                 <span className={classes.highlight1}>Mind</span>{" "}

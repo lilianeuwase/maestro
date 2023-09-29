@@ -20,9 +20,9 @@ function Card({ id, title, subtitle, photo, category, theme }) {
             className="title-containerCard"
             layoutId={`title-container-${id}`}
           >
-            <span className="categoryCard">{category}</span>
-            <h2>{title}</h2>
-            <br/>
+            <span className="categoryCard">{category}</span> <br/><br/>
+            <span className="h2Card">{title}</span>
+            <br/><br/>
             <span className="subtitleCard">{subtitle} </span>
           </motion.div>
         </motion.div>

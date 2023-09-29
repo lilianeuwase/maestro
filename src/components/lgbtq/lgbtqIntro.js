@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { Link } from "react-router-dom";
-import "./lgbtqIntro.scss";
+import "../../styles/lgbtq/lgbtqIntro.scss";
 
 import {
   staggerText,

@@ -24,25 +24,25 @@ const Header = ({ history, dimensions }) => {
   });
 
   return (
-    <div className="header">
-      <div className="container">
-        <div className="row v-center space-between">
-          <div className="logo">
+    <div className="headerHome">
+      <div className="containerHome">
+        <div className="rowHome v-centerHome space-betweenHome">
+          <div className="logoHome">
             <NavLink to="/" exact>
             <img src={require("../assets/5.png")} width={30} height={30} /> {" "}
               MAESTRO.
             </NavLink>
           </div>
-          <div className="nav-toggle">
+          <div className="nav-toggleHome">
             <div
               onClick={() => setMenuState({ menuOpened: true })}
-              className="hamburger-menu"
+              className="hamburger-menuHome"
             >
-              <span></span>
-              <span></span>
+              <span className="spanHome"></span>
+              <span className="spanHome"></span>
             </div>
             <div
-              className="hamburger-menu-close"
+              className="hamburger-menu-closeHome"
               onClick={() => setMenuState({ menuOpened: false })}
             >
               <UpArrow />

@@ -11,7 +11,7 @@ export default function CardsAnimation() {
   const imageHasLoaded = true;
 
   return (
-    <div className="container" id="howCBTworks">
+    <div className="container mx-auto max-w-8xl sm:py-48 lg:py-0" id="howCBTworks">
       {/* <AnimateSharedLayout type="crossfade"> */}
         <CardHeader />
         <CardList selectedId={id} />

@@ -1,7 +1,7 @@
-.cases {
+.casesHome {
     height: 50vh;
     height: calc(var(--vh, 1vh) * 50);
-    .cases-navigation {
+    .cases-navigationHome {
         position: absolute;
         bottom: 0px;
         width: 100%;
@@ -14,7 +14,7 @@
         @include media("<=tablet") {
             display: none;
         }
-        .cases-arrow {
+        .cases-arrowHome {
             background: rgba(0, 0, 0, 0.4);
             height: 72px;
             width: 72px;
@@ -27,25 +27,25 @@
                 height: 28px;
                 width: 28px;
             }
-            &.disabled {
+            &.disabledHome {
                 opacity: 0.3;
             }
         }
     }
-    .row {
+    .rowHome {
         @include media("<=tablet") {
             flex-direction: column;
         }
-        .case {
+        .caseHome {
             position: relative;
             background: $black;
             cursor: pointer;
             &:hover {
-                .case-image {
+                .case-imageHome {
                     opacity: 0.4;
                 }
             }
-            .case-details {
+            .case-detailsHome {
                 width: 33.3333vw;
                 height: 50vh;
                 height: calc(var(--vh, 1vh) * 50);
@@ -78,7 +78,8 @@
                 }
                 h2 {
                     font-size: 2.4rem;
-                    line-height: 3.4rem;
+                    font-weight: 800;
+                    line-height: 3.2rem;
                     width: 85%;
                     margin-top: 16px;
                     color: $white;
@@ -93,7 +94,7 @@
                     }
                 }
             }
-            .case-image {
+            .case-imageHome {
                 top: 0;
                 left: 0;
                 width: 100%;

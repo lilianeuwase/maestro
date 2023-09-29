@@ -1,4 +1,4 @@
-import { CasePicture } from "../casePicture";
+import { CasePicture } from "./casePicture";
 
 export function MotivePic() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import MentalIntro from "../components/mental/mentalIntro";
-import CardsAnimation  from "../components/TBU/cards/cardsAnimation";
+import CardsAnimation  from "../components/mental/cards/cardsAnimation";
 import Dates from "../components/TBU/dates/dates";
 
 

@@ -3,18 +3,18 @@ import { ReactComponent as RightArrow } from "../../assets/arrow-right.svg";
 
 const Banner = () => {
   return (
-    <section className='main'>
-      <div className='container'>
-        <div className='row'>
+    <section className='mainHome'>
+      <div className='containerHome'>
+        <div className='rowHome'>
           <h2>
-            <div className='line'>
+            <div className='lineHome mt-16'>
               <span>Welcome to Maestro Mind Lab</span>
             </div>
-            <div className='line'>
+            <div className='lineHome'>
               <span>We are here to help.</span>
             </div>
           </h2>
-          <div className='btn-row'>
+          <div className='btn-rowHome mt-4'>
             <a href='/aboutus'>
               More about us <RightArrow />
             </a>

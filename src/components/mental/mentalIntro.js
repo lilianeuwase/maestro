@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
-import "./mentalIntro.scss";
+import "../../styles/mental/mentalIntro.scss";
 
 //Components
-import ScrollForMore from "../scrollForMore";
+import ScrollForMore from "./scrollForMore";
 //Ease
 const transition = { duration: 1.4, ease: [0.6, 0.01, -0.05, 0.9] };
 

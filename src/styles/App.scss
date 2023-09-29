@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap");
 @import "./varibles.scss";
 @import "./breakpoints.scss";
-@import "./components/header.scss";
-@import "./components/banner.scss";
-@import "./components/cases.scss";
-@import "./components/navigation.scss";
+@import "./header.scss";
+@import "./home/banner.scss";
+@import "./home/cases.scss";
+@import "./navigation.scss";
 body,
 html {
     visibility: hidden;
@@ -17,7 +17,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.container {
+.containerHome {
     width: 1560px;
     min-width: 1560px;
     margin: 0 auto;
@@ -34,7 +34,7 @@ html {
         width: 100%;
         min-width: 100%;
     }
-    .row {
+    .rowHome {
         display: flex;
         height: 100%;
         padding: 0 32px;
@@ -42,32 +42,32 @@ html {
             padding: 0 16px;
         }
     }
-    .v-center {
+    .v-centerHome {
         align-items: center;
     }
-    .space-between {
+    .space-betweenHome {
         justify-content: space-between;
     }
 }
 
-.container-fluid {
+.container-fluidHome {
     width: 100%;
     height: 100%;
-    .row {
+    .rowHome {
         display: flex;
         height: 100%;
     }
 }
 
 // intro overlay
-.intro-overlay {
-    .top {
+.intro-overlayHome {
+    .topHome {
         height: 50vh;
         height: calc(var(--vh, 1vh) * 50);
         position: absolute;
         width: 100%;
         z-index: 8;
-        .overlay-top {
+        .overlay-topHome {
             position: absolute;
             height: 100%;
             width: 33.333vw;
@@ -92,14 +92,14 @@ html {
             }
         }
     }
-    .bottom {
+    .bottomHome {
         height: 246.8vh;
         // height: calc(var(--vh, 1vh) * 50);
         position: absolute;
         bottom: 0;
         width: 100%;
         z-index: 8;
-        .overlay-bottom {
+        .overlay-bottomHome {
             position: absolute;
             height: 100%;
             width: 33.333vw;
@@ -129,17 +129,17 @@ html {
     }
 }
 
-.App {
+.AppHome {
     z-index: 2;
     transform: translateY(0);
     position: relative;
 }
 
-.page {
+.pageHome {
     height: 100vh;
     width: 100%;
     background: $white;
-    .row {
+    .rowHome {
         display: flex;
         align-items: center;
     }

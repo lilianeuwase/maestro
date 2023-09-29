@@ -4,11 +4,11 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <nav>
-      <div className="container">
-        <div className="nav-columns">
-          <div className="nav-column">
-            <div className="nav-label">Menu</div>
-            <ul className="nav-links">
+      <div className="containerHome">
+        <div className="nav-columnsHome">
+          <div className="nav-columnHome">
+            <div className="nav-labelHome">Menu</div>
+            <ul className="nav-linksHome">
               <li>
                 <NavLink to="/aboutus" exact>
                   About Us
@@ -31,22 +31,22 @@ const Navigation = () => {
               </li> */}
             </ul>
           </div>
-          <div className="nav-column">
-            <div className="nav-label">Contact</div>
-            <div className="nav-infos">
-              <ul className="nav-info">
-                <li className="nav-info-label">Email</li>
+          <div className="nav-columnHome">
+            <div className="nav-labelHome">Contact</div>
+            <div className="nav-infosHome">
+              <ul className="nav-infoHome">
+                <li className="nav-info-labelHome">Email</li>
                 <li>
                   <NavLink to="/contact" exact>
                     Get in touch with us
                   </NavLink>
                 </li>
                 <li>
-                  <li className="nav-info-label">Phone</li>
+                  <li className="nav-info-labelHome">Phone</li>
                   <li>+250 783 014 486</li>
                 </li>
               </ul>
-              <ul className="nav-info">
+              <ul className="nav-infoHome">
                 <li>
                   <NavLink to="/getinvolved" exact>
                     Get Involved

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import { gsap } from "gsap";
 import "./styles/App.scss";
+// import styles from "./index.css"
 import Header from "./components/header";
 import Navigation from "./components/navigation";
 import LGBTQ from "./pages/lgbtq";
@@ -13,7 +14,7 @@ import { MotivePic } from "./components/home/motivePic";
 import { SpacePic } from "./components/home/spacePic";
 import { RelaxPic } from "./components/home/relaxPic";
 import ScrollToTop from "./components/ScrollToTop";
-import CardsAnimation from "./components/TBU/cards/cardsAnimation";
+import CardsAnimation from "./components/mental/cards/cardsAnimation";
 import { AnimateSharedLayout } from "framer-motion";
 import { Footer } from "./components/footer";
 
@@ -65,7 +66,7 @@ function App() {
     <>
       <ScrollToTop />
       <Header dimensions={dimensions} />
-      <div className="App">
+      <div className="AppHome">
         <Switch>
           {routes.map(({ path, Component, id }) => (
             <Route key={path} exact path={path}>
