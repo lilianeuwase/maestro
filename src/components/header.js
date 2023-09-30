@@ -29,8 +29,8 @@ const Header = ({ history, dimensions }) => {
         <div className="rowHome v-centerHome space-betweenHome">
           <div className="logoHome">
             <NavLink to="/" exact>
-            <img src={require("../assets/5.png")} width={30} height={30} /> {" "}
-              MAESTRO.
+            <img src={require("../assets/Maestro Logo - 2.png")} width={100} height={100} /> {" "}
+              {/* MAESTRO. */}
             </NavLink>
           </div>
           <div className="nav-toggleHome">

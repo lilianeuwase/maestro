@@ -1,233 +1,205 @@
-import { motion } from "framer-motion";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import React, { useLayoutEffect, useRef } from "react";
-import styled from "styled-components";
-
-import img1 from "../../assets/2hands.jpeg";
-import img2 from "../../assets/2hands.jpeg";
-import img3 from "../../assets/2hands.jpeg";
-import img4 from "../../assets/2hands.jpeg";
-import img5 from "../../assets/2hands.jpeg";
-import img6 from "../../assets/2hands.jpeg";
-import img7 from "../../assets/2hands.jpeg";
-import img8 from "../../assets/2hands.jpeg";
-import img9 from "../../assets/2hands.jpeg";
-import img10 from "../../assets/2hands.jpeg";
-
-const Section = styled(motion.section)`
-  min-height: 100vh;
-  height: auto;
-  /* width: 80vw; */
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-
-  position: relative;
-
-  /* background-color: orange; */
-`;
-
-const Title = styled.h1`
-  font-size: ${(props) => props.theme.fontxxxl};
-  font-family: "Kaushan Script";
-  font-weight: 300;
-  /* text-transform: capitalize; */
-  color: ${(props) => props.theme.text};
-  text-shadow: 1px 1px 1px ${(props) => props.theme.body};
-
-  position: absolute;
-  top: 1rem;
-  left: 5%;
-  z-index: 11;
-
-  @media (max-width: 64em) {
-    font-size: ${(props) => props.theme.fontxxl};
-  }
-  @media (max-width: 48em) {
-    font-size: ${(props) => props.theme.fontxl};
-  }
-`;
-
-const Left = styled.div`
-  width: 35%;
-  background-color: ${(props) => props.theme.body};
-  color: ${(props) => props.theme.text};
-
-  min-height: 100vh;
-  z-index: 10;
-
-  position: fixed;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  p {
-    font-size: ${(props) => props.theme.fontlg};
-    font-weight: 300;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  @media (max-width: 64em) {
-    p {
-      font-size: ${(props) => props.theme.fontmd};
-    }
-  }
-
-  @media (max-width: 48em) {
-    width: 40%;
-    p {
-      font-size: ${(props) => props.theme.fontsm};
-    }
-  }
-  @media (max-width: 30em) {
-    p {
-      font-size: ${(props) => props.theme.fontxs};
-    }
-  }
-`;
-const Right = styled.div`
-  /* width: 65%; */
-  position: absolute;
-  left: 35%;
-  padding-left: 30%;
-  background-color: ${(props) => props.theme.grey};
-  min-height: 100vh;
-
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-`;
-
-const Item = styled(motion.div)`
-  display: inline-block;
-  width: 20rem;
-  /* background-color: black; */
-  margin-right: 6rem;
-  img {
-    width: 100%;
-    height: auto;
-    cursor: pointer;
-  }
-
-  h1 {
-    font-weight: 500;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  @media (max-width: 48em) {
-    width: 15rem;
-  }
-`;
-//data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"
-const Product = ({ img, title = "" }) => {
+export const JoinCommunity = () => {
   return (
-    // x: 100, y: -100
-    <Item
-      initial={{ filter: "grayscale(100%)" }}
-      whileInView={{ filter: "grayscale(0%)" }}
-      transition={{ duration: 0.5 }}
-      viewport={{ once: false, amount: "all" }}
-    >
-      <img width="400" height="600" src={img} alt={title} />
-      <h1>{title}</h1>
-    </Item>
+    <div class="dark max-w-[90rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-customized-12">
+      <div class="relative p-6 md:p-16">
+        <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
+          <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
+            <h2 class="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200">
+              Join Our Community of Strength
+            </h2>
+
+            <div
+              class="grid gap-4 mt-5 md:mt-10"
+              aria-label="Tabs"
+              role="tablist"
+            >
+              <button
+                type="button"
+                class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active"
+                id="tabs-with-card-item-1"
+                data-hs-tab="#tabs-with-card-1"
+                aria-controls="tabs-with-card-1"
+                role="tab"
+              >
+                <span class="flex">
+                  <svg
+                    class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z" />
+                    <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                  </svg>
+                  <span class="grow ml-6">
+                    <span class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                      More Than a Website
+                    </span>
+                    <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                      Maestro Mind is not only a website – it's like a group of
+                      people who understand you, a spot where we see your
+                      challenges and cheer for your successes.
+                    </span>
+                  </span>
+                </span>
+              </button>
+
+              <button
+                type="button"
+                class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
+                id="tabs-with-card-item-2"
+                data-hs-tab="#tabs-with-card-2"
+                aria-controls="tabs-with-card-2"
+                role="tab"
+              >
+                <span class="flex">
+                  <svg
+                    class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"
+                    />
+                  </svg>
+                  <span class="grow ml-6">
+                    <span class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                      You Belong Here
+                    </span>
+                    <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                      We want you to feel like you belong and have friends here.
+                      Our goal is to make a space where you can get help, be
+                      able to talk about what you're going through and make
+                      others feel better by sharing your story.
+                    </span>
+                  </span>
+                </span>
+              </button>
+
+              <button
+                type="button"
+                class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
+                id="tabs-with-card-item-3"
+                data-hs-tab="#tabs-with-card-3"
+                aria-controls="tabs-with-card-3"
+                role="tab"
+              >
+                <span class="flex">
+                  <svg
+                    class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z" />
+                  </svg>
+                  <span class="grow ml-6">
+                    <span class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                      Your Journey Starts Here
+                    </span>
+                    <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                      Whether you are seeking comfort, want to learn, or feel
+                      motivated, Maestro Mind is here to show you the way to a
+                      happier future. Read our articles, talk to others like
+                      you, and start a special journey to learn about yourself
+                      and get better. Let's work together to make a future
+                      that's full of hope, strength, and all the amazing things
+                      we can do.
+                    </span>
+                  </span>
+                </span>
+              </button>
+            </div>
+            <p className="mt-4 text-xl text-gray-800 font-bold sm:text-lg dark:text-customized-7 text-center">Welcome to Maestro Mind – where every step forward is a step toward a life of purpose, joy, and inner peace.</p>
+          </div>
+
+          <div class="lg:col-span-6">
+            <div class="relative">
+              <div>
+                <div
+                  id="tabs-with-card-1"
+                  role="tabpanel"
+                  aria-labelledby="tabs-with-card-item-1"
+                >
+                  <img
+                    class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
+                    src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
+                    alt="Image Description"
+                  />
+                </div>
+
+                <div
+                  id="tabs-with-card-2"
+                  class="hidden"
+                  role="tabpanel"
+                  aria-labelledby="tabs-with-card-item-2"
+                >
+                  <img
+                    class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
+                    src="https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
+                    alt="Image Description"
+                  />
+                </div>
+
+                <div
+                  id="tabs-with-card-3"
+                  class="hidden"
+                  role="tabpanel"
+                  aria-labelledby="tabs-with-card-item-3"
+                >
+                  <img
+                    class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
+                    src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
+                    alt="Image Description"
+                  />
+                </div>
+              </div>
+
+              <div class="hidden absolute top-0 right-0 translate-x-20 md:block lg:translate-x-20">
+                <svg
+                  class="w-16 h-auto text-orange-500"
+                  width="121"
+                  height="135"
+                  viewBox="0 0 121 135"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164"
+                    stroke="currentColor"
+                    stroke-width="10"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M33.6761 112.104C44.6984 98.1239 74.2618 57.6776 83.4821 5"
+                    stroke="currentColor"
+                    stroke-width="10"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M50.5525 130C68.2064 127.495 110.731 117.541 116 78.0874"
+                    stroke="currentColor"
+                    stroke-width="10"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute inset-0 grid grid-cols-12 w-full h-full">
+          <div class="col-span-full lg:col-span-7 lg:col-start-6 bg-gray-100 w-full h-5/6 rounded-xl sm:h-3/4 lg:h-full dark:bg-white/[.075]"></div>
+        </div>
+      </div>
+    </div>
   );
 };
-
-const JoinCommunity = () => {
-
-  gsap.registerPlugin(ScrollTrigger);
-  const ref = useRef(null);
-
-  const Horizontalref = useRef(null);
-
-  useLayoutEffect(() => {
-    let element = ref.current;
-
-    let scrollingElement = Horizontalref.current;
-
-    let pinWrapWidth = scrollingElement.offsetWidth;
-    let t1 = gsap.timeline();
-
-    setTimeout(() => {
-      t1.to(element, {
-        scrollTrigger: {
-          trigger: element,
-          start: "top top",
-          end: `${pinWrapWidth} bottom`,
-          scroller: ".App", //locomotive-scroll
-          scrub: 1,
-          pin: true,
-          // markers: true,
-          // anticipatePin: 1,
-        },
-        height: `${scrollingElement.scrollWidth}px`,
-        ease: "none",
-      });
-
-      t1.to(scrollingElement, {
-        scrollTrigger: {
-          trigger: scrollingElement,
-          start: "top top",
-          end: `${pinWrapWidth} bottom`,
-          scroller: ".App", //locomotive-scroll
-          scrub: 1,
-          // markers: true,
-        },
-        x: -pinWrapWidth,
-
-        ease: "none",
-      });
-      ScrollTrigger.refresh();
-    }, 1000);
-    ScrollTrigger.refresh();
-
-    return () => {
-      t1.kill();
-      // ScrollTrigger.kill();
-    };
-  }, []);
-
-  return (
-    <Section ref={ref} id="shop">
-      <Title data-scroll data-scroll-speed="-1">
-        New Collection
-      </Title>
-      <Left>
-        <p>
-          The brand new collection is currently being developed in USA. We
-          create our products using best quality material, including the use of
-          some of the pure fabrics to make our products. All products are made
-          using the best materials, from the finest cotton to the finest
-          fabrics.
-          <br /> <br />
-          We have lots of different clothing options like shoes, jackets and
-          dresses. Not only clothes but we also provide unique Jewellery as
-          well. It is great for us to carry our new clothes all around the
-          country and look different.
-        </p>
-      </Left>
-      <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="Sweatshirts" />
-        <Product img={img4} title="Ethnic Wear" />
-        <Product img={img1} title="Man Basics" />
-        <Product img={img2} title="Tops" />
-        <Product img={img5} title="Blazers" />
-        <Product img={img6} title="Suits" />
-        <Product img={img7} title="Antiques" />
-        <Product img={img8} title="Jewellery" />
-        <Product img={img9} title="Watches" />
-        <Product img={img10} title="Special Edition" />
-      </Right>
-    </Section>
-  );
-};
-
-export default JoinCommunity;

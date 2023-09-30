@@ -37,12 +37,8 @@ export const Footer = () => {
               </svg> */}
               <span className="ml-2 text-xl font-bold tracking-wide text-customized-12 uppercase">
                 <div className="logoHome">
-                  {/* <img
-                    src={require("../assets/6.png")}
-                    width={30}
-                    height={30}
-                  />{" "} */}
-                  MAESTRO.
+                <img src={require("../assets/Maestro Logo - 2-Dark.png")} width={80} height={80} /> {" "}
+                  {/* MAESTRO. */}
                 </div>
               </span>
             </a>

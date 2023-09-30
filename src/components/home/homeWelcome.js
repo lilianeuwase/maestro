@@ -104,7 +104,7 @@ export function HomeWelcome() {
   const { classes } = useStyles();
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-8xl sm:py-48 lg:py-0">
+      <div className="px-4 mx-auto max-w-8xl sm:py-48 lg:py-0">
         <div className={classes.inner}>
           <div className={classes.content}>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
