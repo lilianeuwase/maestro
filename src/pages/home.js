@@ -1,12 +1,12 @@
 import HomeIntro from "../components/home/homeIntro";
-import React, { useEffect} from "react";
+import React, { useEffect } from "react";
 import gsap from "gsap";
 import WhyMental from "../components/home/whyMental";
 import { HomeWelcome } from "../components/home/homeWelcome";
-import JoinCommunity from "../components/home/joinCommunity";
+import { Navigate } from "../components/home/navigate";
+import { Homestats } from "../components/home/homeStats";
 
 const Home = () => {
-
   function debounce(fn, ms) {
     let timer;
     return () => {
@@ -42,9 +42,10 @@ const Home = () => {
   return (
     <div>
       <HomeIntro dimensions={dimensions} />
-      <HomeWelcome/>
-      {/* <JoinCommunity/> */}
-      <WhyMental/>
+      <HomeWelcome />
+      <Homestats />
+      <Navigate />
+      <WhyMental />
     </div>
   );
 };

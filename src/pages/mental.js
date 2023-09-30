@@ -2,6 +2,7 @@ import React from "react";
 import MentalIntro from "../components/mental/mentalIntro";
 import CardsAnimation  from "../components/mental/cards/cardsAnimation";
 import Dates from "../components/TBU/dates/dates";
+import { HowCBTWorks } from "../components/mental/howCBTWorks";
 
 
 const Mental = () => {
@@ -12,6 +13,7 @@ const Mental = () => {
   return (
     <div>
       <MentalIntro imageDetails={imageDetails} />
+      <HowCBTWorks/>
       <CardsAnimation/>
       <Dates/>
     </div>

@@ -5,7 +5,8 @@ module.exports = {
     'node_modules/preline/dist/*.js',
   ],
   theme: {
-    extend: {colors: {
+    extend: {
+      colors: {
       red: {
         '50': '#ffebee',
         '100': '#ffcdd2',
@@ -297,6 +298,20 @@ module.exports = {
         700: '#5d4037',
         800: '#4e342e',
         900: '#3e2723',
+      },
+      customized: {
+        1: '#41b3a3',
+        2: '#e8a87c',
+        3: '#e27d60',
+        4: '#6e6658',
+        5: '#c38d9e',
+        6: '#eae7dc',
+        7: '#d8c3a5',
+        8: '#8e8d8a',
+        9: '#e98074',
+        10: '#e85a4f',
+        11: '#DCB190',
+        12:'#112d32',
       },
     },},
   },
