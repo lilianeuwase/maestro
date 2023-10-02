@@ -161,7 +161,8 @@ function WhyMental() {
       //content transition
       fadeOut(4, 1);
       fadeIn(5, 1);
-    } else if (imageList.children[5].classList.contains("active")) {
+    } 
+    else if (imageList.children[5].classList.contains("active")) {
       setState({ isactive6: false, isactive7: true });
       //Image transition
       slideRight(4, 1);
@@ -171,7 +172,8 @@ function WhyMental() {
       //content transition
       fadeOut(5, 1);
       fadeIn(6, 1);
-    } else if (imageList.children[6].classList.contains("active")) {
+    } 
+    else if (imageList.children[6].classList.contains("active")) {
       setState({ isactive1: true, isactive7: false });
       //Image transition
       slideLeft(6, 1, 3);
@@ -234,22 +236,22 @@ function WhyMental() {
                 <img src={testimonials[0].image} alt={testimonials[0].name} />
               </li>
               <li className={state.isactive2 ? "active flex-shrink-0" : "flex-shrink-0"}>
-                <img src={testimonials[1].image} alt={testimonials[0].name} />
+                <img src={testimonials[1].image} alt={testimonials[1].name} />
               </li>
               <li className={state.isactive3 ? "active flex-shrink-0" : "flex-shrink-0"}>
-                <img src={testimonials[2].image} alt={testimonials[0].name} />
+                <img src={testimonials[2].image} alt={testimonials[2].name} />
               </li>
               <li className={state.isactive4 ? "active flex-shrink-0" : "flex-shrink-0"}>
-                <img src={testimonials[3].image} alt={testimonials[0].name} />
+                <img src={testimonials[3].image} alt={testimonials[3].name} />
               </li>
               <li className={state.isactive4 ? "active flex-shrink-0" : "flex-shrink-0"}>
-                <img src={testimonials[4].image} alt={testimonials[0].name} />
+                <img src={testimonials[4].image} alt={testimonials[4].name} />
               </li>
               <li className={state.isactive4 ? "active flex-shrink-0" : "flex-shrink-0"}>
-                <img src={testimonials[5].image} alt={testimonials[0].name} />
+                <img src={testimonials[5].image} alt={testimonials[5].name} />
               </li>
               <li className={state.isactive4 ? "active flex-shrink-0" : "flex-shrink-0"}>
-                <img src={testimonials[6].image} alt={testimonials[0].name} />
+                <img src={testimonials[6].image} alt={testimonials[6].name} />
               </li>
             </ul>
           </div>
@@ -283,21 +285,21 @@ function WhyMental() {
                   <h4 className="titleChoose">{testimonials[3].title}</h4>
                 </div>
               </li>
-              <li className={state.isactive4 ? "active" : ""}>
+              <li className={state.isactive5 ? "active" : ""}>
                 <div className="content-innerChoose">
                   <p className="quoteChoose">{testimonials[4].quote}</p>
                   <h3 className="nameChoose">{testimonials[4].name}</h3>
                   <h4 className="titleChoose">{testimonials[4].title}</h4>
                 </div>
               </li>
-              <li className={state.isactive4 ? "active" : ""}>
+              <li className={state.isactive6 ? "active" : ""}>
                 <div className="content-innerChoose">
                   <p className="quoteChoose">{testimonials[5].quote}</p>
                   <h3 className="nameChoose">{testimonials[5].name}</h3>
                   <h4 className="titleChoose">{testimonials[5].title}</h4>
                 </div>
               </li>
-              <li className={state.isactive4 ? "active" : ""}>
+              <li className={state.isactive7 ? "active" : ""}>
                 <div className="content-innerChoose">
                   <p className="quoteChoose">{testimonials[6].quote}</p>
                   <h3 className="nameChoose">{testimonials[6].name}</h3>

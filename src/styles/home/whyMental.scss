@@ -137,6 +137,54 @@ $secondary: #a09da6;
                                 top: 166px;
                             }
                         }
+                        &:nth-child(4) {
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                height: 12px;
+                                width: 280px;
+                                background: $text;
+                                opacity: 0.3;
+                                left: 144px;
+                                top: 166px;
+                            }
+                        }
+                        &:nth-child(5) {
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                height: 12px;
+                                width: 280px;
+                                background: $text;
+                                opacity: 0.3;
+                                left: 144px;
+                                top: 166px;
+                            }
+                        }
+                        &:nth-child(6) {
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                height: 12px;
+                                width: 280px;
+                                background: $text;
+                                opacity: 0.3;
+                                left: 144px;
+                                top: 166px;
+                            }
+                        }
+                        &:nth-child(7) {
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                height: 12px;
+                                width: 280px;
+                                background: $text;
+                                opacity: 0.3;
+                                left: 144px;
+                                top: 166px;
+                            }
+                        }
                         .content-innerChoose {
                             width: 500px;
                             .quoteChoose {
