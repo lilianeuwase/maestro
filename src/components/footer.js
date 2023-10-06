@@ -230,7 +230,8 @@ export const Footer = () => {
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-customized-3 sm:flex-row">
           <p className="text-sm text-customized-6">
-            © Copyright 2023 8 Lines Code Ltd. All rights reserved.
+            © Copyright 2023 Maestro Mind Lab All rights reserved.<br/><br/>
+            Designed by 8 Lines Code Ltd.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
