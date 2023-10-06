@@ -31,7 +31,7 @@ export const Navigate = () => {
               </svg>
             </div>
             <h6 className="mb-2 font-semibold leading-5">Do not be trapped</h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <p className="mb-3 text-base text-gray-900">
             Using substances too much can trap even very strong people, making a confusing problem that feels hard to solve.
             </p>
             <ul className="mb-4 -ml-1 space-y-2">
@@ -126,7 +126,7 @@ export const Navigate = () => {
               </svg>
             </div>
             <h6 className="mb-2 font-semibold leading-5">Fight the adiction</h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <p className="mb-3 text-base text-gray-900">
             Globally, it is estimated that 237 million men and 46 million women have alcohol use disorders.
             </p>
             <ul className="mb-4 -ml-1 space-y-2">
@@ -228,7 +228,7 @@ export const Navigate = () => {
               </svg>
             </div>
             <h6 className="mb-2 font-semibold leading-5">Help us help you</h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <p className="mb-3 text-base text-gray-900">
             The estimated global number of drug-related deaths due to overdose was around 585,000 in 2017.
             </p>
             <ul className="mb-4 -ml-1 space-y-2">
@@ -323,7 +323,7 @@ export const Navigate = () => {
               </svg>
             </div>
             <h6 className="mb-2 font-semibold leading-5">Get better together</h6>
-            <p className="mb-3 text-sm text-gray-900">
+            <p className="mb-3 text-base text-gray-900">
             At Maestro Mind Lab our goal is to give you the power to stop the cycle of addiction and start a fresh, new life. 
             </p>
             <ul className="mb-4 -ml-1 space-y-2">

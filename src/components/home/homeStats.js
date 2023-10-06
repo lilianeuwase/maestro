@@ -24,7 +24,7 @@ export const Homestats = () => {
                 </svg>
               </div>
             </div>
-            <p className="mb-2 font-bold md:text-lg">Deaths due to alcohol</p>
+            <p className="mb-4 font-bold md:text-xl">Deaths due to alcohol</p>
             <p className="text-gray-700">
             The World Health Organization (WHO) estimation deaths that were attributed to alcohol consumption in 2016.
             <br/>(5.9% of all global deaths)
@@ -51,7 +51,7 @@ export const Homestats = () => {
                 </svg>
               </div>
             </div>
-            <p className="mb-2 font-bold md:text-lg">Deaths due to drugs</p>
+            <p className="mb-4 font-bold md:text-xl">Deaths due to drugs</p>
             <p className="text-gray-700">
             Drug-related deaths due to overdosethe in 2017. According to the World Drug Report by the United Nations Office on Drugs and Crime (UNODC)
             </p>
@@ -77,7 +77,7 @@ export const Homestats = () => {
                 </svg>
               </div>
             </div>
-            <p className="mb-2 font-bold md:text-lg">Alcoholics</p>
+            <p className="mb-4 font-bold md:text-xl">Alcoholics</p>
             <p className="text-gray-700">
             Globally, it is estimated that 237 million men and 46 million women have alcohol use disorders
             </p>

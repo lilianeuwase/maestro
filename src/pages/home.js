@@ -6,6 +6,8 @@ import { HomeWelcome } from "../components/home/homeWelcome";
 import { Navigate } from "../components/home/navigate";
 import { Homestats } from "../components/home/homeStats";
 import {JoinCommunity} from "../components/home/joinCommunity";
+import { CallAction } from "../components/home/callAction";
+import { WhyMentalIntro } from "../components/home/WhyMentalIntro";
 
 const Home = () => {
   function debounce(fn, ms) {
@@ -47,6 +49,8 @@ const Home = () => {
       <Homestats />
       <Navigate />
       <JoinCommunity/>
+      <CallAction/>
+      <WhyMentalIntro/>
       <WhyMental />
     </div>
   );
