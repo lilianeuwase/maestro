@@ -17,7 +17,7 @@ export const WhyMentalIntro = () => {
         <div class="hidden md:block col-span-4 md:col-span-3">
           <img
             class="rounded-xl"
-            src={"https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80"}
+            src={require("../../assets/why1C.png")}
             alt="Image Description"
           />
         </div>

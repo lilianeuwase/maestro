@@ -7,8 +7,19 @@ import { openMenu, closeMenu } from "../animations/menuAnimations";
 // Define reducer
 
 const Header = ({ history, dimensions }) => {
-
   
+  const[navbar,setNavbar]=useState(false);
+  const changeBackground =()=>{
+   if(window.scrollY >= 80){
+    setNavbar(true)
+   }
+   else{
+    setNavbar(false)
+   }
+  }
+  window.addEventListener('scroll', changeBackground);
+
+
   const [menuState, setMenuState] = useState({ menuOpened: false });
   useEffect(() => {
     //Listening for page changes.
@@ -24,7 +35,7 @@ const Header = ({ history, dimensions }) => {
   });
 
   return (
-    <div className="headerHome">
+    <div className={navbar ? 'headerHome active': 'headerHome'}>
       <div className="containerHome">
         <div className="rowHome v-centerHome space-betweenHome">
           <div className="logoHome">
