@@ -17,6 +17,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import CardsAnimation from "./components/mental/cards/cardsAnimation";
 import { AnimateSharedLayout } from "framer-motion";
 import { Footer } from "./components/footer";
+import DepressionTest from "./components/tests/depressionTest";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -25,6 +26,7 @@ const routes = [
   { path: "/motive", name: "motive", Component: MotivePic },
   { path: "/space", name: "space", Component: SpacePic },
   { path: "/relax", name: "relax", Component: RelaxPic },
+  { path: "/test", name: "test", Component: DepressionTest },
 
   { path: "/services", name: "services", Component: Services },
   { path: "/about-us", name: "about", Component: About },
@@ -74,14 +76,14 @@ function App() {
             </Route>
           ))}
           <AnimateSharedLayout type="crossfade">
-          <Route exact path={["/mentalhealth/:id", "/mentalhealth"]}>
-            <CardsAnimation />
-          </Route>
+            <Route exact path={["/mentalhealth/:id", "/mentalhealth"]}>
+              <CardsAnimation />
+            </Route>
           </AnimateSharedLayout>
         </Switch>
       </div>
       <Navigation />
-      <Footer/>
+      <Footer />
     </>
   );
 }

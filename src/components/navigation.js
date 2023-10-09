@@ -53,7 +53,7 @@ const Navigation = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/anxietytest" exact>
+                  <NavLink to="/test" exact>
                    Take Our Anxiety Test
                   </NavLink>
                 </li>
