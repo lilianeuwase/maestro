@@ -1,4 +1,306 @@
+import { useEffect } from "react";
+import { useForm } from "react-hook-form";
 export const TestTable = () => {
+  const { register, watch, setValue } = useForm();
+  const watchAllFields = watch();
+
+  //For first row
+  useEffect(() => {
+    if (watchAllFields.a1) {
+      setValue("a2", false);
+      setValue("a3", false);
+      setValue("a4", false);
+    }
+  }, [watchAllFields.a1, setValue]);
+
+  useEffect(() => {
+    if (watchAllFields.a2) {
+      setValue("a1", false);
+      setValue("a3", false);
+      setValue("a4", false);
+    }
+  }, [watchAllFields.a2, setValue]);
+
+  useEffect(() => {
+    if (watchAllFields.a3) {
+      setValue("a1", false);
+      setValue("a2", false);
+      setValue("a4", false);
+    }
+  }, [watchAllFields.a3, setValue]);
+
+  useEffect(() => {
+    if (watchAllFields.a4) {
+      setValue("a1", false);
+      setValue("a2", false);
+      setValue("a3", false);
+    }
+  }, [watchAllFields.a4, setValue]);
+
+    //For second row
+    useEffect(() => {
+      if (watchAllFields.b1) {
+        setValue("b2", false);
+        setValue("b3", false);
+        setValue("b4", false);
+      }
+    }, [watchAllFields.b1, setValue]);
+  
+    useEffect(() => {
+      if (watchAllFields.b2) {
+        setValue("b1", false);
+        setValue("b3", false);
+        setValue("b4", false);
+      }
+    }, [watchAllFields.b2, setValue]);
+  
+    useEffect(() => {
+      if (watchAllFields.b3) {
+        setValue("b1", false);
+        setValue("b2", false);
+        setValue("b4", false);
+      }
+    }, [watchAllFields.b3, setValue]);
+    
+    useEffect(() => {
+      if (watchAllFields.b4) {
+        setValue("b1", false);
+        setValue("b2", false);
+        setValue("b3", false);
+      }
+    }, [watchAllFields.b4, setValue]);
+
+      //For third row
+  useEffect(() => {
+    if (watchAllFields.c1) {
+      setValue("c2", false);
+      setValue("c3", false);
+      setValue("c4", false);
+    }
+  }, [watchAllFields.c1, setValue]);
+
+  useEffect(() => {
+    if (watchAllFields.c2) {
+      setValue("c1", false);
+      setValue("c3", false);
+      setValue("c4", false);
+    }
+  }, [watchAllFields.c2, setValue]);
+
+  useEffect(() => {
+    if (watchAllFields.c3) {
+      setValue("c1", false);
+      setValue("c2", false);
+      setValue("c4", false);
+    }
+  }, [watchAllFields.c3, setValue]);
+  
+  useEffect(() => {
+    if (watchAllFields.c4) {
+      setValue("c1", false);
+      setValue("c2", false);
+      setValue("c3", false);
+    }
+  }, [watchAllFields.c4, setValue]);
+
+    //For fourth row
+    useEffect(() => {
+      if (watchAllFields.d1) {
+        setValue("d2", false);
+        setValue("d3", false);
+        setValue("d4", false);
+      }
+    }, [watchAllFields.d1, setValue]);
+  
+    useEffect(() => {
+      if (watchAllFields.d2) {
+        setValue("d1", false);
+        setValue("d3", false);
+        setValue("d4", false);
+      }
+    }, [watchAllFields.d2, setValue]);
+  
+    useEffect(() => {
+      if (watchAllFields.d3) {
+        setValue("d1", false);
+        setValue("d2", false);
+        setValue("d4", false);
+      }
+    }, [watchAllFields.d3, setValue]);
+    
+    useEffect(() => {
+      if (watchAllFields.d4) {
+        setValue("d1", false);
+        setValue("d2", false);
+        setValue("d3", false);
+      }
+    }, [watchAllFields.d4, setValue]);
+
+      //For fifth row
+  useEffect(() => {
+    if (watchAllFields.e1) {
+      setValue("e2", false);
+      setValue("e3", false);
+      setValue("e4", false);
+    }
+  }, [watchAllFields.e1, setValue]);
+
+  useEffect(() => {
+    if (watchAllFields.e2) {
+      setValue("e1", false);
+      setValue("e3", false);
+      setValue("e4", false);
+    }
+  }, [watchAllFields.e2, setValue]);
+
+  useEffect(() => {
+    if (watchAllFields.e3) {
+      setValue("e1", false);
+      setValue("e2", false);
+      setValue("e4", false);
+    }
+  }, [watchAllFields.e3, setValue]);
+  
+  useEffect(() => {
+    if (watchAllFields.e4) {
+      setValue("e1", false);
+      setValue("e2", false);
+      setValue("e3", false);
+    }
+  }, [watchAllFields.e4, setValue]);
+
+    //For sixth row
+    useEffect(() => {
+      if (watchAllFields.f1) {
+        setValue("f2", false);
+        setValue("f3", false);
+        setValue("f4", false);
+      }
+    }, [watchAllFields.f1, setValue]);
+  
+    useEffect(() => {
+      if (watchAllFields.f2) {
+        setValue("f1", false);
+        setValue("f3", false);
+        setValue("f4", false);
+      }
+    }, [watchAllFields.f2, setValue]);
+  
+    useEffect(() => {
+      if (watchAllFields.f3) {
+        setValue("f1", false);
+        setValue("f2", false);
+        setValue("f4", false);
+      }
+    }, [watchAllFields.f3, setValue]);
+    
+    useEffect(() => {
+      if (watchAllFields.f4) {
+        setValue("f1", false);
+        setValue("f2", false);
+        setValue("f3", false);
+      }
+    }, [watchAllFields.f4, setValue]);
+
+      //For seventh row
+  useEffect(() => {
+    if (watchAllFields.g1) {
+      setValue("g2", false);
+      setValue("g3", false);
+      setValue("g4", false);
+    }
+  }, [watchAllFields.g1, setValue]);
+
+  useEffect(() => {
+    if (watchAllFields.g2) {
+      setValue("g1", false);
+      setValue("g3", false);
+      setValue("g4", false);
+    }
+  }, [watchAllFields.g2, setValue]);
+
+  useEffect(() => {
+    if (watchAllFields.g3) {
+      setValue("g1", false);
+      setValue("g2", false);
+      setValue("g4", false);
+    }
+  }, [watchAllFields.g3, setValue]);
+  
+  useEffect(() => {
+    if (watchAllFields.g4) {
+      setValue("g1", false);
+      setValue("g2", false);
+      setValue("g3", false);
+    }
+  }, [watchAllFields.g4, setValue]);
+
+    //For eighth row
+    useEffect(() => {
+      if (watchAllFields.h1) {
+        setValue("h2", false);
+        setValue("h3", false);
+        setValue("h4", false);
+      }
+    }, [watchAllFields.h1, setValue]);
+  
+    useEffect(() => {
+      if (watchAllFields.h2) {
+        setValue("h1", false);
+        setValue("h3", false);
+        setValue("h4", false);
+      }
+    }, [watchAllFields.h2, setValue]);
+  
+    useEffect(() => {
+      if (watchAllFields.h3) {
+        setValue("h1", false);
+        setValue("h2", false);
+        setValue("h4", false);
+      }
+    }, [watchAllFields.h3, setValue]);
+    
+    useEffect(() => {
+      if (watchAllFields.h4) {
+        setValue("h1", false);
+        setValue("h2", false);
+        setValue("h3", false);
+      }
+    }, [watchAllFields.h4, setValue]);
+
+      //For nineth row
+  useEffect(() => {
+    if (watchAllFields.i1) {
+      setValue("i2", false);
+      setValue("i3", false);
+      setValue("i4", false);
+    }
+  }, [watchAllFields.i1, setValue]);
+
+  useEffect(() => {
+    if (watchAllFields.i2) {
+      setValue("i1", false);
+      setValue("i3", false);
+      setValue("i4", false);
+    }
+  }, [watchAllFields.i2, setValue]);
+
+  useEffect(() => {
+    if (watchAllFields.i3) {
+      setValue("i1", false);
+      setValue("i2", false);
+      setValue("i4", false);
+    }
+  }, [watchAllFields.i3, setValue]);
+  
+  useEffect(() => {
+    if (watchAllFields.i4) {
+      setValue("i1", false);
+      setValue("i2", false);
+      setValue("i3", false);
+    }
+  }, [watchAllFields.i4, setValue]);
+
   return (
     <div class="mx-auto lg:py-0">
       <div class="flex flex-col">
@@ -86,12 +388,8 @@ export const TestTable = () => {
                     <td class="h-px w-px">
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-1" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-1"
-                            />
+                          <label for="1a" class="flex">
+                            <input type="checkbox" {...register("a1")} value={0}/>
                             <span class="sr-only">Checkbox</span>
                           </label>
                           0
@@ -101,12 +399,8 @@ export const TestTable = () => {
                     <td class="h-px w-px ">
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-blue-100 text-blue-800 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-2" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-2"
-                            />
+                          <label for="1b" class="flex">
+                            <input type="checkbox" {...register("a2")} value={1}/>
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +1
@@ -116,12 +410,8 @@ export const TestTable = () => {
                     <td class="h-px w-px ">
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-pink-100 text-pink-800 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-3" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-3"
-                            />
+                          <label for="1c" class="flex">
+                            <input type="checkbox" {...register("a3")} value={2}/>
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +2
@@ -131,12 +421,8 @@ export const TestTable = () => {
                     <td class="h-px w-px ">
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-lime-100 text-lime-950 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-4" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-4"
-                            />
+                          <label for="1d" class="flex">
+                            <input type="checkbox" {...register("a4")} value={3}/>
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +3
@@ -163,11 +449,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-1" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-1"
-                            />
+                          <input type="checkbox" {...register("b1")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           0
@@ -178,11 +460,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-blue-100 text-blue-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-2" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-2"
-                            />
+                          <input type="checkbox" {...register("b2")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +1
@@ -193,11 +471,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-pink-100 text-pink-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-3" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-3"
-                            />
+                          <input type="checkbox" {...register("b3")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +2
@@ -208,11 +482,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-lime-100 text-lime-950 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-4" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-4"
-                            />
+                          <input type="checkbox" {...register("b4")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +3
@@ -240,11 +510,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-1" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-1"
-                            />
+                          <input type="checkbox" {...register("c1")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           0
@@ -255,11 +521,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-blue-100 text-blue-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-2" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-2"
-                            />
+                          <input type="checkbox" {...register("c2")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +1
@@ -270,11 +532,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-pink-100 text-pink-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-3" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-3"
-                            />
+                          <input type="checkbox" {...register("c3")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +2
@@ -285,11 +543,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-lime-100 text-lime-950 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-4" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-4"
-                            />
+                          <input type="checkbox" {...register("c4")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +3
@@ -316,11 +570,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-1" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-1"
-                            />
+                          <input type="checkbox" {...register("d1")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           0
@@ -331,11 +581,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-blue-100 text-blue-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-2" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-2"
-                            />
+                          <input type="checkbox" {...register("d2")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +1
@@ -346,11 +592,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-pink-100 text-pink-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-3" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-3"
-                            />
+                          <input type="checkbox" {...register("d3")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +2
@@ -361,11 +603,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-lime-100 text-lime-950 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-4" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-4"
-                            />
+                          <input type="checkbox" {...register("d4")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +3
@@ -392,11 +630,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-1" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-1"
-                            />
+                          <input type="checkbox" {...register("e1")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           0
@@ -407,11 +641,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-blue-100 text-blue-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-2" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-2"
-                            />
+                          <input type="checkbox" {...register("e2")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +1
@@ -422,11 +652,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-pink-100 text-pink-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-3" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-3"
-                            />
+                          <input type="checkbox" {...register("e3")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +2
@@ -437,11 +663,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-lime-100 text-lime-950 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-4" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-4"
-                            />
+                          <input type="checkbox" {...register("e4")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +3
@@ -469,11 +691,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-1" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-1"
-                            />
+                          <input type="checkbox" {...register("f1")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           0
@@ -484,11 +702,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-blue-100 text-blue-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-2" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-2"
-                            />
+                          <input type="checkbox" {...register("f2")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +1
@@ -499,11 +713,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-pink-100 text-pink-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-3" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-3"
-                            />
+                          <input type="checkbox" {...register("f3")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +2
@@ -514,11 +724,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-lime-100 text-lime-950 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-4" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-4"
-                            />
+                          <input type="checkbox" {...register("f4")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +3
@@ -546,11 +752,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-1" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-1"
-                            />
+                          <input type="checkbox" {...register("g1")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           0
@@ -561,11 +763,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-blue-100 text-blue-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-2" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-2"
-                            />
+                          <input type="checkbox" {...register("g2")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +1
@@ -576,11 +774,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-pink-100 text-pink-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-3" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-3"
-                            />
+                          <input type="checkbox" {...register("g3")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +2
@@ -591,11 +785,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-lime-100 text-lime-950 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-4" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-4"
-                            />
+                          <input type="checkbox" {...register("g4")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +3
@@ -625,11 +815,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-1" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-1"
-                            />
+                          <input type="checkbox" {...register("h1")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           0
@@ -640,11 +826,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-blue-100 text-blue-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-2" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-2"
-                            />
+                          <input type="checkbox" {...register("h2")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +1
@@ -655,11 +837,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-pink-100 text-pink-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-3" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-3"
-                            />
+                          <input type="checkbox" {...register("h3")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +2
@@ -670,11 +848,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-lime-100 text-lime-950 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-4" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-4"
-                            />
+                          <input type="checkbox" {...register("h4")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +3
@@ -702,11 +876,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-1" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-1"
-                            />
+                          <input type="checkbox" {...register("i1")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           0
@@ -717,11 +887,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-blue-100 text-blue-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-2" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-2"
-                            />
+                          <input type="checkbox" {...register("i2")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +1
@@ -732,11 +898,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-pink-100 text-pink-800 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-3" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-3"
-                            />
+                          <input type="checkbox" {...register("i3")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +2
@@ -747,11 +909,7 @@ export const TestTable = () => {
                       <div class="px-1 py-3">
                         <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-lime-100 text-lime-950 dark:bg-green-900 dark:text-green-200">
                           <label for="hs-at-with-checkboxes-4" class="flex">
-                            <input
-                              type="checkbox"
-                              class="shrink-0 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-4"
-                            />
+                          <input type="checkbox" {...register("i4")} />
                             <span class="sr-only">Checkbox</span>
                           </label>
                           +3
@@ -766,9 +924,8 @@ export const TestTable = () => {
                 <div>
                   <p class="text-sm text-gray-600 dark:text-gray-400">
                     <span class="font-semibold text-gray-800 dark:text-gray-200">
-                      6
-                    </span>{" "}
-                    results
+                      Your Results
+                    </span>
                   </p>
                 </div>
 
@@ -778,40 +935,7 @@ export const TestTable = () => {
                       type="button"
                       class="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
                     >
-                      <svg
-                        class="w-3 h-3"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-                        />
-                      </svg>
-                      Prev
-                    </button>
-
-                    <button
-                      type="button"
-                      class="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
-                    >
-                      Next
-                      <svg
-                        class="w-3 h-3"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-                        />
-                      </svg>
+                      0
                     </button>
                   </div>
                 </div>

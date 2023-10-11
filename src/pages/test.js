@@ -1,12 +1,14 @@
 import React from "react";
+import Check from "../components/tests/checkBoxTry";
 import DepressionTest from "../components/tests/depressionTest";
 
-const About = () => {
+const Test = () => {
   return (
     <div>
       <DepressionTest />
+      <Check/>
     </div>
   );
 };
 
-export default About;
+export default Test;
