@@ -6,7 +6,7 @@ const Test = () => {
   return (
     <div>
       <DepressionTest />
-      <Check/>
+      {/* <Check/> */}
     </div>
   );
 };
