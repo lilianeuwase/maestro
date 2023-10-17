@@ -17,23 +17,36 @@ import { Dialog, Disclosure, Menu, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { MinusIcon, PlusIcon, Squares2X2Icon } from "@heroicons/react/20/solid";
 import { TestTable } from "./testTable";
+import TestInterpretation from "./testInterpretation";
 
 const filters = [
   {
-    id: "color",
-    name: "Color",
-    options: [{ value: "white", label: "White" }],
+    id: "interpretation",
+    name: "Test Interpretation",
+    options: [
+      {
+        value: "white",
+        label:
+          "Total scores of 5, 10, 15, and 20 represent cutpoints for mild, moderate, moderately severe and severe depression, respectively.",
+      },
+    ],
   },
   {
-    id: "category",
-    name: "Category",
-    options: [{ value: "new-arrivals", label: "New Arrivals" }],
+    id: "note",
+    name: "Note",
+    options: [
+      {
+        value: "note",
+        label:
+          "Question 9 is a single screening question on suicide risk. A patient who answers yes to question 9 needs further assessment for suicide risk by an individual who is competent to assess this risk.",
+      },
+    ],
   },
-  {
-    id: "size",
-    name: "Size",
-    options: [{ value: "2l", label: "2L" }],
-  },
+  // {
+  //   id: "size",
+  //   name: "Size",
+  //   options: [{ value: "2l", label: "2L" }],
+  // },
 ];
 
 export default function DepressionTest() {
@@ -175,8 +188,8 @@ export default function DepressionTest() {
                     )}
                   </Disclosure>
                 ))}
+                <TestInterpretation/>
               </form>
-
               {/* Product grid */}
               <div className="lg:col-span-3">
                 <TestTable />

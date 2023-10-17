@@ -54,7 +54,7 @@ const Navigation = () => {
                 </li>
                 <li>
                   <NavLink to="/test" exact>
-                   Take Our Anxiety Test
+                   Take Depression Test
                   </NavLink>
                 </li>
                 <li>

@@ -17,7 +17,7 @@ export const WhyMentalIntro = () => {
         <div class="hidden md:block col-span-4 md:col-span-3">
           <img
             class="rounded-xl"
-            src={require("../../assets/why1C.png")}
+            src={require("../../assets/Frame1.png")}
             alt="Image Description"
           />
         </div>
@@ -25,7 +25,7 @@ export const WhyMentalIntro = () => {
         <div class="col-span-4 md:col-span-3">
           <img
             class="rounded-xl"
-            src="https://images.unsplash.com/photo-1587613991119-fbbe8e90531d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1003&q=80"
+            src={require("../../assets/Frame2.png")}
             alt="Image Description"
           />
         </div>
@@ -33,7 +33,7 @@ export const WhyMentalIntro = () => {
         <div class="col-span-4 md:col-span-3">
           <img
             class="rounded-xl"
-            src="https://images.unsplash.com/photo-1554295405-abb8fd54f153?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=652&q=80"
+            src={require("../../assets/Frame3.png")}
             alt="Image Description"
           />
         </div>
@@ -41,7 +41,7 @@ export const WhyMentalIntro = () => {
         <div class="col-span-4 md:col-span-3">
           <img
             class="rounded-xl"
-            src="https://images.unsplash.com/photo-1640622300473-977435c38c04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
+            src={require("../../assets/Frame4.png")}
             alt="Image Description"
           />
         </div>

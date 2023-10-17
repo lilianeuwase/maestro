@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
+import TestResults from "./testResults";
 export const TestTable = () => {
   //Test Summation & Results
   const [sum, setSum] = useState(0);
   const [result, setResult] = useState("");
+  const [treat, setTreatment] = useState("");
   const [a, setA] = useState(0);
   const [b, setB] = useState(0);
   const [c, setC] = useState(0);
@@ -357,23 +359,29 @@ export const TestTable = () => {
   });
 
   useEffect(() => {
-if(sum>=0 && sum<=4){
-  setResult("None-minimal")
-} 
-else if(sum>=5 && sum<=9){
-  setResult("Mild")
-} 
-else if(sum>=10 && sum<=14){
-  setResult("Moderate")
-} 
-else if(sum>=15 && sum<=19){
-  setResult("Moderate Severe")
-}
-else if(sum>=20 && sum<=27){
-  setResult("Severe")
-}
+    if (sum >= 0 && sum <= 4) {
+      setResult("None-minimal");
+      setTreatment(" You need to continue living healthy (balanced diet, enough water, enough rest, do physical exercises.)");
+    } else if (sum >= 5 && sum <= 9) {
+      setResult("Mild");
+      setTreatment("You need to talk to friends, have time for leisure activities, consult our website to learn coping skills.");
+    } else if (sum >= 10 && sum <= 14) {
+      setResult("Moderate");
+      setTreatment(
+        "	You need to get treatment plan, consult website for recommendations."
+      );
+    } else if (sum >= 15 && sum <= 19) {
+      setResult("Moderate Severe");
+      setTreatment(
+        "You need an active treatment, consult website for recommendations."
+      );
+    } else if (sum >= 20 && sum <= 27) {
+      setResult("Severe");
+      setTreatment(
+        "You need immediate action, Call 912 or Consult a nearest Health Facility for support"
+      );
+    }
   });
-
 
   return (
     <div class="mx-auto lg:py-0">
@@ -384,10 +392,10 @@ else if(sum>=20 && sum<=27){
               <div class="px-6 py-4 grid gap-3 md:flex md:justify-between md:items-center border-b border-gray-200 dark:border-gray-700">
                 <div>
                   <h2 class="text-xl font-semibold text-gray-800 dark:text-gray-200">
-                    Test
+                    Depression Test
                   </h2>
                   <p class="text-sm text-gray-600 dark:text-gray-400">
-                    Take test
+                    Take test and check your results at the bottom of the table
                   </p>
                 </div>
               </div>
@@ -995,36 +1003,8 @@ else if(sum>=20 && sum<=27){
               </table>
             </div>
           </div>
-          <div class=" border border-gray-200 rounded-xl mt-4 bg-customized-1 px-6 py-4 grid gap-3 md:flex md:justify-between md:items-center border-t border-gray-200 dark:border-gray-700">
-            <div>
-              <p class="text-lg text-gray-600 dark:text-gray-400">
-                <span class="font-semibold text-gray-800 dark:text-gray-200">
-                  Your Results
-                </span>
-              </p>
-            </div>
-            <div>
-              <div class="inline-flex gap-x-2">
-                <p
-                  type="button"
-                  class="text-lg py-2 px-3 inline-flex justify-center items-center gap-2 rounded-md border bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-xl"
-                >
-                  {result}
-                </p>
-              </div>
-            </div>
-            <div>
-              <div class="inline-flex gap-x-2">
-                <p
-                  type="button"
-                  class="text-lg py-2 px-3 inline-flex justify-center items-center gap-2 rounded-md border bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-xl"
-                >
-                  {sum}
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
+        <TestResults result={result} sum={sum} treat={treat} />
       </div>
     </div>
   );
