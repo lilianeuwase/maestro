@@ -35,6 +35,14 @@ export const Depression = () => {
           </span>{" "}
           Depression
         </h2>
+        <div className="mb-8">
+          <a
+            href="/test"
+            className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-gray-50 shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+          >
+            Depression Test
+          </a>
+        </div>
         <p className="text-base text-gray-700 md:text-lg">
           According to the World Health Organization (WHO), depression is a
           leading cause of disability worldwide. The World Health Organization

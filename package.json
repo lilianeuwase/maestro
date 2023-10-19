@@ -8,6 +8,7 @@
         "@heroicons/react": "^2.0.18",
         "@mantine/core": "^6.0.20",
         "@mantine/hooks": "^6.0.20",
+        "@nextui-org/react": "^v1.0.0-beta.13",
         "@tabler/icons-react": "^2.34.0",
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
