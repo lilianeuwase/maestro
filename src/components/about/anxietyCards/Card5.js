@@ -14,7 +14,7 @@ export const Card5 = () => (
     </Card.Header>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
-        src="https://v1.nextui.org/images/card-example-5.jpeg"
+    src={require("../../../assets/CardFrame2.jpeg")}
         objectFit="cover"
         width="100%"
         height="100%"

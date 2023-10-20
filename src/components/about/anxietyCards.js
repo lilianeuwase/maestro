@@ -10,10 +10,10 @@ export default function AnxietyCards() {
         <Card4 />
       </Grid>
       <Grid xs={12} sm={4}>
-        <Card5 />
+        <Card3 />
       </Grid>
       <Grid xs={12} sm={4}>
-        <Card3 />
+        <Card5 />
       </Grid>
     </Grid.Container>
   );

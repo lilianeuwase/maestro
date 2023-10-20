@@ -1,6 +1,6 @@
 export const Intro = () => {
   return (
-    <div class="dark px-4 py-24 sm:px-6 lg:px-8 lg:py-32 mx-auto bg-black">
+    <div class="dark px-4 py-20 sm:px-6 lg:px-8 lg:py-28 mx-auto bg-black">
       {/* Tab Nav */}
       <div
         class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4"

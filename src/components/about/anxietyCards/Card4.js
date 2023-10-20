@@ -7,15 +7,15 @@ export const Card4 = () => (
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
           Fact
         </Text>
-        <Text h3 color="black">
+        <Text h3 color="white">
          Anxiety disorders are diagnosable medical
-          illnesses.
+          illnesses
         </Text>
       </Col>
     </Card.Header>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
-        src="https://v1.nextui.org/images/card-example-6.jpeg"
+    src={require("../../../assets/CardFrame3.jpeg")}
         width="100%"
         height="100%"
         objectFit="cover"
