@@ -3,6 +3,7 @@ import MentalIntro from "../components/mental/mentalIntro";
 import CardsAnimation  from "../components/mental/cards/cardsAnimation";
 import Dates from "../components/TBU/dates/dates";
 import { HowCBTWorks } from "../components/mental/howCBTWorks";
+import { HowCBTDAS } from "../components/mental/CBTForDAS";
 
 
 const Mental = () => {
@@ -14,8 +15,9 @@ const Mental = () => {
     <div>
       <MentalIntro imageDetails={imageDetails} />
       <HowCBTWorks/>
-      <CardsAnimation/>
-      <Dates/>
+      <HowCBTDAS/>
+      {/* <CardsAnimation/> */}
+      {/* <Dates/> */}
     </div>
   );
 };
