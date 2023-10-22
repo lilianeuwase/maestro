@@ -46,7 +46,7 @@ export const HowCBTWorks = () => {
             <div className="sm:mr-5">
               <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                 <svg
-                  className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+                  className="w-12 h-12 text-customized-3 sm:w-16 sm:h-16"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -85,7 +85,7 @@ export const HowCBTWorks = () => {
             <div className="sm:mr-5">
               <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                 <svg
-                  className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+                  className="w-12 h-12 text-customized-3 sm:w-16 sm:h-16"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -121,7 +121,7 @@ export const HowCBTWorks = () => {
             <div className="sm:mr-5">
               <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                 <svg
-                  className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+                  className="w-12 h-12 text-customized-3 sm:w-16 sm:h-16"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -157,7 +157,7 @@ export const HowCBTWorks = () => {
             <div className="sm:mr-5">
               <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                 <svg
-                  className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+                  className="w-12 h-12 text-customized-3 sm:w-16 sm:h-16"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -194,7 +194,7 @@ export const HowCBTWorks = () => {
             <div className="sm:mr-5">
               <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                 <svg
-                  className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+                  className="w-12 h-12 text-customized-3 sm:w-16 sm:h-16"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >

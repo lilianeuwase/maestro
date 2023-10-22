@@ -51,7 +51,7 @@ export const HowCBTDAS = () => {
                         {
                             features.map((item, idx) => (
                                 <li key={idx} className="flex gap-x-4">
-                                    <div className="flex-none w-12 h-12 bg-gray-700 text-cyan-400 rounded-lg flex items-center justify-center">
+                                    <div className="flex-none w-12 h-12 bg-gray-700 text-customized-3 rounded-lg flex items-center justify-center">
                                         {item.icon}
                                     </div>
                                     <div>

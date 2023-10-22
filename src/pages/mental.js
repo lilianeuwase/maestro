@@ -4,6 +4,10 @@ import CardsAnimation  from "../components/mental/cards/cardsAnimation";
 import Dates from "../components/TBU/dates/dates";
 import { HowCBTWorks } from "../components/mental/howCBTWorks";
 import { HowCBTDAS } from "../components/mental/CBTForDAS";
+import { DepressionResources } from "../components/mental/depressionResources";
+import { AnxietyResources } from "../components/mental/anxietyResources";
+import { SubstanceResources } from "../components/mental/substanceResources";
+import { Remember } from "../components/mental/remember";
 
 
 const Mental = () => {
@@ -16,6 +20,10 @@ const Mental = () => {
       <MentalIntro imageDetails={imageDetails} />
       <HowCBTWorks/>
       <HowCBTDAS/>
+      <DepressionResources/>
+      <AnxietyResources/>
+      <SubstanceResources/>
+      <Remember/>
       {/* <CardsAnimation/> */}
       {/* <Dates/> */}
     </div>
