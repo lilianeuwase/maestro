@@ -27,9 +27,9 @@ export const HowCBTWorks = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative">Let's</span>
-            </span>
-            How CBT Works
+              <span className="relative">How</span>
+            </span>{" "}
+            CBT Works
           </h2>
         </div>
         <div className="flex">

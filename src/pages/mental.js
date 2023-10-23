@@ -8,6 +8,9 @@ import { DepressionResources } from "../components/mental/depressionResources";
 import { AnxietyResources } from "../components/mental/anxietyResources";
 import { SubstanceResources } from "../components/mental/substanceResources";
 import { Remember } from "../components/mental/remember";
+import {Articles} from "../components/mental/articles";
+import Strategies from "../components/mental/strategies";
+import ParticipateYoga from "../components/mental/participateYoga";
 
 
 const Mental = () => {
@@ -24,6 +27,9 @@ const Mental = () => {
       <AnxietyResources/>
       <SubstanceResources/>
       <Remember/>
+      <Articles/>
+      <Strategies/>
+      {/* <ParticipateYoga/> */}
       {/* <CardsAnimation/> */}
       {/* <Dates/> */}
     </div>
