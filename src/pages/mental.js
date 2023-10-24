@@ -29,7 +29,7 @@ const Mental = () => {
       <Remember/>
       <Articles/>
       <Strategies/>
-      {/* <ParticipateYoga/> */}
+      <ParticipateYoga/>
       {/* <CardsAnimation/> */}
       {/* <Dates/> */}
     </div>
