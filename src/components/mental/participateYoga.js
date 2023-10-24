@@ -1,6 +1,7 @@
 import React, { useCallback, useRef } from "react";
-// import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
 
 const ParticipateYoga = () => {
   const sliderRef = useRef(null);
@@ -17,27 +18,86 @@ const ParticipateYoga = () => {
 
   return (
     <>
-      <section className="pt-20 pb-20 lg:pt-[120px] lg:pb-[120px]">
-        <div className="container mx-auto">
+      <hr class="h-px my-8 bg-gray-200 border-2 dark:bg-gray-700" />
+
+      <section className="pt-12 pb-4 lg:pt-[60px] lg:pb-[20px]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="lg:max-w-lg mb-16">
+            <h2 className="text-base font-semibold leading-7 text-indigo-600">
+              (link to sign up)
+            </h2>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Participate in our Monthly Laughter Yoga
+            </p>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              Links to relevant books, articles, and external resources
+            </p>
+          </div>
           <Swiper slidesPerView={1} ref={sliderRef}>
             <SwiperSlide>
               <SingleTestimonial
-                image="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg"
-                reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
+                image={require("../../assets/4pic 1.png")}
+                reviewImg={require("../../assets/lineiconCrop.png")}
                 reviewAlt="lineicon"
-                details="Velit est sit voluptas eum sapiente omnis! Porro, impedit minus quam reprehenderit tempore sint quaerat id! Mollitia perspiciatis est asperiores commodi labore!"
-                name="Larry Diamond"
-                position="Chief Executive Officer."
+                details="Feeling Good: The New Mood Therapy"
+                name="David D. Burns"
+                position="Author"
+                link="https://yes-pdf.com/electronic-book/1074"
               />
             </SwiperSlide>
             <SwiperSlide>
               <SingleTestimonial
-                image="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg"
-                reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
+                image={require("../../assets/4pic 6.png")}
+                reviewImg={require("../../assets/lineiconCrop.png")}
                 reviewAlt="lineicon"
-                details="Velit est sit voluptas eum sapiente omnis! Porro, impedit minus quam reprehenderit tempore sint quaerat id! Mollitia perspiciatis est asperiores commodi labore!"
-                name="Larry Diamond"
-                position="Chief Executive Officer."
+                details="The Anxiety and Phobia Workbook"
+                name="Edmund J. Bourne"
+                position="Author"
+                link="https://www.pdfdrive.com/the-anxiety-and-phobia-workbook-e176068677.html"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SingleTestimonial
+                image={require("../../assets/4pic 5.png")}
+                reviewImg={require("../../assets/lineiconCrop.png")}
+                reviewAlt="lineicon"
+                details="The Upward Spiral: Using Neuroscience to Reverse the Course of Depression, One Small Change at a Time"
+                name="Alex Korb"
+                position="Author"
+                link="https://www.pdfdrive.com/the-upward-spiral-using-neuroscience-to-reverse-the-course-of-depression-one-small-change-at-a-time-e178215619.html"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SingleTestimonial
+                image={require("../../assets/4pic 4.png")}
+                reviewImg={require("../../assets/lineiconCrop.png")}
+                reviewAlt="lineicon"
+                details="Mental health and well-being: How to support your children and yourself"
+                // name="Edmund J. Bourne"
+                // position="Author"
+                link="https://www.unicef.org/parenting/mental-health?gclid=CjwKCAjwloynBhBbEiwAGY25dPU2d65kcZdT3Ro7nnTaQ0L_x9FGRg2ucFXY9Or3eJiY-4JqORsvgRoCjNoQAvD_BwE"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SingleTestimonial
+                image={require("../../assets/4pic 3.png")}
+                reviewImg={require("../../assets/lineiconCrop.png")}
+                reviewAlt="lineicon"
+                details="Doing What Matters in Times of Stress. "
+                // name="Edmund J. Bourne"
+                // position="Author"
+                link="https://www.who.int/publications/i/item/9789240003927?gclid=CjwKCAjwloynBhBbEiwAGY25dLaUGjQfIg1ZjmOCVF8sFDPwEJQVAsN67iQz9vkRyGFuHi5mlYdCUBoCsKgQAvD_BwE"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <SingleTestimonial
+                image={require("../../assets/4pic 2.png")}
+                reviewImg={require("../../assets/lineiconCrop.png")}
+                reviewAlt="lineicon"
+                details="Psychology Today: Health, Help, Happiness + Find a Therapist"
+                // name="Edmund J. Bourne"
+                // position="Author"
+                link="https://www.psychologytoday.com/us"
               />
             </SwiperSlide>
             <div className="absolute z-50 left-0 right-0 bottom-0 flex items-center justify-center lg:pl-[120px] 2xl:pl-0">
@@ -90,17 +150,20 @@ const SingleTestimonial = ({
   details,
   name,
   position,
+  link,
 }) => {
   return (
     <div className="relative flex justify-center">
       <div className="relative w-full pb-16 md:w-11/12 lg:w-10/12 xl:w-8/12 xl:pb-0">
         <div className="w-full items-center md:flex">
           <div className="relative mb-12 w-full max-w-[310px] md:mr-12 md:mb-0 md:max-w-[250px] lg:mr-14 lg:max-w-[280px] 2xl:mr-16">
-            <img src={image} alt="image" className="w-full" />
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <img src={image} alt="image" className="w-full" />
+            </a>
             <span className="absolute -top-6 -left-6 z-[-1] hidden sm:block">
               <DotShape />
             </span>
-            <span className="absolute -bottom-6 -right-6 z-[-1]">
+            <span className="absolute -bottom-0 -right-6 z-[-1]">
               <svg
                 width="64"
                 height="64"

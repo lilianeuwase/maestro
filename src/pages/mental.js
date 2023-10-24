@@ -11,6 +11,7 @@ import { Remember } from "../components/mental/remember";
 import {Articles} from "../components/mental/articles";
 import Strategies from "../components/mental/strategies";
 import ParticipateYoga from "../components/mental/participateYoga";
+import DarkSeparation from "../components/mental/darkSeparation";
 
 
 const Mental = () => {
@@ -29,6 +30,7 @@ const Mental = () => {
       <Remember/>
       <Articles/>
       <Strategies/>
+      {/* <DarkSeparation/> */}
       <ParticipateYoga/>
       {/* <CardsAnimation/> */}
       {/* <Dates/> */}
