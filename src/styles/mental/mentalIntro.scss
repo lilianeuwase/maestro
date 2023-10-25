@@ -129,9 +129,18 @@ $black: #1e1f13;
 //     }
 // }
 main {
+    .containerDark {
+        position: relative;
+        background-color: #111827;
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
     .containerWelcome {
         position: relative;
         background-color: $white;
+        padding-bottom: 80px;
+        padding-top: 80px;
+        ;
         .rowWelcome {
             height: 100vh;
             align-items: center;

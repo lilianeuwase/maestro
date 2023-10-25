@@ -21,11 +21,11 @@ import blue from "../../assets/blue.jpeg";
 import violet from "../../assets/violet.jpeg";
 
 const cities = [
-  { name: "Lesbian", image: orange },
-  { name: "Gay", image: yellow },
-  { name: "Bisexual", image: green },
-  { name: "Transgender", image: blue },
-  { name: "Queer+", image: violet },
+  { name: "All", image: orange },
+  { name: "Genders", image: yellow },
+  { name: "Are", image: green },
+  { name: "Well", image: blue },
+  { name: "Welcomed", image: violet },
 ];
 
 const LGBTQIntro = () => {
@@ -69,7 +69,7 @@ const LGBTQIntro = () => {
                         ref={(el) => (line1 = el)}
                         to="/lgbtq/#choice"
                       >
-                       Choice
+                       Live Chat
                       </Link>
                     </li>
                     <li>
@@ -77,9 +77,9 @@ const LGBTQIntro = () => {
                         onMouseEnter={(e) => handleHover(e)}
                         onMouseOut={(e) => handleHoverExit(e)}
                         ref={(el) => (line2 = el)}
-                        to="/lgbtq/#choice"
+                        to="/test"
                       >
-                        Consultation
+                        Mental Tests
                       </Link>
                     </li>
                     <li>
