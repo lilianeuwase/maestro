@@ -17,7 +17,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import CardsAnimation from "./components/mental/cards/cardsAnimation";
 import { AnimateSharedLayout } from "framer-motion";
 import { Footer } from "./components/footer";
-import Test from "./pages/test";
+import Tests from "./pages/tests";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -26,7 +26,7 @@ const routes = [
   { path: "/motive", name: "motive", Component: MotivePic },
   { path: "/space", name: "space", Component: SpacePic },
   { path: "/relax", name: "relax", Component: RelaxPic },
-  { path: "/test", name: "test", Component: Test },
+  { path: "/test", name: "test", Component: Tests },
 
   { path: "/services", name: "services", Component: Services },
   { path: "/about-us", name: "about", Component: About },

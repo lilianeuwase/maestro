@@ -1,4 +1,4 @@
-export default function TestResults({ result, sum, treat }) {
+export default function TestResultsDepr({ result, sum, treat }) {
   return (
     <>
       <div class=" border border-gray-200 rounded-xl mt-4 bg-customized-1 px-6 py-4 grid gap-3 md:flex md:justify-between md:items-center border-t border-gray-200 dark:border-gray-700">

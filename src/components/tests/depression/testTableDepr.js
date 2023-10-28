@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import TestResults from "./testResults";
-export const TestTable = () => {
+import TestResults from "./testResultsDepr";
+export const TestTableDepr = () => {
   //Test Summation & Results
   const [sum, setSum] = useState(0);
   const [result, setResult] = useState("");

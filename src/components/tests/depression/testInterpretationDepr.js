@@ -1,6 +1,6 @@
 import { PaperClipIcon } from "@heroicons/react/20/solid";
 
-export default function TestInterpretation() {
+export default function TestInterpretationDepr() {
   return (
     <div>
       <div className="px-4 sm:px-0">

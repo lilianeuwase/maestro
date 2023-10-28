@@ -16,8 +16,8 @@ import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Menu, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { MinusIcon, PlusIcon, Squares2X2Icon } from "@heroicons/react/20/solid";
-import { TestTable } from "./testTable";
-import TestInterpretation from "./testInterpretation";
+import { TestTableDepr } from "./testTableDepr";
+import TestInterpretationDepr from "./testInterpretationDepr";
 
 const filters = [
   {
@@ -54,7 +54,6 @@ export default function DepressionTest() {
 
   return (
     <div className="bg-white ">
-      <div className="py-10">
         {/* Mobile filter dialog */}
         <Transition.Root show={mobileFiltersOpen} as={Fragment}>
           <Dialog
@@ -104,8 +103,8 @@ export default function DepressionTest() {
           </Dialog>
         </Transition.Root>
 
-        <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-24">
+        <main className="mx-auto max-w-7xl">
+          <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-8">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900">
               Are you Depressed ?
             </h1>
@@ -133,7 +132,7 @@ export default function DepressionTest() {
             </div>
           </div>
 
-          <section aria-labelledby="products-heading" className="pb-24 pt-6">
+          <section aria-labelledby="products-heading" className="pb-12 pt-6">
             <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
               {/* Filters */}
               <form className="hidden lg:block">
@@ -188,16 +187,15 @@ export default function DepressionTest() {
                     )}
                   </Disclosure>
                 ))}
-                <TestInterpretation/>
+                <TestInterpretationDepr/>
               </form>
               {/* Product grid */}
               <div className="lg:col-span-3">
-                <TestTable />
+                <TestTableDepr />
               </div>
             </div>
           </section>
         </main>
       </div>
-    </div>
   );
 }
