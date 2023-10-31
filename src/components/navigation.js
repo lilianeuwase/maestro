@@ -47,6 +47,11 @@ const Navigation = () => {
                 </li>
               </ul>
               <ul className="nav-infoHome">
+              <li>
+                  <NavLink to="/" exact>
+                    About Us
+                  </NavLink>
+                </li>
                 <li>
                   <NavLink to="/getinvolved" exact>
                     Get Involved

@@ -14,11 +14,35 @@ import {
   IconProps,
   useColorModeValue,
 } from "@chakra-ui/react";
-import SubstanceFM from "./substanceFM";
-
 import { ChakraProvider } from "@chakra-ui/react";
-
 import { extendTheme } from "@chakra-ui/react";
+
+import {
+  BuildingOfficeIcon,
+  RectangleGroupIcon,
+  SquaresPlusIcon,
+} from "@heroicons/react/20/solid";
+
+const features = [
+  {
+    name: "Monetary Donations.",
+    description:
+      ": Your donations help cover operational costs and the continuous enhancement of our resources. Even small donations add up and make a significant difference.",
+    icon: RectangleGroupIcon,
+  },
+  {
+    name: "Sponsorship and Partnerships.",
+    description:
+      "If you represent a company or organization, explore opportunities for sponsorship or partnerships. The community gains from your support, and your brand is associated with a good cause.",
+    icon: BuildingOfficeIcon,
+  },
+  {
+    name: "Sharing and Awareness.",
+    description:
+      "Use networking, social media, and word-of-mouth to let people know about Maestro Mind Lab. Your advocacy enables us to connect with more people who could use our services.",
+    icon: SquaresPlusIcon,
+  },
+];
 
 const theme = extendTheme({
   fonts: {
@@ -27,17 +51,17 @@ const theme = extendTheme({
   },
 });
 
-export default function Substance() {
+export default function GetIntro() {
   return (
     <ChakraProvider theme={theme}>
-      <Container maxW={"7xl"}>
+      <Container maxW={"7xl"} className="pt-8">
         <Stack
           align={"center"}
           spacing={{ base: 8, md: 10 }}
           py={{ base: 20, md: 28 }}
           direction={{ base: "column", md: "row" }}
         >
-          <Stack flex={1} spacing={{ base: 5, md: 10 }}>
+          <Stack flex={1} spacing={{ base: 2, md: 5 }}>
             <Heading
               lineHeight={1.1}
               fontWeight={600}
@@ -53,54 +77,40 @@ export default function Substance() {
                   position: "absolute",
                   bottom: 1,
                   left: 0,
-                  bg: "red.400",
+                  bg: "orange.400",
                   zIndex: -1,
                 }}
               >
-                Substance
+                Get Involved
               </Text>
               <br />
-              <Text as={"span"} color={"red.400"}>
-                Abuse
+              <Text as={"span"} color={"orange.400"}>
+                With Us
               </Text>
             </Heading>
             <Text color={"gray.500"}>
-              Globally, WHO estimated that 237 million men and 46 million women
-              have alcohol use disorders, while The United Nations Office on
-              Drugs and Crime (UNODC) estimated that around 269 million people
-              worldwide used drugs at least once in 2018. Additional to these
-              numbers According to the WHO, tobacco kills more than 8 million
-              people each year, with more than 7 million of those deaths being
-              the result of direct tobacco use, while around 1.2 million are the
-              result of non-smokers being exposed to secondhand smoke
+              People play an essential role in ensuring the sustainability of
+              the Maestro Mind Lab website and its associated projects. Your
+              contributions directly contribute to creating a safe space for
+              mental health and well-being resources.
+              <br />
+              <br />
+              Here's how you can make a meaningful impact:
+              <dl className="mt-6 max-w-xl space-y-4 text-base leading-6 lg:max-w-none">
+                {features.map((feature) => (
+                  <div key={feature.name} className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <feature.icon
+                        className="absolute left-1 top-1 h-5 w-5 text-orange-600"
+                        aria-hidden="true"
+                      />
+                      {feature.name}
+                    </dt>{" "}
+                    <dd className="inline">{feature.description}</dd>
+                  </div>
+                ))}
+              </dl>
             </Text>
-            <Stack
-              spacing={{ base: 4, sm: 6 }}
-              direction={{ base: "column", sm: "row" }}
-            >
-              <a href="/getinvolved">
-                <Button
-                  rounded={"full"}
-                  size={"lg"}
-                  fontWeight={"normal"}
-                  px={6}
-                  colorScheme={"red"}
-                  bg={"red.400"}
-                  _hover={{ bg: "red.500" }}
-                >
-                  Get Involved
-                </Button>
-              </a>
-              {/* <Button
-                rounded={"full"}
-                size={"lg"}
-                fontWeight={"normal"}
-                px={6}
-                leftIcon={<PlayIcon h={4} w={4} color={"gray.300"} />}
-              >
-                How It Works
-              </Button> */}
-            </Stack>
           </Stack>
           <Flex
             flex={1}
@@ -116,11 +126,11 @@ export default function Substance() {
               top={"-20%"}
               left={0}
               zIndex={-1}
-              color={useColorModeValue("red.50", "red.400")}
+              color={useColorModeValue("orange.50", "orange.400")}
             />
             <Box
               position={"relative"}
-              height={"300px"}
+              height={"400px"}
               rounded={"2xl"}
               boxShadow={"2xl"}
               width={"full"}
@@ -132,14 +142,12 @@ export default function Substance() {
                 align={"center"}
                 w={"100%"}
                 h={"100%"}
-                src={
-                  require("../../assets/Subabuse.png")  }
+                src={require("../../assets/GetInvolved1.png")}
               />
             </Box>
           </Flex>
         </Stack>
-      </Container>{" "}
-      <SubstanceFM />
+      </Container>
     </ChakraProvider>
   );
 }

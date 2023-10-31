@@ -5,10 +5,17 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import DepressionTest from "./depression/depressionTest";
 import { createTheme, ThemeProvider } from "@mui/material";
+import AnxietyTest from "./anxiety/anxietyTest";
+import SubstanceTest from "./substance/substanceTest";
 
 const theme = createTheme({
   typography: {
     fontFamily: ["Josefin Sans", "sans-serif"].join(","),
+  },
+  palette: {
+    primary: {
+      main: "#FABD48",
+    },
   },
 });
 
@@ -56,7 +63,7 @@ export default function TestsTabs() {
     <ThemeProvider theme={theme}>
       <main className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-baseline justify-between border-b border-gray-200 pt-36">
-          <Box sx={{ width: "100%" }} >
+          <Box sx={{ width: "100%" }}>
             <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
               <Tabs
                 value={value}
@@ -72,10 +79,10 @@ export default function TestsTabs() {
               <DepressionTest />
             </CustomTabPanel>
             <CustomTabPanel value={value} index={1}>
-              Item Two
+              <AnxietyTest />
             </CustomTabPanel>
             <CustomTabPanel value={value} index={2}>
-              Item Three
+              <SubstanceTest/>
             </CustomTabPanel>
           </Box>
         </div>

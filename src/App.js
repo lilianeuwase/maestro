@@ -2,12 +2,10 @@ import React, { useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import { gsap } from "gsap";
 import "./styles/App.scss";
-// import styles from "./index.css"
 import Header from "./components/header";
 import Navigation from "./components/navigation";
 import LGBTQ from "./pages/lgbtq";
 import Mental from "./pages/mental";
-import Services from "./pages/services";
 import About from "./pages/about";
 import Home from "./pages/home";
 import { MotivePic } from "./components/home/motivePic";
@@ -18,6 +16,7 @@ import CardsAnimation from "./components/mental/cards/cardsAnimation";
 import { AnimateSharedLayout } from "framer-motion";
 import { Footer } from "./components/footer";
 import Tests from "./pages/tests";
+import GetInvolved from "./pages/getInvolved";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -28,7 +27,7 @@ const routes = [
   { path: "/relax", name: "relax", Component: RelaxPic },
   { path: "/test", name: "test", Component: Tests },
 
-  { path: "/services", name: "services", Component: Services },
+  { path: "/getinvolved", name: "getinvolved", Component: GetInvolved },
   { path: "/about-us", name: "about", Component: About },
 ];
 

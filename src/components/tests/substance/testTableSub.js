@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import TestResultsDepr from "./testResultsDepr";
-export const TestTableDepr = () => {
+import TestResultsSub from "./testResultsSub";
+export const TestTableSub = () => {
   //Test Summation & Results
   const [sum, setSum] = useState(0);
   const [result, setResult] = useState("");
@@ -13,8 +13,6 @@ export const TestTableDepr = () => {
   const [e, setE] = useState(0);
   const [f, setF] = useState(0);
   const [g, setG] = useState(0);
-  const [h, setH] = useState(0);
-  const [i, setI] = useState(0);
 
   const { register, watch, setValue } = useForm();
   const watchAllFields = watch();
@@ -278,107 +276,32 @@ export const TestTableDepr = () => {
     }
   }, [watchAllFields.g4, setValue]);
 
-  //For eighth row
-  useEffect(() => {
-    if (watchAllFields.h1) {
-      setValue("h2", false);
-      setValue("h3", false);
-      setValue("h4", false);
-      setH(0);
-    }
-  }, [watchAllFields.h1, setValue]);
-
-  useEffect(() => {
-    if (watchAllFields.h2) {
-      setValue("h1", false);
-      setValue("h3", false);
-      setValue("h4", false);
-      setH(1);
-    }
-  }, [watchAllFields.h2, setValue]);
-
-  useEffect(() => {
-    if (watchAllFields.h3) {
-      setValue("h1", false);
-      setValue("h2", false);
-      setValue("h4", false);
-      setH(2);
-    }
-  }, [watchAllFields.h3, setValue]);
-
-  useEffect(() => {
-    if (watchAllFields.h4) {
-      setValue("h1", false);
-      setValue("h2", false);
-      setValue("h3", false);
-      setH(3);
-    }
-  }, [watchAllFields.h4, setValue]);
-
-  //For nineth row
-  useEffect(() => {
-    if (watchAllFields.i1) {
-      setValue("i2", false);
-      setValue("i3", false);
-      setValue("i4", false);
-      setI(0);
-    }
-  }, [watchAllFields.i1, setValue]);
-
-  useEffect(() => {
-    if (watchAllFields.i2) {
-      setValue("i1", false);
-      setValue("i3", false);
-      setValue("i4", false);
-      setI(1);
-    }
-  }, [watchAllFields.i2, setValue]);
-
-  useEffect(() => {
-    if (watchAllFields.i3) {
-      setValue("i1", false);
-      setValue("i2", false);
-      setValue("i4", false);
-      setI(2);
-    }
-  }, [watchAllFields.i3, setValue]);
-
-  useEffect(() => {
-    if (watchAllFields.i4) {
-      setValue("i1", false);
-      setValue("i2", false);
-      setValue("i3", false);
-      setI(3);
-    }
-  }, [watchAllFields.i4, setValue]);
-
   //Score summation
 
   useEffect(() => {
-    setSum(a + b + c + d + e + f + g + h + i);
+    setSum(a + b + c + d + e + f + g);
   });
 
   useEffect(() => {
     if (sum >= 0 && sum <= 4) {
-      setResult("None-minimal");
-      setTreatment(" You need to continue living healthy (balanced diet, enough water, enough rest, do physical exercises.)");
+      setResult("Minimal");
+      setTreatment(
+        "Proposed 1"
+      );
     } else if (sum >= 5 && sum <= 9) {
       setResult("Mild");
-      setTreatment("You need to talk to friends, have time for leisure activities, consult our website to learn coping skills.");
+      setTreatment(
+        "Proposed 2"
+      );
     } else if (sum >= 10 && sum <= 14) {
       setResult("Moderate");
       setTreatment(
-        "	You need to get treatment plan, consult website for recommendations."
+        "Proposed 3"
       );
-    } else if (sum >= 15 && sum <= 19) {
-      setResult("Moderate Severe");
-      setTreatment(
-        "You need an active treatment, consult website for recommendations."
-      );
-    } else if (sum >= 20 && sum <= 27) {
+    } else if (sum >= 15) {
       setResult("Severe");
       setTreatment(
-        "You need immediate action, Call 912 or Consult a nearest Health Facility for support"
+        "Proposed 4"
       );
     }
   });
@@ -392,7 +315,7 @@ export const TestTableDepr = () => {
               <div class="px-6 py-4 grid gap-3 md:flex md:justify-between md:items-center border-b border-gray-200 dark:border-gray-700">
                 <div>
                   <h2 class="text-xl font-semibold text-gray-800 dark:text-gray-200">
-                    Depression Test
+                    Anxiety Test
                   </h2>
                   <p class="text-sm text-gray-600 dark:text-gray-400">
                     Take test and check your results at the bottom of the table
@@ -462,7 +385,7 @@ export const TestTableDepr = () => {
                               src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
                               alt="Image Description"
                             />
-                            Little interest or pleasure in doing things
+                            Feeling nervous, anxious or on edge
                           </div>
                         </div>
                       </td>
@@ -522,7 +445,7 @@ export const TestTableDepr = () => {
                               src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
                               alt="Image Description"
                             />
-                            Feeling down, depressed or hopeless
+                            Not being able to stop or control worrying
                           </div>
                         </div>
                       </td>
@@ -582,8 +505,7 @@ export const TestTableDepr = () => {
                               src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
                               alt="Image Description"
                             />
-                            Trouble falling asleep, staying asleep, or sleeping
-                            too much
+                            Worrying too much about different things
                           </div>
                         </div>
                       </td>
@@ -643,7 +565,7 @@ export const TestTableDepr = () => {
                               src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
                               alt="Image Description"
                             />
-                            Feeling tired or having little energy
+                            Trouble relaxing
                           </div>
                         </div>
                       </td>
@@ -703,7 +625,7 @@ export const TestTableDepr = () => {
                               src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
                               alt="Image Description"
                             />
-                            Poor appetite or overeating
+                            Being so restless that it is hard to sit still
                           </div>
                         </div>
                       </td>
@@ -763,8 +685,7 @@ export const TestTableDepr = () => {
                               src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
                               alt="Image Description"
                             />
-                            Feeling bad about yourself - or that you’re a
-                            failure or have let yourself or your family down
+                            Becoming easily annoyed or irritable
                           </div>
                         </div>
                       </td>
@@ -824,8 +745,7 @@ export const TestTableDepr = () => {
                               src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
                               alt="Image Description"
                             />
-                            Trouble concentrating on things, such as reading the
-                            newspaper or watching television
+                            Feeling afraid as if something awful might happen
                           </div>
                         </div>
                       </td>
@@ -875,136 +795,12 @@ export const TestTableDepr = () => {
                       </div>
                     </td>
                   </tr>
-                  <tr>
-                    <div class="px-6 py-3">
-                      <td class="">
-                        <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
-                          <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
-                            Moving or speaking so slowly that other people could
-                            have noticed. Or, the opposite - being so fidgety or
-                            restless that you have been moving around a lot more
-                            than usual
-                          </div>
-                        </div>
-                      </td>
-                    </div>
-                    <td class="h-px w-px ">
-                      <div class="px-1 py-3">
-                        <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-1" class="flex">
-                            <input type="checkbox" {...register("h1")} />
-                            <span class="sr-only">Checkbox</span>
-                          </label>
-                          0
-                        </span>
-                      </div>
-                    </td>
-                    <td class="h-px w-px ">
-                      <div class="px-1 py-3">
-                        <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-blue-100 text-blue-800 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-2" class="flex">
-                            <input type="checkbox" {...register("h2")} />
-                            <span class="sr-only">Checkbox</span>
-                          </label>
-                          +1
-                        </span>
-                      </div>
-                    </td>
-                    <td class="h-px w-px ">
-                      <div class="px-1 py-3">
-                        <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-pink-100 text-pink-800 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-3" class="flex">
-                            <input type="checkbox" {...register("h3")} />
-                            <span class="sr-only">Checkbox</span>
-                          </label>
-                          +2
-                        </span>
-                      </div>
-                    </td>
-                    <td class="h-px w-px ">
-                      <div class="px-1 py-3">
-                        <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-lime-100 text-lime-950 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-4" class="flex">
-                            <input type="checkbox" {...register("h4")} />
-                            <span class="sr-only">Checkbox</span>
-                          </label>
-                          +3
-                        </span>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <div class="px-6 py-3">
-                      <td class="">
-                        <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
-                          <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
-                            Thoughts that you would be better off dead or of
-                            hurting yourself in some way
-                          </div>
-                        </div>
-                      </td>
-                    </div>
-                    <td class="h-px w-px ">
-                      <div class="px-1 py-3">
-                        <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-1" class="flex">
-                            <input type="checkbox" {...register("i1")} />
-                            <span class="sr-only">Checkbox</span>
-                          </label>
-                          0
-                        </span>
-                      </div>
-                    </td>
-                    <td class="h-px w-px ">
-                      <div class="px-1 py-3">
-                        <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-blue-100 text-blue-800 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-2" class="flex">
-                            <input type="checkbox" {...register("i2")} />
-                            <span class="sr-only">Checkbox</span>
-                          </label>
-                          +1
-                        </span>
-                      </div>
-                    </td>
-                    <td class="h-px w-px ">
-                      <div class="px-1 py-3">
-                        <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-pink-100 text-pink-800 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-3" class="flex">
-                            <input type="checkbox" {...register("i3")} />
-                            <span class="sr-only">Checkbox</span>
-                          </label>
-                          +2
-                        </span>
-                      </div>
-                    </td>
-                    <td class="h-px w-px ">
-                      <div class="px-1 py-3">
-                        <span class="inline-flex items-center gap-3 py-0.5 px-2 rounded-full text-xl font-medium bg-lime-100 text-lime-950 dark:bg-green-900 dark:text-green-200">
-                          <label for="hs-at-with-checkboxes-4" class="flex">
-                            <input type="checkbox" {...register("i4")} />
-                            <span class="sr-only">Checkbox</span>
-                          </label>
-                          +3
-                        </span>
-                      </div>
-                    </td>
-                  </tr>
                 </tbody>
               </table>
             </div>
           </div>
         </div>
-        <TestResultsDepr result={result} sum={sum} treat={treat} />
+        <TestResultsSub result={result} sum={sum} treat={treat} />
       </div>
     </div>
   );
