@@ -130,7 +130,7 @@ export default function GetIntro() {
             />
             <Box
               position={"relative"}
-              height={"400px"}
+              height={"550px"}
               rounded={"2xl"}
               boxShadow={"2xl"}
               width={"full"}
@@ -142,12 +142,17 @@ export default function GetIntro() {
                 align={"center"}
                 w={"100%"}
                 h={"100%"}
-                src={require("../../assets/GetInvolved1.png")}
+                src={require("../../assets/GetInvolved2.jpg")}
               />
             </Box>
           </Flex>
         </Stack>
       </Container>
+      <hr
+        style={{
+          borderColor: "orange",
+        }}
+      />
     </ChakraProvider>
   );
 }

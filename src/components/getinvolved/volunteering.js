@@ -1,12 +1,12 @@
 export const Volunteering = () => {
   return (
-    <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+    <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto pb-8">
       <div class="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
         <div class="lg:col-span-1">
           <h2 class="font-bold text-2xl md:text-3xl text-gray-800 dark:text-gray-200">
             Opportunities for Volunteering
           </h2>
-          <p class="mt-2 md:mt-4 text-gray-500">
+          <p class="mt-2 md:mt-4 text-gray-500 font-semibold text-md">
             Opportunities for volunteering or participating in community events
             focused on mental health and LGBT issues.
           </p>

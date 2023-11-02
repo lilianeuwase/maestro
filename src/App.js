@@ -17,6 +17,7 @@ import { AnimateSharedLayout } from "framer-motion";
 import { Footer } from "./components/footer";
 import Tests from "./pages/tests";
 import GetInvolved from "./pages/getInvolved";
+import MiniFooter from "./components/miniFooter";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -82,6 +83,7 @@ function App() {
         </Switch>
       </div>
       <Navigation />
+      <MiniFooter/>
       <Footer />
     </>
   );
