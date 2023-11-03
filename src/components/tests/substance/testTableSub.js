@@ -380,11 +380,7 @@ export const TestTableSub = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
+                      
                             Feeling nervous, anxious or on edge
                           </div>
                         </div>
@@ -440,11 +436,7 @@ export const TestTableSub = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
+                      
                             Not being able to stop or control worrying
                           </div>
                         </div>
@@ -500,11 +492,7 @@ export const TestTableSub = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
+                      
                             Worrying too much about different things
                           </div>
                         </div>
@@ -560,11 +548,7 @@ export const TestTableSub = () => {
                       <td class="h-2px w-2px ">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
+                      
                             Trouble relaxing
                           </div>
                         </div>
@@ -620,11 +604,7 @@ export const TestTableSub = () => {
                       <td class="h-2px w-2px">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
+                      
                             Being so restless that it is hard to sit still
                           </div>
                         </div>
@@ -680,11 +660,7 @@ export const TestTableSub = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
+                      
                             Becoming easily annoyed or irritable
                           </div>
                         </div>
@@ -740,11 +716,7 @@ export const TestTableSub = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
+                      
                             Feeling afraid as if something awful might happen
                           </div>
                         </div>

@@ -286,22 +286,22 @@ export const TestTableAx = () => {
     if (sum >= 0 && sum <= 4) {
       setResult("Minimal");
       setTreatment(
-        "Proposed 1"
+        "You need to continue living healthy (balanced diet, enough water, enough rest, do physical exercises, explore main reason that trigger your anxiety to know what to avoid."
       );
     } else if (sum >= 5 && sum <= 9) {
       setResult("Mild");
       setTreatment(
-        "Proposed 2"
+        "You need to talk to friends, have time for leisure activities, consult our website on learning coping skills, be ready to start treatment Journey."
       );
     } else if (sum >= 10 && sum <= 14) {
       setResult("Moderate");
       setTreatment(
-        "Proposed 3"
+        "You need to get treatment plan, look for a therapist, consult website for recommendation, plan and be ready for treatment."
       );
     } else if (sum >= 15) {
       setResult("Severe");
       setTreatment(
-        "Proposed 4"
+        "Call 912 for ambulance, Immediate Intervention is needed, Consult nearest Health Facility, Remove any danger and provide a safe environment."
       );
     }
   });
@@ -380,11 +380,6 @@ export const TestTableAx = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Feeling nervous, anxious or on edge
                           </div>
                         </div>
@@ -440,11 +435,6 @@ export const TestTableAx = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Not being able to stop or control worrying
                           </div>
                         </div>
@@ -500,11 +490,6 @@ export const TestTableAx = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Worrying too much about different things
                           </div>
                         </div>
@@ -560,11 +545,6 @@ export const TestTableAx = () => {
                       <td class="h-2px w-2px ">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Trouble relaxing
                           </div>
                         </div>
@@ -620,11 +600,6 @@ export const TestTableAx = () => {
                       <td class="h-2px w-2px">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Being so restless that it is hard to sit still
                           </div>
                         </div>
@@ -680,11 +655,6 @@ export const TestTableAx = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Becoming easily annoyed or irritable
                           </div>
                         </div>
@@ -740,11 +710,6 @@ export const TestTableAx = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Feeling afraid as if something awful might happen
                           </div>
                         </div>

@@ -361,10 +361,14 @@ export const TestTableDepr = () => {
   useEffect(() => {
     if (sum >= 0 && sum <= 4) {
       setResult("None-minimal");
-      setTreatment(" You need to continue living healthy (balanced diet, enough water, enough rest, do physical exercises.)");
+      setTreatment(
+        " You need to continue living healthy (balanced diet, enough water, enough rest, do physical exercises.)"
+      );
     } else if (sum >= 5 && sum <= 9) {
       setResult("Mild");
-      setTreatment("You need to talk to friends, have time for leisure activities, consult our website to learn coping skills.");
+      setTreatment(
+        "You need to talk to friends, have time for leisure activities, consult our website to learn coping skills."
+      );
     } else if (sum >= 10 && sum <= 14) {
       setResult("Moderate");
       setTreatment(
@@ -457,11 +461,6 @@ export const TestTableDepr = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Little interest or pleasure in doing things
                           </div>
                         </div>
@@ -517,11 +516,6 @@ export const TestTableDepr = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Feeling down, depressed or hopeless
                           </div>
                         </div>
@@ -577,11 +571,6 @@ export const TestTableDepr = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Trouble falling asleep, staying asleep, or sleeping
                             too much
                           </div>
@@ -638,11 +627,6 @@ export const TestTableDepr = () => {
                       <td class="h-2px w-2px ">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Feeling tired or having little energy
                           </div>
                         </div>
@@ -698,11 +682,6 @@ export const TestTableDepr = () => {
                       <td class="h-2px w-2px">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Poor appetite or overeating
                           </div>
                         </div>
@@ -758,11 +737,6 @@ export const TestTableDepr = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Feeling bad about yourself - or that you’re a
                             failure or have let yourself or your family down
                           </div>
@@ -819,11 +793,6 @@ export const TestTableDepr = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Trouble concentrating on things, such as reading the
                             newspaper or watching television
                           </div>
@@ -880,11 +849,6 @@ export const TestTableDepr = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Moving or speaking so slowly that other people could
                             have noticed. Or, the opposite - being so fidgety or
                             restless that you have been moving around a lot more
@@ -943,11 +907,6 @@ export const TestTableDepr = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            <img
-                              class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                              src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
-                              alt="Image Description"
-                            />
                             Thoughts that you would be better off dead or of
                             hurting yourself in some way
                           </div>
