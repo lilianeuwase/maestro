@@ -45,7 +45,7 @@ export default function Anxiety() {
                 Get involved
               </a>
               <a
-                href="#"
+                href="/"
                 className="text-sm font-semibold leading-6 text-white"
               >
                 Live Chat <span aria-hidden="true">→</span>

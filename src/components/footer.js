@@ -73,7 +73,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/aboutus"
+                    href="/about-us"
                     className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
                   >
                     About Us

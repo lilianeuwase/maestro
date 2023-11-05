@@ -6,7 +6,7 @@ export default function Impact() {
       <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h1 class="text-4xl sm:text-6xl font-bold text-gray-800 dark:text-gray-200">
-            Our Impact Strategy
+            Our {" "}<span class="text-cyan-600">Impact</span>{" "}Strategy
           </h1>
 
           <div class="mt-7 sm:mt-12 mx-auto max-w-xl relative">

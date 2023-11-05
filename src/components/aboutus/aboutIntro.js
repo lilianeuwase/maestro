@@ -5,8 +5,8 @@ export default function AboutIntro() {
         <div class="relative mx-auto max-w-4xl grid space-y-5 sm:space-y-10">
           <div class="text-center">
             <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-gray-200">
-              Maestro Mind Lab exists to{" "}
-              <span class="text-orange-600">Address Mental Health</span>
+              Our{" "}
+              <span class="text-orange-600">Cause</span>
             </h1>
           </div>
 
@@ -126,7 +126,7 @@ export default function AboutIntro() {
             </svg>
           </div>
         </div>
-        <div class="flex flex-col items-center justify-center pt-8 mx-auto rounded-lg lg:px-10 max-w-7xl">
+        <div class="flex flex-col items-center justify-center pt-16 mx-auto rounded-lg lg:px-10 max-w-7xl">
           <img
             class="object-cover object-center w-full rounded-xl h-96"
             alt="hero"

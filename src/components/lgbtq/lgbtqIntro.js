@@ -67,7 +67,7 @@ const LGBTQIntro = () => {
                         onMouseEnter={(e) => handleHover(e)}
                         onMouseOut={(e) => handleHoverExit(e)}
                         ref={(el) => (line1 = el)}
-                        to="/lgbtq/#choice"
+                        to="/"
                       >
                        Live Chat
                       </Link>
