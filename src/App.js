@@ -19,6 +19,7 @@ import Tests from "./pages/tests";
 import GetInvolved from "./pages/getInvolved";
 import MiniFooter from "./components/miniFooter";
 import AboutUs from "./pages/aboutUs";
+import Partnerships from "./pages/partnerships";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -31,6 +32,7 @@ const routes = [
   { path: "/getinvolved", name: "getinvolved", Component: GetInvolved },
   { path: "/about", name: "about", Component: About },
   { path: "/about-us", name: "aboutus", Component: AboutUs },
+  { path: "/partnerships", name: "partnerships", Component: Partnerships },
 ];
 
 function debounce(fn, ms) {

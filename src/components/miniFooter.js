@@ -1,5 +1,3 @@
-import LogoFooter from "./logoFooter";
-
 const stats = [
   {
     name: "To reduce risks, keep your operating system and browser up to date with the newest security patches.",
@@ -23,7 +21,6 @@ const stats = [
 export default function MiniFooter() {
   return (
     <>
-      <LogoFooter />
       <div className="relative isolate overflow-hidden bg-customized-2 py-12 sm:py-16">
         <img
           src={require("../assets/d (1).png")}

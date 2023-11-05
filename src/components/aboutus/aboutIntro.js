@@ -1,12 +1,12 @@
 export default function AboutIntro() {
   return (
-    <div class="overflow-hidden pt-20">
-      <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="overflow-hidden pt-16">
+      <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div class="relative mx-auto max-w-4xl grid space-y-5 sm:space-y-10">
           <div class="text-center">
             <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-gray-200">
               Maestro Mind Lab exists to{" "}
-              <span class="text-blue-500">address mental health</span>
+              <span class="text-orange-600">Address Mental Health</span>
             </h1>
           </div>
 
@@ -15,27 +15,27 @@ export default function AboutIntro() {
               <div class="flex justify-center -space-x-3">
                 <img
                   class="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800"
-                  src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
+                  src={require("../../assets/Love.png")}
                   alt="Image Description"
                 />
                 <img
                   class="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800"
-                  src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
+                  src={require("../../assets/hi5.png")}
                   alt="Image Description"
                 />
                 <img
                   class="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800"
-                  src="https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&&auto=format&fit=facearea&facepad=3&w=300&h=300&q=80"
+                  src={require("../../assets/flagIcon.png")}
                   alt="Image Description"
                 />
                 <img
                   class="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800"
-                  src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80"
+                  src={require("../../assets/smile.png")}
                   alt="Image Description"
                 />
                 <span class="inline-flex items-center justify-center h-8 w-8 rounded-full ring-2 ring-white bg-gray-800 dark:bg-gray-900 dark:ring-gray-800">
                   <span class="text-xs font-medium leading-none text-white uppercase">
-                    7k+
+                    +
                   </span>
                 </span>
               </div>
@@ -45,21 +45,25 @@ export default function AboutIntro() {
 
             <div class="pt-5 sm:pt-0 sm:pl-5">
               <div class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Trust pilot
+                Maestro Mind Lab exists to address the urgent and pressing need
+                for mental health support and social inclusion within Kigali's
+                LGBT youth community. In the face of discrimination, prejudice,
+                and exclusion, the project serves as a beacon of hope, offering
+                a lifeline to those navigating the complexities of their
+                identities.
+                <br />
+                <br />
+                Our existence is rooted in the firm belief that every individual
+                deserves access to empathetic mental health services and the
+                right to live openly without fear. By providing tailored mental
+                health literacy programs, accessible counseling services, and
+                fostering resilient community bonds, we aim to instill
+                confidence, inspire self-acceptance, and nurture a sense of
+                belonging among the LGBT youth in Kigali. We exist to break down
+                barriers, champion acceptance, and create a supportive ecosystem
+                where every young person feels valued, understood, and empowered
+                to embrace their authentic selves
               </div>
-              <div class="text-sm text-gray-500">
-                Rated best over 37k reviews
-              </div>
-            </div>
-          </div>
-          <div class="mx-auto max-w-2xl sm:flex sm:space-x-3 p-3 bg-white border rounded-lg shadow-lg shadow-gray-100 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2]">
-            <div class="pt-2 sm:pt-0 grid sm:block sm:flex-[0_0_auto]">
-              <a
-                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm sm:p-4 dark:focus:ring-offset-gray-800"
-                href="#"
-              >
-                Get started
-              </a>
             </div>
           </div>
           <div
@@ -122,11 +126,11 @@ export default function AboutIntro() {
             </svg>
           </div>
         </div>
-        <div class="flex flex-col items-center justify-center pt-24 mx-auto rounded-lg lg:px-10 max-w-7xl">
+        <div class="flex flex-col items-center justify-center pt-8 mx-auto rounded-lg lg:px-10 max-w-7xl">
           <img
-            class="object-cover object-center w-full rounded-xl"
+            class="object-cover object-center w-full rounded-xl h-96"
             alt="hero"
-            src={require("../../assets/LGFrame1.png")}
+            src={require("../../assets/impactPic.jpeg")}
           />
         </div>
       </div>

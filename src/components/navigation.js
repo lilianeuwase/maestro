@@ -11,7 +11,7 @@ const Navigation = () => {
             <ul className="nav-linksHome">
               <li>
                 <NavLink to="/about" exact>
-                  About Us
+                  Education
                 </NavLink>
               </li>
               <li>
@@ -32,22 +32,30 @@ const Navigation = () => {
             </ul>
           </div>
           <div className="nav-columnHome">
-            <div className="nav-labelHome">Contact</div>
+            {/* <div className="nav-labelHome">Contact</div> */}
             <div className="nav-infosHome">
               <ul className="nav-infoHome">
-                <li className="nav-info-labelHome">Email</li>
+                <li className="nav-info-labelHome">Contact</li>
                 <li>
-                  <NavLink to="/contact" exact>
-                    Get in touch with us
+                  <NavLink to="/" exact>
+                    Maestro Live chat
                   </NavLink>
                 </li>
                 <li>
-                  <li className="nav-info-labelHome">Phone</li>
+                  {/* <NavLink to="/contact" exact>
+                    Get in touch with us
+                  </NavLink> */}
+                  <li>info@rwandayvchange.org</li>
                   <li>+250 783 014 486</li>
                 </li>
+
+                {/* <li>
+                  <li className="nav-info-labelHome">Phone</li>
+                  <li>+250 783 014 486</li>
+                </li> */}
               </ul>
               <ul className="nav-infoHome">
-              <li>
+                <li>
                   <NavLink to="/about-us" exact>
                     About Us
                   </NavLink>
@@ -59,18 +67,15 @@ const Navigation = () => {
                 </li>
                 <li>
                   <NavLink to="/test" exact>
-                   Mental Health Tests
+                    Mental Health Tests
                   </NavLink>
                 </li>
+
                 <li>
-                  {" "}
-                  <NavLink to="/getinvolved" exact>
-                    Maestro Live chat
+                  <NavLink to="/partnerships" exact>
+                    Partnerships
                   </NavLink>
                 </li>
-                {/* <li></li>
-                <li>Kigali</li>
-                <li>Rwanda</li> */}
               </ul>
               {/* <ul className='nav-info'>
                 <li className='nav-info-label'>Phone</li>

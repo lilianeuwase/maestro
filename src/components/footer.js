@@ -37,7 +37,11 @@ export const Footer = () => {
               </svg> */}
               <span className="ml-2 text-xl font-bold tracking-wide text-customized-12 uppercase">
                 <div className="logoHome">
-                <img src={require("../assets/Maestro Logo - 2-Dark.png")} width={80} height={80} /> {" "}
+                  <img
+                    src={require("../assets/Maestro Logo - 2-Dark.png")}
+                    width={80}
+                    height={80}
+                  />{" "}
                   {/* MAESTRO. */}
                 </div>
               </span>
@@ -53,7 +57,7 @@ export const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-3">
             <div>
               <p className="font-semibold tracking-wide text-customized-12 text-2xl">
                 Menu
@@ -95,59 +99,12 @@ export const Footer = () => {
             </div>
             <div>
               <p className="font-semibold tracking-wide text-customized-12 text-2xl">
-                Contact
-              </p>
-              <ul className="mt-2 space-y-2">
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
-                  >
-                    Email
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
-                  >
-                    Phone
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
-                  >
-                    Get in touch with us
-                  </a>
-                </li>
-                {/* <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Entertainment
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Portfolio
-                  </a>
-                </li> */}
-              </ul>
-            </div>
-            <div>
-              <p className="font-semibold tracking-wide text-customized-12 text-2xl">
                 Get Help
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
+                    href="/getinvolved"
                     className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
                   >
                     Get Involved
@@ -161,68 +118,26 @@ export const Footer = () => {
                     Live Chat
                   </a>
                 </li>
-                {/* <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Nonprofit
-                  </a>
-                </li> */}
-                {/* <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Educational
-                  </a>
-                </li>
                 <li>
                   <a
-                    href="/"
-                    className="transition-colors duration-300 text-customized-6 hover:text-teal-accent-400"
+                    href="/test"
+                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
                   >
-                    Projects
+                    Mental Health Tests
                   </a>
-                </li> */}
+                </li>
               </ul>
             </div>
             <div>
               <p className="font-semibold tracking-wide text-customized-12 text-2xl">
-                Resources
+                Contact Us
               </p>
               <ul className="mt-2 space-y-2">
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
-                  >
-                    Infopreneur
-                  </a>
+                <li className="transition-colors duration-300 text-customized-6 hover:text-customized-12">
+                  +250 783 014 486
                 </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
-                  >
-                    Personal
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
-                  >
-                    Wiki
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
-                  >
-                    Forum
-                  </a>
+                <li className="transition-colors duration-300 text-customized-6 hover:text-customized-12">
+                  info@rwandayvchange.org
                 </li>
               </ul>
             </div>
@@ -230,7 +145,9 @@ export const Footer = () => {
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-customized-3 sm:flex-row">
           <p className="text-sm text-customized-6">
-            © Copyright 2023 Maestro Mind Lab All rights reserved.<br/><br/>
+            © Copyright 2023 Maestro Mind Lab All rights reserved.
+            <br />
+            <br />
             Designed by 8 Lines Code Ltd.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
