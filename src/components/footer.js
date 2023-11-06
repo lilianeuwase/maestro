@@ -73,18 +73,10 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/about-us"
+                    href="/therapy"
                     className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
                   >
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/mentalhealth"
-                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
-                  >
-                    Mental Health
+                    Therapy
                   </a>
                 </li>
                 <li>
@@ -93,6 +85,14 @@ export const Footer = () => {
                     className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
                   >
                     LGBTQ+ Support
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/mentalhealth"
+                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
+                  >
+                    Mental Health Education
                   </a>
                 </li>
               </ul>
@@ -133,6 +133,14 @@ export const Footer = () => {
                 Contact Us
               </p>
               <ul className="mt-2 space-y-2">
+              <li>
+                  <a
+                    href="/about-us"
+                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
+                  >
+                    About Us
+                  </a>
+                </li>
                 <li className="transition-colors duration-300 text-customized-6 hover:text-customized-12">
                   +250 783 014 486
                 </li>
@@ -148,7 +156,14 @@ export const Footer = () => {
             © Copyright 2023 Maestro Mind Lab All rights reserved.
             <br />
             <br />
-            Designed by 8 Lines Code Ltd.
+            Website designed & developed by{" "}
+          <a
+            href="https://8linescode.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            8 Lines Code Ltd.
+          </a>
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a

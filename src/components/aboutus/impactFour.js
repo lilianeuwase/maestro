@@ -157,10 +157,19 @@ export const ImpactFour = () => {
               </svg>
             </div>
             <h6 className="mb-2 font-semibold leading-5">
-            Establishment of Mental Health Therapists Network
+              Establishment of Mental Health Therapists Network
             </h6>
             <p className="mb-3 text-sm text-gray-900">
-            To enhance the availability of professional mental health support, the project will establish a network of mental health therapists who are committed to providing non-judgmental care to LGBT youth. These therapists will undergo specific training on LGBT-affirmative care and best practices for working with this population. The Mental Health Therapists Network will collaborate with the project team and MHPCs to ensure a coordinated approach to care. They will be available to provide more specialized support for complex mental health issues and offer referrals when necessary.
+              To enhance the availability of professional mental health support,
+              the project will establish a network of mental health therapists
+              who are committed to providing non-judgmental care to LGBT youth.
+              These therapists will undergo specific training on
+              LGBT-affirmative care and best practices for working with this
+              population. The Mental Health Therapists Network will collaborate
+              with the project team and MHPCs to ensure a coordinated approach
+              to care. They will be available to provide more specialized
+              support for complex mental health issues and offer referrals when
+              necessary.
             </p>
           </div>
         </div>

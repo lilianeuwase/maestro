@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "../../styles/mental/mentalIntro.scss";
+import "../../styles/therapy/therapyIntro.scss";
 
 const transition = { duration: 1.4, ease: [0.6, 0.01, -0.05, 0.9] };
 

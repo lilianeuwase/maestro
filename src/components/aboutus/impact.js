@@ -1,3 +1,4 @@
+import Partners from "../partnership.js/partners";
 import { ImpactFour } from "./impactFour";
 
 export default function Impact() {
@@ -172,6 +173,7 @@ export default function Impact() {
           </div>
         </div>
         <ImpactFour />
+        <Partners/>
       </div>
     </div>
   );

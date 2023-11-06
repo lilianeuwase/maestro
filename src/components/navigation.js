@@ -10,18 +10,18 @@ const Navigation = () => {
             <div className="nav-labelHome">Menu</div>
             <ul className="nav-linksHome">
               <li>
-                <NavLink to="/about" exact>
-                  Education
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/mentalhealth" exact>
-                  Mental Health
+                <NavLink to="/therapy" exact>
+                 Therapy
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/lgbtq" exact>
                   LGBTQ+ Support
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/mentalhealth" exact>
+                Mental Health Education
                 </NavLink>
               </li>
               {/* <li>
@@ -32,10 +32,10 @@ const Navigation = () => {
             </ul>
           </div>
           <div className="nav-columnHome">
-            {/* <div className="nav-labelHome">Contact</div> */}
+            <div className="nav-labelHome">Contact</div>
             <div className="nav-infosHome">
               <ul className="nav-infoHome">
-                <li className="nav-info-labelHome">Contact</li>
+                {/* <li className="nav-info-labelHome">Contact</li> */}
                 <li>
                   <NavLink to="/" exact>
                     Maestro Live chat
@@ -71,11 +71,11 @@ const Navigation = () => {
                   </NavLink>
                 </li>
 
-                <li>
+                {/* <li>
                   <NavLink to="/partnerships" exact>
                     Partnerships
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
               {/* <ul className='nav-info'>
                 <li className='nav-info-label'>Phone</li>

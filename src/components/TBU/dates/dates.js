@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimateSharedLayout } from "framer-motion";
 
 import "./datesStyles.css";
-import { CardHeader } from "../../mental/cards/cardsHeader";
+import { CardHeader } from "../../therapy/cards/cardsHeader";
 
 function Content({ day, disabled }) {
   return (

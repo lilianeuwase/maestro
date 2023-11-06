@@ -3,7 +3,7 @@ import IntroOverlay from "./introOverlay";
 import Banner from "./banner";
 import Cases from "./cases";
 import gsap from "gsap";
-import MentalIntro from "../mental/mentalIntro";
+import MentalIntro from "../therapy/therapyIntro";
 // import WelcomeIntro from "../components/home/welcomeIntro";
 
 let tl = gsap.timeline();

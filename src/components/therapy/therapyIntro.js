@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
-import "../../styles/mental/mentalIntro.scss";
+import "../../styles/therapy/therapyIntro.scss";
 
 //Components
 import ScrollForMore from "./scrollForMore";
@@ -45,7 +45,7 @@ const letter = {
   },
 };
 
-const MentalIntro = ({ imageDetails }) => {
+const TherapyIntro = ({ imageDetails }) => {
   const { scrollYProgress } = useViewportScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
 
@@ -168,4 +168,4 @@ const MentalIntro = ({ imageDetails }) => {
   );
 };
 
-export default MentalIntro;
+export default TherapyIntro;

@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import ProgressiveImage from "react-progressive-image";
-import "../../styles/mental/mentalIntro.scss";
+import "../../styles/therapy/therapyIntro.scss";
 import {
   Box,
   Text,
@@ -28,7 +28,7 @@ const MentalSupport = ({ imageDetails, image }) => (
               }}
             >
               <div className="frameWelcome">
-                <Link to={`/mentalhealth`}>
+                <Link to={`/therapy`}>
                   <ProgressiveImage
                     src={require("../../assets/face.png")}
                     placeholder={require("../../assets/faceCompressed.png")}
