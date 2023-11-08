@@ -4,7 +4,7 @@ export default function Strategies() {
   return (
     <div className="bg-white py-12 sm:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Coping & Self-help
           </h2>
@@ -61,6 +61,7 @@ export default function Strategies() {
           />
         </div>
       </div>
+    
     </div>
   );
 }

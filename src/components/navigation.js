@@ -15,7 +15,7 @@ const Navigation = () => {
               </li>
               <li>
                 <NavLink to="/mentalhealth" exact>
-                  Mental Health Education
+                  Mental Health Information
                 </NavLink>
               </li>
               <li>

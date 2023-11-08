@@ -1,12 +1,12 @@
 export const Articles = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        {/* <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Articles
-            </p>
-          </div> */}
+        <div>
+          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-black-900 uppercase rounded-full bg-customized-10">
+            Maestro Mind Lab Recommendation
+          </p>
+        </div>
         <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
             <svg
@@ -35,9 +35,6 @@ export const Articles = () => {
           </span>{" "}
           for LGBTQI+ youth
         </h2>
-        {/* <p className="text-base text-gray-700 md:text-lg">
-          Articles on mental health topics specific to LGBTQI+ youth
-          </p> */}
       </div>
       <div className="grid max-w-screen-lg mx-auto space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x">
         <div className="space-y-6 sm:px-16">
@@ -69,8 +66,8 @@ export const Articles = () => {
                 How LGBTQI+ Young
               </h6>
               <p className="text-sm text-gray-900">
-                People Use the Internet in Relation to Their Mental Health and
-                Envisage the Use of e-Therapy: Exploratory Study
+                People Use the Internet in Relation to Their Mental Health:
+                Exploratory Study
               </p>
               <a
                 href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6320432/"
@@ -107,8 +104,9 @@ export const Articles = () => {
                 Can Social Media
               </h6>
               <p className="text-sm text-gray-900">
-                Participation Enhance LGBTQI+ Youth Well-Being? Development of
-                the Social Media Benefits Scale
+                Participation Enhance LGBTQI+ Youth Well-Being?
+                {/* Development of
+                the Social Media Benefits Scale */}
               </p>
               <a
                 href="https://journals.sagepub.com/doi/full/10.1177/2056305121988931"
@@ -145,8 +143,7 @@ export const Articles = () => {
                 Social Media Use
               </h6>
               <p className="text-sm text-gray-900">
-                and Health and Well-being of Lesbian, Gay, Bisexual,
-                Transgender, and Queer Youth: Systematic Review
+                and Health and Well-being of LGBTQI+ Youth: Systematic Review
               </p>
               <a
                 href="https://www.jmir.org/2022/9/e38449/"
@@ -158,7 +155,7 @@ export const Articles = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-col max-w-md sm:flex-row">
+          {/* <div className="flex flex-col max-w-md sm:flex-row">
             <div className="mb-4 mr-4">
               <div className="flex items-center justify-center w-12 h-12 rounded-full bg-customized-6">
                 <svg
@@ -196,7 +193,7 @@ export const Articles = () => {
                 Learn more
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="space-y-6 sm:px-16">
           <p className="text-base text-gray-700 md:text-lg mb-8">
@@ -262,7 +259,7 @@ export const Articles = () => {
                 LGBTQI+ Youth Mental Health
               </h6>
               <p className="text-sm text-gray-900">
-            LGBTQI+ Youth Mental Health
+                LGBTQI+ Youth Mental Health
               </p>
               <a
                 href="https://www.youtube.com/watch?v=27cnH2XiLas"
@@ -312,7 +309,7 @@ export const Articles = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-col max-w-md sm:flex-row">
+          {/* <div className="flex flex-col max-w-md sm:flex-row">
             <div className="mb-4 mr-4">
               <div className="flex items-center justify-center w-12 h-12 rounded-full bg-customized-6">
                 <svg
@@ -348,7 +345,7 @@ export const Articles = () => {
                 Learn more
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

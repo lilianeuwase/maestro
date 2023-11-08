@@ -18,19 +18,18 @@ const ParticipateYoga = () => {
 
   return (
     <>
-      <hr class="h-px my-8 bg-gray-200 border-2 dark:bg-gray-700" />
-
+      <hr class="h-px my-4 bg-gray-200 border-2 dark:bg-gray-700" />
       <section className="pt-12 pb-4 lg:pt-[60px] lg:pb-[20px]">
         <div className="container mx-auto max-w-6xl">
           <div className="lg:max-w-lg mb-16">
-            <h2 className="text-base font-semibold leading-7 text-indigo-600">
+            {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">
               (link to sign up)
-            </h2>
+            </h2> */}
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Participate in our Monthly Laughter Yoga
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Links to relevant books, articles, and external resources
+              Call Our Hotline
             </p>
           </div>
           <Swiper slidesPerView={1} ref={sliderRef}>

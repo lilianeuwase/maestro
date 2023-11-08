@@ -24,12 +24,12 @@ const Therapy = () => {
       <TherapyIntro imageDetails={imageDetails} />
       <HowCBTWorks/>
       <HowCBTDAS/>
+      <Strategies/>
       <Resources/>
       {/* <AnxietyResources/>
       <SubstanceResources/> */}
       <Remember/>
       <Articles/>
-      <Strategies/>
       {/* <DarkSeparation/> */}
       <ParticipateYoga/>
       {/* <CardsAnimation/> */}

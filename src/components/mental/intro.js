@@ -1,7 +1,14 @@
 export const Intro = () => {
   return (
     <div class="dark px-4 py-20 sm:px-6 lg:px-8 lg:py-28 mx-auto bg-black">
-      {/* Tab Nav */}
+      <div class="mb-12 max-w-2xl text-center mx-auto">
+        <h1 class="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-gray-200">
+          Did you{" "}
+          <span class="bg-clip-text bg-gradient-to-tl from-red-600 to-yellow-600 text-transparent">
+            Know ?
+          </span>
+        </h1>
+      </div>
       <div
         class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4"
         aria-label="Tabs"
@@ -19,14 +26,21 @@ export const Intro = () => {
             <svg
               class="hidden md:block flex-shrink-0 md:mt-2 h-6 w-6 hs-tab-active:text-customized-10 text-gray-500 dark:hs-tab-active:text-customized-10 dark:text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
-              <path d="M6 12.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5ZM3 8.062C3 6.76 4.235 5.765 5.53 5.886a26.58 26.58 0 0 0 4.94 0C11.765 5.765 13 6.76 13 8.062v1.157a.933.933 0 0 1-.765.935c-.845.147-2.34.346-4.235.346-1.895 0-3.39-.2-4.235-.346A.933.933 0 0 1 3 9.219V8.062Zm4.542-.827a.25.25 0 0 0-.217.068l-.92.9a24.767 24.767 0 0 1-1.871-.183.25.25 0 0 0-.068.495c.55.076 1.232.149 2.02.193a.25.25 0 0 0 .189-.071l.754-.736.847 1.71a.25.25 0 0 0 .404.062l.932-.97a25.286 25.286 0 0 0 1.922-.188.25.25 0 0 0-.068-.495c-.538.074-1.207.145-1.98.189a.25.25 0 0 0-.166.076l-.754.785-.842-1.7a.25.25 0 0 0-.182-.135Z" />
-              <path d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2V1.866ZM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5Z" />
+              <path d="M5.5 8.5 9 12l-3.5 3.5L2 12l3.5-3.5Z" />
+              <path d="m12 2 3.5 3.5L12 9 8.5 5.5 12 2Z" />
+              <path d="M18.5 8.5 22 12l-3.5 3.5L15 12l3.5-3.5Z" />
+              <path d="m12 15 3.5 3.5L12 22l-3.5-3.5L12 15Z" />
             </svg>
+
             <span class="md:grow md:ml-5">
               <span class="hs-tab-active:text-customized-10 block font-semibold text-gray-800 dark:hs-tab-active:text-customized-10 dark:text-gray-200">
                 Depression
@@ -51,16 +65,20 @@ export const Intro = () => {
             <svg
               class="hidden md:block flex-shrink-0 md:mt-2 h-6 w-6 hs-tab-active:text-customized-10 text-gray-500 dark:hs-tab-active:text-customized-10 dark:text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
-              <path
-                fill-rule="evenodd"
-                d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"
-              />
+              <path d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z" />
+              <rect x="3" y="14" width="7" height="7" rx="1" />
+              <circle cx="17.5" cy="17.5" r="3.5" />
             </svg>
+
             <span class="md:grow md:ml-5">
               <span class="hs-tab-active:text-customized-10 block font-semibold text-gray-800 dark:hs-tab-active:text-customized-10 dark:text-gray-200">
                 Anxiety
@@ -85,13 +103,20 @@ export const Intro = () => {
             <svg
               class="hidden md:block flex-shrink-0 md:mt-2 h-6 w-6 hs-tab-active:text-customized-10 text-gray-500 dark:hs-tab-active:text-customized-10 dark:text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
-              <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z" />
+              <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
+              <path d="M12 9v4" />
+              <path d="M12 17h.01" />
             </svg>
+
             <span class="md:grow md:ml-5">
               <span class="hs-tab-active:text-customized-10 block font-semibold text-gray-800 dark:hs-tab-active:text-customized-10 dark:text-gray-200">
                 Substance Abuse
@@ -114,16 +139,21 @@ export const Intro = () => {
             <svg
               class="hidden md:block flex-shrink-0 md:mt-2 h-6 w-6 hs-tab-active:text-customized-10 text-gray-500 dark:hs-tab-active:text-customized-10 dark:text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
-              <path
-                fill-rule="evenodd"
-                d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"
-              />
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
             </svg>
+
             <span class="md:grow md:ml-5">
               <span class="hs-tab-active:text-customized-10 block font-semibold text-gray-800 dark:hs-tab-active:text-customized-10 dark:text-gray-200">
                 LGBTQI+ Individuals

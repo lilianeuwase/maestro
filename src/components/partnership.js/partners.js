@@ -58,7 +58,7 @@ export default function Partners() {
               />
             </a>
           </div>
-
+          <hr class="h-px my-4 bg-gray-200 border-2 dark:bg-gray-700" />
           <div className="space-y-3 text-center mt-16 mb-16 text-lg">
             <p className="text-gray-600">
               <span className="text-customized-10 font-semibold">Maestro </span>

@@ -73,6 +73,14 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
+                    href="/mentalhealth"
+                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
+                  >
+                    Mental Health Information
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="/therapy"
                     className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
                   >
@@ -87,14 +95,6 @@ export const Footer = () => {
                     LGBTQI+ Support
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="/mentalhealth"
-                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
-                  >
-                    Mental Health Education
-                  </a>
-                </li>
               </ul>
             </div>
             <div>
@@ -104,10 +104,10 @@ export const Footer = () => {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/getinvolved"
+                    href="/test"
                     className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
                   >
-                    Get Involved
+                    Mental Health Tests
                   </a>
                 </li>
                 <li>
@@ -120,10 +120,18 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/test"
+                    href="/getinvolved"
                     className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
                   >
-                    Mental Health Tests
+                    Get Involved
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/about-us"
+                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
+                  >
+                    About Us
                   </a>
                 </li>
               </ul>
@@ -133,14 +141,6 @@ export const Footer = () => {
                 Contact Us
               </p>
               <ul className="mt-2 space-y-2">
-              <li>
-                  <a
-                    href="/about-us"
-                    className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
-                  >
-                    About Us
-                  </a>
-                </li>
                 <li className="transition-colors duration-300 text-customized-6 hover:text-customized-12">
                   +250 783 014 486
                 </li>
@@ -156,14 +156,14 @@ export const Footer = () => {
             © Copyright 2023 Maestro Mind Lab All rights reserved.
             <br />
             <br />
-            Website designed & developed by{" "}
+            {/* Website designed & developed by{" "}
           <a
             href="https://8linescode.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             8 Lines Code Ltd.
-          </a>
+          </a> */}
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a

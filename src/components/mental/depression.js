@@ -35,14 +35,7 @@ export const Depression = () => {
           </span>{" "}
           Depression
         </h2>
-        <div className="mb-8">
-          <a
-            href="/test"
-            className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-gray-50 shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-          >
-            Depression Test
-          </a>
-        </div>
+
         <p className="text-base text-gray-700 md:text-lg">
           According to the World Health Organization (WHO), depression is a
           leading cause of disability worldwide. The World Health Organization
@@ -53,6 +46,17 @@ export const Depression = () => {
           major depressive disorder at 3.3%, while another study in Ethiopia
           found a prevalence of 9.1%.
         </p>
+        <div className="mt-10 flex items-center justify-center gap-x-6">
+          <a
+            href="/test"
+            className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-gray-50 shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+          >
+            Depression Test
+          </a>
+          <a href="/getinvolved" className="text-sm font-semibold leading-6 text-black">
+            Get Involved <span aria-hidden="true">→</span>
+          </a>
+        </div>
       </div>
       <div className="grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3 mb-7">
         <div className="p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-customized-2 hover:-translate-y-2">

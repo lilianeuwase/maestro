@@ -24,9 +24,10 @@ export default function LGBTQIndividuals() {
           </svg>
           <div className="mx-auto max-w-lg text-center lg:mx-0 lg:flex-auto lg:py-28 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              LGBTQI+
+              Why <span class="bg-clip-text bg-gradient-to-tl from-red-600 to-yellow-600 text-transparent">LGBTQI+ </span> Youth?
+              {/* LGBTQI+
               <br />
-              Individuals
+              Individuals */}
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Many LGBTQI+ people experience mental health struggles. The
@@ -36,7 +37,16 @@ export default function LGBTQIndividuals() {
               health concerns of all age groups.
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-            The Trevor Project's National Survey on LGBTQI+ Youth Mental Health reported that 40% of LGBTQI+ youth seriously considered attempting suicide in the past year, and more than half of transgender and nonbinary youth reported engaging in self-harm. The same survey found that 48% of LGBT youth reported using substances to cope with stress, including alcohol, drugs, and tobacco. The National Survey on Drug Use and Health (NSDUH) in the United States found that the rate of substance use disorder in the past year was higher among adults identifying as LGBTQI+ compared to those identifying as heterosexual (15.1% vs. 7.7%). 
+              The Trevor Project's National Survey on LGBTQI+ Youth Mental
+              Health reported that 40% of LGBTQI+ youth seriously considered
+              attempting suicide in the past year, and more than half of
+              transgender and nonbinary youth reported engaging in self-harm.
+              The same survey found that 48% of LGBT youth reported using
+              substances to cope with stress, including alcohol, drugs, and
+              tobacco. The National Survey on Drug Use and Health (NSDUH) in the
+              United States found that the rate of substance use disorder in the
+              past year was higher among adults identifying as LGBTQI+ compared
+              to those identifying as heterosexual (15.1% vs. 7.7%).
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
@@ -58,7 +68,6 @@ export default function LGBTQIndividuals() {
             />
           </div>
         </div>
-
       </div>
     </div>
   );
