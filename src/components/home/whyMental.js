@@ -9,19 +9,19 @@ import "../../styles/home/whyMental.scss";
 
 const testimonials = [
   {
-    name: "Because of the pressure from how society treats them, LGBT youth are more likely to think about or try to end their own lives. Having the right mental health help can step in, teach them how to deal with this, and provide them with coping strategies that can stop these terrible things from happening.",
+    name: "Because of the pressure from how society treats them, LGBTQI+ youth are more likely to think about or try to end their own lives. Having the right mental health help can step in, teach them how to deal with this, and provide them with coping strategies that can stop these terrible things from happening.",
     title: "",
     image: `${require("../../assets/2hands.jpeg")}`,
     quote: "Suicide Prevention",
   },
   {
-    name: "Access to mental health resources enables LGBT youth to build healthy relationships, set boundaries, and recognize signs of abuse or manipulation.",
+    name: "Access to mental health resources enables LGBTQI+ youth to build healthy relationships, set boundaries, and recognize signs of abuse or manipulation.",
     title: "",
     image: `${require("../../assets/cover3.png")}`,
     quote: "Healthy Relationships",
   },
   {
-    name: "Helping with mental health now gives LGBT youth the emotional tools to get past problems and follow their dreams, making their future happier and more satisfying.",
+    name: "Helping with mental health now gives LGBTQI+ youth the emotional tools to get past problems and follow their dreams, making their future happier and more satisfying.",
     title: "",
     image: `${require("../../assets/highfive.jpeg")}`,
     quote: "Future Success",

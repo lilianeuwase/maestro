@@ -3,10 +3,10 @@ export const WhyMentalIntro = () => {
     <div class="px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-customized-6">
       <div class="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
         <h2 class="text-3xl lg:text-4xl text-gray-800 font-bold dark:text-gray-200 mb-8">
-          Why mental health support for LGBT youth is crucial
+          Why mental health support for LGBTQI+ youth is crucial
         </h2>
         <p class="mt-3 text-gray-800 dark:text-gray-200 font-semibold">
-          Helping LGBT youth with their mental health is really important
+          Helping LGBTQI+ youth with their mental health is really important
           because they deal with some tough problems. They go through a lot
           because of who they like or who they are. Let's quickly look at why
           it's so vital to give them the right mental health support.
@@ -106,7 +106,7 @@ export const WhyMentalIntro = () => {
         <div className="p-5 duration-300 transform border-4 border-customized-2 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
             <p className="text-lg font-bold leading-5 text-gray-800">
-              LGBT youth might find it hard to feel okay with who they are
+              LGBTQI+ youth might find it hard to feel okay with who they are
               because of how society treats them. Mental health support gives
               them a safe place where they can understand and accept themselves
               without being afraid or embarrassed.
@@ -116,7 +116,7 @@ export const WhyMentalIntro = () => {
         <div className="p-5 duration-300 transform border-4 border-customized-2 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
             <p className="text-lg font-bold leading-5 text-gray-800">
-              LGBT youth are more likely to be picked on, treated badly, or left
+              LGBTQI+ youth are more likely to be picked on, treated badly, or left
               out, which can make them feel alone, worried, and sad. Having
               enough help makes it easier for them to handle these tough
               situations and become stronger.{" "}
@@ -126,7 +126,7 @@ export const WhyMentalIntro = () => {
         <div className="p-5 duration-300 transform border-4 border-customized-2 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
             <p className="text-lg font-bold leading-5 text-gray-800">
-              Some LGBT youth get pushed away by their families, and this can
+              Some LGBTQI+ youth get pushed away by their families, and this can
               make them have nowhere to live or not get along with their
               families anymore. Mental health services give them advice and help
               to deal with family issues and make better connections with people

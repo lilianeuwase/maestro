@@ -84,7 +84,7 @@ export const Footer = () => {
                     href="/lgbtq"
                     className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
                   >
-                    LGBTQ+ Support
+                    LGBTQI+ Support
                   </a>
                 </li>
                 <li>

@@ -19,7 +19,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   container: {
-    height: rem(700),
+    height: rem(760),
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-end",
@@ -63,7 +63,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   control: {
-    marginTop: `calc(${theme.spacing.xl} * 1.5)`,
+    marginTop: `calc(${theme.spacing.xl})`,
 
     [theme.fn.smallerThan("sm")]: {
       width: "100%",
@@ -93,7 +93,7 @@ export function CasePicture(props) {
             <Button
               variant="gradient"
               gradient={{ from: "orange", to: "red" }}
-              size="xl"
+              size="lg"
               className={classes.control}
             >
               Get back

@@ -33,16 +33,16 @@ export const Articles = () => {
             </svg>
             <span className="relative">Resources</span>
           </span>{" "}
-          for LGBT youth
+          for LGBTQI+ youth
         </h2>
         {/* <p className="text-base text-gray-700 md:text-lg">
-          Articles on mental health topics specific to LGBT youth
+          Articles on mental health topics specific to LGBTQI+ youth
           </p> */}
       </div>
       <div className="grid max-w-screen-lg mx-auto space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x">
         <div className="space-y-6 sm:px-16">
           <p className="text-base text-gray-700 md:text-lg mb-8">
-            Articles on mental health topics specific to LGBT youth
+            Articles on mental health topics specific to LGBTQI+ youth
           </p>
           <div className="flex flex-col max-w-md sm:flex-row">
             <div className="mb-4 mr-4">
@@ -66,7 +66,7 @@ export const Articles = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                How LGBT+ Young
+                How LGBTQI+ Young
               </h6>
               <p className="text-sm text-gray-900">
                 People Use the Internet in Relation to Their Mental Health and
@@ -107,7 +107,7 @@ export const Articles = () => {
                 Can Social Media
               </h6>
               <p className="text-sm text-gray-900">
-                Participation Enhance LGBTQ+ Youth Well-Being? Development of
+                Participation Enhance LGBTQI+ Youth Well-Being? Development of
                 the Social Media Benefits Scale
               </p>
               <a
@@ -184,7 +184,7 @@ export const Articles = () => {
               </h6>
               <p className="text-sm text-gray-900">
                 Experiences and Attitudes Toward Technology-Based Interventions
-                for Reducing Social Isolation Among LGBTQ Youth Living in Rural
+                for Reducing Social Isolation Among LGBTQI+ Youth Living in Rural
                 United States: An Online Qualitative Study
               </p>
               <a
@@ -200,7 +200,7 @@ export const Articles = () => {
         </div>
         <div className="space-y-6 sm:px-16">
           <p className="text-base text-gray-700 md:text-lg mb-8">
-            Video links on mental health topics specific to LGBT youth
+            Video links on mental health topics specific to LGBTQI+ youth
           </p>
           <div className="flex flex-col max-w-md sm:flex-row">
             <div className="mb-4 mr-4">
@@ -225,7 +225,7 @@ export const Articles = () => {
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">Protection</h6>
               <p className="text-sm text-gray-900">
-                Protecting mental health in the LGBTQ community | Safe Space
+                Protecting mental health in the LGBTQI+ community | Safe Space
               </p>
               <a
                 href="https://www.youtube.com/watch?v=SlJqE1nL30Y"
@@ -259,10 +259,10 @@ export const Articles = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                LGBTQ Youth Mental Health
+                LGBTQI+ Youth Mental Health
               </h6>
               <p className="text-sm text-gray-900">
-            LGBTQ Youth Mental Health
+            LGBTQI+ Youth Mental Health
               </p>
               <a
                 href="https://www.youtube.com/watch?v=27cnH2XiLas"
@@ -300,7 +300,7 @@ export const Articles = () => {
               </h6>
               <p className="text-sm text-gray-900">
                 Through the Rainbow Lens: a film exploring mental health issues
-                affecting the LGBT+ community
+                affecting the LGBTQI+ community
               </p>
               <a
                 href="https://www.youtube.com/watch?v=RVbx1O8bi8c "
@@ -334,10 +334,10 @@ export const Articles = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                LGBTQ Mental Health Matters
+                LGBTQI+ Mental Health Matters
               </h6>
               <p className="text-sm text-gray-900">
-              LGBTQ Mental Health Matters
+              LGBTQI+ Mental Health Matters
               </p>
               <a
                 href="https://www.youtube.com/watch?v=ZJrLnBGvi2Y"

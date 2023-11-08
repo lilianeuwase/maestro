@@ -1,5 +1,3 @@
-import LGBTQIndConcl from "./LGBTQIndLast";
-
 export default function LGBTQIndividuals() {
   return (
     <div className="bg-white">
@@ -26,26 +24,26 @@ export default function LGBTQIndividuals() {
           </svg>
           <div className="mx-auto max-w-lg text-center lg:mx-0 lg:flex-auto lg:py-28 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              LGBT
+              LGBTQI+
               <br />
               Individuals
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Many LGBTQ+ people experience mental health struggles. The
+              Many LGBTQI+ people experience mental health struggles. The
               bisexual and transgender communities have the highest rates of
-              mental health concerns within the LGBTQ+ population. Younger
-              members of the LGBTQ+ community struggle the most with mental
+              mental health concerns within the LGBTQI+ population. Younger
+              members of the LGBTQI+ community struggle the most with mental
               health concerns of all age groups.
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-            The Trevor Project's National Survey on LGBTQ Youth Mental Health reported that 40% of LGBTQ youth seriously considered attempting suicide in the past year, and more than half of transgender and nonbinary youth reported engaging in self-harm. The same survey found that 48% of LGBTQ youth reported using substances to cope with stress, including alcohol, drugs, and tobacco. The National Survey on Drug Use and Health (NSDUH) in the United States found that the rate of substance use disorder in the past year was higher among adults identifying as LGBT compared to those identifying as heterosexual (15.1% vs. 7.7%). 
+            The Trevor Project's National Survey on LGBTQI+ Youth Mental Health reported that 40% of LGBTQI+ youth seriously considered attempting suicide in the past year, and more than half of transgender and nonbinary youth reported engaging in self-harm. The same survey found that 48% of LGBT youth reported using substances to cope with stress, including alcohol, drugs, and tobacco. The National Survey on Drug Use and Health (NSDUH) in the United States found that the rate of substance use disorder in the past year was higher among adults identifying as LGBTQI+ compared to those identifying as heterosexual (15.1% vs. 7.7%). 
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
                 href="/lgbtq"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                LGBTQ+ Support
+                LGBTQI+ Support
               </a>
             </div>
           </div>

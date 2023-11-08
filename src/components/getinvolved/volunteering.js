@@ -8,7 +8,7 @@ export const Volunteering = () => {
           </h2>
           <p class="mt-2 md:mt-4 text-gray-500 font-semibold text-md">
             Opportunities for volunteering or participating in community events
-            focused on mental health and LGBT issues.
+            focused on mental health and LGBTQI+ issues.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export const Volunteering = () => {
                   Career Development
                 </h3>
                 <p class="mt-1 text-gray-600 dark:text-gray-400">
-                  Volunteering or participating in Mental Health and LGBTQ
+                  Volunteering or participating in Mental Health and LGBTQI+
                   Projects of Maestro Mind Lab improves your CV and shows
                   employers that you care about important social issues, making
                   you a more desirable candidate for positions in advocacy,
@@ -109,7 +109,7 @@ export const Volunteering = () => {
                 </h3>
                 <p class="mt-1 text-gray-600 dark:text-gray-400">
                   If you're thinking about going to college or other further
-                  education, your volunteer work in Mental Health or LGBTQ will
+                  education, your volunteer work in Mental Health or LGBTQI+ will
                   help you stand out when applying to psychology, social work,
                   counselling, public health, and other relevant schools.
                 </p>

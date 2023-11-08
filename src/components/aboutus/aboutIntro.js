@@ -47,7 +47,7 @@ export default function AboutIntro() {
               <div class="text-lg font-semibold text-gray-800 dark:text-gray-200">
                 Maestro Mind Lab exists to address the urgent and pressing need
                 for mental health support and social inclusion within Kigali's
-                LGBT youth community. In the face of discrimination, prejudice,
+                LGBTQI+ youth community. In the face of discrimination, prejudice,
                 and exclusion, the project serves as a beacon of hope, offering
                 a lifeline to those navigating the complexities of their
                 identities.
@@ -59,7 +59,7 @@ export default function AboutIntro() {
                 health literacy programs, accessible counseling services, and
                 fostering resilient community bonds, we aim to instill
                 confidence, inspire self-acceptance, and nurture a sense of
-                belonging among the LGBT youth in Kigali. We exist to break down
+                belonging among the LGBTQI+ youth in Kigali. We exist to break down
                 barriers, champion acceptance, and create a supportive ecosystem
                 where every young person feels valued, understood, and empowered
                 to embrace their authentic selves

@@ -19,7 +19,7 @@ const LgbtqPhotos = () => {
                 </div>
                 <div class="absolute bottom-0 left-0 right-0 p-2 sm:p-4">
                   <div class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-gray-800 dark:text-gray-200">
-                    LGBT Foundation
+                    LGBTQI+ Foundation
                   </div>
                 </div>
               </a>
@@ -61,14 +61,13 @@ const LgbtqPhotos = () => {
                 </div>
                 <div class="absolute bottom-0 left-0 right-0 p-2 sm:p-4">
                   <div class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-gray-800 dark:text-gray-200">
-                   LGBTQ Centers
+                   LGBTQI+ Centers
                   </div>
                 </div>
               </a>
             </div>
 
             <div class="col-span-12 sm:col-span-6 md:col-span-4">
-            a
               <a
                 class="group relative block rounded-xl overflow-hidden"
                 href="https://www.gaytravel.com/gay-events/gay-pride-event-calendar"

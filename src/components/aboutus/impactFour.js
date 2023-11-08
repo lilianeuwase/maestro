@@ -55,10 +55,10 @@ export const ImpactFour = () => {
               Improving Mental Health Literacy
             </h6>
             <p className="mb-3 text-sm text-gray-900">
-              The project aims to enhance mental health literacy among LGBT
+              The project aims to enhance mental health literacy among LGBTQI+
               youth by conducting training workshops and educational sessions.
               These workshops will focus on increasing awareness and
-              understanding of common mental health issues faced by the LGBT
+              understanding of common mental health issues faced by the LGBTQI+
               community, such as depression, anxiety, and substance abuse.
               Through these sessions, participants will gain knowledge about
               mental health, early identification of symptoms, coping
@@ -93,14 +93,14 @@ export const ImpactFour = () => {
             <p className="mb-3 text-sm text-gray-900">
               The project recognizes the importance of providing mental health
               services that are non-judgmental, culturally sensitive, and
-              LGBT-friendly. To achieve this, the project will establish a peer
+              LGBTQI+-friendly. To achieve this, the project will establish a peer
               support system. Trained Mental Health Peer Counselors (MHPCs) from
-              within the LGBT community will offer basic mental health
+              within the LGBTQI+ community will offer basic mental health
               counseling and support to their peers. This peer-to-peer approach
-              aims to create a safe and supportive environment for LGBT youth to
+              aims to create a safe and supportive environment for LGBTQI+ youth to
               discuss their mental health concerns with individuals who
               understand their unique experiences and challenges. <br />A 24/7
-              Hotline will be implemented, allowing LGBT youth to reach out for
+              Hotline will be implemented, allowing LGBTQI+ youth to reach out for
               immediate support information, and assistance.
             </p>
           </div>
@@ -123,18 +123,18 @@ export const ImpactFour = () => {
               </svg>
             </div>
             <h6 className="mb-2 font-semibold leading-5">
-              Connecting LGBT through WhatsApp Groups and Laughter Yoga Sessions
+              Connecting LGBTQI+ through WhatsApp Groups and Laughter Yoga Sessions
             </h6>
             <p className="mb-3 text-sm text-gray-900">
               The project aims to foster a sense of community and support among
-              LGBT youth through WhatsApp groups. These groups will serve as
+              LGBTQI+ youth through WhatsApp groups. These groups will serve as
               virtual spaces for members to engage in discussions, share
               experiences, and offer mutual support. The WhatsApp groups will be
               moderated by trained MHPCs to ensure a respectful and inclusive
               environment. Furthermore, the project will organize Laughter Yoga
               sessions, which promote mental and emotional wellbeing through
               laughter exercises. These sessions will provide a unique and
-              enjoyable way for LGBT youth to come together, reduce stress, and
+              enjoyable way for LGBTQI+ youth to come together, reduce stress, and
               build resilience as a community.
             </p>
           </div>
@@ -162,9 +162,9 @@ export const ImpactFour = () => {
             <p className="mb-3 text-sm text-gray-900">
               To enhance the availability of professional mental health support,
               the project will establish a network of mental health therapists
-              who are committed to providing non-judgmental care to LGBT youth.
+              who are committed to providing non-judgmental care to LGBTQI+ youth.
               These therapists will undergo specific training on
-              LGBT-affirmative care and best practices for working with this
+              LGBTQI+-affirmative care and best practices for working with this
               population. The Mental Health Therapists Network will collaborate
               with the project team and MHPCs to ensure a coordinated approach
               to care. They will be available to provide more specialized
