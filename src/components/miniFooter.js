@@ -21,7 +21,7 @@ const stats = [
 export default function MiniFooter() {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-customized-2 py-12 sm:py-16">
+      <div className="relative isolate overflow-hidden bg-black py-12 sm:py-16">
         <img
           src={require("../assets/MiniFooter.jpeg")}
           alt=""
