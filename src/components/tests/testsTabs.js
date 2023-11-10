@@ -72,7 +72,7 @@ export default function TestsTabs() {
               >
                 <Tab label="Depression Test" {...a11yProps(0)} />
                 <Tab label="Anxiety Test" {...a11yProps(1)} />
-                <Tab label="Substance Addiction Test" {...a11yProps(2)} />
+                {/* <Tab label="Substance Addiction Test" {...a11yProps(2)} /> */}
               </Tabs>
             </Box>
             <CustomTabPanel value={value} index={0}>
@@ -81,9 +81,9 @@ export default function TestsTabs() {
             <CustomTabPanel value={value} index={1}>
               <AnxietyTest />
             </CustomTabPanel>
-            <CustomTabPanel value={value} index={2}>
+            {/* <CustomTabPanel value={value} index={2}>
               <SubstanceTest/>
-            </CustomTabPanel>
+            </CustomTabPanel> */}
           </Box>
         </div>
       </main>
