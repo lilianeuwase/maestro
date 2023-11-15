@@ -142,7 +142,7 @@ export const Footer = () => {
               </p>
               <ul className="mt-2 space-y-2">
                 <li className="transition-colors duration-300 text-customized-6 hover:text-customized-12">
-                  +250 783 014 486
+                  +250 798 979 117 
                 </li>
                 <li className="transition-colors duration-300 text-customized-6 hover:text-customized-12">
                   info@rwandayvchange.org

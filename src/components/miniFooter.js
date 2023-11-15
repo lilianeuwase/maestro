@@ -9,7 +9,7 @@ const stats = [
   },
 
   {
-    name: "There's no account creation or personal data collection when accessing our website.",
+    name: "There's no account creation requirement or personal data collection when accessing our website.",
     value: "Stay Anonymous",
   },
   {
