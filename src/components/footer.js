@@ -156,14 +156,14 @@ export const Footer = () => {
             © Copyright 2023 Maestro Mind Lab All rights reserved.
             <br />
             <br />
-            {/* Website designed & developed by{" "}
+            Website designed & developed by{" "}
           <a
             href="https://8linescode.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             8 Lines Code Ltd.
-          </a> */}
+          </a>
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
