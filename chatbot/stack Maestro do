@@ -1436,40 +1436,555 @@ stack Maestro do
   end
   
 
-    # Seeking Help
-    card Help, then: HelpMenu do
-      text("It takes courage to take that step of seeking help, and it's a powerful act of self-care. 💪🏾💪🏾")
-      text(
-        "Remember, you don't have to go through this journey alone. Seeking help can lead to understanding, healing, and personal growth. Your well-being matters, and there are professionals who are here to support you every step of the way. You've got this! ✍🏾✍🏾"
-      )
-      text(
-        "🤝 Over the past years many people have  been  ashamed to seek mental health support. However, you do not have to be ashamed of seeking mental health support, since it can make a difference for the way you feel and live.."
-      )
-    end
-  
-    # HelpMenu
-    card HelpMenu do
-      list("Choose one",
-        HelpSupport: "List of available Mental Health support",
-        # Helpstrategies: "Self help strategies",
-        MainMenu: "Back to main menu",
-        EndChat: "End the chat"
-      ) do
-        text("To get started you can tick any one of the topics below:")
-      end
-    end
-  
-    card HelpSupport, then: HelpMenu do
-      text("List of available Mental Health support:
-      1. CHUK
-      2. Healthy Mind Clinic
-      3. Solid Minds Clinic
-      4. Masaka Hospital
-      5. Muhima
-      6. Ndera
-      7. Icyizere Rehab Center
-      8. Kanombe Hospital.")
-      text("You can also call our hotline or Consult our website")
-    end
-  
+   # Seeking Help
+card Help, then: HelpMenu do
+  text(
+    "It takes courage to take that step of seeking help, and it's a powerful act of self-care. 💪🏾💪🏾"
+  )
+
+  text(
+    "Remember, you don't have to go through this journey alone. Seeking help can lead to understanding, healing, and personal growth. Your well-being matters, and there are professionals who are here to support you every step of the way. You've got this! ✍🏾✍🏾"
+  )
+
+  text(
+    "🤝 Over the past years many people have  been  ashamed to seek mental health support. However, you do not have to be ashamed of seeking mental health support, since it can make a difference for the way you feel and live.."
+  )
 end
+
+# HelpMenu
+card HelpMenu do
+  list("Choose one",
+    HelpSupport: "List of available Mental Health support",
+    HelpStrategies: "Self help strategies",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("To get started you can tick any one of the topics below:")
+  end
+end
+
+# Help1
+card HelpSupport, then: HelpMenu do
+  text("List of available Mental Health support:
+    1. CHUK
+    2. Healthy Mind Clinic
+    3. Solid Minds Clinic
+    4. Masaka Hospital
+    5. Muhima
+    6. Ndera
+    7. Icyizere Rehab Center
+    8. Kanombe Hospital.")
+  text("You can also call our hotline or Consult our website")
+end
+
+# Help2
+card HelpStrategies, then: HelpStratMenu do
+  text(
+    "Have you wondered how you can help yourself after struggling mentally, or the best ways to prioritize your mental health so as to avoid being vulnerable to mental problems? "
+  )
+end
+
+card HelpStratMenu do
+  list("Choose one",
+    HelpStratPositive: "Positive lifestyle choices",
+    HelpStratSocial: "Social support and engagement",
+    HelpStratCognitive: "Cognitive and behavioral Strategies",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("To get started you can tick any one of the topics below:")
+  end
+end
+
+# HelpStratMenu1
+card HelpStratPositive do
+  list("Choose one",
+    HeStrPPhysical: "Physical exercises",
+    HeStrPHealthy: "Healthy diet",
+    HeStrPAdequate: "Adequate sleep",
+    HeStrPMindfulness: "Mindfulness and Relaxation",
+    HeStrPStress: "Limiting stress",
+    HeStrPMedia: "Limiting Media exposure",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("To get started you can tick any one of the topics below:")
+  end
+end
+
+# Physical exercises
+card HeStrPPhysical, then: HeStrPPhysical1 do
+  text(
+    "Physical exercises are a powerful tool for improving mental health as they release endorphins, which are natural mood lifters, helping to reduce stress and alleviate symptoms of anxiety and depression. Regular exercise also promotes better sleep, enhances self-esteem, and boosts overall emotional well-being. Here are some of the exercises you can give a try:Running, Walking, Swimming, Yoga, Stretching, Etc."
+  )
+end
+
+card HeStrPPhysical1 do
+  buttons(
+    HeStrPPhysical2: "Read the case study?",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HeStrPPhysical2 do
+  buttons(
+    HeStrPPhysical2Yes: "Yes",
+    HeStrPPhysical2No: "No"
+  ) do
+    text(
+      "Mark,  after being  abandoned by his family, often felt anxious and down. To feel better, he started doing simple exercises like walking in the park. As he added jogging and lifting weights, he began feeling happier and more confident.
+  Do you gain anything helpful from this story? It may be a lesson, or something you realized?
+  "
+    )
+  end
+end
+
+card HeStrPPhysical2Yes, then: HelpStratPositive do
+  feedback = ask("What did you learn from this case study?")
+  text("Thank you @name, the following feedback has been received: @feedback")
+end
+
+card HeStrPPhysical2No do
+  list("Choose one",
+    HeStrPPhysical2No1: "It is not applicable to me/My situation is different",
+    HeStrPPhysical2No1: "It was difficult/ I did not understand The example provided",
+    HeStrPPhysical2No1: "I don’t like physical exercises. They are very difficult to do",
+    HeStrPPhysical2No2: "Other reasons"
+  ) do
+    text(
+      "Thank you @name for the feedback. I am eager to provide more helpful support in the future."
+    )
+  end
+end
+
+card HeStrPPhysical2No2, then: HelpStratPositive do
+  feedback1 = ask("Type your feedback")
+  text("Thank you @name, the following feedback has been received: @feedback1")
+end
+
+card HeStrPPhysical2No1, then: HelpStratPositive do
+  text(
+    "Exercise releases happy chemicals, making his mood improve. It also helped him handle stress and worries. With daily exercise, Mark found a safe space to clear his mind and regain control over his life."
+  )
+
+  text(
+    "Mark's story shows that exercise isn't just good for your body; it's a path to a happier mind too."
+  )
+end
+
+# Healthy diet
+card HeStrPHealthy, then: HeStrPHealthy1 do
+  text(
+    "Maintaining a healthy diet is essential for good mental health as it provides the brain with essential nutrients necessary for proper functioning. A balanced diet can help regulate mood, reduce the risk of conditions like depression and anxiety, and increase overall cognitive function and mental clarity. Make sure you are getting the following nutrients in your diet every day: Proteins, Fats, Carbohydrates, Vitamins, Water, Fibers, etc."
+  )
+end
+
+card HeStrPHealthy1 do
+  buttons(
+    HeStrPHealthy2: "Read the case study?",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HeStrPHealthy2, then: HelpStratPositive do
+  text(
+    "Semana felt tired and stressed. He switched to a healthy diet with more fruits and veggies, and his mood improved. Eating well gave him energy, reduced anxiety, and better sleep. He learned that a healthy diet could brighten his  mind and life"
+  )
+end
+
+# Adequate sleep
+card HeStrPAdequate, then: HeStrPAdequate1 do
+  text(
+    "Adequate sleep is crucial for mental health as it allows the brain to recharge and repair itself. Getting enough sleep improves mood, concentration, and problem-solving abilities, while chronic sleep deprivation can lead to issues like anxiety and depression. Quality sleep also helps the brain process emotions and cope with daily stressors, promoting overall mental well-being."
+  )
+end
+
+card HeStrPAdequate1 do
+  buttons(
+    HeStrPAdequate2: "Read the case study?",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HeStrPAdequate2, then: HelpStratPositive do
+  text(
+    "Tim used to be grumpy and anxious due to not sleeping well. He decided to make a change. He started going to bed on time and sticking to a bedtime routine."
+  )
+
+  text(
+    "After a while, Tim felt like a new person. With good sleep, he woke up feeling happy and ready for the day. His mood got better, and he could handle stress and worries more easily."
+  )
+
+  text(
+    "Tim's story shows that sleep isn't just about feeling rested; it's a key to a happier, healthier mind."
+  )
+end
+
+# Mindfulness and Relaxation
+card HeStrPMindfulness, then: HeStrPMindfulness1 do
+  text(
+    "Practicing mindfulness and relaxation techniques can significantly benefit mental health by reducing stress, anxiety, and symptoms of depression. These techniques help individuals stay focused on the present moment,leading to better coping with challenges, and improved well-being."
+  )
+end
+
+card HeStrPMindfulness1 do
+  buttons(
+    HeStrPMindfulness2: "Read the case study?",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HeStrPMindfulness2, then: HelpStratPositive do
+  text(
+    "Aminah, a university student, struggled with stress and anxiety. She joined a Yoga club where she learned different relaxation techniques. Within one week, she felt more in control and focused on her studies. This not only improved her grades but also boosted her overall well-being, making her more relaxed and confident."
+  )
+end
+
+# Limiting stress
+card HeStrPStress, then: HeStrPStress1 do
+  text(
+    "Managing stress is essential for mental health as it reduces the risk of anxiety and depression. It enhances cognitive function, problem-solving abilities, and overall emotional well-being. Effective stress management techniques, such as exercise, relaxation, and seeking social support, can lead to a better mental and physical health as well as a happier life."
+  )
+end
+
+card HeStrPStress1 do
+  buttons(
+    HeStrPStress2: "Read the case study?",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HeStrPStress2, then: HelpStratPositive do
+  text(
+    "Once there was a guy named Mark. He had a very busy job and a big family, and he felt stressed all the time."
+  )
+
+  text(
+    "One day, he decided to do something about it. He started saying no to extra work at his job, spent 10 minutes each morning doing relaxing activities, and had fun game nights with his family every week."
+  )
+
+  text(
+    "Over time, he felt less worried and happier. His work got better, and he enjoyed more time with his family. Mark learned that by reducing stress, he made his mental health better, and life became more enjoyable."
+  )
+end
+
+# Limiting Media exposure
+card HeStrPMedia, then: HeStrPMedia1 do
+  text(
+    "Limiting media exposure, especially to negative or distressing content, can have several mental health benefits. It helps reduce anxiety and stress by preventing constant exposure to distressing news or triggering content. It also promotes better sleep, more productive use of time, and improved overall well-being, allowing individuals to focus on positive and uplifting aspects of life."
+  )
+end
+
+card HeStrPMedia1 do
+  buttons(
+    HeStrPMedia2: "Read the case study?",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HeStrPMedia2, then: HelpStratPositive do
+  text(
+    "Lisa who used to spend a lot of time on social media and watching the news. She often felt anxious and stressed because of what she saw. One day, she decided to cut back on media and only check it once a day for a short time. She started reading books and spending time with loved ones instead."
+  )
+
+  text(
+    "As a result, Lisa felt less stressed and happier. She realized that limiting media exposure helped her mental health and gave her more time for the things she enjoyed."
+  )
+end
+
+# HelpStratSocial
+card HelpStratSocial, then: HelpStratSocialMenu do
+  text(
+    "Social connections offer numerous benefits, including emotional support that can help reduce feelings of loneliness and stress. These connections provide a sense of belonging and can enhance one's overall well-being and happiness. Additionally, strong social networks can provide opportunities for personal growth, collaboration, and a support system during challenging times."
+  )
+
+  text(
+    "Case study: A girl named Sarah who felt really sad and lonely. Her friend Emily invited her to join a gardening group. Sarah decided to give it a try."
+  )
+
+  text(
+    "So, being with people who cared and doing something fun like gardening made Sarah feel less sad and more cheerful. It shows that having friends and doing things you enjoy can help you feel better when you're not feeling well."
+  )
+end
+
+# HelpStratSocialMenu
+card HelpStratSocialMenu do
+  buttons(
+    HelpStratSLeisure: "Leisure Activities",
+    HelpStratSExpressing: "Expressing Emotions",
+    HelpStratSSeeking: "Seeking Social Support"
+  ) do
+    text("To get started you can tick any one of the topics below:")
+  end
+end
+
+# Leisure Activities
+card HelpStratSLeisure, then: HelpStratSLeisure1 do
+  text(
+    "Engaging in leisure activities plays a crucial role in promoting mental health by offering an opportunity to unwind and relax, reducing stress and anxiety. Participating in hobbies and enjoyable pastimes can boost mood and self-esteem, providing a sense of accomplishment and fulfillment. These activities also foster social connections and a sense of belonging, which further contributes to improved mental well-being."
+  )
+end
+
+card HelpStratSLeisure1 do
+  buttons(
+    HelpStratSLeisure2: "Read the case study?",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HelpStratSLeisure2, then: HelpStratMenu do
+  text(
+    "Case study: Sarah was sad and stressed. She tried new hobbies like taking pictures and gardening, which made her feel better. Playing music, reading, and helping at an animal shelter also helped. She felt happier, made new friends, and her mood got better. Sarah learned that doing fun things could help her feel good."
+  )
+end
+
+# Expressing Emotions
+card HelpStratSExpressing, then: HelpStratSExpressing1 do
+  text(
+    "Expressing emotions is essential for maintaining good mental health. It allows individuals to process and release pent-up feelings, preventing them from accumulating and leading to stress or mental health issues. Expressing emotions can also enhance self-awareness, helping individuals better understand their own needs and triggers, which is crucial for effective self-care and emotional regulation. Furthermore, open expression of emotions can lead to improved communication and stronger social connections, which are vital for overall well-being and emotional support."
+  )
+end
+
+card HelpStratSExpressing1 do
+  buttons(
+    HelpStratSExpressing2: "Read the case study?",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HelpStratSExpressing2, then: HelpStratMenu do
+  text(
+    "Case study: Ella kept her feelings inside, feeling stressed. She painted her emotions, feeling better. Expressing her feelings helped her mental health and started conversations about emotions and wellness, letting it out and becoming open relieves the sorrow."
+  )
+end
+
+# Seeking Social Support
+card HelpStratSSeeking, then: HelpStratSSeeking1 do
+  text(
+    "Seeking social support is a fundamental aspect of maintaining good mental health. It provides individuals with a network of people who can offer understanding, empathy, and guidance during challenging times. This support helps reduce feelings of isolation, promotes a sense of belonging, and can aid in coping with stress, anxiety, and depression. Strong social connections are a protective factor against mental health issues and contribute to overall emotional well-being."
+  )
+end
+
+card HelpStratSSeeking1 do
+  buttons(
+    HelpStratSSeeking2: "Read the case study?",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HelpStratSSeeking2, then: HelpStratMenu do
+  text(
+    "Case study: There's a guy named Joseph, and he was feeling really down because of work and personal problems. At first, he kept it all to himself, thinking he could handle it alone."
+  )
+
+  text(
+    "But then, he decided to talk to his friend Sarah. She was a great listener and helped him feel better. She even encouraged him to get professional help and went with him to his first therapy session."
+  )
+
+  text(
+    "With the support of his friends and family, Joseph’s mental health improved a lot. He realized that talking to people he trusted and getting their help was a big step toward feeling better."
+  )
+end
+
+# HelpStratCognitive
+card HelpStratCognitive do
+  buttons(
+    HelpStratCoChallenging: "Challenging negative thoughts",
+    HelpStratCoSetting: "Setting realistic goals",
+    HelpStratCoPositive: "Positive self-talk"
+  ) do
+    text("Choose one:")
+  end
+end
+
+# Seeking Social Support
+card HelpStratCoChallenging, then: HelpStratCoChallenging1 do
+  text(
+    "Challenging negative thoughts is beneficial for mental health as it helps break the cycle of self-criticism and pessimism. By doing this, individuals can reduce anxiety and depression, and improve their overall well-being. To challenge negative thoughts, start by identifying them when they arise. Then, question their validity by asking yourself if there's evidence to support them and if they're based on facts. Consider alternative, more positive perspectives, and practice self-compassion by treating yourself as you would a friend. This process can lead to a more optimistic and balanced mindset, ultimately benefiting your mental health."
+  )
+end
+
+card HelpStratCoChallenging1 do
+  buttons(
+    HelpStratCoChallenging2: "Read the case study?",
+    MainMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HelpStratCoChallenging2, then: HelpStratCoChallenging3 do
+  text(
+    "Once there was a young woman named Emily who often felt like she wasn't good enough. She decided to change her way of thinking."
+  )
+
+  text(
+    "Emily started asking herself, 'Is this thought really true?' whenever she had negative thoughts. She also wrote down these thoughts and came up with more positive ones."
+  )
+
+  text(
+    "As time passed, Emily felt better about herself. Challenging her negative thoughts made her more confident and better at handling challenges. She realized that changing the way she thought about herself could make her happier and more content."
+  )
+end
+
+card HelpStratCoChallenging3 do
+  buttons(
+    HelpStratCoChallenging4: "Yes",
+    HelpStratMenu: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Would you like to practice this skill ?")
+  end
+end
+
+card HelpStratCoChallenging4, then: HelpStratMenu do
+  text(
+    "Steps: 
+●	Step 1: What is one negative thought that is making me feel bad right now? Examples include: - I am not enough
+-	I will never succeed in life
+-	I am burden
+-	I am loser
+-	No one loves me
+●	Step 2: Are the above feelings really true ?
+●	Step 3: Coming up with positive thoughts towards yourself 
+"
+  )
+
+  text(
+    "Emily started asking herself, 'Is this thought really true?' whenever she had negative thoughts. She also wrote down these thoughts and came up with more positive ones."
+  )
+
+  text(
+    "As time passed, Emily felt better about herself. Challenging her negative thoughts made her more confident and better at handling challenges. She realized that changing the way she thought about herself could make her happier and more content."
+  )
+end
+
+#Setting realistic goals
+card HelpStratCoSetting, then: HelpStratCoSetting1 do
+  text(
+    "This strategy involves creating achievable and specific objectives to address personal challenges. The benefits of this technique for mental health include breaking down overwhelming problems into manageable steps, increasing motivation, and fostering a sense of accomplishment. To use this technique effectively, follow the following steps:"
+  )
+end
+
+card HelpStratCoSetting1, then: HelpStratCoSetting2 do
+  text(
+    "1.	Clearly define the issue you want to address.
+2.	Make sure your goals are specific, measurable, achievable, relevant, and time-bound (SMART).
+3.	Divide your goals into smaller, more manageable tasks.
+4.	Prioritize your goals according to the order of importance
+5.	Keep a record of your achievements to stay motivated.
+6.	 Be flexible and modify your goals if necessary.
+"
+  )
+end
+
+card HelpStratCoSetting2, then: HelpStratCoSetting3 do
+  text(
+    "By setting realistic goals, you can improve your mental health by reducing stress, increasing self-confidence, and developing a sense of control over your life.
+"
+  )
+end
+
+card HelpStratCoSetting3 do
+  buttons(
+    HelpStratCoSetting4: "Read the case study?",
+    HelpStratCognitive: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HelpStratCoSetting4, then: HelpStratCognitive do
+  text(
+    "There was a guy named Jake who aimed for perfection in everything he did. This made him really stressed and anxious."
+  )
+
+  text(
+    "He decided to get help and learned to set more realistic goals. Instead of trying to be perfect, he broke his goals into smaller, achievable steps."
+  )
+
+  text(
+    "Jake found that setting realistic goals made him feel less stressed, more in control, and happier. He realized that it's okay not to be perfect and that taking small steps toward his goals improved his mental health."
+  )
+end
+
+#Positive self-talk
+card HelpStratCoPositive, then: HelpStratCoPositive1 do
+  text(
+    "Positive self-talk is the practice of using optimistic and encouraging words and thoughts to yourself. It involves replacing self-criticism with constructive thoughts. It can boost self-esteem, increase self-confidence, and reduce self-doubt. Positive self-talk also fosters resilience, helps individuals cope with stress and adversity, and promotes a more positive overall mindset, contributing to better emotional well-being and a healthier, more fulfilling life."
+  )
+end
+
+card HelpStratCoPositive1, then: HelpStratCoSetting2 do
+  text(
+    "1.	Clearly define the issue you want to address.
+2.	Make sure your goals are specific, measurable, achievable, relevant, and time-bound (SMART).
+3.	Divide your goals into smaller, more manageable tasks.
+4.	Prioritize your goals according to the order of importance
+5.	Keep a record of your achievements to stay motivated.
+6.	 Be flexible and modify your goals if necessary.
+"
+  )
+end
+
+card HelpStratCoSetting2, then: HelpStratCoSetting3 do
+  text(
+    "By setting realistic goals, you can improve your mental health by reducing stress, increasing self-confidence, and developing a sense of control over your life.
+"
+  )
+end
+
+card HelpStratCoSetting3 do
+  buttons(
+    HelpStratCoSetting4: "Read the case study?",
+    HelpStratCognitive: "Back to main menu",
+    EndChat: "End the chat"
+  ) do
+    text("Choose one:")
+  end
+end
+
+card HelpStratCoSetting4, then: HelpStratCognitive do
+  text(
+    "Sarah used to be really hard on herself, always thinking she couldn't do things right."
+  )
+
+  text(
+    "One day, she decided to change. Whenever she thought, 'I'm not good enough,' she started saying to herself, 'I can do this.'"
+  )
+
+  text(
+    "As time went on, Sarah felt better about herself. Her self-talk helped her be more confident and less doubtful. Being kinder to herself improved her mental health, and she became more optimistic about life."
+  )
+end
+
+
