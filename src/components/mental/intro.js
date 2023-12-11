@@ -159,7 +159,7 @@ export const Intro = () => {
                 LGBTQI+ Individuals
               </span>
               <span class="hidden lg:block mt-2 text-gray-800 dark:text-gray-200">
-                Many LGBTQI+ people experience mental health struggles.
+                Many LGBTQI+ people experience mental health struggles more than others youth of the same age.
               </span>
             </span>
           </span>

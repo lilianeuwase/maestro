@@ -125,8 +125,7 @@ export const Navigate = () => {
           </div>
           <h6 className="mb-2 font-semibold leading-5">Help us help you</h6>
           <p className="mb-3 text-base text-gray-900">
-            The estimated global number of drug-related deaths due to overdose
-            was around 585,000 in 2017.
+          About 7 out of every hundred men and 1 out of every hundred women who have been diagnosed with depression in their lifetime will go on to complete suicide.
           </p>
           <DropDownItem
             title1="Self-care"

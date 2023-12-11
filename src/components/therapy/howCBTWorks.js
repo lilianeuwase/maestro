@@ -3,7 +3,7 @@ export const HowCBTWorks = () => {
     <div className="px-4 py-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-0">
       <div className="grid max-w-2xl mx-auto">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          <h2 className="max-w-lg text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <h2 className="max-w-2xl text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
               <svg
                 viewBox="0 0 52 24"
@@ -29,7 +29,9 @@ export const HowCBTWorks = () => {
               </svg>
               <span className="relative">How</span>
             </span>{" "}
-            CBT Works
+            CBT Works <br />
+            <br />
+            Follow the following step for self help
           </h2>
         </div>
         <div className="flex">
@@ -62,10 +64,11 @@ export const HowCBTWorks = () => {
             </div>
             <div>
               <p className="text-xl font-semibold sm:text-base">
-              Identifying Negative Thought Patterns
+                Self-Reflection
               </p>
               <p className="text-sm text-gray-700">
-              CBT starts by helping you become aware of your negative thought ways that contribute to your emotional distress. These negative ways of thinking can make you feel bad about yourself, see things in a negative way, or believe things that might not be true.
+                Begin by reflecting on your thoughts, emotions, and behaviors.
+                Identify patterns that contribute to distress.
               </p>
             </div>
           </div>
@@ -100,9 +103,13 @@ export const HowCBTWorks = () => {
               </div>
             </div>
             <div>
-              <p className="text-xl font-semibold sm:text-base">Challenging Negative Thoughts</p>
+              <p className="text-xl font-semibold sm:text-base">
+                Challenge Negative Thoughts
+              </p>
               <p className="text-sm text-gray-700">
-              After finding these thoughts, you learn to question if you are correct and think about other ways to see more accurate things.
+                Actively challenge negative or irrational thoughts. Ask yourself
+                if there's evidence supporting these thoughts or if there are
+                alternative, more balanced perspectives.
               </p>
             </div>
           </div>
@@ -136,9 +143,13 @@ export const HowCBTWorks = () => {
               </div>
             </div>
             <div>
-              <p className="text-xl font-semibold sm:text-base">Behavioural Strategies</p>
+              <p className="text-xl font-semibold sm:text-base">
+                Positive Self-Talk
+              </p>
               <p className="text-sm text-gray-700">
-              After discovering your negative thoughts, CBT will also help you with fixing bad actions and habits that make mental health problems worse. You will learn to change behaviours that make you feel bad.
+                Replace negative self-talk with positive and affirming
+                statements. Encourage yourself with words that promote
+                resilience and self-compassion.
               </p>
             </div>
           </div>
@@ -172,9 +183,14 @@ export const HowCBTWorks = () => {
               </div>
             </div>
             <div>
-              <p className="text-xl font-semibold sm:text-base">Skill-Building</p>
+              <p className="text-xl font-semibold sm:text-base">
+                Behavioral Changes
+              </p>
               <p className="text-sm text-gray-700">
-              CBT will provide you with practical coping skills, relaxation techniques, and problem-solving strategies to manage your symptoms, stressors, and anything that makes you feel bad.
+                Gradually introduce positive changes in your behavior. Start
+                with small, achievable goals, and celebrate your successes. This
+                might involve facing fears or engaging in activities that bring
+                joy.
               </p>
             </div>
           </div>
@@ -186,6 +202,201 @@ export const HowCBTWorks = () => {
             <div>
               <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
                 5
+              </div>
+            </div>
+            <div className="w-px h-full bg-gray-300" />
+          </div>
+          <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+            <div className="sm:mr-5">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                <svg
+                  className="w-12 h-12 text-customized-3 sm:w-16 sm:h-16"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <p className="text-xl font-semibold sm:text-base">
+              Set Realistic Goals
+              </p>
+              <p className="text-sm text-gray-700">
+              Establish clear and achievable goals for yourself. Break larger goals into smaller, manageable steps. This provides a roadmap for progress.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="flex flex-col items-center mr-6">
+            <div className="w-px h-10 bg-gray-300 sm:h-full" />
+            <div>
+              <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                6
+              </div>
+            </div>
+            <div className="w-px h-full bg-gray-300" />
+          </div>
+          <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+            <div className="sm:mr-5">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                <svg
+                  className="w-12 h-12 text-customized-3 sm:w-16 sm:h-16"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <p className="text-xl font-semibold sm:text-base">
+              Journaling
+              </p>
+              <p className="text-sm text-gray-700">
+              Keep a journal to track your thoughts, emotions, and behaviors. Use it to identify triggers, recognize patterns, and note improvements over time.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="flex flex-col items-center mr-6">
+            <div className="w-px h-10 bg-gray-300 sm:h-full" />
+            <div>
+              <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                7
+              </div>
+            </div>
+            <div className="w-px h-full bg-gray-300" />
+          </div>
+          <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+            <div className="sm:mr-5">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                <svg
+                  className="w-12 h-12 text-customized-3 sm:w-16 sm:h-16"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <p className="text-xl font-semibold sm:text-base">
+              Relaxation Techniques
+              </p>
+              <p className="text-sm text-gray-700">
+              Learn and practice relaxation techniques, such as deep breathing or mindfulness, to manage stress and anxiety effectively.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="flex flex-col items-center mr-6">
+            <div className="w-px h-10 bg-gray-300 sm:h-full" />
+            <div>
+              <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                8
+              </div>
+            </div>
+            <div className="w-px h-full bg-gray-300" />
+          </div>
+          <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+            <div className="sm:mr-5">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                <svg
+                  className="w-12 h-12 text-customized-3 sm:w-16 sm:h-16"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <p className="text-xl font-semibold sm:text-base">
+              Gradual Exposure
+              </p>
+              <p className="text-sm text-gray-700">
+              If you're dealing with fears or phobias, consider gradual exposure to the feared situations. Start with less anxiety-provoking aspects and progress at your own pace.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="flex flex-col items-center mr-6">
+            <div className="w-px h-10 bg-gray-300 sm:h-full" />
+            <div>
+              <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                9
+              </div>
+            </div>
+            <div className="w-px h-full bg-gray-300" />
+          </div>
+          <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+            <div className="sm:mr-5">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                <svg
+                  className="w-12 h-12 text-customized-3 sm:w-16 sm:h-16"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <p className="text-xl font-semibold sm:text-base">
+              Celebrate Success
+              </p>
+              <p className="text-sm text-gray-700">
+              Acknowledge and celebrate your achievements, no matter how small. Positive reinforcement can motivate continued progress.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="flex flex-col items-center mr-6">
+            <div className="w-px h-10 bg-gray-300 sm:h-full" />
+            <div>
+              <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                10
               </div>
             </div>
             <div className="w-px h-full opacity-0" />
@@ -209,9 +420,11 @@ export const HowCBTWorks = () => {
               </div>
             </div>
             <div>
-              <p className="text-xl font-semibold sm:text-base">Homework and Practice</p>
+              <p className="text-xl font-semibold sm:text-base">
+              Continuous Assessment
+              </p>
               <p className="text-sm text-gray-700">
-              CBT often includes homework assignments that encourage you to apply the skills learned during therapy to real-life situations and improve your mental health.
+              Regularly assess your progress. Be flexible and adjust your strategies as needed. Remember, the goal is ongoing personal growth and improved well-being.
               </p>
             </div>
           </div>

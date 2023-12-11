@@ -97,9 +97,9 @@ const LGBTQIntro = () => {
                         onMouseEnter={(e) => handleHover(e)}
                         onMouseOut={(e) => handleHoverExit(e)}
                         ref={(el) => (line3 = el)}
-                        to="/getinvolved"
+                        to="/lgbtq"
                       >
-                        Call Our Hotline
+                        Call 0798979117
                       </Link>
                     </li>
                   </ul>

@@ -41,10 +41,8 @@ export const Depression = () => {
           leading cause of disability worldwide. The World Health Organization
           (WHO) estimates that around 322 million people worldwide are affected
           by depression. In Africa, the prevalence of depression varies from
-          country to country, with rates ranging from around 3% to 10% of the
-          population. A study conducted in Nigeria reported a prevalence of
-          major depressive disorder at 3.3%, while another study in Ethiopia
-          found a prevalence of 9.1%.
+          country to country, with rates ranging from around 3% to 47% of the
+          population. Studies in Tanzania and South Africa have estimated the prevalence of depression among MSM to be 46.3% and 44% respectively
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a

@@ -13,7 +13,7 @@ const LGBTQ = () => {
     <>
       <div>
         <LGBTQIntro />
-        <LgbtqPhotos/>
+        {/* <LgbtqPhotos/> */}
         <Guidance />
         <MentalSupport imageDetails={imageDetails} />
       </div>

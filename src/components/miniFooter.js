@@ -9,11 +9,11 @@ const stats = [
   },
 
   {
-    name: "There's no account creation requirement or personal data collection when accessing our website.",
+    name: "Maestro website require no account creation nor do we collect personal data.",
     value: "Stay Anonymous",
   },
   {
-    name: "Your queries might be logged for statistical purposes. But, no personal data is collected on our website.",
+    name: "Your queries might be collected for statistical purposes. But, no personal data is collected.",
     value: "Data Usage",
   },
 ];

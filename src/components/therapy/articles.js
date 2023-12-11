@@ -63,10 +63,10 @@ export const Articles = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                How LGBTQI+ Young
+              LGBTQI+ Internet Use
               </h6>
               <p className="text-sm text-gray-900">
-                People Use the Internet in Relation to Their Mental Health:
+                How LGBTQI+ Young People Use the Internet in Relation to Their Mental Health:
                 Exploratory Study
               </p>
               <a
@@ -101,10 +101,10 @@ export const Articles = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                Can Social Media
+                Social Media
               </h6>
               <p className="text-sm text-gray-900">
-                Participation Enhance LGBTQI+ Youth Well-Being?
+              Can Social Media Participation Enhance LGBTQI+ Youth Well-Being?
                 {/* Development of
                 the Social Media Benefits Scale */}
               </p>
@@ -143,7 +143,7 @@ export const Articles = () => {
                 Social Media Use
               </h6>
               <p className="text-sm text-gray-900">
-                and Health and Well-being of LGBTQI+ Youth: Systematic Review
+              Social Media Use and Health and Well-being of LGBTQI+ Youth: Systematic Review
               </p>
               <a
                 href="https://www.jmir.org/2022/9/e38449/"
@@ -220,7 +220,7 @@ export const Articles = () => {
               </div>
             </div>
             <div>
-              <h6 className="mb-3 text-xl font-bold leading-5">Protection</h6>
+              <h6 className="mb-3 text-xl font-bold leading-5">Mental HealthProtection</h6>
               <p className="text-sm text-gray-900">
                 Protecting mental health in the LGBTQI+ community | Safe Space
               </p>
@@ -293,7 +293,7 @@ export const Articles = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                A slice of heaven
+                A Slice of Heaven Film
               </h6>
               <p className="text-sm text-gray-900">
                 Through the Rainbow Lens: a film exploring mental health issues

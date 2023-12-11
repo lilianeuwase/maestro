@@ -37,16 +37,7 @@ export default function LGBTQIndividuals() {
               health concerns of all age groups.
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              The Trevor Project's National Survey on LGBTQI+ Youth Mental
-              Health reported that 40% of LGBTQI+ youth seriously considered
-              attempting suicide in the past year, and more than half of
-              transgender and nonbinary youth reported engaging in self-harm.
-              The same survey found that 48% of LGBT youth reported using
-              substances to cope with stress, including alcohol, drugs, and
-              tobacco. The National Survey on Drug Use and Health (NSDUH) in the
-              United States found that the rate of substance use disorder in the
-              past year was higher among adults identifying as LGBTQI+ compared
-              to those identifying as heterosexual (15.1% vs. 7.7%).
+            In Africa, the mental health of LGBT individuals is significantly impacted by widespread stigma and discrimination fueled by cultural, religious, and legal factors. Many countries criminalize same-sex relationships, subjecting LGBT individuals to legal persecution and fostering a hostile environment. Mental health disparities, limited access to affirming services, family and community rejection, and the threat of violence contribute to the challenges faced by the LGBT community.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a

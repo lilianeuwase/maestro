@@ -29,7 +29,7 @@ const ParticipateYoga = () => {
               Participate in our Monthly Laughter Yoga
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Call Our Hotline
+              Call Us on +250 798 979 117
             </p>
           </div>
           <Swiper slidesPerView={1} ref={sliderRef}>

@@ -54,7 +54,7 @@ export const ImpactFour = () => {
             <h6 className="mb-2 font-semibold leading-5">
               Improving Mental Health Literacy
             </h6>
-            <p className="mb-3 text-sm text-gray-900">
+            {/* <p className="mb-3 text-sm text-gray-900">
               The project aims to enhance mental health literacy among LGBTQI+
               youth by conducting training workshops and educational sessions.
               These workshops will focus on increasing awareness and
@@ -66,7 +66,7 @@ export const ImpactFour = () => {
               addition to in-person workshops, the project will utilize this
               web-based platform to provide accessible and informative content
               on mental health topics.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -90,7 +90,7 @@ export const ImpactFour = () => {
               {" "}
               Providing Access to Friendly Mental Health Services
             </h6>
-            <p className="mb-3 text-sm text-gray-900">
+            {/* <p className="mb-3 text-sm text-gray-900">
               The project recognizes the importance of providing mental health
               services that are non-judgmental, culturally sensitive, and
               LGBTQI+-friendly. To achieve this, the project will establish a peer
@@ -102,7 +102,7 @@ export const ImpactFour = () => {
               understand their unique experiences and challenges. <br />A 24/7
               Hotline will be implemented, allowing LGBTQI+ youth to reach out for
               immediate support information, and assistance.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -125,7 +125,7 @@ export const ImpactFour = () => {
             <h6 className="mb-2 font-semibold leading-5">
               Connecting LGBTQI+ through WhatsApp Groups and Laughter Yoga Sessions
             </h6>
-            <p className="mb-3 text-sm text-gray-900">
+            {/* <p className="mb-3 text-sm text-gray-900">
               The project aims to foster a sense of community and support among
               LGBTQI+ youth through WhatsApp groups. These groups will serve as
               virtual spaces for members to engage in discussions, share
@@ -136,7 +136,7 @@ export const ImpactFour = () => {
               laughter exercises. These sessions will provide a unique and
               enjoyable way for LGBTQI+ youth to come together, reduce stress, and
               build resilience as a community.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -159,7 +159,7 @@ export const ImpactFour = () => {
             <h6 className="mb-2 font-semibold leading-5">
               Establishment of Mental Health Therapists Network
             </h6>
-            <p className="mb-3 text-sm text-gray-900">
+            {/* <p className="mb-3 text-sm text-gray-900">
               To enhance the availability of professional mental health support,
               the project will establish a network of mental health therapists
               who are committed to providing non-judgmental care to LGBTQI+ youth.
@@ -170,7 +170,7 @@ export const ImpactFour = () => {
               to care. They will be available to provide more specialized
               support for complex mental health issues and offer referrals when
               necessary.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

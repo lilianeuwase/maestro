@@ -56,7 +56,7 @@ export default function TestResultsDepr({ result, sum, treat }) {
       <div class="border border-gray-200 rounded-xl bg-customized-7 px-6 py-4 grid gap-3 md:flex md:justify-center md:items-center border-t border-gray-200 dark:border-gray-700">
         <p class="text-lg text-gray-600 dark:text-gray-400">
           <span class="font-semibold text-black dark:text-gray-200 ">
-            Call our hotline number or <a href="" className="text-customized-3"> Chat</a> with us for Mental Health Support
+            Call our hotline number +250 798 979 117 or <a href="" className="text-customized-3"> Chat</a> with us for Mental Health Support
           </span>
         </p>
       </div>

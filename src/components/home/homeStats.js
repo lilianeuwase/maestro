@@ -123,7 +123,7 @@ export const Homestats = () => {
           <div>
             <div className="flex">
               <h6 className="mr-2 text-4xl font-bold md:text-5xl text-customized-10">
-                283M
+                46.3%
               </h6>
               <div className="flex items-center justify-center rounded-full bg-customized-12 w-7 h-7">
                 <svg
@@ -141,10 +141,9 @@ export const Homestats = () => {
                 </svg>
               </div>
             </div>
-            <p className="mb-4 font-bold md:text-xl">Alcoholics</p>
+            <p className="mb-4 font-bold md:text-xl">Prevalence of depression in Tanzania</p>
             <p className="text-gray-700">
-              Globally, it is estimated that 237 million men and 46 million
-              women have alcohol use disorders
+            Studies in Tanzania and South Africa have estimated the prevalence of depression among MSM to be 46.3% and 44% respectively.
             </p>
           </div>
         </div>

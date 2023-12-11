@@ -7,7 +7,7 @@ export const HowCBTDAS = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
                 </svg>,
             title: "Depression",
-            desc: "CBT helps you question evil thoughts about yourself, fix thinking that's not right, and develop healthier coping strategies. It focuses on increasing engagement in positive activities and setting goals you can reach."
+            desc: "CBT helps you question evil thoughts about yourself, fix thinking that's not right, and develop healthier coping strategies. It focuses on increasing engagement in positive activities and setting goals you can reach. Practice these steps if you feel depressed."
         },
         {
             icon:
@@ -15,7 +15,7 @@ export const HowCBTDAS = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
                 </svg>,
             title: "Anxiety",
-            desc: "CBT assists in identifying anxious thoughts and replacing them with more rational, realistic thoughts. It teaches you relaxation techniques, exposure therapy (gradual exposure to anxiety triggers), and ways to manage physical symptoms of anxiety."
+            desc: "CBT assists in identifying anxious thoughts and replacing them with more rational, realistic thoughts. It teaches you relaxation techniques, exposure therapy (gradual exposure to anxiety triggers), and ways to manage physical symptoms of anxiety. Practice these steps if you feel anxious"
         },
         {
             icon:
@@ -23,7 +23,7 @@ export const HowCBTDAS = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" />
                 </svg>,
             title: "Substance Abuse",
-            desc: "CBT for substance abuse will help you recognize triggers, cravings, and negative thought patterns related to substance use. It focuses on building your coping skills to resist cravings and develop healthier habits."
+            desc: "CBT for substance abuse will help you recognize triggers, cravings, and negative thought patterns related to substance use. It focuses on building your coping skills to resist cravings and develop healthier habits. Practice these steps if you feel addicted to substances."
         },
         {
             icon:

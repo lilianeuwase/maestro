@@ -78,6 +78,11 @@ export default function Partners() {
               beneficiaries, we strive to create sustainable solutions that
               address the unique needs and challenges among our beneficiaries.
             </p>
+            <a
+              href="http://rwandayvchange.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <img
               className="w-88 m-auto flex-none"
               src={require("../../assets/ryvc.png")}
@@ -85,6 +90,7 @@ export default function Partners() {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             />
+            </a>
           </div>
         </div>
       </div>
