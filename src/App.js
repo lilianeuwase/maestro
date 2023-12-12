@@ -76,11 +76,11 @@ function App() {
               <Component dimensions={dimensions} id={id} />
             </Route>
           ))}
-          {/* <AnimateSharedLayout type="crossfade">
+          <AnimateSharedLayout type="crossfade">
             <Route exact path={["/mentalhealth/:id", "/mentalhealth"]}>
               <CardsAnimation />
             </Route>
-          </AnimateSharedLayout> */}
+          </AnimateSharedLayout>
         </Switch>
       </div>
       <Navigation />

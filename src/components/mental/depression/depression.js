@@ -1,7 +1,9 @@
+import { MoreDepression } from "./moreDepression";
+
 export const Depression = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-4xl md:mb-12">
         {/* <div>
           <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
             Make history
@@ -42,16 +44,21 @@ export const Depression = () => {
           (WHO) estimates that around 322 million people worldwide are affected
           by depression. In Africa, the prevalence of depression varies from
           country to country, with rates ranging from around 3% to 47% of the
-          population. Studies in Tanzania and South Africa have estimated the prevalence of depression among MSM to be 46.3% and 44% respectively
+          population. Studies in Tanzania and South Africa have estimated the
+          prevalence of depression among MSM to be 46.3% and 44% respectively.
         </p>
-        <div className="mt-10 flex items-center justify-center gap-x-6">
+        <MoreDepression />
+        <div className="mt-1 flex items-center justify-center gap-x-6">
           <a
             href="/test"
             className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-gray-50 shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
             Depression Test
           </a>
-          <a href="/getinvolved" className="text-sm font-semibold leading-6 text-black">
+          <a
+            href="/getinvolved"
+            className="text-sm font-semibold leading-6 text-black"
+          >
             Get Involved <span aria-hidden="true">→</span>
           </a>
         </div>
