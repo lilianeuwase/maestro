@@ -1,10 +1,10 @@
 import { useState } from "react";
-import PopDepression from "./popDepression";
+import PopSubstance from "./popSubstance";
 const Item = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-t">
+    <div className="border-t border-b mb-16">
       <button
         type="button"
         aria-label="Open item"
@@ -39,13 +39,13 @@ const Item = ({ title, children }) => {
   );
 };
 
-export const MoreDepression = () => {
+export const MoreSubstance = () => {
   return (
-    <div class="px-4 py-16 mx-auto  md:px-24 lg:px-8 lg:py-4 ">
+    <div class="px-4 py-16 mx-auto  md:px-24 lg:px-8 lg:py-0 ">
       <div class="sm:mx-auto ">
         <div class="space-y-4">
-          <Item title="Click to read more about depression">
-            <PopDepression />
+          <Item title="Click to read more about substance abuse">
+            <PopSubstance />
           </Item>
         </div>
       </div>

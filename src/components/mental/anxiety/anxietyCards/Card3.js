@@ -13,7 +13,7 @@ export const Card3 = () => (
       </Col>
     </Card.Header>
     <Card.Image
-    src={require("../../../assets/CardFrame4.jpeg")}
+    src={require("../../../../assets/CardFrame4.jpeg")}
       width="100%"
       height={340}
       objectFit="cover"

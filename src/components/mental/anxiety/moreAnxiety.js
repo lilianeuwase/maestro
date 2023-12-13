@@ -1,10 +1,10 @@
 import { useState } from "react";
-import PopDepression from "./popDepression";
+import PopAnxiety from "./popAnxiety";
 const Item = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-t">
+    <div className="border-b mt-8">
       <button
         type="button"
         aria-label="Open item"
@@ -12,7 +12,7 @@ const Item = ({ title, children }) => {
         className="flex items-center justify-between w-full p-4 focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <p className="text-lg font-medium">{title}</p>
+        <p className="text-xl font-medium">{title}</p>
         <svg
           viewBox="0 0 24 24"
           className={`w-4 text-gray-600 transform transition-transform duration-200 ${
@@ -39,13 +39,13 @@ const Item = ({ title, children }) => {
   );
 };
 
-export const MoreDepression = () => {
+export const MoreAnxiety = () => {
   return (
-    <div class="px-4 py-16 mx-auto  md:px-24 lg:px-8 lg:py-4 ">
+    <div class="px-4 py-16 mx-auto  md:px-24 lg:px-8 lg:py-0 ">
       <div class="sm:mx-auto ">
         <div class="space-y-4">
-          <Item title="Click to read more about depression">
-            <PopDepression />
+          <Item title="Click to read more about anxiety">
+            <PopAnxiety />
           </Item>
         </div>
       </div>

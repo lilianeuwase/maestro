@@ -19,6 +19,7 @@ import SubstanceFM from "./substanceFM";
 import { ChakraProvider } from "@chakra-ui/react";
 
 import { extendTheme } from "@chakra-ui/react";
+import { MoreSubstance } from "./moreSubstance";
 
 const theme = extendTheme({
   fonts: {
@@ -133,11 +134,12 @@ export default function Substance() {
                 w={"100%"}
                 h={"100%"}
                 src={
-                  require("../../assets/Subabuse.png")  }
+                  require("../../../assets/Subabuse.png")  }
               />
             </Box>
           </Flex>
         </Stack>
+        <MoreSubstance/>
       </Container>{" "}
       <SubstanceFM />
     </ChakraProvider>

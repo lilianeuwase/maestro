@@ -5,8 +5,7 @@ export default function AboutIntro() {
         <div class="relative mx-auto max-w-4xl grid space-y-5 sm:space-y-10">
           <div class="text-center">
             <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-gray-200">
-              Our{" "}
-              <span class="text-orange-600">Cause</span>
+              Our <span class="text-orange-600">Cause</span>
             </h1>
           </div>
 
@@ -45,12 +44,12 @@ export default function AboutIntro() {
 
             <div class="pt-5 sm:pt-0 sm:pl-5">
               <div class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Maestro Mind Lab exists to address the urgent and pressing need
-                for mental health support and social inclusion within Kigali's
-                LGBTQI+ youth community. In the face of discrimination, prejudice,
-                and exclusion, the project serves as a beacon of hope, offering
-                a lifeline to those navigating the complexities of their
-                identities.
+                Maestro Mind Lab is dedicated to tackling the immediate and
+                critical requirement for mental health assistance and social
+                inclusion among the LGBTQI+ youth community in Kigali. In the
+                midst of discrimination, bias, and exclusion, the project serves
+                as a symbol of hope, extending a lifeline to individuals
+                navigating the intricacies of their identities.
                 <br />
                 <br />
                 Our existence is rooted in the firm belief that every individual
@@ -59,10 +58,10 @@ export default function AboutIntro() {
                 health literacy programs, accessible counseling services, and
                 fostering resilient community bonds, we aim to instill
                 confidence, inspire self-acceptance, and nurture a sense of
-                belonging among the LGBTQI+ youth in Kigali. We exist to break down
-                barriers, champion acceptance, and create a supportive ecosystem
-                where every young person feels valued, understood, and empowered
-                to embrace their authentic selves
+                belonging among the LGBTQI+ youth in Kigali. We exist to break
+                down barriers, champion acceptance, and create a supportive
+                ecosystem where every young person feels valued, understood, and
+                empowered to embrace their authentic selves
               </div>
             </div>
           </div>

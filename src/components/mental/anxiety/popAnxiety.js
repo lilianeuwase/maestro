@@ -3,35 +3,39 @@ import {
   ChevronRightIcon,
   ArrowRightOnRectangleIcon,
   ChevronDoubleRightIcon,
-  SparklesIcon,
+  ArrowUpRightIcon,
+  ArrowTrendingUpIcon,
 } from "@heroicons/react/20/solid";
 
-export default function PopDepression() {
+export default function PopAnxiety() {
   return (
     <div className="relative isolate overflow-hidden bg-white lg:overflow-visible mt-4">
-      <div className="mx-auto grid max-w-4xl lg:items-start lg:gap-y-10">
+      <div className="mx-auto grid max-w-6xl lg:items-start lg:gap-y-10">
         <div className="lg:mx-auto lg:w-full">
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            What is Depression ?
+            What is Anxiety?
           </h1>
           <p className="mt-6 text-lg text-gray-700">
-            Depression is a mental health condition that involves struggling
-            with low mood, altered pleasure and enjoyment that affects how
-            someone feels and behaves.
+            Anxiety is a mental health condition where someone has intense fear,
+            worried about something that it may happen. Some people say anxiety
+            to be fear of the future.
           </p>
         </div>
 
         <div className="lg:mx-auto lg:w-full lg:max-w-7xl">
           <div className="text-base leading-7 text-gray-700">
             <p>
-              Having Low mood doesn’t mean that someone has depression, we all
-              experience low mood but when it starts to interferes with your
-              daily life and takes weeks to months it turns into depression.
-              <br /> <br />
-              As depression has level of severity it also has different types
-              which are the followings
+              Anxiety can be experienced through our thoughts, feelings, and
+              physical sensations. Normally if someone is struggling with
+              something that may have an impact on his/her life it is normal to
+              feel anxious but when fear and worriedness reaches to the level it
+              does interfere with your daily life it become a mental health
+              problem.
             </p>
-            <ul role="list" className="mt-8 text-gray-600">
+            <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
+              It is considered as mental health condition if
+            </h2>
+            <ul role="list" className="mt-4 text-gray-600">
               <li className="flex gap-x-3">
                 <ChevronRightIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
@@ -39,9 +43,9 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Persistent depressive disorder
+                    Your feelings of anxiety are very strong or last for a long
+                    time.
                   </strong>{" "}
-                  This is depression type that lasts for 2 years or more.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -51,10 +55,8 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Seasonal affective disorder
+                    When you start to avoid that may cause you to feel anxious.
                   </strong>{" "}
-                  This is depression type that occurs at a particular time of
-                  year.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -64,10 +66,8 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Antenatal depression
+                    When your worries feel distressing or hard to control.
                   </strong>{" "}
-                  This is depression that happens when someone is pregnant, it
-                  is sometimes called prenatal depression.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -77,33 +77,20 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Postnatal depression
+                    When it became too difficult for you to enjoy things used to
+                    enjoy.
                   </strong>{" "}
-                  This is depression that happens in first years after having a
-                  baby.
-                </span>
-              </li>
-              <li className="flex gap-x-3">
-                <ChevronRightIcon
-                  className="mt-1 h-5 w-5 flex-none text-red-600"
-                  aria-hidden="true"
-                />
-                <span>
-                  <strong className="font-semibold text-gray-900">
-                    Premenstrual dysphoric disorder
-                  </strong>{" "}
-                  This is hormonal related disorder that affects someone’s
-                  feelings.
                 </span>
               </li>
             </ul>
             <p className="mt-8">
-              Depression as a life threatening condition it has causes and for
-              human being as everyone is unique the causes may be different from
-              person to person, among some common depression causes includes the
-              followings
+              Anxiety disorder can be experienced into different ways and as
+              they differ in types symptoms also are different.
             </p>
-            <ul role="list" className="mt-8 text-gray-600">
+            <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
+              There are different types of anxiety:
+            </h2>
+            <ul role="list" className="mt-4 text-gray-600">
               <li className="flex gap-x-3">
                 <ArrowRightCircleIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
@@ -111,13 +98,10 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Childhood trauma
+                    Generalized anxiety disorder
                   </strong>{" "}
-                  Having history of childhood trauma and difficulties like being
-                  neglected, family conflicts, sexual, emotional or physical
-                  abuse leads to depression and this also kills someone’s self
-                  -esteem and due to low esteem it become difficult to cope with
-                  life stressors
+                  This is when someone has uncontrollable fear, worriedness
+                  about different things in life.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -127,12 +111,10 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Stressful life events
+                    Social anxiety disorder
                   </strong>{" "}
-                  Some people develop depression due to very stressful life
-                  events that makes them feel like trapped in fences including
-                  Loosing Job, bankruptcy, Relationship problems, being bullied,
-                  major life changes like giving birth or getting married.
+                  This is when someone experience intense fear due to social
+                  situations (work places, parties)
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -142,12 +124,10 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Poor situation analyzing
+                    Panic disorder
                   </strong>{" "}
-                  Depression can develop when someone is being preoccupied with
-                  negative thoughts that happened to him/her and starts to blame
-                  him/herself for what happened, these judgements kills
-                  someone’s mood and feelings.
+                  This is when someone has continuous panic attacks without
+                  clear trigger
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -157,12 +137,10 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Having other mental health problems
+                    Phobias
                   </strong>{" "}
-                  Developing other mental health problems like anxiety,
-                  psychotic disorder, behavioral disorder can trigger depression
-                  because coping with these can be a difficult situation for you
-                  and develop depression.
+                  This is an extreme fear or anxiety triggered by a particular
+                  situation either place or object
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -172,13 +150,12 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Physical health problems
+                    Post traumatic disorder
                   </strong>{" "}
-                  Some physical health problems which most of the time are
-                  chronic become too big for someone to manage and leads to
-                  depression where someone doesn’t have hope for tomorrow as
-                  they may be struggling with chronic or painful conditions ex:
-                  liver disease, kidney, cancer.
+                  This is fear that happens after someone passed through a
+                  traumatic event, where it brings flashbacks and nightmares
+                  that makes feel like living all the fear you experienced
+                  during that traumatic event
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -188,14 +165,10 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Genetics
+                    Obsessive compulsive disorder
                   </strong>{" "}
-                  Even though there is no specific gene that cause depression
-                  but research show that if your close family member has
-                  depression you also have chance to develop it, this may be due
-                  to learning from them how they cope and how they behave, and
-                  due to that environmental experience and biology someone
-                  develop depression.
+                  This is anxiety type that is characterized by repetitive
+                  thoughts, behaviors or urges.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -205,11 +178,10 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Problems with sleep, diet
+                    Body dysmorphic disorder
                   </strong>{" "}
-                  When someone is not able to sleep properly and eat healthy
-                  food it can affect his/her mood and this makes someone
-                  vulnerable to depression.
+                  This is when someone experience obsessions and compulsions
+                  relating to physical appearance.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -219,21 +191,28 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Medications
+                    Perinatal anxiety or perinatal OCD
                   </strong>{" "}
-                  Some depression can develop due to medication’s side effect
-                  and that’s why if medication will last longer needs to be
-                  checked well by your doctor.
+                  This is anxiety that develops when someone is pregnant or in
+                  first year after giving birth
                 </span>
               </li>
             </ul>
-            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              Depression has different symptoms which are as follows
+            <h2 className="mt-12 text-2xl font-bold tracking-tight text-gray-900">
+              Causes of anxiety
             </h2>
             <p className="mt-3">
-              As every person is unique the symptoms also may be different
-              according to person and those symptoms are in 2 forms:
+              <span>
+                <strong className="font-semibold text-gray-900">
+                  There are different causes of anxiety:
+                </strong>{" "}
+                Every person can get anxiety but reasons to why he/she developed
+                anxiety may be different from person to person
+              </span>
             </p>
+            <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
+              The common causes of anxiety include:
+            </h2>
             <ul role="list" className="text-gray-600">
               <li className="flex gap-x-3">
                 <ArrowRightOnRectangleIcon
@@ -242,8 +221,11 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    How someone feels
-                  </strong>
+                    Past or childhood experiences
+                  </strong>{" "}
+                  When someone experienced a lot of traumatic events he/she
+                  tends to develop anxiety some of that traumatic events that
+                  can be said includes being abandoned at young age,
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -253,13 +235,48 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    How someone behaves
-                  </strong>
+                    Life struggles
+                  </strong>{" "}
+                  Some life events become too big for someone to accept them and
+                  they struggle with anxiety
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <ArrowRightOnRectangleIcon
+                  className="mt-1 h-5 w-5 flex-none text-red-600"
+                  aria-hidden="true"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Physical and mental health problems
+                  </strong>{" "}
+                  When someone develops a chronic illness they tend to develop
+                  everyday fear and worriedness about their life
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <ArrowRightOnRectangleIcon
+                  className="mt-1 h-5 w-5 flex-none text-red-600"
+                  aria-hidden="true"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Drugs and medications
+                  </strong>{" "}
+                  Some medications bring anxiety as side effects
                 </span>
               </li>
             </ul>
-            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              Symptoms on how someone feels
+            <h2 className="mt-12 text-2xl font-bold tracking-tight text-gray-900">
+              Symptoms of anxiety
+            </h2>
+            <p className="mt-3">
+              Anxiety feels different to everyone and the ways of experiencing
+              it may be different to persons and this cause mental effects and
+              physical effects.
+            </p>
+            <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
+              Symptoms to the mind
             </h2>
             <ul role="list" className="text-gray-600">
               <li className="flex gap-x-3">
@@ -269,8 +286,7 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Changes in feelings where it can make someone feels Guilty,
-                    tearful, Upset, empty
+                    Feeling tense, nervousness
                   </strong>
                 </span>
               </li>
@@ -281,7 +297,7 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Finding no pleasure in things you used to enjoy
+                    Feeling like the world is speeding or slowing down
                   </strong>
                 </span>
               </li>
@@ -292,7 +308,7 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Angry and frustrated over minor things
+                    Feeling like you can’t stop worrying
                   </strong>
                 </span>
               </li>
@@ -303,7 +319,7 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Feeling tired
+                    Worrying about anxiety
                   </strong>
                 </span>
               </li>
@@ -314,101 +330,193 @@ export default function PopDepression() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Hopelessness
+                    Experiencing low mood
+                  </strong>
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <ChevronDoubleRightIcon
+                  className="mt-1 h-5 w-5 flex-none text-red-600"
+                  aria-hidden="true"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Thinking about bad situation over and over again
                   </strong>
                 </span>
               </li>
             </ul>
-            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              Depression also affect how someone act
+            <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
+              Symptoms to the mind
             </h2>
             <ul role="list" className="text-gray-600">
               <li className="flex gap-x-3">
-                <SparklesIcon
+                <ArrowTrendingUpIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
                   aria-hidden="true"
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Self-harming or suicidal behaviors
+                    Feeling light headed
                   </strong>
                 </span>
               </li>
               <li className="flex gap-x-3">
-                <SparklesIcon
+                <ArrowTrendingUpIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
                   aria-hidden="true"
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Difficulty sleeping
+                    Feeling restlessness
                   </strong>
                 </span>
               </li>
               <li className="flex gap-x-3">
-                <SparklesIcon
+                <ArrowTrendingUpIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
                   aria-hidden="true"
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Losing interest in sex
+                    Sleep problems
                   </strong>
                 </span>
               </li>
               <li className="flex gap-x-3">
-                <SparklesIcon
+                <ArrowTrendingUpIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
                   aria-hidden="true"
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Using drugs
+                    Faster breathing
                   </strong>
                 </span>
               </li>
               <li className="flex gap-x-3">
-                <SparklesIcon
+                <ArrowTrendingUpIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
                   aria-hidden="true"
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Not wanting to sleep
+                    Sweating or hot flushes
                   </strong>
                 </span>
               </li>
               <li className="flex gap-x-3">
-                <SparklesIcon
+                <ArrowTrendingUpIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
                   aria-hidden="true"
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Not following responsibilities recklessly
+                    Nausea
                   </strong>
                 </span>
               </li>
               <li className="flex gap-x-3">
-                <SparklesIcon
+                <ArrowTrendingUpIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
                   aria-hidden="true"
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Moving slowly and being easily agitated
+                    Needing to use toilet more or less
                   </strong>
                 </span>
               </li>
               <li className="flex gap-x-3">
-                <SparklesIcon
+                <ArrowTrendingUpIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
                   aria-hidden="true"
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Feeling pain, aches or health complains with no physical
-                    health problem.
+                    Changes in sex drive
+                  </strong>
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <ArrowTrendingUpIcon
+                  className="mt-1 h-5 w-5 flex-none text-red-600"
+                  aria-hidden="true"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Having panic attacks
+                  </strong>
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <ArrowTrendingUpIcon
+                  className="mt-1 h-5 w-5 flex-none text-red-600"
+                  aria-hidden="true"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Headache and backache
+                  </strong>
+                </span>
+              </li>
+            </ul>
+            <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
+              Other effects of anxiety
+            </h2>
+            <ul role="list" className="text-gray-600">
+              <li className="flex gap-x-3">
+                <ArrowUpRightIcon
+                  className="mt-1 h-5 w-5 flex-none text-red-600"
+                  aria-hidden="true"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Self-care deficit
+                  </strong>
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <ArrowUpRightIcon
+                  className="mt-1 h-5 w-5 flex-none text-red-600"
+                  aria-hidden="true"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Quiting your job
+                  </strong>
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <ArrowUpRightIcon
+                  className="mt-1 h-5 w-5 flex-none text-red-600"
+                  aria-hidden="true"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Abusing drugs
+                  </strong>
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <ArrowUpRightIcon
+                  className="mt-1 h-5 w-5 flex-none text-red-600"
+                  aria-hidden="true"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Problems in maintaining relationships
+                  </strong>
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <ArrowUpRightIcon
+                  className="mt-1 h-5 w-5 flex-none text-red-600"
+                  aria-hidden="true"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Lack of engaging in Leisure and pleasure.
                   </strong>
                 </span>
               </li>

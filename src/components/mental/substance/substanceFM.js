@@ -133,7 +133,7 @@ export default function SubstanceFM() {
               </TestimonialText>
             </TestimonialContentUp>
             <TestimonialAvatar
-              src={require("../../assets/bulbicon.jpeg")}
+              src={require("../../../assets/bulbicon.jpeg")}
               name={"Myth or Fact"}
               // title={'CEO at ABC Corporation'}
             />
@@ -152,7 +152,7 @@ export default function SubstanceFM() {
               </TestimonialText>
             </TestimonialContentUp>
             <TestimonialAvatar
-              src={require("../../assets/bulbicon1.jpeg")}
+              src={require("../../../assets/bulbicon1.jpeg")}
               name={"Myth or Fact"}
               // title={'CEO at ABC Corporation'}
             />
@@ -171,7 +171,7 @@ export default function SubstanceFM() {
               </TestimonialText>
             </TestimonialContentUp>
             <TestimonialAvatar
-              src={require("../../assets/bulbicon2.jpeg")}
+              src={require("../../../assets/bulbicon2.jpeg")}
               name={"Myth or Fact"}
               // title={'CEO at ABC Corporation'}
             />

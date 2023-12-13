@@ -32,19 +32,18 @@ const ParticipateYoga = () => {
               Call Us on +250 798 979 117
             </p>
           </div>
-          <Swiper slidesPerView={1} ref={sliderRef}>
-            <SwiperSlide>
-              <SingleTestimonial
-                image={require("../../assets/4pic 1.png")}
-                reviewImg={require("../../assets/lineiconCrop.png")}
-                reviewAlt="lineicon"
-                details="Feeling Good: The New Mood Therapy"
-                name="David D. Burns"
-                position="Author"
-                link="https://yes-pdf.com/electronic-book/1074"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
+          {/* <Swiper slidesPerView={1} ref={sliderRef}> */}
+          {/* <SwiperSlide> */}
+          <SingleTestimonial
+          // image={require("../../assets/4pic 1.png")}
+          // reviewImg={require("../../assets/lineiconCrop.png")}
+          // reviewAlt="lineicon"
+          // name="David D. Burns"
+          // position="Author"
+          // link="https://yes-pdf.com/electronic-book/1074"
+          />
+          {/* </SwiperSlide> */}
+          {/* <SwiperSlide>
               <SingleTestimonial
                 image={require("../../assets/4pic 6.png")}
                 reviewImg={require("../../assets/lineiconCrop.png")}
@@ -98,8 +97,8 @@ const ParticipateYoga = () => {
                 // position="Author"
                 link="https://www.psychologytoday.com/us"
               />
-            </SwiperSlide>
-            <div className="absolute z-50 left-0 right-0 bottom-0 flex items-center justify-center lg:pl-[120px] 2xl:pl-0">
+            </SwiperSlide> */}
+          {/* <div className="absolute z-50 left-0 right-0 bottom-0 flex items-center justify-center lg:pl-[120px] 2xl:pl-0">
               <div className="prev-arrow cursor-pointer" onClick={handlePrev}>
                 <button className="text-primary hover:bg-primary shadow-input mx-1 flex h-12 w-12 items-center justify-center rounded-full bg-white transition-all hover:text-white">
                   <svg
@@ -132,8 +131,8 @@ const ParticipateYoga = () => {
                   </svg>
                 </button>
               </div>
-            </div>
-          </Swiper>
+            </div> */}
+          {/* </Swiper> */}
         </div>
       </section>
     </>
@@ -142,60 +141,122 @@ const ParticipateYoga = () => {
 
 export default ParticipateYoga;
 
-const SingleTestimonial = ({
-  image,
-  reviewImg,
-  reviewAlt,
-  details,
-  name,
-  position,
-  link,
-}) => {
-  return (
-    <div className="relative flex justify-center">
-      <div className="relative w-full pb-16 md:w-11/12 lg:w-10/12 xl:w-8/12 xl:pb-0">
-        <div className="w-full items-center md:flex">
-          <div className="relative mb-12 w-full max-w-[310px] md:mr-12 md:mb-0 md:max-w-[250px] lg:mr-14 lg:max-w-[280px] 2xl:mr-16">
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              <img src={image} alt="image" className="w-full" />
-            </a>
-            <span className="absolute -top-6 -left-6 z-[-1] hidden sm:block">
-              <DotShape />
-            </span>
-            <span className="absolute -bottom-0 -right-6 z-[-1]">
-              <svg
-                width="64"
-                height="64"
-                viewBox="0 0 64 64"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                
-              >
-                <path
-                  d="M3 32C3 15.9837 15.9837 3 32 3C48.0163 2.99999 61 15.9837 61 32C61 48.0163 48.0163 61 32 61C15.9837 61 3 48.0163 3 32Z"
-                  stroke="#13C296"
-                  strokeWidth="6"
-                />
-              </svg>
-            </span>
-          </div>
-          <div className="w-full">
-            <div>
-              <div className="mb-7">
-                <img src={reviewImg} alt={reviewAlt} />
+const SingleTestimonial = () =>
+  //   {
+  //   image,
+  //   reviewImg,
+  //   reviewAlt,
+  //   details,
+  //   name,
+  //   position,
+  //   link,
+  // }
+  {
+    return (
+      <div className="relative flex justify-center">
+        <div className="relative w-full pb-16 md:w-11/12 lg:w-10/12 xl:w-8/12 xl:pb-0">
+          <div className="w-full items-center md:flex">
+            <div className="relative mb-12 w-full max-w-[310px] md:mr-12 md:mb-0 md:max-w-[250px] lg:mr-14 lg:max-w-[280px] 2xl:mr-16">
+              <img
+                src={require("../../assets/4pic 1.png")}
+                alt="image"
+                className="w-full"
+              />
+              <span className="absolute -top-6 -left-6 z-[-1] hidden sm:block">
+                <DotShape />
+              </span>
+              <span className="absolute -bottom-0 -right-6 z-[-1]">
+                <svg
+                  width="64"
+                  height="64"
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 32C3 15.9837 15.9837 3 32 3C48.0163 2.99999 61 15.9837 61 32C61 48.0163 48.0163 61 32 61C15.9837 61 3 48.0163 3 32Z"
+                    stroke="#13C296"
+                    strokeWidth="6"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div className="w-full">
+              <div>
+                {/* <div className="mb-7">
+                <img src={require("../../assets/lineiconCrop.png")} />
+              </div> */}
+                <h4 className="text-dark text-xl font-semibold mb-11">
+                  Links to relevant books, articles, and external resources
+                </h4>
+                <p className="text-body-color text-base font-medium italic">
+                  <a
+                    href="https://yes-pdf.com/electronic-book/1074"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Feeling Good: The New Mood Therapy" by David D. Burns
+                  </a>{" "}
+                  <br />
+                  <br />
+                  <a
+                    href="https://www.pdfdrive.com/the-anxiety-and-phobia-workbook-e176068677.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    The Anxiety and Phobia Workbook" by Edmund J. Bourne
+                  </a>
+                  <br />
+                  <br />
+                  <a
+                    href="https://www.pdfdrive.com/the-upward-spiral-using-neuroscience-to-reverse-the-course-of-depression-one-small-change-at-a-time-e178215619.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    The Upward Spiral: Using Neuroscience to Reverse the Course
+                    of Depression, One Small Change at a Time" by Alex Korb
+                  </a>
+                  <br />
+                  <br />
+                  <a
+                    href="https://www.unicef.org/parenting/mental-health?gclid=CjwKCAjwloynBhBbEiwAGY25dPU2d65kcZdT3Ro7nnTaQ0L_x9FGRg2ucFXY9Or3eJiY-4JqORsvgRoCjNoQAvD_BwE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Mental health and well-being: How to support your children
+                    and yourself
+                  </a>
+                  <br />
+                  <br />
+                  <a
+                    href="https://www.who.int/publications/i/item/9789240003927?gclid=CjwKCAjwloynBhBbEiwAGY25dLaUGjQfIg1ZjmOCVF8sFDPwEJQVAsN67iQz9vkRyGFuHi5mlYdCUBoCsKgQAvD_BwE "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Doing What Matters in Times of Stress
+                  </a>
+                  <br />
+                  <br />
+                  <a
+                    href="https://www.psychologytoday.com/us "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Psychology Today: Health, Help, Happiness + Find a Therapist
+                  </a>
+                </p>
               </div>
-              <p className="text-body-color mb-11 text-base font-medium italic sm:text-lg">
-                {details}
-              </p>
-              <h4 className="text-dark text-xl font-semibold">{name}</h4>
-              <p className="text-body-color text-base">{position}</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  };
 
 const DotShape = () => {
   return (
