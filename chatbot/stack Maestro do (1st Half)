@@ -1,17 +1,17 @@
 stack Maestro do
   # INTRO Message
   card IntroMessage, then: YesNo do
-    text("Hello, I'm Maestro, your mental health companion 🫂. It's nice to meet you.🤝")
+    text("Hello 🙋🏽‍♂️, I'm Maestro, your mental health companion 🫂. It's nice to meet you.🤝")
 
     text(
-      "I'm here to provide you with support 🎗️, information, and tools to help you on your journey to better mental health 🧘🏽‍♀️. Whether you're dealing with feelings of depression, anxiety, or concerns related to substance abuse, you're not alone, and I'm here to help"
+      "I'm here to provide you with support 🎗️, information📚, and tools⚒️ to help you on your journey to better mental health 🧘🏽‍♀️. Whether you're dealing with feelings of depression, anxiety, or concerns related to substance abuse, you're not alone, and I'm here to help"
     )
 
     text(
       "My mission is to offer a listening ear, share knowledge, and guide you through evidence-based techniques, rooted in Cognitive Behavioral Therapy (CBT). Together, we'll explore strategies to improve your emotional wellbeing, reduce stress, and enhance your overall quality of life."
     )
 
-    text("Remember, everything we discuss is private and confidential.")
+    text("Remember, everything we discuss is private and confidential. ")
 
     text(
       "If you ever have questions or need assistance, feel free to ask. We're in this journey together 🙏🏾, and I'm here to assist you in any way I can. Please note that while I can offer valuable information and support, I am not a licensed therapist or a replacement for professional mental health services."
@@ -37,16 +37,16 @@ stack Maestro do
   end
 
   card AskName, then: MainMenu do
-    name = ask("Great, before we continue, how do you want me to call you?")
-    text("Its nice to meet you @name")
+    name = ask("Great🥳, before we continue, how do you want me to call you?")
+    text("Its nice to meet you @name 🫶🏾")
   end
 
   # StartMenu
   card MainMenu do
     list("Choose one",
-      Mental: "Mental Health",
+      Mental: "Mental Health Information 📚",
       # Tests: "Mental Health tests",
-      Help: "Seeking Help",
+      Help: "Seeking Help ✊🏾",
       # Health: "Self Health Strategies",
       # Queries: "Queries… (on LGBT)",
       # FAQs: "Frequently Asked Questions (FAQs)",
@@ -78,10 +78,10 @@ stack Maestro do
   # MentalMenu
   card MentalMenu do
     list("Choose one",
-      Depression: "Depression",
-      Anxiety: "Anxiety",
-      Substance: "Substance Abuse",
-      Stress: "Stress",
+      Depression: "Depression 😥",
+      Anxiety: "Anxiety 😥",
+      Substance: "Substance Abuse 💊",
+      Stress: "Stress 😫",
       MainMenu: "Back to main menu",
       EndChat: "End the chat"
     ) do
@@ -114,7 +114,7 @@ stack Maestro do
   # DEPRESSION1
   card DeprDefinition, then: DeprDefinition1 do
     text(
-      "Depression is a mental health disorder characterized by persistent feelings of sadness, hopelessness, and a lack of interest or pleasure in activities."
+      "Depression is a mental health disorder characterized by persistent feelings of sadness😔, hopelessness☹️, and a lack of interest or pleasure in activities.😕"
     )
   end
 
@@ -151,14 +151,14 @@ stack Maestro do
 
   card DeprRiskDef do
     list("Choose one",
-    DeprGenetic: "Genetic",
-    DeprBiological: "Biological",
-    DeprPsychological: "Psychological",
-    DeprEnvironmental: "Environmental",
-    DeprSubstance: "Substance",
-    DeprCertain: "Certain Medications",
-    DeprGender: "Gender and Age",
-    DeprLack: "Lack of Access to Mental Health Care",
+      DeprGenetic: "Genetic",
+      DeprBiological: "Biological",
+      DeprPsychological: "Psychological",
+      DeprEnvironmental: "Environmental",
+      DeprSubstance: "Substance",
+      DeprCertain: "Certain Medications",
+      DeprGender: "Gender and Age",
+      DeprLack: "Lack of Access to Mental Health Care",
       MainMenu: "Back to main menu",
       EndChat: "End the chat"
     ) do
@@ -168,25 +168,25 @@ stack Maestro do
 
   card DeprGenetic, then: DeprRiskDef do
     text(
-      "Genetic predisposition plays a significant role in depression. If a person has close relatives (such as parents or siblings) who have experienced depression, their likelihood of developing the condition increases. Certain genes related to neurotransmitter regulation and mood are thought to contribute to this risk."
+      "🧬Genetic predisposition plays a significant role in depression. If a person has close relatives (such as parents or siblings) who have experienced depression, their likelihood of developing the condition increases. Certain genes related to neurotransmitter regulation and mood are thought to contribute to this risk."
     )
   end
 
   card DeprBiological, then: DeprRiskDef do
     text(
-      "Imbalances in neurotransmitters (brain chemicals responsible for regulating mood) can lead to depression. For example, low levels of serotonin, dopamine, and norepinephrine are associated with depressive symptoms. Additionally, hormonal imbalances, especially in women during specific life stages, can affect mood regulation."
+      "⚖️Imbalances in neurotransmitters (brain chemicals responsible for regulating mood) can lead to depression. For example, low levels of serotonin, dopamine, and norepinephrine are associated with depressive symptoms. Additionally, hormonal imbalances, especially in women during specific life stages, can affect mood regulation."
     )
   end
 
   card DeprPsychological, then: DeprRiskDef do
     text(
-      "Certain personality traits, like a tendency towards pessimism, low self-esteem, or chronic worrying, can create a vulnerability to depression. Traumatic experiences, especially during childhood, can affect the brain's response to stress and increase the likelihood of developing depression in later life. Chronic stress, which leads to prolonged activation of the body's stress response system, can also wear down the brain's ability to cope."
+      "🫤Certain personality traits, like a tendency towards pessimism, low self-esteem, or chronic worrying, can create a vulnerability to depression. Traumatic experiences, especially during childhood, can affect the brain's response to stress and increase the likelihood of developing depression in later life. Chronic stress, which leads to prolonged activation of the body's stress response system, can also wear down the brain's ability to cope."
     )
   end
 
   card DeprEnvironmental, then: DeprRiskDef do
     text(
-      "Major life events or chronic stressors, such as the death of a loved one, divorce, financial problems, or work-related stress, can overwhelm coping mechanisms and trigger depression. Social isolation and lack of supportive relationships can intensify feelings of loneliness and sadness, contributing to depressive symptoms. Living in an abusive or unsupportive environment can also increase the risk."
+      "😖Major life events or chronic stressors, such as the death of a loved one, divorce, financial problems, or work-related stress, can overwhelm coping mechanisms and trigger depression. Social isolation and lack of supportive relationships can intensify feelings of loneliness and sadness, contributing to depressive symptoms. Living in an abusive or unsupportive environment can also increase the risk."
     )
   end
 
@@ -253,11 +253,11 @@ stack Maestro do
   # DEPRESSION4
   card DeprComorb do
     list("Choose one",
-    DeprComAnxiety: "Anxiety",
-    DeprComChronic: "Chronic",
-    DeprComSubstance: "Substance",
-    DeprComEating: "Eating",
-    DeprComAttention: "Attention",
+      DeprComAnxiety: "Anxiety",
+      DeprComChronic: "Chronic",
+      DeprComSubstance: "Substance",
+      DeprComEating: "Eating",
+      DeprComAttention: "Attention",
       DeprComorbMore: "More Co-morbidities",
       MainMenu: "Back to main menu",
       EndChat: "End the chat"
@@ -268,11 +268,11 @@ stack Maestro do
 
   card DeprComorbMore do
     list("Choose one",
-    DeprComPersonality: "Personality",
-    DeprComSleep: "Sleep",
-    DeprComPost: "Post",
-    DeprComNeurological: "Neurological",
-    DeprComCardiovascular: "Cardiovascular",
+      DeprComPersonality: "Personality",
+      DeprComSleep: "Sleep",
+      DeprComPost: "Post",
+      DeprComNeurological: "Neurological",
+      DeprComCardiovascular: "Cardiovascular",
       MainMenu: "Back to main menu",
       EndChat: "End the chat"
     ) do
@@ -411,7 +411,7 @@ stack Maestro do
     text("Step 1: Self-Reflection and Awareness 🧘🏽‍♀️")
 
     text(
-      "Recognize Negative Thought Patterns: Acknowledge and identify negative thought patterns contributing to your depression. Be aware of self-critical thoughts and irrational beliefs."
+      "Recognize Negative Thought Patterns🧘🏾‍♂️🧘🏾: Acknowledge and identify negative thought patterns contributing to your depression. Be aware of self-critical thoughts and irrational beliefs."
     )
   end
 
@@ -419,7 +419,7 @@ stack Maestro do
     text("Step 2: Thought Identification and Journaling 💭")
 
     text(
-      "Keep a Thought Journal: Write down negative thoughts as they occur. Be specific about situations triggering these thoughts. This practice helps you recognize patterns and triggers "
+      "Keep a Thought Journal📓: Write down negative thoughts as they occur. Be specific about situations triggering these thoughts. This practice helps you recognize patterns and triggers "
     )
   end
 
@@ -427,7 +427,7 @@ stack Maestro do
     text("Step 3: Challenging Negative Thoughts ❌")
 
     text(
-      "Question Your Thoughts: Ask yourself if your negative thoughts are based on facts or assumptions. Challenge them by seeking evidence for and against these thoughts."
+      "Question Your Thoughts💭: Ask yourself if your negative thoughts are based on facts or assumptions. Challenge them by seeking evidence for and against these thoughts."
     )
   end
 
@@ -435,7 +435,7 @@ stack Maestro do
     text("Step 4: Reframing Negative Thoughts ✊🏾")
 
     text(
-      "Positive Reframing: Replace negative thoughts with positive or neutral ones. For example, transform 'I'm a failure' into 'I'm facing challenges, but I can learn and grow from them.'"
+      "Positive Reframing📈: Replace negative thoughts with positive or neutral ones. For example, transform 'I'm a failure' into 'I'm facing challenges, but I can learn and grow from them.'"
     )
   end
 
@@ -443,7 +443,7 @@ stack Maestro do
     text("Step 5: Behavioral Activation ✍🏾")
 
     text(
-      "Engage in Positive Activities: Even when you don't feel like it, engage in activities you used to enjoy. Gradually reintroduce hobbies and social interactions into your routine."
+      "Engage in Positive Activities📈: Even when you don't feel like it, engage in activities you used to enjoy. Gradually reintroduce hobbies and social interactions into your routine."
     )
   end
 
@@ -451,11 +451,11 @@ stack Maestro do
     text("Step 6: Relaxation and Mindfulness Techniques 🧘🏾")
 
     text(
-      "Practice Relaxation: Learn relaxation techniques like deep breathing or progressive muscle relaxation to manage physical symptoms of stress and anxiety."
+      "Practice Relaxation☺️: Learn relaxation techniques like deep breathing or progressive muscle relaxation to manage physical symptoms of stress and anxiety."
     )
 
     text(
-      "Mindfulness Meditation: Practice being present in the moment, observing your thoughts without judgment. Mindfulness reduces rumination and promotes emotional stability."
+      "Mindfulness Meditation🧘🏾🧘🏾: Practice being present in the moment, observing your thoughts without judgment. Mindfulness reduces rumination and promotes emotional stability."
     )
   end
 
@@ -463,7 +463,7 @@ stack Maestro do
     text("Step 7: Problem-Solving Skills 🝡")
 
     text(
-      "Break Problems Down: Divide challenges into smaller, manageable parts. Brainstorm solutions and take practical steps to address them."
+      "Break Problems Down📉: Divide challenges into smaller, manageable parts. Brainstorm solutions and take practical steps to address them."
     )
   end
 
@@ -471,7 +471,7 @@ stack Maestro do
     text("Step 8: Social Support and Communication  🗣️")
 
     text(
-      "Reach Out: Talk to friends, family, or support groups about your feelings. Don't hesitate to seek professional help if needed."
+      "Reach Out🫴🏾: Talk to friends, family, or support groups about your feelings. Don't hesitate to seek professional help if needed."
     )
   end
 
@@ -479,7 +479,7 @@ stack Maestro do
     text("Step 9: Monitor Progress and Celebrate Achievements 🍾")
 
     text(
-      "Track Your Progress: Regularly assess your mood and the effectiveness of CBT techniques. Celebrate small victories and acknowledge your progress."
+      "Track Your Progress📈: Regularly assess your mood and the effectiveness of CBT techniques. Celebrate small victories and acknowledge your progress."
     )
   end
 
@@ -487,7 +487,7 @@ stack Maestro do
     text("Step 10: Self-Compassion and Patience 🤍")
 
     text(
-      "Be Kind to Yourself: Practice self-compassion. Understand that healing takes time, and setbacks are a natural part of the process. Treat yourself with the same kindness you would offer to a friend."
+      "Be Kind to Yourself🫂: Practice self-compassion. Understand that healing takes time, and setbacks are a natural part of the process. Treat yourself with the same kindness you would offer to a friend."
     )
 
     text(
@@ -521,34 +521,34 @@ stack Maestro do
   end
 
   card MythDepr1, then: MythDepr do
-    text("Depression is just a prolonged state of sadness.")
+    text("Depression is just a prolonged state of sadness.👎🏽")
 
     text(
-      "Fact: Depression is a complex mental health condition that involves persistent feelings of sadness, hopelessness, and a lack of interest or pleasure in activities. It often includes physical symptoms and can significantly impact daily functioning."
+      "Fact: Depression is a complex mental health condition that involves persistent feelings of sadness, hopelessness, and a lack of interest or pleasure in activities. It often includes physical symptoms and can significantly impact daily functioning.👌🏾"
     )
   end
 
   card MythDepr2, then: MythDepr do
-    text("Depression is a sign of weakness or a character flaw")
+    text("Depression is a sign of weakness or a character flaw 🙅")
 
     text(
-      "Fact: Depression is not a weakness. It is a medical condition that can affect anyone, regardless of their strength, character, or personality."
+      "Fact: Depression is not a weakness. It is a medical condition that can affect anyone, regardless of their strength, character, or personality.🆗"
     )
   end
 
   card MythDepr3, then: MythDepr do
-    text("Depression can be overcome by simply 'snapping out of it' or 'thinking positively'.")
+    text("Depression can be overcome by simply 'snapping out of it' or 'thinking positively'.🙅")
 
     text(
-      "Fact: Depression is not just a matter of attitude or willpower. It often requires professional treatment, therapy, and sometimes medication to manage symptoms effectively."
+      "Fact: Depression is not just a matter of attitude or willpower. It often requires professional treatment, therapy, and sometimes medication to manage symptoms effectively.👌🏾"
     )
   end
 
   card MythDepr4, then: MythDepr do
-    text("Talking about depression makes it worse.")
+    text("Talking about depression makes it worse.🙅")
 
     text(
-      "Fact: Open communication and seeking support are crucial in managing depression. Talking to friends, family, or mental health professionals can provide emotional relief and lead to appropriate treatment."
+      "Fact: Open communication and seeking support are crucial in managing depression. Talking to friends, family, or mental health professionals can provide emotional relief and lead to appropriate treatment.👌🏾"
     )
   end
 
@@ -567,34 +567,34 @@ stack Maestro do
   end
 
   card MythCBT1, then: MythCBT do
-    text("CBT is only about positive thinking.")
+    text("CBT is only about positive thinking.🙅")
 
     text(
-      "Fact: CBT is more than just positive thinking. It involves identifying and challenging negative thought patterns, developing coping strategies, and changing behaviors that contribute to mental health issues."
+      "Fact: CBT is more than just positive thinking. It involves identifying and challenging negative thought patterns, developing coping strategies, and changing behaviors that contribute to mental health issues.👌🏾"
     )
   end
 
   card MythCBT2, then: MythCBT do
-    text("CBT is a quick fix; it works overnight.")
+    text("CBT is a quick fix; it works overnight.🙅")
 
     text(
-      "Fact: CBT is a structured therapy that takes time and effort. Positive changes often occur gradually as individuals learn and apply new coping skills and thought patterns."
+      "Fact: CBT is a structured therapy that takes time and effort. Positive changes often occur gradually as individuals learn and apply new coping skills and thought patterns.👌🏾"
     )
   end
 
   card MythCBT3, then: MythCBT do
-    text("CBT is only for severe mental health conditions.")
+    text("CBT is only for severe mental health conditions.🙅")
 
     text(
-      "Fact: CBT is effective for a wide range of mental health issues, from mild to severe. It is used to treat conditions such as depression, anxiety disorders, phobias, and stress-related disorders."
+      "Fact: CBT is effective for a wide range of mental health issues, from mild to severe. It is used to treat conditions such as depression, anxiety disorders, phobias, and stress-related disorders.👌🏾"
     )
   end
 
   card MythCBT4, then: MythCBT do
-    text("CBT doesn't work for everyone.")
+    text("CBT doesn't work for everyone.🙅")
 
     text(
-      "Fact: While not every therapeutic approach works for every individual, CBT has been extensively studied and found effective for many people. However, the success of CBT often depends on the individual's willingness to engage actively in the process."
+      "Fact: While not every therapeutic approach works for every individual, CBT has been extensively studied and found effective for many people. However, the success of CBT often depends on the individual's willingness to engage actively in the process.👌🏾"
     )
   end
 
@@ -741,11 +741,11 @@ stack Maestro do
   # ANXIETY3
   card AxSymptoms do
     list("Choose one",
-      AxPhysicalSymp: "Physical Symptoms",
-      AxPsychologicalSymp: "Psychological Symptoms",
-      AxBehavioralSymp: "Behavioral Symptoms",
-      AxEmotionalSymp: "Emotional Symptoms",
-      AxCognitiveSymp: "Cognitive Symptoms",
+      AxPhysicalSymp: "Physical Symptoms 😔",
+      AxPsychologicalSymp: "Psychological Symptoms💭",
+      AxBehavioralSymp: "Behavioral Symptoms💢",
+      AxEmotionalSymp: "Emotional Symptoms😨",
+      AxCognitiveSymp: "Cognitive Symptoms🤓",
       MainMenu: "Back to main menu",
       EndChat: "End the chat"
     ) do
@@ -921,11 +921,12 @@ stack Maestro do
   end
 
   # Substance
-    card Substance, then: SubstanceMenu do
-      text(
-        "🌟 Understanding Substance Abuse: 🌟
-        Feeling persistent down or losing interest in things you used to enjoy might be signs of underlying issues, such as substance abuse. It's crucial to recognize these feelings and understand that you're not alone. Let's explore what substance abuse is and how it can affect you. Substance abuse can impact your mental and physical health, relationships, and overall wellbeing.")
-    end
+  card Substance, then: SubstanceMenu do
+    text(
+      "🌟 Understanding Substance Abuse: 🌟
+        Feeling persistent down or losing interest in things you used to enjoy might be signs of underlying issues, such as substance abuse. It's crucial to recognize these feelings and understand that you're not alone. Let's explore what substance abuse is and how it can affect you. Substance abuse can impact your mental and physical health, relationships, and overall wellbeing."
+    )
+  end
 
   card SubstanceMenu do
     list("Choose one",
@@ -992,11 +993,11 @@ stack Maestro do
 
   card SubRiskDef do
     list("Choose one",
-      SubGenetic: "Genetic Factors",
-      SubEnvironmental: "Environmental Influences",
-      SubPsychological: "Psychological Factors",
-      SubBiological: "Biological Factors",
-      SubSocial: "Social and Cultural Factors",
+      SubGenetic: "Genetic Factors🧬",
+      SubEnvironmental: "Environmental Influences🌿",
+      SubPsychological: "Psychological Factors💭",
+      SubBiological: "Biological Factors🧪",
+      SubSocial: "Social and Cultural Factors👩🏻‍🤝‍👨🏿",
       SubOther: "Other Risk Factors",
       MainMenu: "Back to main menu",
       EndChat: "End the chat"
@@ -1010,6 +1011,7 @@ stack Maestro do
       "A family history of substance abuse can increase the risk of developing similar patterns of behavior."
     )
   end
+
   card SubEnvironmental, then: SubRiskDef do
     text(
       "•	Early Exposure: Being exposed to substances during childhood or adolescence can increase the likelihood of future abuse.
@@ -1019,6 +1021,7 @@ stack Maestro do
       "
     )
   end
+
   card SubPsychological, then: SubRiskDef do
     text(
       "•	Mental Health Disorders: Conditions like depression, anxiety, or ADHD can increase the risk of substance abuse as individuals may use substances to self-medicate.
@@ -1026,6 +1029,7 @@ stack Maestro do
       "
     )
   end
+
   card SubBiological, then: SubRiskDef do
     text(
       "•	Brain Chemistry: Imbalances in neurotransmitters can predispose individuals to addiction.
@@ -1033,6 +1037,7 @@ stack Maestro do
       "
     )
   end
+
   card SubSocial, then: SubRiskDef do
     text(
       "•	Cultural Norms: Societal attitudes and cultural norms regarding substance use can influence behavior.
@@ -1040,6 +1045,7 @@ stack Maestro do
       "
     )
   end
+
   card SubOther, then: SubRiskDef do
     text(
       "•	Chronic Stress: Prolonged stress can lead to maladaptive coping mechanisms, including substance use.
@@ -1071,6 +1077,7 @@ stack Maestro do
     •	Continued Use Despite Problems: Using substances even when it causes relationship issues, legal problems, or health complications.
       ")
   end
+
   card SubPhysical, then: SubSymptoms do
     text("Physical Symptoms:
     •	Tolerance: Needing more of the substance to achieve the desired effect, indicating the body has adapted to the substance.
@@ -1078,6 +1085,7 @@ stack Maestro do
     •	Changes in Appearance: Sudden weight loss, skin changes, or overall neglect of personal hygiene.
       ")
   end
+
   card SubPsychological, then: SubSymptoms do
     text("Psychological Symptoms:
     •	Cravings: Intense desire or urge to use the substance.
@@ -1085,6 +1093,7 @@ stack Maestro do
     •	Lack of Motivation: Loss of interest in activities once enjoyed, diminished motivation and energy.
       ")
   end
+
   card SubCognitive, then: SubRemember do
     text("Cognitive Symptoms:
     •	Impaired Judgment: Poor decision-making and impaired reasoning while under the influence.
@@ -1092,6 +1101,7 @@ stack Maestro do
     •	Difficulty Concentrating: Inability to focus or concentrate on tasks.
       ")
   end
+
   card SubRemember, then: SubSymptoms do
     text(
       "It's important to note that the presence of these symptoms does not necessarily indicate substance abuse, as some symptoms can result from other issues. A professional evaluation is crucial for an accurate diagnosis and appropriate treatment."
@@ -1104,6 +1114,7 @@ stack Maestro do
       "It's important to recognize these comorbidities as they can complicate treatment and recovery. Integrated treatment approaches that address both substance abuse and co-occurring conditions are often necessary for comprehensive care."
     )
   end
+
   card SubComorbMenu do
     list("Choose one",
       SubCoMental: "Mental Health Comorbidities",
@@ -1117,13 +1128,13 @@ stack Maestro do
 
   card SubCoMental do
     list("Choose one",
-    SubCoMenDepression: "Depression",
-    SubCoMenAnxiety: "Anxiety Disorders",
-    SubCoMenPost: "Post-Traumatic Stress Disorder (PTSD)",
-    SubCoMenBipolar: "Bipolar Disorder",
-    SubCoMenBorderline: "Borderline Personality Disorder",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
+      SubCoMenDepression: "Depression",
+      SubCoMenAnxiety: "Anxiety Disorders",
+      SubCoMenPost: "Post-Traumatic Stress Disorder (PTSD)",
+      SubCoMenBipolar: "Bipolar Disorder",
+      SubCoMenBorderline: "Borderline Personality Disorder",
+      MainMenu: "Back to main menu",
+      EndChat: "End the chat"
     ) do
       text("Choose a mental health co-morbidity to define:")
     end
@@ -1134,21 +1145,25 @@ stack Maestro do
       "Substance abuse often co-occurs with depression. Individuals may use substances to self-medicate or alleviate depressive symptoms."
     )
   end
+
   card SubCoMenAnxiety, then: SubCoMental do
     text(
       "Anxiety disorders, such as generalized anxiety disorder and social anxiety disorder, can coexist with substance abuse, with individuals using substances to manage anxiety."
     )
   end
+
   card SubCoMenPost, then: SubCoMental do
     text(
       "PTSD is often linked to substance abuse, as individuals may use substances to cope with traumatic memories and emotional distress."
     )
   end
+
   card SubCoMenBipolar, then: SubCoMental do
     text(
       "Substance abuse can complicate the management of bipolar disorder, leading to mood swings and less effective treatment."
     )
   end
+
   card SubCoMenBorderline, then: SubCoMental do
     text(
       "Individuals with borderline personality disorder are at increased risk of substance abuse, as they may use substances to manage intense emotions."
@@ -1156,21 +1171,23 @@ stack Maestro do
   end
 
   card SubCoMedical, then: SubComorbMenu do
-    text(". HIV/AIDS: Substance abuse, particularly intravenous drug use, is a risk factor for HIV/AIDS due to shared needles or risky sexual behaviors.
+    text(
+      ". HIV/AIDS: Substance abuse, particularly intravenous drug use, is a risk factor for HIV/AIDS due to shared needles or risky sexual behaviors.
     . Hepatitis C: Sharing needles during drug use is a major risk factor for hepatitis C.
     . Liver Disease: Chronic alcohol abuse can lead to liver damage and cirrhosis.
-    ")
+    "
+    )
   end
 
   card SubCoOther do
     list("Choose one",
-    SubCoOtherEating: "Eating Disorders",
-    SubCoOtherImpulse: "Impulse Control Disorders",
-    SubCoOtherCriminal: "Criminal Behavior",
-    SubCoOtherRelationship: "Relationship and Family Issues",
-    SubCoOtherHomelessness: "Homelessness",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
+      SubCoOtherEating: "Eating Disorders",
+      SubCoOtherImpulse: "Impulse Control Disorders",
+      SubCoOtherCriminal: "Criminal Behavior",
+      SubCoOtherRelationship: "Relationship and Family Issues",
+      SubCoOtherHomelessness: "Homelessness",
+      MainMenu: "Back to main menu",
+      EndChat: "End the chat"
     ) do
       text("Other Mental Health and Behavioral Comorbidities:")
     end
@@ -1178,37 +1195,37 @@ stack Maestro do
 
   card SubCoOtherEating, then: SubCoOther do
     text(
-      "Substance abuse can co-occur with eating disorders, as individuals may use substances to suppress appetite or cope with body image issues.")
-  end
-  card SubCoOtherImpulse, then: SubCoOther do
-    text(
-      "Disorders like pathological gambling or kleptomania may coexist with substance abuse.")
-  end
-  card SubCoOtherCriminal, then: SubCoOther do
-    text(
-      "Substance abuse can lead to criminal activities and incarceration.")
-  end
-  card SubCoOtherRelationship, then: SubCoOther do
-    text(
-      "Substance abuse often leads to strained relationships and family conflicts.")
-  end
-  card SubCoOtherHomelessness, then: SubCoOther do
-    text(
-      "Substance abuse can contribute to homelessness and housing instability.")
+      "Substance abuse can co-occur with eating disorders, as individuals may use substances to suppress appetite or cope with body image issues."
+    )
   end
 
-  
+  card SubCoOtherImpulse, then: SubCoOther do
+    text("Disorders like pathological gambling or kleptomania may coexist with substance abuse.")
+  end
+
+  card SubCoOtherCriminal, then: SubCoOther do
+    text("Substance abuse can lead to criminal activities and incarceration.")
+  end
+
+  card SubCoOtherRelationship, then: SubCoOther do
+    text("Substance abuse often leads to strained relationships and family conflicts.")
+  end
+
+  card SubCoOtherHomelessness, then: SubCoOther do
+    text("Substance abuse can contribute to homelessness and housing instability.")
+  end
+
   # Stress
   card Stress do
     list("Choose one",
-    StrDefinition: "1️⃣",
-    StrDefText1: "2️⃣",
-    StrSymptoms: "3️⃣",
-    # StrComorb: "4️⃣",
-    DeprTreat: "5️⃣",
-    StrMyths: "6️⃣",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
+      StrDefinition: "1️⃣",
+      StrDefText1: "2️⃣",
+      StrSymptoms: "3️⃣",
+      # StrComorb: "4️⃣",
+      DeprTreat: "5️⃣",
+      StrMyths: "6️⃣",
+      MainMenu: "Back to main menu",
+      EndChat: "End the chat"
     ) do
       text("
       To know what Stress is tap  1️⃣
@@ -1223,7 +1240,8 @@ stack Maestro do
   # Stress1
   card StrDefinition, then: StrDefinition1 do
     text(
-      "Stress is the body's natural response to challenging or threatening situations. It can be triggered by various factors, and while some stress is normal, chronic stress can have adverse effects on physical and mental health")
+      "Stress is the body's natural response to challenging or threatening situations. It can be triggered by various factors, and while some stress is normal, chronic stress can have adverse effects on physical and mental health"
+    )
   end
 
   card StrDefinition1 do
@@ -1250,8 +1268,11 @@ stack Maestro do
     •	Being a Member of the LGBT Community
     •	Other Risk Factors
     ")
-    text("
-    Recognizing these diverse risk factors, including those related to sexual orientation and gender identity, is essential for fostering understanding and support within communities.")
+
+    text(
+      "
+    Recognizing these diverse risk factors, including those related to sexual orientation and gender identity, is essential for fostering understanding and support within communities."
+    )
   end
 
   card StrDefinition2 do
@@ -1266,14 +1287,14 @@ stack Maestro do
 
   card StrRiskDef do
     list("Choose one",
-    StrWorkload: "Workload and Job Pressure",
-    StrLife: "Life Events and Transitions",
-    StrFinancial: "Financial Stress",
-    StrHealth: "Health Concerns",
-    StrPerfectionism: "Perfectionism and Unrealistic Expectations",
-    StrRiskDefMore: "More factors",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
+      StrWorkload: "Workload and Job Pressure",
+      StrLife: "Life Events and Transitions",
+      StrFinancial: "Financial Stress",
+      StrHealth: "Health Concerns",
+      StrPerfectionism: "Perfectionism and Unrealistic Expectations",
+      StrRiskDefMore: "More factors",
+      MainMenu: "Back to main menu",
+      EndChat: "End the chat"
     ) do
       text("Choose a risk factor to define:")
     end
@@ -1281,13 +1302,13 @@ stack Maestro do
 
   card StrRiskDefMore do
     list("Choose one",
-    StrSocial: "Social Isolation and Lack of Support",
-    StrWork: "Work-Life Imbalance",
-    StrEnvironmental: "Environmental Stressors",
-    StrBeing: "Being a Member of the LGBT Community",
-    StrOther: "Other Risk Factors",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
+      StrSocial: "Social Isolation and Lack of Support",
+      StrWork: "Work-Life Imbalance",
+      StrEnvironmental: "Environmental Stressors",
+      StrBeing: "Being a Member of the LGBT Community",
+      StrOther: "Other Risk Factors",
+      MainMenu: "Back to main menu",
+      EndChat: "End the chat"
     ) do
       text("Choose a risk factor to define:")
     end
@@ -1298,21 +1319,25 @@ stack Maestro do
       "Example: A demanding job with tight deadlines, long hours, and high expectations can lead to chronic stress, affecting both productivity and mental well-being."
     )
   end
+
   card StrLife, then: StrRiskDef do
     text(
       "Example: Going through a divorce, moving to a new city, or experiencing the loss of a loved one are significant life changes that can create considerable stress, impacting emotional stability."
     )
   end
+
   card StrFinancial, then: StrRiskDef do
     text(
       "Example: Struggling to make ends meet, dealing with debt, or facing unexpected expenses can cause ongoing stress, leading to anxiety about financial stability and future."
     )
   end
+
   card StrHealth, then: StrRiskDef do
     text(
       "Example: Managing a chronic illness, recovering from surgery, or dealing with a sudden health crisis can result in stress, impacting both physical and mental wellbeing."
     )
   end
+
   card StrPerfectionism, then: StrRiskDef do
     text(
       "Example: Conflicts within family, romantic relationships, or friendships, such as frequent arguments or lack of communication, can create persistent stress, affecting interpersonal relationships."
@@ -1324,21 +1349,25 @@ stack Maestro do
       "Example: Setting excessively high standards for oneself, striving for perfection in every aspect of life, and fearing failure can lead to chronic stress as one constantly feels the need to meet unrealistic goals."
     )
   end
+
   card StrWork, then: StrRiskDefMore do
     text(
       "Example: Feeling socially isolated, having limited social connections, or lacking emotional support from friends and family can contribute to chronic stress, leading to feelings of loneliness and helplessness."
     )
   end
+
   card StrEnvironmental, then: StrRiskDefMore do
     text(
       "Example: Juggling heavy work responsibilities with family obligations and personal time constraints can create a sense of imbalance, resulting in chronic stress due to the inability to find time for relaxation and self-care."
     )
   end
+
   card StrBeing, then: StrRiskDefMore do
     text(
       "Example: Living in a noisy neighborhood, dealing with pollution, or facing natural disasters can create environmental stressors that contribute to chronic stress, impacting overall wellbeing."
     )
   end
+
   card StrOther, then: StrRiskDefMore do
     text(
       "Example: Discrimination, societal prejudice, and lack of acceptance based on sexual orientation or gender identity can lead to chronic stress among LGBT individuals."
@@ -1370,6 +1399,7 @@ stack Maestro do
     •	Rapid Heartbeat: Stress can increase heart rate and sometimes lead to palpitations.
     ")
   end
+
   card StrEmotional, then: StrSymptoms do
     text("Emotional Symptoms:
     •	Irritability: Feeling easily annoyed, agitated, or frustrated, even over minor issues.
@@ -1380,6 +1410,7 @@ stack Maestro do
     •	Sense of Isolation: Feeling detached from others, even when surrounded by people.
     ")
   end
+
   card StrCognitive, then: StrSymptoms do
     text("Cognitive Symptoms:
     •	Difficulty Concentrating: Finding it hard to focus, make decisions, or complete tasks.
@@ -1388,6 +1419,7 @@ stack Maestro do
     •	Intrusive Thoughts: Repetitive and distressing thoughts or images that are difficult to control.
     ")
   end
+
   card StrBehavioral, then: StrSymptoms do
     text("Behavioral Symptoms:
     •	Changes in Eating Patterns: Stress can lead to overeating or loss of appetite.
@@ -1397,6 +1429,7 @@ stack Maestro do
     •	Restlessness: Fidgeting, pacing, or an inability to relax due to inner tension.
     ")
   end
+
   card StrInterpersonal, then: StrSymptoms do
     text("Interpersonal Symptoms:
     •	Conflict in Relationships: Increased arguments and disagreements with friends, family, or colleagues.
@@ -1420,571 +1453,32 @@ stack Maestro do
   end
 
   card StrMyth1, then: StrMyths do
-    text("Fact: Not all stress is harmful. Some stress, called 'eustress,' can be motivating and help improve performance. It's chronic, unmanaged stress that is detrimental to health.")
+    text(
+      "Fact: Not all stress is harmful. Some stress, called 'eustress,' can be motivating and help improve performance. It's chronic, unmanaged stress that is detrimental to health."
+    )
   end
+
   card StrMyth2, then: StrMyths do
-    text("Fact: Everyday hassles, such as traffic jams, work deadlines, or financial concerns, can accumulate and lead to chronic stress. It's not just major life events that can be stressful.")
+    text(
+      "Fact: Everyday hassles, such as traffic jams, work deadlines, or financial concerns, can accumulate and lead to chronic stress. It's not just major life events that can be stressful."
+    )
   end
+
   card StrMyth3, then: StrMyths do
-    text("Fact: People respond to stress differently. What one person finds stressful, another might not. Individual factors such as personality, coping skills, and support systems influence stress responses.")
+    text(
+      "Fact: People respond to stress differently. What one person finds stressful, another might not. Individual factors such as personality, coping skills, and support systems influence stress responses."
+    )
   end
+
   card StrMyth4, then: StrMyths do
-    text("Fact: Chronic stress can have a significant impact on physical health, contributing to conditions like heart disease, obesity, and compromised immune function.")
+    text(
+      "Fact: Chronic stress can have a significant impact on physical health, contributing to conditions like heart disease, obesity, and compromised immune function."
+    )
   end
+
   card StrMyth5, then: StrMyths do
-    text("Fact: Stress is a natural part of life. While it can be managed and reduced, it cannot be entirely eliminated. Learning effective coping strategies is essential.")
-  end
-  
-
-   # Seeking Help
-card Help, then: HelpMenu do
-  text(
-    "It takes courage to take that step of seeking help, and it's a powerful act of self-care. 💪🏾💪🏾"
-  )
-
-  text(
-    "Remember, you don't have to go through this journey alone. Seeking help can lead to understanding, healing, and personal growth. Your well-being matters, and there are professionals who are here to support you every step of the way. You've got this! ✍🏾✍🏾"
-  )
-
-  text(
-    "🤝 Over the past years many people have  been  ashamed to seek mental health support. However, you do not have to be ashamed of seeking mental health support, since it can make a difference for the way you feel and live.."
-  )
-end
-
-# HelpMenu
-card HelpMenu do
-  list("Choose one",
-    HelpSupport: "List of available Mental Health support",
-    HelpStrategies: "Self help strategies",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("To get started you can tick any one of the topics below:")
-  end
-end
-
-# Help1
-card HelpSupport, then: HelpMenu do
-  text("List of available Mental Health support:
-    1. CHUK
-    2. Healthy Mind Clinic
-    3. Solid Minds Clinic
-    4. Masaka Hospital
-    5. Muhima
-    6. Ndera
-    7. Icyizere Rehab Center
-    8. Kanombe Hospital.")
-  text("You can also call our hotline or Consult our website")
-end
-
-# Help2
-card HelpStrategies, then: HelpStratMenu do
-  text(
-    "Have you wondered how you can help yourself after struggling mentally, or the best ways to prioritize your mental health so as to avoid being vulnerable to mental problems? "
-  )
-end
-
-card HelpStratMenu do
-  list("Choose one",
-    HelpStratPositive: "Positive lifestyle choices",
-    HelpStratSocial: "Social support and engagement",
-    HelpStratCognitive: "Cognitive and behavioral Strategies",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("To get started you can tick any one of the topics below:")
-  end
-end
-
-# HelpStratMenu1
-card HelpStratPositive do
-  list("Choose one",
-    HeStrPPhysical: "Physical exercises",
-    HeStrPHealthy: "Healthy diet",
-    HeStrPAdequate: "Adequate sleep",
-    HeStrPMindfulness: "Mindfulness and Relaxation",
-    HeStrPStress: "Limiting stress",
-    HeStrPMedia: "Limiting Media exposure",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("To get started you can tick any one of the topics below:")
-  end
-end
-
-# Physical exercises
-card HeStrPPhysical, then: HeStrPPhysical1 do
-  text(
-    "Physical exercises are a powerful tool for improving mental health as they release endorphins, which are natural mood lifters, helping to reduce stress and alleviate symptoms of anxiety and depression. Regular exercise also promotes better sleep, enhances self-esteem, and boosts overall emotional well-being. Here are some of the exercises you can give a try:Running, Walking, Swimming, Yoga, Stretching, Etc."
-  )
-end
-
-card HeStrPPhysical1 do
-  buttons(
-    HeStrPPhysical2: "Read the case study?",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HeStrPPhysical2 do
-  buttons(
-    HeStrPPhysical2Yes: "Yes",
-    HeStrPPhysical2No: "No"
-  ) do
     text(
-      "Mark,  after being  abandoned by his family, often felt anxious and down. To feel better, he started doing simple exercises like walking in the park. As he added jogging and lifting weights, he began feeling happier and more confident.
-  Do you gain anything helpful from this story? It may be a lesson, or something you realized?
-  "
+      "Fact: Stress is a natural part of life. While it can be managed and reduced, it cannot be entirely eliminated. Learning effective coping strategies is essential."
     )
   end
 end
-
-card HeStrPPhysical2Yes, then: HelpStratPositive do
-  feedback = ask("What did you learn from this case study?")
-  text("Thank you @name, the following feedback has been received: @feedback")
-end
-
-card HeStrPPhysical2No do
-  list("Choose one",
-    HeStrPPhysical2No1: "It is not applicable to me/My situation is different",
-    HeStrPPhysical2No1: "It was difficult/ I did not understand The example provided",
-    HeStrPPhysical2No1: "I don’t like physical exercises. They are very difficult to do",
-    HeStrPPhysical2No2: "Other reasons"
-  ) do
-    text(
-      "Thank you @name for the feedback. I am eager to provide more helpful support in the future."
-    )
-  end
-end
-
-card HeStrPPhysical2No2, then: HelpStratPositive do
-  feedback1 = ask("Type your feedback")
-  text("Thank you @name, the following feedback has been received: @feedback1")
-end
-
-card HeStrPPhysical2No1, then: HelpStratPositive do
-  text(
-    "Exercise releases happy chemicals, making his mood improve. It also helped him handle stress and worries. With daily exercise, Mark found a safe space to clear his mind and regain control over his life."
-  )
-
-  text(
-    "Mark's story shows that exercise isn't just good for your body; it's a path to a happier mind too."
-  )
-end
-
-# Healthy diet
-card HeStrPHealthy, then: HeStrPHealthy1 do
-  text(
-    "Maintaining a healthy diet is essential for good mental health as it provides the brain with essential nutrients necessary for proper functioning. A balanced diet can help regulate mood, reduce the risk of conditions like depression and anxiety, and increase overall cognitive function and mental clarity. Make sure you are getting the following nutrients in your diet every day: Proteins, Fats, Carbohydrates, Vitamins, Water, Fibers, etc."
-  )
-end
-
-card HeStrPHealthy1 do
-  buttons(
-    HeStrPHealthy2: "Read the case study?",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HeStrPHealthy2, then: HelpStratPositive do
-  text(
-    "Semana felt tired and stressed. He switched to a healthy diet with more fruits and veggies, and his mood improved. Eating well gave him energy, reduced anxiety, and better sleep. He learned that a healthy diet could brighten his  mind and life"
-  )
-end
-
-# Adequate sleep
-card HeStrPAdequate, then: HeStrPAdequate1 do
-  text(
-    "Adequate sleep is crucial for mental health as it allows the brain to recharge and repair itself. Getting enough sleep improves mood, concentration, and problem-solving abilities, while chronic sleep deprivation can lead to issues like anxiety and depression. Quality sleep also helps the brain process emotions and cope with daily stressors, promoting overall mental well-being."
-  )
-end
-
-card HeStrPAdequate1 do
-  buttons(
-    HeStrPAdequate2: "Read the case study?",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HeStrPAdequate2, then: HelpStratPositive do
-  text(
-    "Tim used to be grumpy and anxious due to not sleeping well. He decided to make a change. He started going to bed on time and sticking to a bedtime routine."
-  )
-
-  text(
-    "After a while, Tim felt like a new person. With good sleep, he woke up feeling happy and ready for the day. His mood got better, and he could handle stress and worries more easily."
-  )
-
-  text(
-    "Tim's story shows that sleep isn't just about feeling rested; it's a key to a happier, healthier mind."
-  )
-end
-
-# Mindfulness and Relaxation
-card HeStrPMindfulness, then: HeStrPMindfulness1 do
-  text(
-    "Practicing mindfulness and relaxation techniques can significantly benefit mental health by reducing stress, anxiety, and symptoms of depression. These techniques help individuals stay focused on the present moment,leading to better coping with challenges, and improved well-being."
-  )
-end
-
-card HeStrPMindfulness1 do
-  buttons(
-    HeStrPMindfulness2: "Read the case study?",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HeStrPMindfulness2, then: HelpStratPositive do
-  text(
-    "Aminah, a university student, struggled with stress and anxiety. She joined a Yoga club where she learned different relaxation techniques. Within one week, she felt more in control and focused on her studies. This not only improved her grades but also boosted her overall well-being, making her more relaxed and confident."
-  )
-end
-
-# Limiting stress
-card HeStrPStress, then: HeStrPStress1 do
-  text(
-    "Managing stress is essential for mental health as it reduces the risk of anxiety and depression. It enhances cognitive function, problem-solving abilities, and overall emotional well-being. Effective stress management techniques, such as exercise, relaxation, and seeking social support, can lead to a better mental and physical health as well as a happier life."
-  )
-end
-
-card HeStrPStress1 do
-  buttons(
-    HeStrPStress2: "Read the case study?",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HeStrPStress2, then: HelpStratPositive do
-  text(
-    "Once there was a guy named Mark. He had a very busy job and a big family, and he felt stressed all the time."
-  )
-
-  text(
-    "One day, he decided to do something about it. He started saying no to extra work at his job, spent 10 minutes each morning doing relaxing activities, and had fun game nights with his family every week."
-  )
-
-  text(
-    "Over time, he felt less worried and happier. His work got better, and he enjoyed more time with his family. Mark learned that by reducing stress, he made his mental health better, and life became more enjoyable."
-  )
-end
-
-# Limiting Media exposure
-card HeStrPMedia, then: HeStrPMedia1 do
-  text(
-    "Limiting media exposure, especially to negative or distressing content, can have several mental health benefits. It helps reduce anxiety and stress by preventing constant exposure to distressing news or triggering content. It also promotes better sleep, more productive use of time, and improved overall well-being, allowing individuals to focus on positive and uplifting aspects of life."
-  )
-end
-
-card HeStrPMedia1 do
-  buttons(
-    HeStrPMedia2: "Read the case study?",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HeStrPMedia2, then: HelpStratPositive do
-  text(
-    "Lisa who used to spend a lot of time on social media and watching the news. She often felt anxious and stressed because of what she saw. One day, she decided to cut back on media and only check it once a day for a short time. She started reading books and spending time with loved ones instead."
-  )
-
-  text(
-    "As a result, Lisa felt less stressed and happier. She realized that limiting media exposure helped her mental health and gave her more time for the things she enjoyed."
-  )
-end
-
-# HelpStratSocial
-card HelpStratSocial, then: HelpStratSocialMenu do
-  text(
-    "Social connections offer numerous benefits, including emotional support that can help reduce feelings of loneliness and stress. These connections provide a sense of belonging and can enhance one's overall well-being and happiness. Additionally, strong social networks can provide opportunities for personal growth, collaboration, and a support system during challenging times."
-  )
-
-  text(
-    "Case study: A girl named Sarah who felt really sad and lonely. Her friend Emily invited her to join a gardening group. Sarah decided to give it a try."
-  )
-
-  text(
-    "So, being with people who cared and doing something fun like gardening made Sarah feel less sad and more cheerful. It shows that having friends and doing things you enjoy can help you feel better when you're not feeling well."
-  )
-end
-
-# HelpStratSocialMenu
-card HelpStratSocialMenu do
-  buttons(
-    HelpStratSLeisure: "Leisure Activities",
-    HelpStratSExpressing: "Expressing Emotions",
-    HelpStratSSeeking: "Seeking Social Support"
-  ) do
-    text("To get started you can tick any one of the topics below:")
-  end
-end
-
-# Leisure Activities
-card HelpStratSLeisure, then: HelpStratSLeisure1 do
-  text(
-    "Engaging in leisure activities plays a crucial role in promoting mental health by offering an opportunity to unwind and relax, reducing stress and anxiety. Participating in hobbies and enjoyable pastimes can boost mood and self-esteem, providing a sense of accomplishment and fulfillment. These activities also foster social connections and a sense of belonging, which further contributes to improved mental well-being."
-  )
-end
-
-card HelpStratSLeisure1 do
-  buttons(
-    HelpStratSLeisure2: "Read the case study?",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HelpStratSLeisure2, then: HelpStratMenu do
-  text(
-    "Case study: Sarah was sad and stressed. She tried new hobbies like taking pictures and gardening, which made her feel better. Playing music, reading, and helping at an animal shelter also helped. She felt happier, made new friends, and her mood got better. Sarah learned that doing fun things could help her feel good."
-  )
-end
-
-# Expressing Emotions
-card HelpStratSExpressing, then: HelpStratSExpressing1 do
-  text(
-    "Expressing emotions is essential for maintaining good mental health. It allows individuals to process and release pent-up feelings, preventing them from accumulating and leading to stress or mental health issues. Expressing emotions can also enhance self-awareness, helping individuals better understand their own needs and triggers, which is crucial for effective self-care and emotional regulation. Furthermore, open expression of emotions can lead to improved communication and stronger social connections, which are vital for overall well-being and emotional support."
-  )
-end
-
-card HelpStratSExpressing1 do
-  buttons(
-    HelpStratSExpressing2: "Read the case study?",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HelpStratSExpressing2, then: HelpStratMenu do
-  text(
-    "Case study: Ella kept her feelings inside, feeling stressed. She painted her emotions, feeling better. Expressing her feelings helped her mental health and started conversations about emotions and wellness, letting it out and becoming open relieves the sorrow."
-  )
-end
-
-# Seeking Social Support
-card HelpStratSSeeking, then: HelpStratSSeeking1 do
-  text(
-    "Seeking social support is a fundamental aspect of maintaining good mental health. It provides individuals with a network of people who can offer understanding, empathy, and guidance during challenging times. This support helps reduce feelings of isolation, promotes a sense of belonging, and can aid in coping with stress, anxiety, and depression. Strong social connections are a protective factor against mental health issues and contribute to overall emotional well-being."
-  )
-end
-
-card HelpStratSSeeking1 do
-  buttons(
-    HelpStratSSeeking2: "Read the case study?",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HelpStratSSeeking2, then: HelpStratMenu do
-  text(
-    "Case study: There's a guy named Joseph, and he was feeling really down because of work and personal problems. At first, he kept it all to himself, thinking he could handle it alone."
-  )
-
-  text(
-    "But then, he decided to talk to his friend Sarah. She was a great listener and helped him feel better. She even encouraged him to get professional help and went with him to his first therapy session."
-  )
-
-  text(
-    "With the support of his friends and family, Joseph’s mental health improved a lot. He realized that talking to people he trusted and getting their help was a big step toward feeling better."
-  )
-end
-
-# HelpStratCognitive
-card HelpStratCognitive do
-  buttons(
-    HelpStratCoChallenging: "Challenging negative thoughts",
-    HelpStratCoSetting: "Setting realistic goals",
-    HelpStratCoPositive: "Positive self-talk"
-  ) do
-    text("Choose one:")
-  end
-end
-
-# Seeking Social Support
-card HelpStratCoChallenging, then: HelpStratCoChallenging1 do
-  text(
-    "Challenging negative thoughts is beneficial for mental health as it helps break the cycle of self-criticism and pessimism. By doing this, individuals can reduce anxiety and depression, and improve their overall well-being. To challenge negative thoughts, start by identifying them when they arise. Then, question their validity by asking yourself if there's evidence to support them and if they're based on facts. Consider alternative, more positive perspectives, and practice self-compassion by treating yourself as you would a friend. This process can lead to a more optimistic and balanced mindset, ultimately benefiting your mental health."
-  )
-end
-
-card HelpStratCoChallenging1 do
-  buttons(
-    HelpStratCoChallenging2: "Read the case study?",
-    MainMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HelpStratCoChallenging2, then: HelpStratCoChallenging3 do
-  text(
-    "Once there was a young woman named Emily who often felt like she wasn't good enough. She decided to change her way of thinking."
-  )
-
-  text(
-    "Emily started asking herself, 'Is this thought really true?' whenever she had negative thoughts. She also wrote down these thoughts and came up with more positive ones."
-  )
-
-  text(
-    "As time passed, Emily felt better about herself. Challenging her negative thoughts made her more confident and better at handling challenges. She realized that changing the way she thought about herself could make her happier and more content."
-  )
-end
-
-card HelpStratCoChallenging3 do
-  buttons(
-    HelpStratCoChallenging4: "Yes",
-    HelpStratMenu: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Would you like to practice this skill ?")
-  end
-end
-
-card HelpStratCoChallenging4, then: HelpStratMenu do
-  text(
-    "Steps: 
-●	Step 1: What is one negative thought that is making me feel bad right now? Examples include: - I am not enough
--	I will never succeed in life
--	I am burden
--	I am loser
--	No one loves me
-●	Step 2: Are the above feelings really true ?
-●	Step 3: Coming up with positive thoughts towards yourself 
-"
-  )
-
-  text(
-    "Emily started asking herself, 'Is this thought really true?' whenever she had negative thoughts. She also wrote down these thoughts and came up with more positive ones."
-  )
-
-  text(
-    "As time passed, Emily felt better about herself. Challenging her negative thoughts made her more confident and better at handling challenges. She realized that changing the way she thought about herself could make her happier and more content."
-  )
-end
-
-#Setting realistic goals
-card HelpStratCoSetting, then: HelpStratCoSetting1 do
-  text(
-    "This strategy involves creating achievable and specific objectives to address personal challenges. The benefits of this technique for mental health include breaking down overwhelming problems into manageable steps, increasing motivation, and fostering a sense of accomplishment. To use this technique effectively, follow the following steps:"
-  )
-end
-
-card HelpStratCoSetting1, then: HelpStratCoSetting2 do
-  text(
-    "1.	Clearly define the issue you want to address.
-2.	Make sure your goals are specific, measurable, achievable, relevant, and time-bound (SMART).
-3.	Divide your goals into smaller, more manageable tasks.
-4.	Prioritize your goals according to the order of importance
-5.	Keep a record of your achievements to stay motivated.
-6.	 Be flexible and modify your goals if necessary.
-"
-  )
-end
-
-card HelpStratCoSetting2, then: HelpStratCoSetting3 do
-  text(
-    "By setting realistic goals, you can improve your mental health by reducing stress, increasing self-confidence, and developing a sense of control over your life.
-"
-  )
-end
-
-card HelpStratCoSetting3 do
-  buttons(
-    HelpStratCoSetting4: "Read the case study?",
-    HelpStratCognitive: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HelpStratCoSetting4, then: HelpStratCognitive do
-  text(
-    "There was a guy named Jake who aimed for perfection in everything he did. This made him really stressed and anxious."
-  )
-
-  text(
-    "He decided to get help and learned to set more realistic goals. Instead of trying to be perfect, he broke his goals into smaller, achievable steps."
-  )
-
-  text(
-    "Jake found that setting realistic goals made him feel less stressed, more in control, and happier. He realized that it's okay not to be perfect and that taking small steps toward his goals improved his mental health."
-  )
-end
-
-#Positive self-talk
-card HelpStratCoPositive, then: HelpStratCoPositive1 do
-  text(
-    "Positive self-talk is the practice of using optimistic and encouraging words and thoughts to yourself. It involves replacing self-criticism with constructive thoughts. It can boost self-esteem, increase self-confidence, and reduce self-doubt. Positive self-talk also fosters resilience, helps individuals cope with stress and adversity, and promotes a more positive overall mindset, contributing to better emotional well-being and a healthier, more fulfilling life."
-  )
-end
-
-card HelpStratCoPositive1, then: HelpStratCoSetting2 do
-  text(
-    "1.	Clearly define the issue you want to address.
-2.	Make sure your goals are specific, measurable, achievable, relevant, and time-bound (SMART).
-3.	Divide your goals into smaller, more manageable tasks.
-4.	Prioritize your goals according to the order of importance
-5.	Keep a record of your achievements to stay motivated.
-6.	 Be flexible and modify your goals if necessary.
-"
-  )
-end
-
-card HelpStratCoSetting2, then: HelpStratCoSetting3 do
-  text(
-    "By setting realistic goals, you can improve your mental health by reducing stress, increasing self-confidence, and developing a sense of control over your life.
-"
-  )
-end
-
-card HelpStratCoSetting3 do
-  buttons(
-    HelpStratCoSetting4: "Read the case study?",
-    HelpStratCognitive: "Back to main menu",
-    EndChat: "End the chat"
-  ) do
-    text("Choose one:")
-  end
-end
-
-card HelpStratCoSetting4, then: HelpStratCognitive do
-  text(
-    "Sarah used to be really hard on herself, always thinking she couldn't do things right."
-  )
-
-  text(
-    "One day, she decided to change. Whenever she thought, 'I'm not good enough,' she started saying to herself, 'I can do this.'"
-  )
-
-  text(
-    "As time went on, Sarah felt better about herself. Her self-talk helped her be more confident and less doubtful. Being kinder to herself improved her mental health, and she became more optimistic about life."
-  )
-end
-
-
