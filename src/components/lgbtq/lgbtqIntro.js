@@ -63,14 +63,15 @@ const LGBTQIntro = () => {
                 <div className="navLG">
                   <ul>
                     <li>
-                      <Link
+                      <a
                         onMouseEnter={(e) => handleHover(e)}
                         onMouseOut={(e) => handleHoverExit(e)}
                         ref={(el) => (line1 = el)}
-                        to="/"
+                        href="https://wa.me/27600136875?text=join%20rwanda-youth8678"
+                        target="_blank"
                       >
                        Live Chat
-                      </Link>
+                      </a>
                     </li>
                     <li>
                       <Link

@@ -51,9 +51,15 @@ const Navigation = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/" exact>
-                    Maestro Live chat
-                  </NavLink>
+                  {/* <NavLink to="/" exact> */}
+                    <a
+                      href="https://wa.me/27600136875?text=join%20rwanda-youth8678"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Maestro Live chat
+                    </a>
+                  {/* </NavLink> */}
                 </li>
                 <li>
                   <NavLink to="/getinvolved" exact>

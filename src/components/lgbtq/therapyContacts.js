@@ -19,18 +19,6 @@ export default function TherapyContacts() {
                       >
                         Clinic name
                       </th>
-                      <th
-                        scope="col"
-                        class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase"
-                      >
-                        Contact
-                      </th>
-                      <th
-                        scope="col"
-                        class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase"
-                      >
-                        Email Address
-                      </th>
                     </tr>
                   </thead>
                   <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
@@ -39,192 +27,81 @@ export default function TherapyContacts() {
                         Solid Minds
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250788503528
+                      Gahanga Health Center
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        Admin@solidminds.rw
+                      Gatenga  Health Center
                       </td>
                     </tr>
                     <tr>
                       <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Ethos counselling and enrichment center
+                      Gikondo Heath Center
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250784257690
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"></td>
-                    </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Healthy minds
+                      Betizaida Health Center
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250790003002
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        info@healthyminds.rw
+                      Kicukiro Health Center
                       </td>
                     </tr>
                     <tr>
                       <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Icyizere Rehabilitation center
+                      Busanza Health Center
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250783203075
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"></td>
-                    </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Kigali psycho medical center
+                      Nyarugunga Health Center
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250788605596
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        lighthouserwandacounselling@gmail.com
+                      Masaka Health Center
                       </td>
                     </tr>
                     <tr>
                       <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        DADYMINDS
+                      Kabuga Health Center
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250781355361
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"></td>
-                    </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Gatenga Health center
+                      Healthy Minds
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250788598731
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"></td>
-                    </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Mental health Hub( mHub)
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250785462978
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        Rachel@mhub-rwanda.org <br />
-                        Yvonne@mhub-rwanda.org
+                      Icyizere Rehabilitation Center 
                       </td>
                     </tr>
                     <tr>
                       <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Trauma help Rwanda
+                      Mental Health Hub( mHub)
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250788410349
+                      Trauma Help Rwanda 
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        jamuel.muhayimana@gmail.com
+                      CHUK Hospital
                       </td>
                     </tr>
                     <tr>
                       <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        CHUK hospital
+                      Kibagabaga Hospital
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250788540182
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"></td>
-                    </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Kibagabaga Hospital
+                      Muhima  Hospital
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250788888888
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        kibagabaga.hospital@moh.gov.rw
+                      Nyarugenge Hospital
                       </td>
                     </tr>
                     <tr>
                       <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Muhima D hospital
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"></td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"></td>
-                    </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Nyarugenge D Hospital
+                      Masaka Hospital 
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250785744154
+                      Kacyiru Hospital 
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        info@nyarugengehospital
+                      King Faisal Hospital
                       </td>
                     </tr>
                     <tr>
                       <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Masaka Hospital
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250788803229
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        masaka.hospital@moh.gov.rw
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Kacyiru Hospital
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250785061906
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"></td>
-                    </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Busanza heath center
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250787408974
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200"></td>
-                    </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        King Faisal hospital
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250788123200
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        info@kfh.rw
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Kanombe Military hospital
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250781057662
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        info@rwandamilitaryhospital.rw
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
-                        Avega Clinic
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        +250788494769 <br />
-                        +250786281670
-                      </td>
-                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
-                        Avegaclinic2@gmail.com
+                      Kanombe Military Hospital
                       </td>
                     </tr>
                   </tbody>
