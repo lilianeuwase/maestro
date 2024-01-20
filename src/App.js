@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, useLocation } from "react-router-dom";
 import { gsap } from "gsap";
 import "./styles/App.scss";
 import Header from "./components/header";
@@ -19,6 +19,13 @@ import Tests from "./pages/tests";
 import GetInvolved from "./pages/getInvolved";
 import MiniFooter from "./components/miniFooter";
 import AboutUs from "./pages/aboutUs";
+import HeaderKinya from "./components/kinya/headerKinya";
+import NavigationKinya from "./components/kinya/navigationKinya";
+import MiniFooterKinya from "./components/kinya/miniFooterKinya";
+import { FooterKinya } from "./components/kinya/footerKinya";
+
+//Kinya
+import HomeKinya from "./pages/kinyaPages/homeKinya";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -31,6 +38,9 @@ const routes = [
   { path: "/getinvolved", name: "getinvolved", Component: GetInvolved },
   { path: "/mentalhealth", name: "about", Component: Mental },
   { path: "/about-us", name: "aboutus", Component: AboutUs },
+
+  //Kinya
+  { path: "/kinya", name: "HomeKinya", Component: HomeKinya },
 ];
 
 function debounce(fn, ms) {
@@ -65,10 +75,28 @@ function App() {
       window.removeEventListener("resize", debouncedHandleResize);
     };
   });
+
+  let location = useLocation();
+
+  if (location.pathname.substring(0, 6) == "/kinya") {
+    var english = false;
+  } else {
+    var english = true;
+  }
+  console.log(location.pathname);
+  console.log(location.pathname.substring(0, 6));
+  console.log(english);
+
   return (
     <>
       <ScrollToTop />
-      <Header dimensions={dimensions} />
+
+      {english ? (
+        <Header dimensions={dimensions} />
+      ) : (
+        <HeaderKinya dimensions={dimensions} />
+      )}
+      {/* <Header dimensions={dimensions} /> */}
       <div className="AppHome">
         <Switch>
           {routes.map(({ path, Component, id }) => (
@@ -83,9 +111,12 @@ function App() {
           </AnimateSharedLayout>
         </Switch>
       </div>
-      <Navigation />
+      {english ? <Navigation /> : <NavigationKinya />}
+      {english ? <MiniFooter /> : <MiniFooterKinya />}
+      {english ? <Footer /> : <FooterKinya />}
+      {/* <Navigation />
       <MiniFooter/>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }

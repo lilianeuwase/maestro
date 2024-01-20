@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Navigation = () => {
+const NavigationKinya = () => {
   return (
     <nav>
       <div className="containerHome">
@@ -15,23 +15,23 @@ const Navigation = () => {
             <ul className="nav-linksHome">
             
               <li>
-                <NavLink to="/" exact>
-                  Home
+                <NavLink to="/kinya" exact>
+                  Ahabanza
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/mentalhealth" exact>
-                  Mental Health Information
+                <NavLink to="/kinyamentalhealth" exact>
+                Amakuru K’ubuzima Bwo Mumutwe
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/therapy" exact>
-                  Therapy
+                <NavLink to="/kinyatherapy" exact>
+                  Ubuvuzi
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/lgbtq" exact>
-                  LGBTQI+ Support
+                <NavLink to="/kinyalgbtq" exact>
+                Ubufasha Kuri LGBTQI+
                 </NavLink>
               </li>
             </ul>
@@ -52,8 +52,8 @@ const Navigation = () => {
               {/* <ul className="nav-infoHome"> */}
               <ul className="nav-linksHome text-right">
                 <li>
-                  <NavLink to="/test" exact>
-                    Mental Health Tests
+                  <NavLink to="/kinyatest" exact>
+                  Suzuma Uburwayi Bwo Mumutwe
                   </NavLink>
                 </li>
                 <li>
@@ -63,19 +63,19 @@ const Navigation = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Maestro Live chat
+                    Ganira Natwe
                   </a>
                   {/* </NavLink> */}
                 </li>
                 <li>
-                  <NavLink to="/getinvolved" exact>
-                    Get Involved
+                  <NavLink to="/kinyagetinvolved" exact>
+                   Fatanya Natwe
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink to="/about-us" exact>
-                    About Us
+                  <NavLink to="/kinyaabout-us" exact>
+                  Byinshi Kuri Twe
                   </NavLink>
                 </li>
               </ul>
@@ -87,4 +87,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default NavigationKinya;
