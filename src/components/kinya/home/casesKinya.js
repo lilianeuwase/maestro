@@ -6,24 +6,24 @@ import { NavLink } from "react-router-dom";
 const caseStudies = [
   {
     id: 1,
-    subtitle: "Motive",
-    title: "A Glimpse into Our Purpose",
+    subtitle: "Intego",
+    title: "Bike ku Ntego Yacu",
     img: "Colorflag",
-    link: "/motive",
+    link: "/kinyamotive",
   },
   {
     id: 2,
-    subtitle: "Free Space",
-    title: "Breaking the Chains of Depression",
+    subtitle: "Umwanya Wisanzuye",
+    title: "Kurwanya Agahinda Gakabije",
     img: "howareyou",
-    link: "/space",
+    link: "/kinyaspace",
   },
   {
     id: 3,
-    subtitle: "Relaxation",
-    title: "Easing Anxiety, Embracing Calm",
+    subtitle: "Kuruhuka",
+    title: "Kugabanya Umuhangayiko",
     img: "Relaxation",
-    link: "/relax",
+    link: "/kinyarelax",
   },
 ];
 

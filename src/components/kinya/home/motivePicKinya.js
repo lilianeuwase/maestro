@@ -1,11 +1,11 @@
-import { CasePicture } from "./casePicture";
+import { CasePictureKinya } from "./casePictureKinya";
 
 export function MotivePicKinya() {
   return (
     <div>
-      <CasePicture
+      <CasePictureKinya
         image={require("../../../assets/Colorflag.jpeg")}
-        description="In a world where the troubles of each day can feel like a lot, Maestro Mind is a symbol of hope. Our website is here to be a safe place for people dealing with the complicated world of mental health. We understand that these challenges are more than fights – they're journeys, and we're here to support you all along the path."
+        description="Mu isi aho ibibazo bya burimunsi bishobora kumvwa nkaho ari byinshi, Maestro mind ni ikimenyetso cy’ikizere. Urubuga rwacu ruri hano ngo rube umwanya utekanye kubantu bafite ibibazo byo mumutwe bikomeye, dusobanukiweko inzitizi zirenze imitwaro, Gukira ndeste ukamera neza ni inzira ndetse turi hano ngo tugufashe muri iyo nzira."
       />
     </div>
   );

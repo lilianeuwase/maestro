@@ -1,12 +1,12 @@
-import { CasePicture } from "./casePicture";
+import { CasePictureKinya } from "./casePictureKinya";
 
 export function SpacePicKinya() {
   return (
     <div>
-      <CasePicture
+      <CasePictureKinya
         image={require("../../../assets/howareyou.jpeg")}
-        description="Depression is a feeling of deep sadness, hopelessness, and a lack of interest or pleasure in activities that lasts for a long time and affects a person's thoughts, feelings, and daily life. Depression can make even the happiest times seem hard, like a tough climb every day. At Maestro Mind, we think that even a small bit of hope can start a big change. The World Health Organization (WHO) estimates that around 322 million people worldwide are affected by depression. 
-We want to help you find your way to feeling better with caring articles, stories of people who got stronger, and useful ways to cope for free. You're not by yourself – we're here to help you see how strong and important you are.
+        description="Agahinda gakabije ni ibyiyumviro by’umubabaro mwinshi, gutakaza ikizere ndetse no kubura ubushake n’ibyishimo mubyo ukora bikamara igihe kinini ndetse bigatera ikibazo kuburyo umuntu yiyumva, atekereza ndetse n’ubuzima bwa buri munsi.
+Agahinda gakabije gashobora gutuma ibihe by’umunezero ubibona nkibigoye kubonwa, bimeze nko kurira umusozi burimunsi, kuri Maestro mind dutekerezako nagace gato k’icyizere kazana impinduka nini, ikigo cy’Isi gishinzwe ubuzima WHO kigaragaza ko hafi miliyoni 322 z’abantu Ku Isi barwaye agahinda gakabije turashaka kugufasha ngo umenye uburyo, inzira yo kumererwa neza binyuze mu nyandiko zifasha, inkuru zababashije gukomera. Ntabwo uri wenyine turi hano ngo tugufashe ubone uburyo ukomeye ndetse uri ingenzi.
 "
       />
     </div>

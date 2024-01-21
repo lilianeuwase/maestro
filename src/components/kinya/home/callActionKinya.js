@@ -4,7 +4,7 @@ export const CallActionKinya = () => {
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-black-900 uppercase rounded-full bg-customized-10">
-            A Call to Action
+            Kora
           </p>
         </div>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -33,14 +33,14 @@ export const CallActionKinya = () => {
             </svg>
             <span className="relative">Take</span>
           </span>{" "}
-          the First Step Towards Healing
+          Tera Intambwe ya Mbere Igufasha Gukira
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Are you ready to start a journey of learning about yourself, getting
-          better, and feeling strong? Our website is here to help you through
-          the tricky parts of mental health and feeling good. Whether you want
-          to know about handling worry, feeling better when you're sad, or being
-          strong when things are tough, we have lots of things to help you.
+          Witeguye gutangira urugendo rwo kwimenya, kurushaho kumera neza ndetse
+          no gukomera? urubuga rwacu ruri hano ngo rugufashe mubihe bikomereye
+          ubuzima bwawe bwo mu mutwe ndetse rugufasha kumera neza, waba ukeneye
+          kumenya uko wahangana numuhangayiko uko wamera neza ubabaye, ndetse no
+          gushimakama mubihe bikomeye dufite ibintu byinshi byagufasha.
         </p>
       </div>
       <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
@@ -49,68 +49,66 @@ export const CallActionKinya = () => {
         </div>
         <div className="p-5 duration-300 transform bg-white border-4 border-customized-1 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">
-              Explore, Learn, and Grow{" "}
-            </p>
+            <p className="text-lg font-bold leading-5">Vumbura, Iga, Waguke </p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-customized-1 bg-indigo-50">
               1
             </p>
           </div>
           <p className="text-sm text-gray-900">
-            Dive into a world of articles, stories about succeeding, and advice
-            from experts made just for you. Our place is full of helpful
-            information where you can find easy ways to do things, calming
-            exercises, and stories that make sense for your journey.
+            Injira mu isi y’inyandiko inkuru zo gutsinda ndetse n’inama ziva mu
+            bahanga zagukorewe. Urubuga rwacu rwuzuye amakuru y’ingirakamaro aho
+            ushobora gusanga uburyo bworoshye bwo gukora ibintu, imyitozo
+            igufasha gutuza ndetse n’inkuru zifitiye akamaro urugendo rwawe
           </p>
         </div>
         <div className="p-5 duration-300 transform bg-white border-4 border-customized-2 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">You're Not Alone </p>
+            <p className="text-lg font-bold leading-5">Ntabwo uri Wenyine</p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-customized-2 bg-indigo-50">
               2
             </p>
           </div>
           <p className="text-sm text-gray-900">
-            Remember, you're not alone as you go along this road. Our group is
-            based on knowing how you feel, caring, and helping. As you explore
-            our content, you'll see that other people have been through similar
-            things and were able to deal with it in a healthy. Connect with
-            their stories, share your own story, and be part of a group that
-            makes you feel better and gives you comfort.
+            Ibuka ko utari wenyine muri iyinzira, ikipe yacu ishinzwe kumenya
+            uko wiyumva ,kukwitaho no kugufasha buri uko ugenda usobanukirwa
+            uzagenda ubonako hari nabandi banyuze mubihe nkibyo uri kunyuramo
+            kandi bakabivamo neza, kumenya ubuhamya bwabo nawe usangiza abandi
+            ubwawe ,maze ube umwe mu ikipe igufasha kumererwa neza
           </p>
         </div>
         <div className="p-5 duration-300 transform bg-white border-4 border-customized-5 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
             <p className="text-lg font-bold leading-5">
-              Ask for Help, Hold on to Hope
+              Saba Ubufasha, Gira Ibyiringiro
             </p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-customized-5 bg-indigo-50">
               3
             </p>
           </div>
           <p className="text-sm text-gray-900">
-            If things get too hard to handle, remember that asking for help
-            shows how strong you are, not how weak. Our website can lead you to
-            experts who can guide you. Talk to professionals who are trained,
-            like therapists, advisors, and hotlines, to take an important step
-            toward feeling better.
+            Ibintu n’ibikomera bigoye kuba byakemuka ibuka ko gusaba ubufasha
+            atari ikimenyetso k’intege nke ahubwo ari ukuba umunyembaraga
+            Urubuga rwacu ruguhuza n’impuguke zishobora kugufasha, vugana
+            n’inzobere zabihuguriwe nkabaganga, abajyanama ndeste numurongo wacu
+            wa telephone utanga ubufasha k’ubuzima bwo mu mutwe bigufashe gutera
+            intambwe zingenzi mu rugendo rwo kumera neza.
           </p>
         </div>
         <div className="p-5 duration-300 transform bg-white border-4 border-customized-8 rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
             <p className="text-lg font-bold leading-5">
-              Your Tomorrow Starts Today{" "}
+              Ejo Hawe Hatangira Uyu Munsi{" "}
             </p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-customized-8 bg-indigo-50">
               4
             </p>
           </div>
           <p className="text-sm text-gray-900">
-            Your path to a happier, healthier, and more satisfying life starts
-            here. Explore our content, talk to others like you, and ask for help
-            if you need it. And remember, every little step you take gets you
-            closer to a future that's full of hope, strength, and a fresh reason
-            to go on.
+            Inzira yawe ikugeza kubyishimo, ubuzima ndetse no kubaho unyuzwe
+            bitangirira aha. Soma inyandiko zacu, vugana n’abandi nkawe saba
+            ubufasha mugihe ubukeneye kandi wibukeko buri ntambwe ntoya utera
+            ikwegereza kuri ejo hawe huzuye ikizere, imbaraga ndetse nimpamvu
+            nzima yo gukomeza.
           </p>
         </div>
       </div>

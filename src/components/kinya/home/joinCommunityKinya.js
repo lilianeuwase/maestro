@@ -5,7 +5,7 @@ export const JoinCommunityKinya = () => {
         <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
           <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
             <h2 class="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200">
-              Join Our Community of Strength
+              Ba Umwe Muritwe Winjira Muri Kominote Yacu y’Imbaraga
             </h2>
 
             <div
@@ -34,12 +34,12 @@ export const JoinCommunityKinya = () => {
                   </svg>
                   <span class="grow ml-6">
                     <span class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
-                      More Than a Website
+                      Birenze Urubuga rwo kuri Murandasi (Website)
                     </span>
                     <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                      Maestro Mind is not only a website – it's like a group of
-                      people who understand you, a spot where we see your
-                      challenges and cheer for your successes.
+                      Meaestro Mind Lab ntabwo ari urubuga gusa nink’itsinda
+                      ry’abantu bakumva, bagufasha aho ufite imbogamizi ndetse
+                      bakishimira intsinzi yawe.
                     </span>
                   </span>
                 </span>
@@ -66,13 +66,13 @@ export const JoinCommunityKinya = () => {
                   </svg>
                   <span class="grow ml-6">
                     <span class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
-                      You Belong Here
+                      Ubarizwa Hano
                     </span>
                     <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                      We want you to feel like you belong and have friends here.
-                      Our goal is to make a space where you can get help, be
-                      able to talk about what you're going through and make
-                      others feel better by sharing your story.
+                      Turifuza ko wumva ubarizwa aha ndetse uhafite n’inshuti.
+                      Intego yacu ni ukuguha urubuga waboneramo ubufasha aho
+                      ubasha kuvuga ibyo unyuramo bituma abandi bigira kubuhamya
+                      bwawe bakamera neza.
                     </span>
                   </span>
                 </span>
@@ -99,24 +99,24 @@ export const JoinCommunityKinya = () => {
                   </svg>
                   <span class="grow ml-6">
                     <span class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
-                      Your Journey Starts Here
+                      Urugendo Rwawe Rutangirira Hano
                     </span>
                     <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                      Whether you are seeking comfort, want to learn, or feel
-                      motivated, Maestro Mind is here to show you the way to a
-                      happier future. Read our articles, talk to others like
-                      you, and start a special journey to learn about yourself
-                      and get better. Let's work together to make a future
-                      that's full of hope, strength, and all the amazing things
-                      we can do.
+                      Niba urigushaka aho uturiza, wigira cyangwa kongera
+                      imbaraga Maestro mind irihano ngo ikwereke uburyo wagira
+                      ejo hazaza heza. Soma inyandiko zacu, vugana nabandi
+                      bameze nkawe ubundi utangire urugendo rwo kumenya maze
+                      umere neza, reka dufatanye twese mukurema ejo hazaza
+                      huzuye ibyiringiro, imbaranga ndetse n’ibindi bintu
+                      byinshi twakora.
                     </span>
                   </span>
                 </span>
               </button>
             </div>
             <p className="mt-4 text-xl text-gray-800 font-bold sm:text-lg dark:text-customized-7 text-center">
-              Welcome to Maestro Mind – where every step forward is a step
-              toward a life of purpose, joy, and inner peace.
+              Ikaze kuri Maestro mind aho burintambwe ikwerekeza kuntego
+              y’ubuzima,umunezero ndetse numutuzo.
             </p>
           </div>
 
@@ -142,7 +142,7 @@ export const JoinCommunityKinya = () => {
                   aria-labelledby="tabs-with-card-item-2"
                 >
                   <img
-                    class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]" 
+                    class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
                     src={require("../../../assets/youbelong.png")}
                     alt="Image Description"
                   />
@@ -155,7 +155,7 @@ export const JoinCommunityKinya = () => {
                   aria-labelledby="tabs-with-card-item-3"
                 >
                   <img
-                    class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]" 
+                    class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
                     src={require("../../../assets/yourjourney.png")}
                     alt="Image Description"
                   />
@@ -194,7 +194,6 @@ export const JoinCommunityKinya = () => {
             </div>
           </div>
         </div>
-
         <div class="absolute inset-0 grid grid-cols-12 w-full h-full">
           <div class="col-span-full lg:col-span-7 lg:col-start-6 bg-gray-100 w-full h-5/6 rounded-xl sm:h-3/4 lg:h-full dark:bg-white/[.075]"></div>
         </div>

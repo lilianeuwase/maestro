@@ -6,14 +6,12 @@ export const NavigateKinya = () => {
       <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
         <div className="lg:w-1/2">
           <h2 className="max-w-md mb-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none xl:max-w-lg">
-            Navigating the Road to Recovery
+          Gutangira Urugendo Rwo Gukira
           </h2>
         </div>
         <div className="lg:w-1/2">
           <p className="text-base text-gray-700 md:text-lg">
-            Substance abuse is when a person uses too many drugs or alcohol and
-            it starts causing problems in their life, like health issues or
-            trouble with friends and family.
+          Kwiyahuza ibiyobyabwenge ni igihe umuntu akoresha ibiyobyabwenge cyangwa inzoga cyane/byinshi  bigatangira guteza ibibazo kubuzima bwe cyangwa mumibanire n’inshuti cyangwa umuryango
           </p>
         </div>
       </div>
@@ -34,18 +32,17 @@ export const NavigateKinya = () => {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Do not be trapped</h6>
+          <h6 className="mb-2 font-semibold leading-5">Ntugwe mumutego</h6>
           <p className="mb-3 text-base text-gray-900">
-            Too much substances can trap even the very strong people, making it
-            a hard to solve it.
+          Ibiyobyabwenge byinshi bishobora kubata nabantu bakomeye ndetse bikanabagora kubireka
           </p>
           <DropDownItem
-            title1="Examine"
-            subtitle1="Helps to gain insight on underlying cause and how to overcome it"
-            title2="Take time"
-            subtitle2="Helps in self-discovery, and personal growth"
-            title3="Consider"
-            subtitle3="Considering helps to choose good decision that promote your healing journey"
+            title1="Isuzume"
+            subtitle1="Bifasha kumenya impamvu ibitera ndetse n’ubryo wabihagarika"
+            title2="Fata Igihe"
+            subtitle2="Bifasha mu kwimenya ndetse no gukura"
+            title3="Shishoza"
+            subtitle3="Bifasha guhitamo imyanzuro ikwiye ndetse bikanagufasha murugendo rwo gukira"
           />
         </div>
         <div>
@@ -75,18 +72,17 @@ export const NavigateKinya = () => {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Fight the adiction</h6>
+          <h6 className="mb-2 font-semibold leading-5">Hangana no kubatwa n’ibiyobyabwenge</h6>
           <p className="mb-3 text-base text-gray-900">
-            Globally, it is estimated that 237 million men and 46 million women
-            have alcohol use disorders.
+            Kwisi hose byagaragaye ko miliyoni 237 z’abagabo ndetse na 46 z’abagore babana no kubatwa n’ibiyobyabwenge (inzoga)
           </p>
           <DropDownItem
-            title1="Talk"
-            subtitle1="Provides emotional support and relives what seems to be a burden"
-            title2="Change"
-            subtitle2="Improves both physical and mental health"
-            title3="Prepare"
-            subtitle3="Makes you potential to fulfilling and be ready for substance-free life"
+            title1="Vuga"
+            subtitle1="Kuvuga bifasha amarangamutima ndetse bigatuma umuntu atura umutwaro"
+            title2="Hindura"
+            subtitle2="Guhindura ujya munzira nziza bifasha ubuzima bwinyuma ndetse n’ubuzima bwo mumutwe"
+            title3="Itegure"
+            subtitle3="Kugirango uve kubiyobyabwenge bisaba kuba witeguye"
           />
         </div>
         <div>
@@ -123,17 +119,17 @@ export const NavigateKinya = () => {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Help us help you</h6>
+          <h6 className="mb-2 font-semibold leading-5">Dufashe wifasha</h6>
           <p className="mb-3 text-base text-gray-900">
-          About 7 out of every hundred men and 1 out of every hundred women who have been diagnosed with depression in their lifetime will go on to complete suicide.
+          Abangana na 7 mubagabo ijana ndeste n’umuntu 1 mubagore ijana bagaragaje uburwayi bw’agahinda gakabije mubuzima bwabo binatera kwiyahura
           </p>
           <DropDownItem
-            title1="Self-care"
-            subtitle1="This enhance coping skills"
-            title2="Know Why"
-            subtitle2="Know why you need help and benefits to your health"
-            title3="Reach Out"
-            subtitle3="Look for other people’s help when you can’t do it by yourself"
+            title1="Kwiyitaho"
+            subtitle1="Ibi byongera ubumenyi /imbaraga zo guhangana n’uburwayi bwo mumutwe"
+            title2="Sobanukirwa"
+            subtitle2="Menya impamvu ukeneye ubufasha ndetse numumaro bifitiye ubuzima bwawe"
+            title3="Saba Ubufasha"
+            subtitle3="Mugihe ubona utabyishoboza saba abandi bagufashe"
           />
         </div>
         <div>
@@ -163,18 +159,17 @@ export const NavigateKinya = () => {
               <path d="M8,19a3,3,0,0,1-3-3" fill="none" stroke="currentColor" />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Get better together</h6>
+          <h6 className="mb-2 font-semibold leading-5">Gira ubuzima bwiza turikumwe</h6>
           <p className="mb-3 text-base text-gray-900">
-            At Maestro Mind Lab our goal is to give you the power to stop the
-            cycle of addiction and start a fresh, new life.
+          Muri maestro mind intego yacu ni ukuguha  imbaraga zo kugabanya ndetse no kuva mububata bw’ibiyobyabwenge ugatangira ubuzima bushya kandi bwiza.
           </p>
           <DropDownItem
-            title1="Set Goals"
-            subtitle1="Setting goals helps to work on target and increase chance of succeed"
-            title2="Avoid Pressure"
-            subtitle2="Avoid pressure that takes you in wrong way"
-            title3="Keep Busy"
-            subtitle3="Find what occupies you to avoid useless time that pulls you to drugs"
+            title1="Shyiraho Intego"
+            subtitle1="Gushyiraho intego bituma uyikoreraho ndetse bikongera n’amahirwa yo gutsinda intego wihaye"
+            title2="Irinde Ikigare/Igitutu"
+            subtitle2="Irinde ikigare cyangwa ikindi cyintu cyose cyagusubiza mubiyobyabwenge kandi uri munzira zo kubireka"
+            title3="Shaka Ibiguhuza"
+            subtitle3="Kugirango utabona umwanya wo kujya mubiyobyabwenge nibyiza gushaka ibiguhuza"
           />
         </div>
       </div>

@@ -1,11 +1,15 @@
-import { CasePicture } from "./casePicture";
+import { CasePictureKinya } from "./casePictureKinya";
 
 export function RelaxPicKinya() {
   return (
     <div>
-      <CasePicture
+      <CasePictureKinya
         image={require("../../../assets/Relaxation.jpeg")}
-        description="Anxiety is a feeling of being worried, nervous, or scared about things, even when they might not be dangerous and it can manifest physically with symptoms like restlessness, rapid heart rate, and sweating. Anxiety can feel like a constant friend that won't leave, making you more worried as thoughts come and go. Anxiety disorders are among the most common mental health disorders globally. The WHO states that nearly 300 million people of all ages suffer from anxiety disorders. At Maestro Mind, we have a peaceful and understanding place for you. Our website has lots of ways to help you relax and be mindful, like calming exercises and advice from experts."
+        description="Umuhangayiko ni ibyiyumvo byo kudatuza, ubwoba bwinshi ndetse no gutinya ikintu runaka nubwo cyaba kidateye ubwoba bishobora kwigaragaza mu bimenyetso nko kudatuza, gutera cyane k’umutima, kubira ibyuya cyane, umuhangayiko wumvikana nk’inshuti itagusiga, bituma ibitekerezo biza binagenda.
+Umuhangayiko uri mu ndwara zo mumutwe zizwi cyane ku Isi, ikigo cy’Isi cyita kubuzima (WHO) kigaragazako hafi miliyoni 300 z’abantu bimyaka yose barwaye umuhangayiko.
+Kuri Maestro mind dufite umwanya utuje ndetse unakumva.
+Urubuga rwacu rufite uburyo bwinshi bwo kugufasha kuruhuka, gutekereza neza, hakoreshejwe imyitozo y’umutuzo ndetse n’inama zinzobere.
+."
       />
     </div>
   );

@@ -106,20 +106,16 @@ export function HomeWelcomeKinya() {
           <div className={classes.content}>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               <Title className={classes.title}>
-                At <span className={classes.highlight}>Maestro</span>{" "}
+              Kuri  <span className={classes.highlight}>Maestro</span>{" "}
                 <span className={classes.highlight1}>Mind</span>{" "}
-                <span className={classes.highlight2}>Lab</span> <br /> We Warmly
-                Welcome You
+                <span className={classes.highlight2}>Lab</span> <br /> Tuguhaye Ikaze
               </Title>
             </h1>
             <div className="mb-12">
               <Text mt="md" className={classes.text}>
-                At Maestro Mind Lab, we warmly welcome you, providing a safe and
-                caring space where you can find understanding, help, and
-                empowerment. Our goal is to be a guiding source through the
-                challenges of depression, anxiety, and substance abuse, creating
-                a community where everyone can find comfort, learn, and gather
-                the strength to heal.
+              Maestro Mind lab, iguhaye ikaze, tuguha umwanya utuje, aho witabwaho aho ubona ukumva, ugufasha ndetse unagutera imbaraga.
+Intego yacu ni ukugufasha mu kurwanya agahinda gakabije. Icyoba(umuhangayiko), no kubatwa n’ibiyobyabwenge dufasha kominote aho buri wese yumva atekanye, yiga ndetse akanagira imbaraga zo gukira.
+
               </Text>
             </div>
             <List mt={30} spacing="sm" size="sm" className={classes.text}>
@@ -130,7 +126,7 @@ export function HomeWelcomeKinya() {
                   </ThemeIcon>
                 }
               >
-                <b>We listen</b>
+                <b>Turumva</b>
               </List.Item>
 
               <List.Item
@@ -140,7 +136,7 @@ export function HomeWelcomeKinya() {
                   </ThemeIcon>
                 }
               >
-                <b>We care</b>
+                <b>Tukwitaho</b>
               </List.Item>
               <List.Item
                 icon={
@@ -149,7 +145,7 @@ export function HomeWelcomeKinya() {
                   </ThemeIcon>
                 }
               >
-                <b>We help</b>
+                <b>Turafasha</b>
               </List.Item>
               <List.Item
                 icon={
@@ -158,7 +154,7 @@ export function HomeWelcomeKinya() {
                   </ThemeIcon>
                 }
               >
-                <b>We elevate</b>
+                <b>Duteza Imbere </b>
               </List.Item>
               <List.Item
                 icon={
@@ -167,7 +163,7 @@ export function HomeWelcomeKinya() {
                   </ThemeIcon>
                 }
               >
-                <b>We understand</b>
+                <b>Turasobanukirwa</b>
               </List.Item>
             </List>
           </div>

@@ -96,7 +96,7 @@ export function CasePictureKinya(props) {
               size="lg"
               className={classes.control}
             >
-              Get back
+              Subira Ahabanza
             </Button>
           </NavLink>
         </Container>

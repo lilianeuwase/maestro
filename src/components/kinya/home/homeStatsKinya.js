@@ -25,12 +25,13 @@ export const HomestatsKinya = () => {
               </div>
             </div>
             <p className="mb-4 font-bold md:text-xl">
-              People were living with an anxiety in 2019
+              Muri 2019 byagaragaye ko abantu miliyoni 301 babana n’uburwayi
+              bwumuhangayiko
             </p>
             <p className="text-gray-700">
-              This includes 58 million children and adolescents, Anxiety
-              disorders are characterized by excessive fear and worry and
-              related behavioral disturbances.
+              muribo miliyoni 58 ni abana ndetse n’ingimbi nabangavu. Indwara
+              y’umuhangayiko irangwa nubwoba bwinshi, ndetse no guhangayika
+              bihindura imyitwarire y’umuntu.
             </p>
           </div>
           <div>
@@ -55,12 +56,10 @@ export const HomestatsKinya = () => {
               </div>
             </div>
             <p className="mb-4 font-bold md:text-xl">
-              People were living with depression in 2019
+            Muri 2019 hagaragaye ko miliyoni 280 z’abantu babana nagahinda gakabije
             </p>
             <p className="text-gray-700">
-              This includes 23 million children and adolescents. During a depressive
-              episode, the person experiences depressed mood (feeling sad,
-              irritable, empty).
+            muribo miliyoni 23 ni abana, abangavu ndetse n’ingimbi. umuntu ufite agahinda gakabije abayumva ababaye, afite uburakari.
             </p>
           </div>
           <div>
@@ -84,12 +83,9 @@ export const HomestatsKinya = () => {
                 </svg>
               </div>
             </div>
-            <p className="mb-4 font-bold md:text-xl">Deaths due to alcohol</p>
+            <p className="mb-4 font-bold md:text-xl">Impfu ziterwa n'inzoga</p>
             <p className="text-gray-700">
-              The World Health Organization (WHO) estimation deaths that were
-              attributed to alcohol consumption in 2016.
-              <br />
-              (5.9% of all global deaths)
+            Muri 2016 ikigo cy’isi gishinzwe ubuzima (WHO) cyagaragaje ko miliyoni 303 zimpfu ziterwa n’inzoga zingana na 5.9% zimpfu zose.
             </p>
           </div>
           <div>
@@ -113,11 +109,9 @@ export const HomestatsKinya = () => {
                 </svg>
               </div>
             </div>
-            <p className="mb-4 font-bold md:text-xl">Deaths due to drugs</p>
+            <p className="mb-4 font-bold md:text-xl">Impfu ziterwa n’ibiyobyabwenge</p>
             <p className="text-gray-700">
-              Drug-related deaths due to overdosethe in 2017. According to the
-              World Drug Report by the United Nations Office on Drugs and Crime
-              (UNODC)
+            Ikigo cy’Isi gishinzwe gutanga raporo kubiyobyabwenge ndetse n’ibyaha(UNODC) muri 2017 cyagaragaje ko ibihumbi 587 by’impfu biterwa n’ibiyobyabwenge.
             </p>
           </div>
           <div>
@@ -141,9 +135,11 @@ export const HomestatsKinya = () => {
                 </svg>
               </div>
             </div>
-            <p className="mb-4 font-bold md:text-xl">Prevalence of depression in Tanzania</p>
+            <p className="mb-4 font-bold md:text-xl">
+              Agahinda gakabije muri Tanzania
+            </p>
             <p className="text-gray-700">
-            Studies in Tanzania and South Africa have estimated the prevalence of depression among MSM to be 46.3% and 44% respectively.
+            Isuzumwa ryakorewe muri Tanzania na Afurika Y'epfo ryagaragaje ko urugero rw’agahinda gakabije mubagabo baryamana nabandi bagabo ruri kukigero cya 46.3% na  44% uko ibihugu bitondetse.
             </p>
           </div>
         </div>
