@@ -9,22 +9,22 @@ import "../../../styles/home/whyMental.scss";
 
 const testimonials = [
   {
-    name: "Because of the pressure from how society treats them, LGBTQI+ youth are more likely to think about or try to end their own lives. Having the right mental health help can step in, teach them how to deal with this, and provide them with coping strategies that can stop these terrible things from happening.",
+    name: "Bitewe n’igitutu cyuko sosiyete ibafata urubyiruko rwa LGBTQI+ rukunze gutekereza ndetse no kugerageza kwiyambura ubuzima .Kugira ubufasha k’ubuzima bwo mu mutwe bubafasha mu kwigisha uguhangana nibyo bibazo, kubaha ingamba bakoresha mu kwirinda ibintu bibi bishobora kuba.",
     title: "",
     image: `${require("../../../assets/2hands.jpeg")}`,
-    quote: "Suicide Prevention",
+    quote: "Kwirinda kwiyahura",
   },
   {
-    name: "Access to mental health resources enables LGBTQI+ youth to build healthy relationships, set boundaries, and recognize signs of abuse or manipulation.",
+    name: "Kugira amakuru k’ubuzima bwo mumutwe kurubyiruko rwa LGBTQI+ bibafasha kugira imibanire myiza nabandi, gushyiraho ntarengwa ndetse no kumenya ibimenyetso by’ihohoterwa ndetse no gukandamizwa.",
     title: "",
     image: `${require("../../../assets/cover3.png")}`,
-    quote: "Healthy Relationships",
+    quote: "Imibanire myiza",
   },
   {
-    name: "Helping with mental health now gives LGBTQI+ youth the emotional tools to get past problems and follow their dreams, making their future happier and more satisfying.",
+    name: "Gufasha urubyiruko rwa LGBTQI+ mubuzima bwo mu mutwe bibafasha kwivanamo ibibazo byatambutse ndetse bigatuma bakurikira inzozi zabo ibituma ejo hazaza habo haba ahibyishimo no kunyurwa.",
     title: "",
     image: `${require("../../../assets/highfive.jpeg")}`,
-    quote: "Future Success",
+    quote: "Gutsinda muri ejo hazaza",
   }
 ];
 

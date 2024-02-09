@@ -1,25 +1,22 @@
 import React from "react";
-import Anxiety from "../components/mental/anxiety/anxiety";
-import { Depression } from "../components/mental/depression/depression";
-import { Intro } from "../components/mental/intro";
-import LGBTQIndividuals from "../components/mental/LGBTIndividuals";
-import Substance from "../components/mental/substance/substance";
-import Dates from "../components/TBU/dates/dates";
-import CardsAnimation from "../components/therapy/cards/cardsAnimation";
+import { IntroKinya } from "../../components/kinya/mental/introKinya";
+import { DepressionKinya } from "../../components/kinya/mental/depressionKinya/depressionKinya";
+import AnxietyKinya from "../../components/kinya/mental/anxietyKinya/anxietyKinya";
+import SubstanceKinya from "../../components/kinya/mental/substanceKinya/substanceKinya";
+import LGBTIndividualsKinya from "../../components/kinya/mental/LGBTIndividualsKinya";
 
-const Mental = () => {
+const MentalKinya = () => {
   return (
     <>
       <div>
-
-      <Intro/>
-      <Depression/>
-      <Anxiety/>
-      <Substance/>
-      <LGBTQIndividuals/>
+        <IntroKinya />
+        <DepressionKinya />
+        <AnxietyKinya />
+        <SubstanceKinya />
+        <LGBTIndividualsKinya />
       </div>
     </>
   );
 };
 
-export default Mental;
+export default MentalKinya;

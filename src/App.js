@@ -29,6 +29,7 @@ import HomeKinya from "./pages/kinyaPages/homeKinya";
 import { MotivePicKinya } from "./components/kinya/home/motivePicKinya";
 import { SpacePicKinya } from "./components/kinya/home/spacePicKinya";
 import { RelaxPicKinya } from "./components/kinya/home/relaxPicKinya";
+import MentalKinya from "./pages/kinyaPages/mentalKinya";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -39,7 +40,7 @@ const routes = [
   { path: "/relax", name: "relax", Component: RelaxPic },
   { path: "/test", name: "test", Component: Tests },
   { path: "/getinvolved", name: "getinvolved", Component: GetInvolved },
-  { path: "/mentalhealth", name: "about", Component: Mental },
+  { path: "/mentalhealth", name: "mentalhealth", Component: Mental },
   { path: "/about-us", name: "aboutus", Component: AboutUs },
 
   //Kinya
@@ -47,6 +48,7 @@ const routes = [
   { path: "/kinyamotive", name: "motiveKinya", Component: MotivePicKinya },
   { path: "/kinyaspace", name: "spaceKinya", Component: SpacePicKinya },
   { path: "/kinyarelax", name: "relaxKinya", Component: RelaxPicKinya },
+  { path: "/kinyamentalhealth", name: "mentalhealthKinya", Component: MentalKinya },
 ];
 
 function debounce(fn, ms) {
