@@ -35,17 +35,19 @@ export const DepressionKinya = () => {
             </svg>
             {/* <span className="relative">Let's</span> */}
           </span>{" "}
-          Depression
+          Agahinda Gakabije
         </h2>
 
         <p className="text-base text-gray-700 md:text-lg">
-          According to the World Health Organization (WHO), depression is a
-          leading cause of disability worldwide. The World Health Organization
-          (WHO) estimates that around 322 million people worldwide are affected
-          by depression. In Africa, the prevalence of depression varies from
-          country to country, with rates ranging from around 3% to 47% of the
-          population. Studies in Tanzania and South Africa have estimated the
-          prevalence of depression among MSM to be 46.3% and 44% respectively.
+          Hashingiwe kubyatangajwe nikigo cy’Isi cyita kubuzima (WHO) agahinda
+          gakabije ni imwe mumpamvu ziyoboye mugutera abantu ubumuga ku Isi. Iki
+          kigo cyagaragaje ko miliyoni 322 zabantu ku Isi barwaye indwara
+          y’agahinda gakabije. Muri Afurika, ikigero cyubu burwayi
+          kiratandukanye bitewe nigihugu kugihugu, bitanga ingano yo guhera hafi
+          ya 3% kugeza 47% byabaturage bose. Ubushakashatsi bwakorewe muri
+          Tanzania ndetse no muri afurika yepfo bwerekanyeko ikigero cyagahinda
+          gakabije mubagabo baryamana nabandi bagabo ari 46.3% ndetse 44% uko
+          bikurikirana.
         </p>
         <MoreDepressionKinya />
         <div className="mt-1 flex items-center justify-center gap-x-6">
@@ -53,13 +55,13 @@ export const DepressionKinya = () => {
             href="/test"
             className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-gray-50 shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
-            Depression Test
+           Igipimo cy’agahinda gakabije
           </a>
           <a
             href="/getinvolved"
             className="text-sm font-semibold leading-6 text-black"
           >
-            Get Involved <span aria-hidden="true">→</span>
+            Fatanta Natwe <span aria-hidden="true">→</span>
           </a>
         </div>
       </div>
@@ -69,10 +71,10 @@ export const DepressionKinya = () => {
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-customized-2">
               1
             </p>
-            <p className="text-lg font-bold leading-5">Myth</p>
+            <p className="text-lg font-bold leading-5">Ikinyoma</p>
           </div>
           <p className="text-sm text-gray-900">
-            Depression is rare and will not happen to me
+          Agahinda gakabije ni indwara idakunze kuboneka, sinayirwara
           </p>
         </div>
         <div className="p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-customized-3 hover:-translate-y-2">
@@ -80,10 +82,10 @@ export const DepressionKinya = () => {
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-customized-3">
               2
             </p>
-            <p className="text-lg font-bold leading-5">Myth</p>
+            <p className="text-lg font-bold leading-5">Ikinyoma</p>
           </div>
           <p className="text-sm text-gray-900">
-            Depression is a sign of weakness
+          Agahinda gakabije ni ikimenyetso cy’imbaraga nke
           </p>
         </div>
         <div className="relative p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-customized-13 hover:-translate-y-2">
@@ -91,10 +93,10 @@ export const DepressionKinya = () => {
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-customized-13">
               3
             </p>
-            <p className="text-lg font-bold leading-5">Myth</p>
+            <p className="text-lg font-bold leading-5">Ikinyoma</p>
           </div>
           <p className="text-sm text-gray-900">
-            Depression is just feeling sad.
+          Agahinda gakabije ni ukumva ubabaye
           </p>
           {/* <p className="absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-customized-13 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10">
             <svg
@@ -120,10 +122,10 @@ export const DepressionKinya = () => {
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-customized-2">
               1
             </p>
-            <p className="text-lg font-bold leading-5">Fact </p>
+            <p className="text-lg font-bold leading-5">Ukuri </p>
           </div>
           <p className="text-sm text-gray-900">
-            Depression can happen to anyone, regardless of sex, race, or age.
+          Agahinda gakabije ni indwara yaba kumuntu uwo ariwe wese hatitawe kugitsina,ubwoko,n’imyaka
           </p>
           <p className="absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-customized-2 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10">
             <svg
@@ -147,11 +149,10 @@ export const DepressionKinya = () => {
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-customized-3">
               2
             </p>
-            <p className="text-lg font-bold leading-5">Fact</p>
+            <p className="text-lg font-bold leading-5">Ukuri</p>
           </div>
           <p className="text-sm text-gray-900">
-            Depression is not a sign of weakness but a medical condition.
-            Depression is a chemical imbalance in the brain that can be treated.
+          Agahinda gakabije ntabwo ari ikimenyetso cy’imbaraga nke, ahubwo ni uburwayi, agahinda gakabije ni uguhindagurika kwimisemburo yubwonko kandi bishobora kuvurwa.
           </p>
           <p className="absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-customized-3 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10">
             <svg
@@ -175,11 +176,10 @@ export const DepressionKinya = () => {
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-customized-13">
               3
             </p>
-            <p className="text-lg font-bold leading-5">Fact</p>
+            <p className="text-lg font-bold leading-5">Ukuri</p>
           </div>
           <p className="text-sm text-gray-900">
-            Depression is more than feeling sad. Persistent feelings of sadness
-            is one of the symptoms of depression.
+          Agahinda gakabije ni ibyiyumviro birenze agahinda, agahinda gahoraho ni kimwe mu bimenyetso byubu burwayi.
           </p>
           <p className="absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-customized-13 sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10">
             <svg

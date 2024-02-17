@@ -44,7 +44,7 @@ export const MoreDepressionKinya = () => {
     <div class="px-4 py-16 mx-auto  md:px-24 lg:px-8 lg:py-4 ">
       <div class="sm:mx-auto ">
         <div class="space-y-4">
-          <Item title="Click to read more about depression">
+          <Item title="Kanda hano usome byinshi kundwara y’agahinda gakabije">
             <PopDepressionKinya />
           </Item>
         </div>

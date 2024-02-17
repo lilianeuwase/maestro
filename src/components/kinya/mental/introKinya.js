@@ -3,9 +3,9 @@ export const IntroKinya = () => {
     <div class="dark px-4 py-20 sm:px-6 lg:px-8 lg:py-28 mx-auto bg-black">
       <div class="mb-12 max-w-2xl text-center mx-auto">
         <h1 class="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-gray-200">
-          Did you{" "}
+          Wari Uzi{" "}
           <span class="bg-clip-text bg-gradient-to-tl from-red-600 to-yellow-600 text-transparent">
-            Know ?
+            Ko ?
           </span>
         </h1>
       </div>
@@ -43,11 +43,10 @@ export const IntroKinya = () => {
 
             <span class="md:grow md:ml-5">
               <span class="hs-tab-active:text-customized-10 block font-semibold text-gray-800 dark:hs-tab-active:text-customized-10 dark:text-gray-200">
-                Depression
+              Agahinda Gakabije
               </span>
               <span class="hidden lg:block mt-2 text-gray-800 dark:text-gray-200">
-                Depression can happen to anyone, regardless of sex, race, or
-                age.
+              Agahinda gakabije ni indwara yaba kumuntu wese bitagendeye kugitsina cye, ubwoko bwe cyangwa imyaka y’ubukure.
               </span>
             </span>
           </span>
@@ -81,11 +80,10 @@ export const IntroKinya = () => {
 
             <span class="md:grow md:ml-5">
               <span class="hs-tab-active:text-customized-10 block font-semibold text-gray-800 dark:hs-tab-active:text-customized-10 dark:text-gray-200">
-                Anxiety
+              Umuhangayiko
               </span>
               <span class="hidden lg:block mt-2 text-gray-800 dark:text-gray-200">
-                Persistent worrying and racing thoughts are part of the
-                diagnostic criteria for anxiety.
+              Umuhangayiko uhoraho ndetse no gusimbuka kwintekerezo nyinshi ni bimwe mubigenderwaho mu kwemeza ubu burwayi
               </span>
             </span>
           </span>
@@ -119,10 +117,10 @@ export const IntroKinya = () => {
 
             <span class="md:grow md:ml-5">
               <span class="hs-tab-active:text-customized-10 block font-semibold text-gray-800 dark:hs-tab-active:text-customized-10 dark:text-gray-200">
-                Substance Abuse
+              Kwiyahuza Ibiyobyabwenge
               </span>
               <span class="hidden lg:block mt-2 text-gray-800 dark:text-gray-200">
-                Addiction can happen at any age.
+              Kubatwa nibiyobyabwenge byaba kumuntu wese ndetse kugigero kimyaka yubukure iyo ariyo yose.
               </span>
             </span>
           </span>
@@ -156,10 +154,10 @@ export const IntroKinya = () => {
 
             <span class="md:grow md:ml-5">
               <span class="hs-tab-active:text-customized-10 block font-semibold text-gray-800 dark:hs-tab-active:text-customized-10 dark:text-gray-200">
-                LGBTQI+ Individuals
+              Abanyamuryango ba LGBTQI+
               </span>
               <span class="hidden lg:block mt-2 text-gray-800 dark:text-gray-200">
-                Many LGBTQI+ people experience mental health struggles more than others youth of the same age.
+              Urubyiruko rwa LGBTQI+ ruhura nibibazo byo mu mutwe kurusha bagenzi babo bari mu kigero kimwe batabarizwa muri iyo kominote.
               </span>
             </span>
           </span>

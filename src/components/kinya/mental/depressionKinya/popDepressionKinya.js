@@ -12,24 +12,25 @@ export default function PopDepressionKinya() {
       <div className="mx-auto grid max-w-4xl lg:items-start lg:gap-y-10">
         <div className="lg:mx-auto lg:w-full">
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            What is Depression ?
+            Agahinda Gakabije ni iki?
           </h1>
           <p className="mt-6 text-lg text-gray-700">
-            Depression is a mental health condition that involves struggling
-            with low mood, altered pleasure and enjoyment that affects how
-            someone feels and behaves.
+            Agahinda gakabije ni uburwayi bwo mu mutwe aho umuntu agira
+            umubabaro, kutishima ndetse no kutanezerwa nkuko bikwiriye byangiza
+            uko umuntu yiyumva ndetse n’imyitwarire ye.
           </p>
         </div>
 
         <div className="lg:mx-auto lg:w-full lg:max-w-7xl">
           <div className="text-base leading-7 text-gray-700">
             <p>
-              Having Low mood doesn’t mean that someone has depression, we all
-              experience low mood but when it starts to interferes with your
-              daily life and takes weeks to months it turns into depression.
+              Kugira agahinda cyangwa kuba utanezerewe ntibivuzeko umuntu aba
+              afite agahinda gakabije, twese tugira ibihe twumva tutanezerewe
+              gusa iyo bitangiye kubangamira ubuzima bwacu bwa buri munsi
+              bigafata ibyumweru ndetse n’amezi bihinduka agahinda gakabije.
               <br /> <br />
-              As depression has level of severity it also has different types
-              which are the followings
+              Nkuko agahinda gakabije kagira urugero rw’ubukana ninako nubwoko
+              bwako butandukana aribwo bukurikira
             </p>
             <ul role="list" className="mt-8 text-gray-600">
               <li className="flex gap-x-3">
@@ -39,9 +40,10 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Persistent depressive disorder
+                    Agahinda gakabije kamara igihe kirekire
                   </strong>{" "}
-                  This is depression type that lasts for 2 years or more.
+                  Ubu ni ubwoko bw’agahinda gakabije kamara imyaka (2) ibiri
+                  kuzamura
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -51,10 +53,10 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Seasonal affective disorder
+                    Agahinda gakabije kubera ibihe
                   </strong>{" "}
-                  This is depression type that occurs at a particular time of
-                  year.
+                  Ubu ni ubwoko bw’agahinda gakabije kaza mugihe runaka
+                  cy’umwaka
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -64,10 +66,9 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Antenatal depression
+                    Agahinda gakabije kumubyeyi utwite
                   </strong>{" "}
-                  This is depression that happens when someone is pregnant, it
-                  is sometimes called prenatal depression.
+                  Ubu ni ubwoko bwagahimda gakabije bufata umuntu utwite
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -77,10 +78,10 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Postnatal depression
+                    Agahinda gakabije kumubyeyi wabyaye
                   </strong>{" "}
-                  This is depression that happens in first years after having a
-                  baby.
+                  Ubu ni ubwoko bw’agahinda gakabije bufata umubyeyi mugihe
+                  amaze kubyara umwana.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -90,18 +91,18 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Premenstrual dysphoric disorder
+                    Agahinda gakabije mbere y’imihango
                   </strong>{" "}
-                  This is hormonal related disorder that affects someone’s
-                  feelings.
+                  Ubu bwoko bwagahinda gakabije bufata umukobwa wenda kugera
+                  mugihe cy’imihango.
                 </span>
               </li>
             </ul>
             <p className="mt-8">
-              Depression as a life threatening condition it has causes and for
-              human being as everyone is unique the causes may be different from
-              person to person, among some common depression causes includes the
-              followings
+              Agahinda gakabije ni indwara ihangayikisha ubuzima bw’umuntu cyane
+              Igira impamvu ziyitera ndetse kuri burimuntu zishobora gutandukana
+              nkuko abantu batandukanye ,zimwe mu mpamvu zihuriweho zitera
+              uburwayi bw’agahinda gakabije harimo izi zikurikira
             </p>
             <ul role="list" className="mt-8 text-gray-600">
               <li className="flex gap-x-3">
@@ -111,13 +112,9 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Childhood trauma
+                  Ibikomere byo mubwana
                   </strong>{" "}
-                  Having history of childhood trauma and difficulties like being
-                  neglected, family conflicts, sexual, emotional or physical
-                  abuse leads to depression and this also kills someone’s self
-                  -esteem and due to low esteem it become difficult to cope with
-                  life stressors
+                  Kugira amateka arimo ibikomere nko kujugunywa, kwirengagizwa, amakimbirane mu muryango, ihohoterwa iryo ariryo ryose biri mu bitera uburwayi bw’agahinda gakabije kandi ibi byica ikizere umuntu yigirira, iyo umuntu amaze kwitakariza ikizere biramugora guhangana nimihangayiko y’ubuzima.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -127,12 +124,9 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Stressful life events
+                  Ibihe bikomeye
                   </strong>{" "}
-                  Some people develop depression due to very stressful life
-                  events that makes them feel like trapped in fences including
-                  Loosing Job, bankruptcy, Relationship problems, being bullied,
-                  major life changes like giving birth or getting married.
+                  Abantu bamwe bagira agahinda gakabije bitewe nibihe byingorane bahuye nabyo bituma bamera nkabafatiwe muri senyengi harimo nko kubura akazi, imyenda, ibibazo mu mibanire, kubwirwa nabi, impinduka zikomeye mubuzima nko kubyara ndetse no gushyingirwa.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -142,12 +136,9 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Poor situation analyzing
+                  Gufata ibintu muburyo bubi
                   </strong>{" "}
-                  Depression can develop when someone is being preoccupied with
-                  negative thoughts that happened to him/her and starts to blame
-                  him/herself for what happened, these judgements kills
-                  someone’s mood and feelings.
+                  Umuntu ashobora kurwara agahinda gakabije mugihe atekereza ibintu byose muburyo bubi, aho yicira imanza ndetse yishinza amakosa yaburi kantu kabayeho.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -157,12 +148,9 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Having other mental health problems
+                  Uburwayi bw’umubiri
                   </strong>{" "}
-                  Developing other mental health problems like anxiety,
-                  psychotic disorder, behavioral disorder can trigger depression
-                  because coping with these can be a difficult situation for you
-                  and develop depression.
+                  Zimwe mundwara zumuntu ukunze gusanga rimwe na rimwe ari indwara karande kenshi ziremerera umuntu kuzakira bikamutera agahinda gakabije
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -172,13 +160,9 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Physical health problems
+                  Kuba ufite ubundi burwayi bwo mumutwe
                   </strong>{" "}
-                  Some physical health problems which most of the time are
-                  chronic become too big for someone to manage and leads to
-                  depression where someone doesn’t have hope for tomorrow as
-                  they may be struggling with chronic or painful conditions ex:
-                  liver disease, kidney, cancer.
+                  Kuba umuntu afite ubundi burwayi bwo mumutwe nk’umuhangayiko, ibisazi, uburwayi bw’imyitwarire bishobora kuba imbarutso y’uburwayi bwagahinda gakabije.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -188,14 +172,9 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Genetics
+                  Uruhererekane mu miryango
                   </strong>{" "}
-                  Even though there is no specific gene that cause depression
-                  but research show that if your close family member has
-                  depression you also have chance to develop it, this may be due
-                  to learning from them how they cope and how they behave, and
-                  due to that environmental experience and biology someone
-                  develop depression.
+                  Nubwo ntakanyangingo kabigaragaza ko agahinda gakabije katerwa nuruhererekane mumiryango ubushakashatsi bwagaragaje ko iyo umwe mubanyamuryango bawe afite agahinda gakabije nawe ugira ibyago byo kugira ubwo burwayi, ibi bishobora guterwa no kuba wamureberaho mumyitwarire ye, uburyo abayeho bityo nawe ukaba wagira agahinda gakabije.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -205,11 +184,9 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Problems with sleep, diet
+                  Ibibazo ku mirire no gusinzira 
                   </strong>{" "}
-                  When someone is not able to sleep properly and eat healthy
-                  food it can affect his/her mood and this makes someone
-                  vulnerable to depression.
+                  Iyo umuntu ataruhuka ndetse ngo anarye indyo yuzuye nkuko bikwiriye bishobora kumuhindura muburyo yiyumva bikaba byamutera kuba yarwara agahinda gakabije.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -219,20 +196,17 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Medications
+                  Imiti
                   </strong>{" "}
-                  Some depression can develop due to medication’s side effect
-                  and that’s why if medication will last longer needs to be
-                  checked well by your doctor.
+                  Bumwe mu bwoko bw’agahimda gakabije bushobora kuza bitewe ningaruka mbi imiti yaguteye ,iyo imiti izafatwa igihe kirekire igomba gusuzumwa na muganga.
                 </span>
               </li>
             </ul>
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              Depression has different symptoms which are as follows
+            Ibimenyetso by’agahinda gakabije
             </h2>
             <p className="mt-3">
-              As every person is unique the symptoms also may be different
-              according to person and those symptoms are in 2 forms:
+            Nkuko buri muntu yihariye n’ibimenyetso bishobora gutandukana ndetse ibi bimenyetso bigaragara mubwoko 2:
             </p>
             <ul role="list" className="text-gray-600">
               <li className="flex gap-x-3">
@@ -242,7 +216,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    How someone feels
+                  Uko umuntu yiyumva
                   </strong>
                 </span>
               </li>
@@ -253,13 +227,13 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    How someone behaves
+                  Uko umuntu yitwara
                   </strong>
                 </span>
               </li>
             </ul>
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              Symptoms on how someone feels
+            Ibimenyetso kuko umuntu yiyumva
             </h2>
             <ul role="list" className="text-gray-600">
               <li className="flex gap-x-3">
@@ -269,8 +243,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Changes in feelings where it can make someone feels Guilty,
-                    tearful, Upset, empty
+                  Guhinduka mubyiyumviro aho bishobora kutuma umuntu yicira imanza,agira agahinda,arakara,abura imbaraga
                   </strong>
                 </span>
               </li>
@@ -281,7 +254,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Finding no pleasure in things you used to enjoy
+                  Kubura ibyishimo mu bintu byaribisanzwe bikunezeza
                   </strong>
                 </span>
               </li>
@@ -292,7 +265,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Angry and frustrated over minor things
+                  Kurakazwa nutuntu duto
                   </strong>
                 </span>
               </li>
@@ -303,7 +276,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Feeling tired
+                  Kunanirwa cyane
                   </strong>
                 </span>
               </li>
@@ -314,13 +287,13 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Hopelessness
+                  Kubura ikizere
                   </strong>
                 </span>
               </li>
             </ul>
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              Depression also affect how someone act
+            Ibimenyetso ku myitwarire
             </h2>
             <ul role="list" className="text-gray-600">
               <li className="flex gap-x-3">
@@ -330,7 +303,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Self-harming or suicidal behaviors
+                  Kwibabaza ndetse n’imyitwarire yo gushaka kwiyambura ubuzima.
                   </strong>
                 </span>
               </li>
@@ -341,7 +314,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Difficulty sleeping
+                  Kubura ibitotsi
                   </strong>
                 </span>
               </li>
@@ -352,7 +325,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Losing interest in sex
+                  Kubura ubushake mugukora imibonano mpuzabitsina
                   </strong>
                 </span>
               </li>
@@ -363,7 +336,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Using drugs
+                  Gukoresha ibiyobyabwenge
                   </strong>
                 </span>
               </li>
@@ -374,7 +347,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Not wanting to sleep
+                  Kudashaka gusinzira
                   </strong>
                 </span>
               </li>
@@ -385,7 +358,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Not following responsibilities recklessly
+                  Kutita kunshingano zawe
                   </strong>
                 </span>
               </li>
@@ -396,7 +369,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Moving slowly and being easily agitated
+                  Kugenda gake no kurakazwa nubusa
                   </strong>
                 </span>
               </li>
@@ -407,8 +380,7 @@ export default function PopDepressionKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Feeling pain, aches or health complains with no physical
-                    health problem.
+                  Kumva ububabare, kuribwa ndetse nuburwayi nyamara ntaburwayi bugaragar ufite
                   </strong>
                 </span>
               </li>
