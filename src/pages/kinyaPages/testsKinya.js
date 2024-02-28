@@ -1,16 +1,14 @@
 import React from "react";
-import Check from "../components/tests/checkBoxTry";
-import DepressionTest from "../components/tests/depression/depressionTest";
-import TestsTabs from "../components/tests/testsTabs";
+import TestsTabsKinya from "../../components/kinya/tests/testsTabsKinya";
 
-const Tests = () => {
+const TestsKinya = () => {
   return (
     <div>
-      <TestsTabs />
+      <TestsTabsKinya />
       {/* <DepressionTest /> */}
       {/* <Check/> */}
     </div>
   );
 };
 
-export default Tests;
+export default TestsKinya;

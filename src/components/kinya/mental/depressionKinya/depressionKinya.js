@@ -52,13 +52,13 @@ export const DepressionKinya = () => {
         <MoreDepressionKinya />
         <div className="mt-1 flex items-center justify-center gap-x-6">
           <a
-            href="/test"
+            href="/kinyatest"
             className="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-gray-50 shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
            Igipimo cy’agahinda gakabije
           </a>
           <a
-            href="/getinvolved"
+            href="/kinyagetinvolved"
             className="text-sm font-semibold leading-6 text-black"
           >
             Fatanta Natwe <span aria-hidden="true">→</span>
