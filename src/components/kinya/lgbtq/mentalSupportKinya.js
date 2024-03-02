@@ -50,11 +50,11 @@ const MentalSupportKinya = ({ imageDetails, image }) => (
               transition={transition}
               className="informationWelcome"
             >
-              <div className="titleWelcome">Click the image for</div>
+              <div className="titleWelcome">Kanda Muri Iyi Foto</div>
               {/* <div className='titleWelcome'>CLICK ON THE IMAGE</div> */}
               <div className="locationWelcome">
-                <span>Mental health</span>
-                <span>support</span>
+                <span>Ubone</span>
+                <span>Ubufasha</span>
               </div>
             </motion.div>
             <Box>
@@ -74,7 +74,7 @@ const MentalSupportKinya = ({ imageDetails, image }) => (
                 top={"-15px"}
                 transform={"rotate(20deg)"}
               >
-               Click Image for Support
+               Kanda Muri Iyi Foto Ufanshwe
               </Text>
             </Box>
           </div>

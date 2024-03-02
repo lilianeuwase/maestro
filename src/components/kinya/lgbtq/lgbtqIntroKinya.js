@@ -21,11 +21,11 @@ import blue from "../../../assets/blue.jpeg";
 import violet from "../../../assets/violet.jpeg";
 
 const cities = [
-  { name: "All", image: orange },
-  { name: "Genders", image: yellow },
-  { name: "Are", image: green },
-  { name: "Well", image: blue },
-  { name: "Welcomed", image: violet },
+  { name: "Abantu", image: orange },
+  { name: "Bose", image: yellow },
+  { name: "Bafite", image: green },
+  { name: "Uburenganzira", image: blue },
+  { name: "Bungana", image: violet },
 ];
 
 const LGBTQIntroKinya = () => {
@@ -70,7 +70,7 @@ const LGBTQIntroKinya = () => {
                         href="https://wa.me/27600136875?text=join%20rwanda-youth8678"
                         target="_blank"
                       >
-                       Live Chat
+                        Ganira Natwe
                       </a>
                     </li>
                     <li>
@@ -80,7 +80,7 @@ const LGBTQIntroKinya = () => {
                         ref={(el) => (line2 = el)}
                         to="/test"
                       >
-                        Mental Tests
+                        Isuzume Uburwayi
                       </Link>
                     </li>
                     <li>
@@ -90,7 +90,7 @@ const LGBTQIntroKinya = () => {
                         ref={(el) => (line3 = el)}
                         to="/getinvolved"
                       >
-                        Get Involved
+                       Korana Natwe
                       </Link>
                     </li>
                     <li>
@@ -100,7 +100,7 @@ const LGBTQIntroKinya = () => {
                         ref={(el) => (line3 = el)}
                         to="/lgbtq"
                       >
-                        Call 0798979117
+                        Hamagara 0798979117
                       </Link>
                     </li>
                   </ul>
@@ -109,19 +109,17 @@ const LGBTQIntroKinya = () => {
                   // ref={el => (info = el)}
                   className="infoLG"
                 >
-                  <h3>A Kind Reminder</h3>
+                  <h3>Icyo Kuzirikana</h3>
                   <p>
-                    Finding the right mental health professional
-                    could involve trying out a few options. If you're not
-                    comfortable with your initial choice, remember that it's
-                    completely acceptable to look for another professional who
-                    better suits your requirements and preferences. Prioritize
-                    your well-being and don't hesitate to reach out for help
-                    when needed.
+                    Gushaka umuvuzi ugufasha kwita k’ubuzima bwawe bwo mumutwe
+                    rimwe na rimwe ni amahitamo ashobora kugorana ngo ubone
+                    umwiza ndetse ukunogeye, mugihe utishimiye amahitamo yawe
+                    yambere ibukako byemewe kureba undi ukunejeje. Ita k’ubuzima
+                    bwawe kandi ntutindiganye gusaba ubufasha aho ubukeneye
                   </p>
                 </div>
                 <div className="locationsLG">
-                  Inclusion:
+                  Sobanukirwa:
                   {/* Returning the list of cities */}
                   {cities.map((el) => (
                     <span

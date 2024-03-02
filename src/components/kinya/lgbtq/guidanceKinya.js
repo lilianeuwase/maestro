@@ -9,13 +9,11 @@ const GuidanceKinya = () => {
           <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
             <div>
               <h1 class="block text-2xl font-bold text-gray-800 sm:text-3xl lg:text-5xl lg:leading-tight dark:text-white">
-                Guidance on how to Choose the{" "}
-                <span class="text-blue-600">Right</span>{" "}Help
+              Inama Kuburyo bwo Guhitamo  {" "}
+                <span class="text-blue-600">Ubuvuzi</span>{" "}Bwiza
               </h1>
               <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">
-                Your journey to well-being begins with choosing the right mental
-                health professional. You can make an informed decision by
-                following these guidelines
+              Urugendo rwawe rugana kubuzima bwiza butangirira kuguhitamo ubuvuzi bwiza. Wahitamo umuvuzi mwiza ukurikije ibi:
               </p>
 
               <GuidanceIcons />

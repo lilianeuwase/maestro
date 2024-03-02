@@ -5,7 +5,7 @@ const GuidanceIconsKinya = () => {
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Identify Your Needs
+            Menya Ibyo Ukeneye
             </h3>
           </div>
         </div>
@@ -13,7 +13,7 @@ const GuidanceIconsKinya = () => {
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Research Providers
+            Kora Ubushaka shatsi
             </h3>
           </div>
         </div>
@@ -21,7 +21,7 @@ const GuidanceIconsKinya = () => {
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Ask For Referrals
+            Baza
             </h3>
           </div>
         </div>
@@ -29,7 +29,7 @@ const GuidanceIconsKinya = () => {
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Experience
+            Reba Ubunya mwuga Bw’umuntu
             </h3>
           </div>
         </div>
@@ -37,7 +37,7 @@ const GuidanceIconsKinya = () => {
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Therapeutic Approach
+            Ubuvuzi bworoshye kubugeraho
             </h3>
           </div>
         </div>
@@ -45,7 +45,7 @@ const GuidanceIconsKinya = () => {
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-1 md:p-1 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Personal Compatibility
+            Ibyiyumviro
             </h3>
           </div>
         </div>
@@ -53,7 +53,7 @@ const GuidanceIconsKinya = () => {
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Accessibility
+            Ubuvuzi Bubasha Kugureraho
             </h3>
           </div>
         </div>
@@ -61,14 +61,14 @@ const GuidanceIconsKinya = () => {
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Initial Consultation
+            Reba Uburyo Umurwayi Yakirwamo
             </h3>
           </div>
         </div>
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Cultural Awareness
+            Ubumenyi ku Muco
             </h3>
           </div>
         </div>
@@ -76,7 +76,7 @@ const GuidanceIconsKinya = () => {
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Cost and Insurance
+            Igiciro n’Ubwishi ngizi
             </h3>
           </div>
         </div>
@@ -84,7 +84,7 @@ const GuidanceIconsKinya = () => {
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-1 md:p-1 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Confidentiality
+            Ibanga
             </h3>
           </div>
         </div>
@@ -92,7 +92,7 @@ const GuidanceIconsKinya = () => {
         <div class="h-36 sm:h-38 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5 dark:border-gray-700">
           <div class="mt-3">
             <h3 class="text-sm sm:text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-          Take Care
+          Kwiyitaho
             </h3>
           </div>
         </div>

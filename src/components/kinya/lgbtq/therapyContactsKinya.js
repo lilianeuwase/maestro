@@ -7,8 +7,8 @@ export default function TherapyContactsKinya() {
             <div class="p-1.5 min-w-full inline-block align-middle">
               <div class="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-4 mx-auto">
                 <h1 class="mb-8 block text-2xl font-bold text-gray-800 sm:text-3xl lg:text-5xl lg:leading-tight dark:text-white">
-                  Where do we send our{"  "}
-                  <span class="text-blue-600">Clients</span>
+                Aho twohereza abaje {"  "}
+                  <span class="text-blue-600">Batugana</span>
                 </h1>
                 <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700 ">
                   <thead>
@@ -17,7 +17,7 @@ export default function TherapyContactsKinya() {
                         scope="col"
                         class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase"
                       >
-                        Clinic name
+                        Izini ry'Ivuriro
                       </th>
                     </tr>
                   </thead>

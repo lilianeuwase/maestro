@@ -1,14 +1,14 @@
 import React from "react";
-import GetIntro from "../components/getinvolved/getIntro";
-import { Volunteering } from "../components/getinvolved/volunteering";
+import GetIntroKinya from "../../components/kinya/getinvolved/getIntroKinya";
+import { VolunteeringKinya } from "../../components/kinya/getinvolved/volunteeringKinya";
 
-const GetInvolved = () => {
+const GetInvolvedKinya = () => {
   return (
     <div>
-      <GetIntro />
-      <Volunteering/>
+      <GetIntroKinya />
+      <VolunteeringKinya/>
     </div>
   );
 };
 
-export default GetInvolved;
+export default GetInvolvedKinya;
