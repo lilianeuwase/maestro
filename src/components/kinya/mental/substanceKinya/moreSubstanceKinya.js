@@ -44,7 +44,7 @@ export const MoreSubstanceKinya = () => {
     <div class="px-4 py-16 mx-auto  md:px-24 lg:px-8 lg:py-0 ">
       <div class="sm:mx-auto ">
         <div class="space-y-4">
-          <Item title="Click to read more about substance abuse">
+          <Item title="Kanda hano usome byinshi kubijyane no kwiyahuza ibiyobyabwenge">
             <PopSubstanceKinya />
           </Item>
         </div>

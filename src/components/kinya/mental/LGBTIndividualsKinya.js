@@ -24,27 +24,36 @@ export default function LGBTQIndividualsKinya() {
           </svg>
           <div className="mx-auto max-w-lg text-center lg:mx-0 lg:flex-auto lg:py-28 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Why <span class="bg-clip-text bg-gradient-to-tl from-red-600 to-yellow-600 text-transparent">LGBTQI+ </span> Youth?
+              Kuberiki Urubyiruko rwa
+              <span class="bg-clip-text bg-gradient-to-tl from-red-600 to-yellow-600 text-transparent">
+                LGBTQI+{" "}
+              </span>{" "}
+              ?
               {/* LGBTQI+
               <br />
               Individuals */}
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Many LGBTQI+ people experience mental health struggles. The
-              bisexual and transgender communities have the highest rates of
-              mental health concerns within the LGBTQI+ population. Younger
-              members of the LGBTQI+ community struggle the most with mental
-              health concerns of all age groups.
+              Urubyiruko rwinshi rwa LGBTQI+ ruhura nibibazo byinshi bibangamira
+              ubuzima bwabo wo mumutwe , aho Bisexual ndetse na Trans genders
+              bagira ibyago byinshi byo kugira ibibazo byo mumutwe kurusha
+              abandi.
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-            In Africa, the mental health of LGBT individuals is significantly impacted by widespread stigma and discrimination fueled by cultural, religious, and legal factors. Many countries criminalize same-sex relationships, subjecting LGBT individuals to legal persecution and fostering a hostile environment. Mental health disparities, limited access to affirming services, family and community rejection, and the threat of violence contribute to the challenges faced by the LGBT community.
+              Muri Afurika ubuzima bwo mumutwe bwa LGBTQI+ kenshi bugirwaho
+              ningaruka bitewe nakato, ivangura rituruka kumuco ndetse
+              nimyemerere yiyobokamana ndetse namategeko. Ibihugu byinshi bihana
+              ndetse ni icyaha gushyingirwana kwabahuje ibitsina, ibi bituma
+              LGBTQI+ bahanwa namategeko bakaba muri kominote ibagoye, kutabona
+              serivise bakenera,kwangwa nimiryango yabo ndetse naho batuye
+              ndetse no gukangishwa guhohoterwa.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
-                href="/lgbtq"
+                href="/kinyalgbtq"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                LGBTQI+ Support
+                Ubufasha kuri LGBTQI+
               </a>
             </div>
           </div>

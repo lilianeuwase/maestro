@@ -5,11 +5,10 @@ export const Card4Kinya = () => (
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
-          Fact
+          Ukuri
         </Text>
         <Text h3 color="white">
-         Anxiety disorders are diagnosable medical
-          illnesses
+        Uburwayi bw’umuhangayiko ni uburwayi busuzumwa ndetse bukanabonwa
         </Text>
       </Col>
     </Card.Header>
@@ -42,14 +41,14 @@ export const Card4Kinya = () => (
                 weight="bold"
                 transform="uppercase"
               >
-               Myth
+               Ibinyoma
               </Text>
             </Button>
           </Row>
         </Col>
         <Col>
           <Text color="#000" size={14}>
-          Anxiety isn’t an actual illness
+          Uburwayi bw’umuhangayiko ntabwo ari uburwayi nkubundi
           </Text>
         </Col>
         

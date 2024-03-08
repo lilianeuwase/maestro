@@ -58,28 +58,27 @@ export default function SubstanceKinya() {
                   zIndex: -1,
                 }}
               >
-                Substance
+                Kwiyahuza
               </Text>
               <br />
               <Text as={"span"} color={"red.400"}>
-                Abuse
+                Ibiyobyabwenge
               </Text>
             </Heading>
             <Text color={"gray.500"}>
-              Globally, WHO estimated that 237 million men and 46 million women
-              have alcohol use disorders, while The United Nations Office on
-              Drugs and Crime (UNODC) estimated that around 269 million people
-              worldwide used drugs at least once in 2018. Additional to these
-              numbers According to the WHO, tobacco kills more than 8 million
-              people each year, with more than 7 million of those deaths being
-              the result of direct tobacco use, while around 1.2 million are the
-              result of non-smokers being exposed to secondhand smoke
+              kwiyahuza inzoga. Mugihe ikigo cy’Isi cyita kukureba
+              imikoreshereze y’iyobyabwenge ndetse nibyaha(UNODC) bigaragaza ko
+              miliyoni 269 kwisi bakoresheje ibiyobyanbwenge byibuze inshuro
+              imwe muri(2018). Ikiyongera kuri iyi mibare dushingiye kuri WHO,
+              itabi ryica abarenga miliyoni 8 kumwaka,bivuzeko hejuru ya
+              miliyoni 7 abantu bapfa biterwa no kunywa itabi naho miliyoni 1.2
+              bapfa kuko begereye abakoresha itabi maze bagahumeka umwuka waryo
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: "column", sm: "row" }}
             >
-              <a href="/getinvolved">
+              <a href="/kinyagetinvolved">
                 <Button
                   rounded={"full"}
                   size={"lg"}
@@ -89,7 +88,7 @@ export default function SubstanceKinya() {
                   bg={"red.400"}
                   _hover={{ bg: "red.500" }}
                 >
-                  Get Involved
+                 Korana Natwe
                 </Button>
               </a>
               {/* <Button
@@ -133,13 +132,12 @@ export default function SubstanceKinya() {
                 align={"center"}
                 w={"100%"}
                 h={"100%"}
-                src={
-                  require("../../../../assets/Subabuse.png")  }
+                src={require("../../../../assets/Subabuse.png")}
               />
             </Box>
           </Flex>
         </Stack>
-        <MoreSubstanceKinya/>
+        <MoreSubstanceKinya />
       </Container>{" "}
       <SubstanceFMKinya />
     </ChakraProvider>

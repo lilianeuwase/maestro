@@ -27,28 +27,30 @@ export default function AnxietyKinya() {
           </svg>
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-20 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Anxiety
+              Umuhangayiko
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              The WHO states that nearly 300 million people of all ages suffer
-              from anxiety disorders which are around 3.6% of the global
-              population. A study in South Africa revealed a lifetime prevalence
-              of any anxiety disorder at around 15.8% in their country. In
-              Nigeria, the lifetime prevalence of anxiety disorders was
-              estimated to be around 3.3%, based on a population-based study.
+              Ikigo cy’Isi kita kubuzima (WHO) gitangaza ko miliyoni 300
+              z’abantu mubigero by’imyaka itandukanye barwaye indwara
+              y’umuhangayiko kukigero cya 3.6% cyabantu batuye isi.
+              Ubushakashatsi bwakorewe muri Afurika yepfo bwagaragaje ko ikigero
+              cy’indwara yumuhangayiko ari hafi 15.8% mugihugu. Muri Nigeria,
+              ingano y’uburwayi bwumuhangayiko bwagaragaye ko bungana na 3.3%
+              hashingiwe kumubare wabaturage bakoreshejwe muri ubu
+              bushakashatsi.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
-                href="/getinvolved"
+                href="/kinyagetinvolved"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                Get involved
+               Korana Natwe
               </a>
               <a
-                href="/"
+                href="/kinya"
                 className="text-sm font-semibold leading-6 text-white"
               >
-                Live Chat <span aria-hidden="true">→</span>
+               Ganira Natwe <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>

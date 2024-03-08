@@ -5,10 +5,10 @@ export const Card3Kinya = () => (
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
-          Fact
+        Ukuri 
         </Text>
         <Text h4 color="white">
-        Professional help is crucial to severe anxiety
+        Ubufasha bwa kinyamwuga burakenewe mu kuvura indwara y’umuhangayiko
         </Text>
       </Col>
     </Card.Header>
@@ -27,10 +27,10 @@ export const Card3Kinya = () => (
       }}
     >
       <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
-      Myth
+      Ibinyoma
       </Text>
       <Text h4 color="white">
-      You don’t need professional help, With time you can get over anxiety on your own
+      Ntabuvuzi bukenewe kumuntu ufite uburwayi bwumuhangayiko, uko ibihe bishira nabyo birashira
       </Text>
     </Card.Body>
   </Card>

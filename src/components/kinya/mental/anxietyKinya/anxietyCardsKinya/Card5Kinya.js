@@ -5,10 +5,10 @@ export const Card5Kinya = () => (
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
-          MYTH
+          Ibinyoma
         </Text>
         <Text h3 color="white">
-          Anxiety is just worrying
+         Guhangayika ni impungenge gusa
         </Text>
       </Col>
     </Card.Header>
@@ -46,7 +46,7 @@ export const Card5Kinya = () => (
                 weight="bold"
                 transform="uppercase"
               >
-                fact
+                Ukuri
               </Text>
             </Button>
           </Row>
@@ -64,8 +64,7 @@ export const Card5Kinya = () => (
             </Col> */}
             <Col>
               <Text color="#d1d1d1" size={12}>
-                Persistent worrying and racing thoughts are part of the
-                diagnostic criteria for anxiety
+              Guhora uhangayitse nibitekerezo byo gusiganwa nibice bigize ibipimo byo gusuzuma kugirango uhangayike
               </Text>
             </Col>
           </Row>

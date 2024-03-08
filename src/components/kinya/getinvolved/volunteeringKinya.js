@@ -4,11 +4,11 @@ export const VolunteeringKinya = () => {
       <div class="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
         <div class="lg:col-span-1">
           <h2 class="font-bold text-2xl md:text-3xl text-gray-800 dark:text-gray-200">
-            Opportunities for Volunteering
+            Amahirwe mu kuba Umukorerabushake
           </h2>
           <p class="mt-2 md:mt-4 text-gray-500 font-semibold text-md">
-            These are opportunities to volunteer and participate in community
-            events that are focused on mental health and LGBTQI+ issues.
+            Aya ni amahirwe aboneka mugufatanya n’abandi mubikorwa bigamije
+            guteza imbere ubuzima bwo mumutwe bwa LGBTQI+
           </p>
         </div>
 
@@ -28,15 +28,14 @@ export const VolunteeringKinya = () => {
               </svg>
               <div class="grow">
                 <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
-                  Career Development
+                  Kwagura & Gukuza Umwuga Wawe
                 </h3>
                 <p class="mt-1 text-gray-600 dark:text-gray-400">
-                  Engaging in Maestro Mind Lab Mental Health and LGBTQI+
-                  Projects through volunteering or active participation enhances
-                  your skills and demonstrates to prospective employers your
-                  commitment to significant social issues. This makes you a more
-                  attractive candidate for roles in advocacy, social work,
-                  counseling, mental health, and related fields.
+                  Gukorana n’abandi muri Maestro mind byongera ubumenyi bwawe
+                  bikagushyira ku Isi yumurimo yereka abakoresha ko ushoboye.
+                  Ibi bikugira umukandida mwiza mu kuvugira abandi, kuganiriza
+                  abantu, ibijyane n’ubuzima bwo mumutwe, nindi myuga ijyanye
+                  nabyo.
                 </p>
               </div>
             </div>
@@ -56,14 +55,12 @@ export const VolunteeringKinya = () => {
               </svg>
               <div class="grow">
                 <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
-                  Leadership Positions & Opportunities for Research
+                  Ubuyobozi & Amahirwe Kubushakashatsi
                 </h3>
                 <p class="mt-1 text-gray-600 dark:text-gray-400">
-                  Consistent involvement can propel you into leadership roles
-                  within the projects you've contributed to. If research is of
-                  interest to you, your volunteer engagement may grant you
-                  access to valuable information and communities relevant to
-                  specific areas of study.
+                  Gukorana na Maestro Mind Lab biguha zimwe munshingano
+                  zubuyobozi ndetse iyo ubushakashatsi ari kimwe mubintu wifuza
+                  gukora harimo amahirwe menshi yuko wakora ubushakashatsi
                 </p>
               </div>
             </div>
@@ -105,14 +102,14 @@ export const VolunteeringKinya = () => {
                 <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
               </svg>
               <div class="grow">
-                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
-                  Further Education
+              <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+                  Kwaguka mu Burezi
                 </h3>
                 <p class="mt-1 text-gray-600 dark:text-gray-400">
-                  Contemplating higher education? Your volunteer experience in
-                  Mental Health or LGBTQI+ can set you apart when applying to
-                  psychology, social work, counseling, public health, and other
-                  pertinent educational institutions.
+                  Ubunararibonye bwacu mu bijyane n’ubuzima bwo mumutwe bwa
+                  LGBTQI+ bushobora kuguha amahirwe yo gukomeza amashuri mu
+                  masomo nka Psychology, social work, counseling, public heath
+                  nibindi byerekeranye nabyo.
                 </p>
               </div>
             </div>

@@ -1,14 +1,14 @@
 import React from "react";
-import AboutIntro from "../components/aboutus/aboutIntro";
-import Impact from "../components/aboutus/impact";
+import AboutIntroKinya from "../../components/kinya/aboutus/aboutIntroKinya";
+import ImpactKinya from "../../components/kinya/aboutus/impactKinya";
 
-const AboutUs = () => {
+const AboutUsKinya = () => {
   return (
     <div>
-      <AboutIntro />
-      <Impact/>
+      <AboutIntroKinya />
+      <ImpactKinya/>
     </div>
   );
 };
 
-export default AboutUs;
+export default AboutUsKinya;

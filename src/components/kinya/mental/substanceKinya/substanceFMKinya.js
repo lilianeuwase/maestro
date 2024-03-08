@@ -127,9 +127,9 @@ export default function SubstanceFMKinya() {
         >
           <Testimonial>
             <TestimonialContentUp>
-              <TestimonialHeading>Myth</TestimonialHeading>
+              <TestimonialHeading>Ibinyoma</TestimonialHeading>
               <TestimonialText>
-                Only “hard” drugs like cocaine and heroin are addictive
+              Ibiyobyabwenge bikomeye nibyo byonyine bigira umuntu imbata
               </TestimonialText>
             </TestimonialContentUp>
             <TestimonialAvatar
@@ -138,17 +138,17 @@ export default function SubstanceFMKinya() {
               // title={'CEO at ABC Corporation'}
             />
             <TestimonialContentDown>
-              <TestimonialHeading>Fact</TestimonialHeading>
+              <TestimonialHeading>Ukuri</TestimonialHeading>
               <TestimonialText>
-              drugs prescribed by a doctor, like opioid painkillers, can lead to addiction.
+              Imiti yanditse na muganga ,urugero igabanya ububabare ndetse niyindi ishobora kukugira imbata
               </TestimonialText>
             </TestimonialContentDown>
           </Testimonial>
           <Testimonial>
             <TestimonialContentUp>
-              <TestimonialHeading>Fact</TestimonialHeading>
+              <TestimonialHeading>Ukuri</TestimonialHeading>
               <TestimonialText>
-              When substance abuse turns into drug addiction, it takes a powerful hold over both mind and body.
+              Iyo kwiyahuza ibiyobyabwenge bihindutse kuba imbata y’ibiyobyabwenge byangiza intekerezo ndetse numubiri
               </TestimonialText>
             </TestimonialContentUp>
             <TestimonialAvatar
@@ -157,17 +157,17 @@ export default function SubstanceFMKinya() {
               // title={'CEO at ABC Corporation'}
             />
             <TestimonialContentDown>
-              <TestimonialHeading>Myth</TestimonialHeading>
+              <TestimonialHeading>Ibinyoma</TestimonialHeading>
               <TestimonialText>
-              People can quit using drugs any time they want 
+              Umuntu ashobora guhagarika gukoresha ibiyobyabwenge igihe cyose abishakiye
               </TestimonialText>
             </TestimonialContentDown>
           </Testimonial>
           <Testimonial>
             <TestimonialContentUp>
-              <TestimonialHeading>Myth</TestimonialHeading>
+              <TestimonialHeading>Ibinyoma</TestimonialHeading>
               <TestimonialText>
-              Addiction can only happen to teenagers 
+              Kubatwa n’ibiyobyabwenge biba kubangavu ndetse ningimbi gusa
               </TestimonialText>
             </TestimonialContentUp>
             <TestimonialAvatar
@@ -176,9 +176,11 @@ export default function SubstanceFMKinya() {
               // title={'CEO at ABC Corporation'}
             />
             <TestimonialContentDown>
-              <TestimonialHeading>Fact</TestimonialHeading>
+              <TestimonialHeading>Ukuri</TestimonialHeading>
+    
+
               <TestimonialText>
-              Addiction can happen at any age. Even unborn children can get addicted because of their mother's drug use.
+              Kubatwa n’ibiyobyabwenge bishobora kuba kumuntu, mukigero kimyaka yose ndetse n’abana bato bashobora kubigira bitewe nuko ababyeyi babo babikoresha
               </TestimonialText>
             </TestimonialContentDown>
           </Testimonial>
