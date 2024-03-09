@@ -19,12 +19,12 @@ const filters = [
   },
   {
     id: "note",
-    name: "Note",
+    name: "Icyo kumenya",
     options: [
       {
         value: "note",
         label:
-          "Based on a recent meta-analysis, some experts have recommended considering using a cut-off of 8 in order to optimize sensitivity without compromising specificity.",
+          "Hashingiwe ku isesengura riherutse, abahanga bamwe basabye ko harebwa ikoreshwa ry'amanota 8 kumanura kugira ngo barusheho kwiyumvisha ibintu bitabangamiye umwihariko.",
       },
     ],
   },

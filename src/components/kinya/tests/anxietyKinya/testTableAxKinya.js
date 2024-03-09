@@ -284,24 +284,24 @@ export const TestTableAxKinya = () => {
 
   useEffect(() => {
     if (sum >= 0 && sum <= 4) {
-      setResult("Nta bimenyetso by'umuhangayiko ufite");
-      setTreatment(
-        "You need to continue living healthy (balanced diet, enough water, enough rest, do physical exercises, explore main reason that trigger your anxiety to know what to avoid."
-      );
-    } else if (sum >= 5 && sum <= 9) {
       setResult("Ibimenyetso bike");
       setTreatment(
-        "You need to talk to friends, have time for leisure activities, consult our website on learning coping skills, be ready to start treatment Journey."
+        "Ugomba gukomeza kubaho neza (indyo yuzuye, amazi ahagije, kuruhuka bihagije, gukora imyitozo ngororamubiri, gucukumbura impamvu nyamukuru itera guhangayika kugirango umenye icyo wirinda."
       );
-    } else if (sum >= 10 && sum <= 14) {
+    } else if (sum >= 5 && sum <= 9) {
       setResult("Ibimenyetso biringaniye");
       setTreatment(
-        "You need to get treatment plan, look for a therapist, consult website for recommendation, plan and be ready for treatment."
+        "Ugomba kuvugana n'inshuti, ukagira umwanya wo kwidagadura, kugisha inama urubuga rwacu kubijyanye no kwiga ubuhanga bwo guhangana, witegure gutangira urugendo rwo kuvurwa."
       );
-    } else if (sum >= 15) {
+    } else if (sum >= 10 && sum <= 14) {
       setResult("Ibimenyetso byinshi");
       setTreatment(
-        "Call 912 for ambulance, Immediate Intervention is needed, Consult nearest Health Facility, Remove any danger and provide a safe environment."
+        "Ugomba kubona gahunda yo kuvurwa, shakisha umuvuzi wabigenewe, soma inama ku rubuga rwacu, kandi witeguye kuvurwa."
+      );
+    } else if (sum >= 15) {
+      setResult("Ibimenyetso bikabije");
+      setTreatment(
+        "Ukeneye ubufasha bwihuse: Hamagara kuri 912, cyangwa ugana ibitaro bikwegereye, ganira n’inshuti zigufashe kugera kwa muganga."
       );
     }
   });

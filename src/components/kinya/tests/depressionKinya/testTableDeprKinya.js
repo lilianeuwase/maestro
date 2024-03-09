@@ -382,7 +382,7 @@ export const TestTableDeprKinya = () => {
     } else if (sum >= 20 && sum <= 27) {
       setResult("Ibimenyetso bikabije");
       setTreatment(
-        "Gana ibitaro bikwegereye,ganira n’inshuti zigufashe kugera kwa muganga"
+        "Ukeneye ubufasha bwihuse: Hamagara kuri 912, cyangwa ugana ibitaro bikwegereye, ganira n’inshuti zigufashe kugera kwa muganga."
       );
     }
   });
