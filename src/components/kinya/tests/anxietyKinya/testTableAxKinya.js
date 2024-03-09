@@ -284,22 +284,22 @@ export const TestTableAxKinya = () => {
 
   useEffect(() => {
     if (sum >= 0 && sum <= 4) {
-      setResult("Minimal");
+      setResult("Nta bimenyetso by'umuhangayiko ufite");
       setTreatment(
         "You need to continue living healthy (balanced diet, enough water, enough rest, do physical exercises, explore main reason that trigger your anxiety to know what to avoid."
       );
     } else if (sum >= 5 && sum <= 9) {
-      setResult("Mild");
+      setResult("Ibimenyetso bike");
       setTreatment(
         "You need to talk to friends, have time for leisure activities, consult our website on learning coping skills, be ready to start treatment Journey."
       );
     } else if (sum >= 10 && sum <= 14) {
-      setResult("Moderate");
+      setResult("Ibimenyetso biringaniye");
       setTreatment(
         "You need to get treatment plan, look for a therapist, consult website for recommendation, plan and be ready for treatment."
       );
     } else if (sum >= 15) {
-      setResult("Severe");
+      setResult("Ibimenyetso byinshi");
       setTreatment(
         "Call 912 for ambulance, Immediate Intervention is needed, Consult nearest Health Facility, Remove any danger and provide a safe environment."
       );
@@ -315,10 +315,10 @@ export const TestTableAxKinya = () => {
               <div class="px-6 py-4 grid gap-3 md:flex md:justify-between md:items-center border-b border-gray-200 dark:border-gray-700">
                 <div>
                   <h2 class="text-xl font-semibold text-gray-800 dark:text-gray-200">
-                    Anxiety Test
+                  Gusuzuma Indwara y'Umuhangayiko 
                   </h2>
                   <p class="text-sm text-gray-600 dark:text-gray-400">
-                    Take test and check your results at the bottom of the table
+                  Tangira isuzuma maze urebe ibisubizo mundiba/hasi yimbonerahamwe
                   </p>
                 </div>
               </div>
@@ -332,8 +332,7 @@ export const TestTableAxKinya = () => {
                       >
                         <div class="flex items-center gap-x-2">
                           <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-gray-200">
-                            Over the last 2 weeks, how often have you been
-                            bothered by the following problems?
+                          Mu gihe cy’ibyumweru 2 bishize ni kangahe wabangamiwe nibimenyetso bikurikira 
                           </span>
                         </div>
                       </th>
@@ -342,7 +341,7 @@ export const TestTableAxKinya = () => {
                     <th scope="col" class="px-1 py-3 text-left">
                       <div class="flex items-center gap-x-2">
                         <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-gray-200">
-                          Not at all
+                        Ntanarimwe 
                         </span>
                       </div>
                     </th>
@@ -350,7 +349,7 @@ export const TestTableAxKinya = () => {
                     <th scope="col" class="px-1 py-3 text-left">
                       <div class="flex items-center gap-x-2">
                         <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-gray-200">
-                          Several days
+                        Iminsi myinshi 
                         </span>
                       </div>
                     </th>
@@ -358,7 +357,7 @@ export const TestTableAxKinya = () => {
                     <th scope="col" class="px-1 py-3 text-left">
                       <div class="flex items-center gap-x-2">
                         <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-gray-200">
-                          More than half the days
+                        Birenze kimwe cya kabiri kiminsi  
                         </span>
                       </div>
                     </th>
@@ -366,7 +365,7 @@ export const TestTableAxKinya = () => {
                     <th scope="col" class="px-1 py-3 text-left">
                       <div class="flex items-center gap-x-2">
                         <span class="text-xs font-semibold uppercase tracking-wide text-gray-800 dark:text-gray-200">
-                          Nearly every day
+                        Hafi ya burimunsi 
                         </span>
                       </div>
                     </th>
@@ -380,7 +379,7 @@ export const TestTableAxKinya = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            Feeling nervous, anxious or on edge
+                          Kugira ubwoba,guhangayika gutuma udatuza ngo uhore hamwe
                           </div>
                         </div>
                       </td>
@@ -435,7 +434,7 @@ export const TestTableAxKinya = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            Not being able to stop or control worrying
+                          Kutabasha kurekera guhangayika 
                           </div>
                         </div>
                       </td>
@@ -490,7 +489,7 @@ export const TestTableAxKinya = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            Worrying too much about different things
+                          Guhangayika cyane no kubintu bitandukanye 
                           </div>
                         </div>
                       </td>
@@ -545,7 +544,7 @@ export const TestTableAxKinya = () => {
                       <td class="h-2px w-2px ">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            Trouble relaxing
+                          Ingorane zo kuruhuka
                           </div>
                         </div>
                       </td>
@@ -600,7 +599,7 @@ export const TestTableAxKinya = () => {
                       <td class="h-2px w-2px">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            Being so restless that it is hard to sit still
+                          Kuba udatuje kuburyo bigoye kwicara hamwe
                           </div>
                         </div>
                       </td>
@@ -655,7 +654,7 @@ export const TestTableAxKinya = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            Becoming easily annoyed or irritable
+                          Guhinduka byoroshye cyangwa kurakara
                           </div>
                         </div>
                       </td>
@@ -710,7 +709,7 @@ export const TestTableAxKinya = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                            Feeling afraid as if something awful might happen
+                          Kumva ufite ubwoba nkaho hari ikintu kibi gishobora kubaho
                           </div>
                         </div>
                       </td>

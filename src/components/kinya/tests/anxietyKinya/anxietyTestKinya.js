@@ -8,12 +8,12 @@ import TestInterpretationAxKinya from "./testInterpretationAxKinya";
 const filters = [
   {
     id: "interpretation",
-    name: "Test Interpretation",
+    name: "Ibisobanuro kw’isuzuma ",
     options: [
       {
         value: "white",
         label:
-          "When screening for anxiety disorders, a score of 8 or greater represents a reasonable cut-point for identifying probable cases of generalized anxiety disorder; further diagnostic assessment is warranted to determine the presence and type of anxiety disorder. Using a cut-off of 8 the GAD-7 has a sensitivity of 92% and specificity of 76% for diagnosis generalized anxiety disorder.",
+          "Iyo isuzuma wakoze ritanze amanota 8 cyangwa no hejuru yayo bitanga ikimenyetso ngenderwaho ko ufite uburwayi bw’umuhangayiko gusa isuzuma ryimbitse  ryakozwe na muganga rirakenewe ngo hemezwe neza ko aribyo ndetse nubwoko bwumuhangayiko urwaye . igipimo cyumuhangayiko(GAD-7) gifite ubushobozi bungna na 92% bwo kwerekana ko umuntu afite unurwayi ndetse na 76% mukwerekana ko umuntu ntaburwayi afite.",
       },
     ],
   },
@@ -90,7 +90,7 @@ export default function AnxietyTestKinya() {
       <main className="mx-auto max-w-7xl">
         <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-8">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900">
-            Are you Anxious ?
+            Ufite Uburwayi bw’Umuhangayiko?
           </h1>
 
           <div className="flex items-center">
@@ -113,10 +113,11 @@ export default function AnxietyTestKinya() {
             {/* Filters */}
             <form className="hidden lg:block">
               <p className="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900">
-                Anxiety is a feeling of being worried, nervous, or scared about
-                things, even when they might not be dangerous, and it can
-                manifest physically with symptoms like restlessness, rapid heart
-                rate, and sweating.
+                Umuhangayiko ni ibyiyumviro byo kumva uhangayitse ,udatuje
+                ugaterwa ubwoba nibintu bishobora no kuba ntacyo byagutwara
+                /bidateje icyago ndetse bikagaragarira mubimenyetso bigaragara
+                inyuma nko kudatuza, gutera cyane kumutima,ndetse no kubira
+                ibyuya byinshi
               </p>
 
               {filters.map((section) => (

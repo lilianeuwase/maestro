@@ -24,9 +24,9 @@ export default function LGBTQIndividualsKinya() {
           </svg>
           <div className="mx-auto max-w-lg text-center lg:mx-0 lg:flex-auto lg:py-28 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Kuberiki Urubyiruko rwa
+              Kuberiki Urubyiruko rwa {" "}
               <span class="bg-clip-text bg-gradient-to-tl from-red-600 to-yellow-600 text-transparent">
-                LGBTQI+{" "}
+                LGBTQI+
               </span>{" "}
               ?
               {/* LGBTQI+
@@ -60,7 +60,7 @@ export default function LGBTQIndividualsKinya() {
           <div className="relative mt-16 h-80 lg:mt-8">
             <img
               className="absolute left-0 top-48 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
-              src={require("../../../assets/Flags1.png")}
+              src={require("../../../assets/Kinya.png")}
               //   src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
               alt="App screenshot"
               width={1824}

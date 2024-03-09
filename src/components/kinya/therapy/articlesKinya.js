@@ -4,7 +4,7 @@ export const ArticlesKinya = () => {
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-black-900 uppercase rounded-full bg-customized-10">
-            Maestro Mind Lab Recommendation
+            Inama za Maestro Mind Lab
           </p>
         </div>
         <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -31,15 +31,15 @@ export const ArticlesKinya = () => {
                 height="24"
               />
             </svg>
-            <span className="relative">Resources</span>
+            <span className="relative">Imfashanyigisho</span>
           </span>{" "}
-          for LGBTQI+ youth
+          Kurubyiruko rwa LGBTQI+
         </h2>
       </div>
       <div className="grid max-w-screen-lg mx-auto space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x">
         <div className="space-y-6 sm:px-16">
           <p className="text-base text-gray-700 md:text-lg mb-8">
-            Articles on mental health topics specific to LGBTQI+ youth
+          Inyandiko kubuzima bwo mumutwe zigenewe urubyiruko ruba muri kominote ya LGBTQI+
           </p>
           <div className="flex flex-col max-w-md sm:flex-row">
             <div className="mb-4 mr-4">
@@ -63,11 +63,12 @@ export const ArticlesKinya = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-              LGBTQI+ Internet Use
+              Gukoresha Murandasi / Iyakure 
               </h6>
               <p className="text-sm text-gray-900">
-                How LGBTQI+ Young People Use the Internet in Relation to Their Mental Health:
-                Exploratory Study
+              Gukoresha murandasi kuri LGBTQI+
+Uko urubyiruko rwa LGBTQI+ rukoresha iyakure/murandasi mukumenya byinshi kubuzima bwo mumutwe 
+
               </p>
               <a
                 href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6320432/"
@@ -75,7 +76,7 @@ export const ArticlesKinya = () => {
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-customized-3 hover:text-deep-purple-800"
                 target="_blank"
               >
-                Learn more
+              Soma byinshi
               </a>
             </div>
           </div>
@@ -101,10 +102,10 @@ export const ArticlesKinya = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                Social Media
+              Imbuga Nkoranyambaga
               </h6>
               <p className="text-sm text-gray-900">
-              Can Social Media Participation Enhance LGBTQI+ Youth Well-Being?
+              Gukoresha imbuga nkoranyambaga byaba bifasha mukuzamura imibereho y’urubyiruko rwa LGBTQI+?
                 {/* Development of
                 the Social Media Benefits Scale */}
               </p>
@@ -114,7 +115,7 @@ export const ArticlesKinya = () => {
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-customized-3 hover:text-deep-purple-800"
                 target="_blank"
               >
-                Learn more
+              Soma byinshi
               </a>
             </div>
           </div>
@@ -140,10 +141,10 @@ export const ArticlesKinya = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                Social Media Use
+              Gukoresha Imbuga Nkoranyambaga 
               </h6>
               <p className="text-sm text-gray-900">
-              Social Media Use and Health and Well-being of LGBTQI+ Youth: Systematic Review
+              Gukoresha imbuga nkoranyambaga,ubuzima ndetse n’imibereho myiza kurubyiruko rwa LGBTQI+ 
               </p>
               <a
                 href="https://www.jmir.org/2022/9/e38449/"
@@ -151,7 +152,7 @@ export const ArticlesKinya = () => {
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-customized-3 hover:text-deep-purple-800"
                 target="_blank"
               >
-                Learn more
+              Soma byinshi
               </a>
             </div>
           </div>
@@ -190,14 +191,14 @@ export const ArticlesKinya = () => {
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-customized-3 hover:text-deep-purple-800"
                 target="_blank"
               >
-                Learn more
+              Soma byinshi
               </a>
             </div>
           </div> */}
         </div>
         <div className="space-y-6 sm:px-16">
           <p className="text-base text-gray-700 md:text-lg mb-8">
-            Video links on mental health topics specific to LGBTQI+ youth
+          Amashusho ajyanye nubuzima bwo mumutwe yateguriwe urubyiruko rwa LGBTQI+
           </p>
           <div className="flex flex-col max-w-md sm:flex-row">
             <div className="mb-4 mr-4">
@@ -220,9 +221,9 @@ export const ArticlesKinya = () => {
               </div>
             </div>
             <div>
-              <h6 className="mb-3 text-xl font-bold leading-5">Mental HealthProtection</h6>
+              <h6 className="mb-3 text-xl font-bold leading-5">Kurinda Ubuzima bwo Mumutwe</h6>
               <p className="text-sm text-gray-900">
-                Protecting mental health in the LGBTQI+ community | Safe Space
+              Kurinda ubuzima bwo mumutwe mu rubyiruko rwa LGBTQI+/Umwanya utuje
               </p>
               <a
                 href="https://www.youtube.com/watch?v=SlJqE1nL30Y"
@@ -230,7 +231,7 @@ export const ArticlesKinya = () => {
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-customized-3 hover:text-deep-purple-800"
                 target="_blank"
               >
-                Learn more
+              Soma byinshi
               </a>
             </div>
           </div>
@@ -256,10 +257,10 @@ export const ArticlesKinya = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                LGBTQI+ Youth Mental Health
+              Ubuzima bwo Mumutwe bw’Urubyiruko rwa LGBTQI+ 
               </h6>
               <p className="text-sm text-gray-900">
-                LGBTQI+ Youth Mental Health
+              Ubuzima bwo mumutwe bwa LGBTQI+
               </p>
               <a
                 href="https://www.youtube.com/watch?v=27cnH2XiLas"
@@ -267,7 +268,7 @@ export const ArticlesKinya = () => {
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-customized-3 hover:text-deep-purple-800"
                 target="_blank"
               >
-                Learn more
+              Soma byinshi
               </a>
             </div>
           </div>
@@ -293,11 +294,10 @@ export const ArticlesKinya = () => {
             </div>
             <div>
               <h6 className="mb-3 text-xl font-bold leading-5">
-                A Slice of Heaven Film
+              Filime Slice of Heaven( Agace k’ijuru)
               </h6>
               <p className="text-sm text-gray-900">
-                Through the Rainbow Lens: a film exploring mental health issues
-                affecting the LGBTQI+ community
+              Filime yerekana ibibazo byo mumutwe byibasira urubyiruko rwo muri kominote ya LGBTQI+
               </p>
               <a
                 href="https://www.youtube.com/watch?v=RVbx1O8bi8c "
@@ -305,7 +305,7 @@ export const ArticlesKinya = () => {
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-customized-3 hover:text-deep-purple-800"
                 target="_blank"
               >
-                Learn more
+              Soma byinshi
               </a>
             </div>
           </div>
@@ -342,7 +342,7 @@ export const ArticlesKinya = () => {
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-customized-3 hover:text-deep-purple-800"
                 target="_blank"
               >
-                Learn more
+              Soma byinshi
               </a>
             </div>
           </div> */}

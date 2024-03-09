@@ -70,8 +70,8 @@ export default function TestsTabsKinya() {
                 onChange={handleChange}
                 aria-label="basic tabs example"
               >
-                <Tab label="Depression Test" {...a11yProps(0)} />
-                <Tab label="Anxiety Test" {...a11yProps(1)} />
+                <Tab label="Igipimo Agahinda Gakabije" {...a11yProps(0)} />
+                <Tab label="Igipimo cy’Umuhangayiko" {...a11yProps(1)} />
                 {/* <Tab label="Substance Addiction Test" {...a11yProps(2)} /> */}
               </Tabs>
             </Box>

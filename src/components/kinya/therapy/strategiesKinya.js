@@ -17,12 +17,12 @@ export default function StrategiesKinya() {
             title="Inzira zo Kwifasha "
             item1="Guhumeka utekereza "
             subitem1="humeka cyane winjiza umwuka ndetse unawusohora, arinako utekereza"
-            item2="Body Scan"
-            subitem2="Pay attention to each part of your body, noticing sensations without judgment"
-            item3="Mindful Eating"
-            subitem3="Eat your food slowly and enjoy each bite. Notice how it tastes and feels in your mouth"
-            item4="Grounding Technique"
-            subitem4="Focus on your senses, describing what you see, hear, feel, etc"
+            item2="Gusikana Umubiri"
+            subitem2="Ita ndetse unishimire burigice cyigize umubiri wawe , wirinde kwiyumva nkaho udahagije ndetse utanejeje"
+            item3="Kurya Neza"
+            subitem3="Fata amafunguro yawe gahoro gahoro wumva uburyohe buri muri buri funguro urya"
+            item4="Ubuhanga bwo Gushingira"
+            subitem4="Ita kungingo zawe zumva ,usobanukirwe ibyo ureba, wumva,wiyumvamo,nibindi…"
           />
           <StrategyCard1Kinya
             title="Imyitozo y’Intekerezo"
@@ -41,22 +41,22 @@ export default function StrategiesKinya() {
             subitem1="Igitwenge gikiza gikubiyemo imyitozo yo guhumeka cyane ndetse nigitwenge kigufasha kuruhuka hamwe no gusabana nabandi. Ibukako uburyo bushobora gutanga ingaruka zitandukanye bitewe nuko buri muntu yihariye."
             item2="Uburyo bwo kwifasha"
             subitem2="Hindura intekerezo mbi, mu gihe ufite intekerezo mbi zishobora kukwangiza nibyiza ko wisuzuma ukamenya niba koko ibyo utekereza bifite ishingiro ndetse ukanareba ingaruka bizanira ubuzima bwawe ukaba wafata ingamba zo guhindura intekerezo."
-            item3="Deep Breaths: "
-            subitem3="Combine laughter with deep breaths, inhaling through the nose and exhaling through the mouth"
-            item4="Remember that these techniques might work differently for each individual"
+            item3="Humeka cyane"
+            subitem3="Huza umwitozo w’igitwenge ndetse no guhumeka cyane , winjiriza umwuka mumazuru ndetse uwusohorera mukanwa bizagufasha kuruhuka"
+            item4="Zirikana ko ubu buryo bwavuzwe bushobora gufasha abantu kugigero gitandukanye"
             subitem4=""
           />
 
           <StrategyCard1Kinya
             title="Uburyo bwo kwifasha"
-            item1="Changing negative thoughts"
-            subitem1="Anxious thoughts can sometimes be unhelpful. Learn how to step back, and examine the evidence for your thoughts."
-            item2="Addressing your Concerns"
-            subitem2="Find out about the worry time technique It helps a lot"
-            item3="Problem-solving"
-            subitem3="Finding innovative solutions to your problems can help you feel more in control of them."
-            item4="Bouncing back"
-            subitem4="Taking steps to look after your mental health every day can give you the skills you need to build resilience"
+            item1="Hindura intekerezo mbi"
+            subitem1="Intekerezo ziteye ubwoba ndetse zinahangayikishije  rimwe na rimwe zishobora kuba ntakamaro zigufitiye, iga kureba niba koko zifite ishingiro"
+            item2="Shaka uburyo bwo kwifasha"
+            subitem2="Mugihe uhangayitse shaka umwitozo runaka wagufasha mukuruhuka ndetse no kwirukana ibyo byiyumvo bihangayikishije"
+            item3="Gukemura ibibazo"
+            subitem3="Gushaka uburyo bushya bwo gukemura ibibazo byawe bishobora kugufasha kumva bitakugenga ahubwo ufite uburyo bwo kubikemura"
+            item4="Hangana/ Tera intambwe"
+            subitem4="Tera intambwe wite kubuzima bwawe bwo mumutwe burimunsi bizagufasha mukuguha ubumenyi bwo  guhangana"
           />
         </div>
       </div>
