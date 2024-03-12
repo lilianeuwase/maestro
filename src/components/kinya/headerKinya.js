@@ -39,7 +39,7 @@ const HeaderKinya = ({ history, dimensions }) => {
       <div className="containerHome">
         <div className="rowHome v-centerHome space-betweenHome">
           <div className="logoHome">
-            <NavLink to="/" exact>
+            <NavLink to="/kinya" exact>
             <img src={require("../../assets/Maestro Logo - 2.png")} width={100} height={100} /> {" "}
               {/* MAESTRO. */}
             </NavLink>

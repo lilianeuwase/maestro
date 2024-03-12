@@ -24,7 +24,7 @@ export default function LGBTQIndividualsKinya() {
           </svg>
           <div className="mx-auto max-w-lg text-center lg:mx-0 lg:flex-auto lg:py-28 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Kuberiki Urubyiruko rwa {" "}
+              Kubera iki Urubyiruko rwa {" "}
               <span class="bg-clip-text bg-gradient-to-tl from-red-600 to-yellow-600 text-transparent">
                 LGBTQI+
               </span>{" "}
