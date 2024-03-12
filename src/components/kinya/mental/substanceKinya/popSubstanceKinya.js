@@ -9,29 +9,31 @@ export default function PopSubstanceKinya() {
       <div className="mx-auto grid max-w-7xl lg:items-start lg:gap-y-10">
         <div className="lg:mx-auto lg:w-full">
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            What is Substance Abuse Disorder ?
+            Kwiyahuza Ibiyobya Bwenge ni iki?
           </h1>
           <p className="mt-6 text-lg text-gray-700">
-            Substance Abuse Disorder refers to uncontrollably using drugs
-            whether prescribed ones or illegal drugs in improper way that tends
-            to make someone addicted and continuously craving for that certain
-            drug and affects someone’s normal life.
+            Kwiyahuza ibiyobyabwenge ni ugukoresha imiti/ibinyabutabire byaba
+            ibyo wandikiwe na muganga cyangwa se itemewe na muganga muburyo
+            budahwitse bugutera kuba imbata yabyo ndetse no kumva uhora ufite
+            ubushake bwo kubikoresha ndetse bikangiza imibereho y’umuntu
+            isanzwe.
           </p>
         </div>
 
         <div className="lg:mx-auto lg:w-full lg:max-w-7xl">
           <div className="text-base leading-7 text-gray-700">
             <p>
-              Abusing drugs& Alcohols is a worst situation that affects
-              someone’s life where it may bring an effect to social life, mental
-              health, and physical health.
+              Kwiyahuza ibiyobyabwenge & inzoga ni ikibazo gihangayikishije
+              cyane aho byangiza ubuzima bwa muntu haba mumibanire ye, ubuzima
+              tubona inyuma.
               <br /> <br />
-              From testimonies that a lot of people testified most of them used
-              drugs as an escape of their problems but later on the addiction
-              bring and made their situation worse.
+              Hashingiwe kubuhamya bwatanzwe nabantu benshi ,benshi muribo
+              bakoresheje ibiyobyabwenge nkinzira y’ubuhungiro bw’ibibazo bafite
+              ariko nyuma yaho kubatwa nibiyobyabwenge byatume ibibazo bari
+              bafite bikara ndtse birushaho no gukomera.
             </p>
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              Causes of substance abuse
+              Ibitera Kwiyahuza Ibiyobyabwenge
             </h2>
             <ul role="list" className="mt-8 text-gray-600">
               <li className="flex gap-x-3">
@@ -41,12 +43,11 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Peer pressure
+                    Ikigare
                   </strong>{" "}
-                  The pressure from friends and people around you can pushes you
-                  to abuse drugs, where most of the time these are people you
-                  spent all of your time together and if they abuse drugs here
-                  is tendency for you also to start abusing them.
+                  Kwiyahuza ibiyobyabwenge bishobora kuguterwa nikigare umuntu
+                  agenderamo mugihe inshuti cyangwa se abantu bahafi ye
+                  bakoresha ibiyobyabwenge nawe, akora nkabo.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -56,10 +57,11 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Poor punishments
+                    Ibihano Byoroshye
                   </strong>{" "}
-                  Poor punishments that are given someone who uses drugs may
-                  lead to high number of people who abuses drugs.
+                  Kuba hatariho itegeko rikakaye rihana uwakoresheje
+                  ibiyobyabwene bishobora gutuma hari ababyishoramo kuko ntacyo
+                  baba batinya.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -69,17 +71,19 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Stress
+                    Ibibazo/Umuhangayiko
                   </strong>{" "}
-                  Many people having stresses and uses drugs as an escape of it.
+                  Ibibazo byo mubuzima ndetse no guhangayika mu buzima bishobora
+                  gutera umuntu kwiyahuza ibiyobyabwenge nkaho ari inzira yo
+                  kubyirengagiza.
                 </span>
               </li>
             </ul>
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              Symptoms
+            Ibimenyetso
             </h2>
             <p className="mt-8">
-              Someone who abused drugs tends to show the following symptoms
+            Umuntu wakoresheje ibiyobyabwenge akunda kwerekana ibimenyetso bikurikira
             </p>
             <ul role="list" className="text-gray-600">
               <li className="flex gap-x-3">
@@ -89,7 +93,7 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Aggressiveness
+                  Kugira umujinya
                   </strong>
                 </span>
               </li>
@@ -100,7 +104,7 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Irritability
+                  Kurakazwa nubusa
                   </strong>
                 </span>
               </li>
@@ -111,7 +115,7 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Significant changes in mood or behavior
+                  Guhindagurika mubyiyumviro bya hato na hato
                   </strong>
                 </span>
               </li>
@@ -122,7 +126,7 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Cravings for drugs.
+                  Kurarikira Ikiyobyabwenge ukaba utatuza utakibonye
                   </strong>
                 </span>
               </li>
@@ -133,7 +137,7 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Not wanting to sleep
+                  Kubura ibitotsi
                   </strong>
                 </span>
               </li>
@@ -144,7 +148,7 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Failing to do your responsibilities without using drugs
+                  Kutita kunshingano zawe 
                   </strong>
                 </span>
               </li>
@@ -155,7 +159,7 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Self-care deficit
+                  Kutiyitaho 
                   </strong>
                 </span>
               </li>
@@ -166,7 +170,7 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Failing to make decision on when and how to use drug.
+                  Kuyoborwa nikiyobyabwenge/ kuba utakimenya kwifatira imyanzuro
                   </strong>
                 </span>
               </li>
@@ -177,8 +181,7 @@ export default function PopSubstanceKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Continuously using drugs regardless, the consequences they
-                    caused you
+                  Gukomeza gukoresha ibiyobyabwenge hatitawe kungaruka byaguteye
                   </strong>
                 </span>
               </li>

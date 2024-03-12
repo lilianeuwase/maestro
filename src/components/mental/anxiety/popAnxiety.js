@@ -347,7 +347,7 @@ export default function PopAnxiety() {
               </li>
             </ul>
             <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-              Symptoms to the mind
+              Symptoms to the body
             </h2>
             <ul role="list" className="text-gray-600">
               <li className="flex gap-x-3">

@@ -13,27 +13,28 @@ export default function PopAnxietyKinya() {
       <div className="mx-auto grid max-w-6xl lg:items-start lg:gap-y-10">
         <div className="lg:mx-auto lg:w-full">
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            What is Anxiety?
+            Indwara y’umuhangayiko ni iki?
           </h1>
           <p className="mt-6 text-lg text-gray-700">
-            Anxiety is a mental health condition where someone has intense fear,
-            worried about something that it may happen. Some people say anxiety
-            to be fear of the future.
+            Umuhangayiko ni indwara yo mumutwe aho umuntu agira ubwoba
+            bwinshi,agahangayikishwa nikintu runaka ko gishobora kuba. Abantu
+            bamwe na bamwe bavuga ko indwara y’umuhangayiko ari ukugira ubwoba
+            bwejo hazaza.
           </p>
         </div>
 
         <div className="lg:mx-auto lg:w-full lg:max-w-7xl">
           <div className="text-base leading-7 text-gray-700">
             <p>
-              Anxiety can be experienced through our thoughts, feelings, and
-              physical sensations. Normally if someone is struggling with
-              something that may have an impact on his/her life it is normal to
-              feel anxious but when fear and worriedness reaches to the level it
-              does interfere with your daily life it become a mental health
-              problem.
+              Indwara yumuhangayiko igaragarira mubitekerezo by’umuntu,
+              ibyiyumviro ndeste nuko agaragara inyuma mubuzima busanzwe iyo
+              umuntu ahuye nukintu kimukomereye ,kimuteye ubwoba ndetse cyagira
+              ingaruka kubuzima bwe ni ibintu bisanzwe kugaragaza no kugira
+              ubwoba ariko iyo kugira ubwoba bitangiye kubangamira gahunda zawe
+              za burimunsi biba byahindutse ikibazo cyo mumutwe.
             </p>
             <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-              It is considered as mental health condition if
+              Bifatwa nkikibazo cyo mumutwe iyo
             </h2>
             <ul role="list" className="mt-4 text-gray-600">
               <li className="flex gap-x-3">
@@ -43,8 +44,8 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Your feelings of anxiety are very strong or last for a long
-                    time.
+                    Ibyiyumviro byawe by’ubwoba bikomeye ndetse bimaze numwanya
+                    mumini
                   </strong>{" "}
                 </span>
               </li>
@@ -55,7 +56,7 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    When you start to avoid that may cause you to feel anxious.
+                    Iyo utangiye kwirinda icyo kintu runaka kigutera ubwoba
                   </strong>{" "}
                 </span>
               </li>
@@ -66,7 +67,8 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    When your worries feel distressing or hard to control.
+                    Iyo umuhangayiko uguteshwa umutwe ndetse bikakugora kuba
+                    wawirukana muri wowe
                   </strong>{" "}
                 </span>
               </li>
@@ -77,18 +79,17 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    When it became too difficult for you to enjoy things used to
-                    enjoy.
+                    Iyo bikugoye kwishimira ibintu wari usanzwe wishimira
                   </strong>{" "}
                 </span>
               </li>
             </ul>
             <p className="mt-8">
-              Anxiety disorder can be experienced into different ways and as
-              they differ in types symptoms also are different.
+              Uburwayi bw’umuhangayiko bushobora kugaragara muburyo butandukanye
+              nkuko butandukanye mu bwoko n’ibimenyetso kenshi biratandukana
             </p>
             <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-              There are different types of anxiety:
+              Hari ubwoko butandukanye bw’indwara yumuhangayiko:
             </h2>
             <ul role="list" className="mt-4 text-gray-600">
               <li className="flex gap-x-3">
@@ -98,10 +99,11 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Generalized anxiety disorder
+                    Umuhangayiko rusange
                   </strong>{" "}
-                  This is when someone has uncontrollable fear, worriedness
-                  about different things in life.
+                  Aha ni igihe umuntu ahangayikira ibintu byinshi bitandukanye
+                  ndetse uwo muhangayiko ukaba uzana ubwoba budafite ishingiro
+                  yikintu kibutera
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -111,10 +113,11 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Social anxiety disorder
+                    Umuhangayiko utuma udasabana nabandi
                   </strong>{" "}
-                  This is when someone experience intense fear due to social
-                  situations (work places, parties)
+                  Umuhangayiko utuma udasabana nabandi ukaba wakwanga kujya aho
+                  abandi bari, mubirori ndetse nahandi hantu hatuma uhura
+                  nabandi
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -124,10 +127,9 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Panic disorder
+                    Gukuka umutima
                   </strong>{" "}
-                  This is when someone has continuous panic attacks without
-                  clear trigger
+                  Gukuka umutima ntampamvu igaragara ibiteye
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -137,10 +139,11 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Phobias
-                  </strong>{" "}
+                    Ubwoba bwahantu runaka
+                  </strong>
+                  {/* {" "}
                   This is an extreme fear or anxiety triggered by a particular
-                  situation either place or object
+                  situation either place or object */}
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -150,12 +153,13 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Post traumatic disorder
-                  </strong>{" "}
+                    Ubwoba butewe nikintu runaka cyakubayeho
+                  </strong>
+                  {/* {" "}
                   This is fear that happens after someone passed through a
                   traumatic event, where it brings flashbacks and nightmares
                   that makes feel like living all the fear you experienced
-                  during that traumatic event
+                  during that traumatic event */}
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -165,13 +169,14 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Obsessive compulsive disorder
-                  </strong>{" "}
+                    Ubwoba/Umuhangayiko uza nyuma yuko umuntu abyaye
+                  </strong>
+                  {/* {" "}
                   This is anxiety type that is characterized by repetitive
-                  thoughts, behaviors or urges.
+                  thoughts, behaviors or urges. */}
                 </span>
               </li>
-              <li className="flex gap-x-3">
+              {/* <li className="flex gap-x-3">
                 <ArrowRightCircleIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
                   aria-hidden="true"
@@ -196,22 +201,23 @@ export default function PopAnxietyKinya() {
                   This is anxiety that develops when someone is pregnant or in
                   first year after giving birth
                 </span>
-              </li>
+              </li> */}
             </ul>
             <h2 className="mt-12 text-2xl font-bold tracking-tight text-gray-900">
-              Causes of anxiety
+              Ibitera indwara yumuhangayiko
             </h2>
             <p className="mt-3">
               <span>
                 <strong className="font-semibold text-gray-900">
-                  There are different causes of anxiety:
+                  Izi nizo mpamvu zitandukanye zitera guhangayika:
                 </strong>{" "}
-                Every person can get anxiety but reasons to why he/she developed
-                anxiety may be different from person to person
+                Hari ibintu byinshi byatera indwara y’umuhangayiko . umuntu
+                ashobora kurwara iyi ndwara ndetse impamvu yayimuteye
+                igatandukana niya mugenzi we
               </span>
             </p>
             <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-              The common causes of anxiety include:
+              Ibintu rusange bitera uburwayi bw’umuhangayiko/Icyoba:
             </h2>
             <ul role="list" className="text-gray-600">
               <li className="flex gap-x-3">
@@ -235,10 +241,11 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Life struggles
+                    Ibikomere byo mubwana
                   </strong>{" "}
-                  Some life events become too big for someone to accept them and
-                  they struggle with anxiety
+                  Iyo umuntu yagize ibikomere akiri muto bishobora kumutera
+                  indwara y’umuhangayiko , kimwe mu bikomere twavuga Kwangwa
+                  ukiri muto(gutabwa nababyeyi)
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -248,10 +255,11 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Physical and mental health problems
+                    Imihangayiko yo mubuzima
                   </strong>{" "}
-                  When someone develops a chronic illness they tend to develop
-                  everyday fear and worriedness about their life
+                  Ibihe bimwe na bimwe byubuzima bishobora kuba biruhije
+                  bigatera umuntu ubu burwayi kubwo kubura imbaraga ndetse
+                  n’ubushobozi bwo kubyakira
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -261,24 +269,37 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Drugs and medications
+                    Indwara zidakira
                   </strong>{" "}
-                  Some medications bring anxiety as side effects
+                  Iyo umuntu arwaye uburwayi budakira ahora ahangayitse ndetse
+                  afite nubwoba bwingaruka zubwo burwayi kubuzima bwe bishobora
+                  kumutera ubu burwayi
                 </span>
               </li>
             </ul>
             <h2 className="mt-12 text-2xl font-bold tracking-tight text-gray-900">
-              Symptoms of anxiety
+              Ibimenyetso by’indwara y’umuhangayiko
             </h2>
             <p className="mt-3">
-              Anxiety feels different to everyone and the ways of experiencing
-              it may be different to persons and this cause mental effects and
-              physical effects.
+              Indwara yumuhangayiko ishobora kugira ibimenyetso bitandukanye
+              kuri buri muntu. Ndetse ibi bimenyetso bishobora kugaragarira
+              muntekerezo ndetse nibigaragara inyuma.
             </p>
             <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-              Symptoms to the mind
+            Ibimenyetso kuntekerezo
             </h2>
             <ul role="list" className="text-gray-600">
+              {/* <li className="flex gap-x-3">
+                <ChevronDoubleRightIcon
+                  className="mt-1 h-5 w-5 flex-none text-red-600"
+                  aria-hidden="true"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Ibimenyetso kuntekerezo
+                  </strong>
+                </span>
+              </li> */}
               <li className="flex gap-x-3">
                 <ChevronDoubleRightIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
@@ -286,7 +307,7 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Feeling tense, nervousness
+                    Kudatuza/ ubwoba bwinshi
                   </strong>
                 </span>
               </li>
@@ -297,7 +318,7 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Feeling like the world is speeding or slowing down
+                    Kumva nkaho isi iri kwihuta cyangwa kugenda buhoro
                   </strong>
                 </span>
               </li>
@@ -308,7 +329,7 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Feeling like you can’t stop worrying
+                    Kumva utabasha gutuza
                   </strong>
                 </span>
               </li>
@@ -319,7 +340,7 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Worrying about anxiety
+                    Guhangayikira uko uri kwiyumva
                   </strong>
                 </span>
               </li>
@@ -330,7 +351,7 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Experiencing low mood
+                    Kumva utanezerewe
                   </strong>
                 </span>
               </li>
@@ -341,13 +362,13 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Thinking about bad situation over and over again
+                    Gutekereza ibintu bibi ndetse bihoraho
                   </strong>
                 </span>
               </li>
             </ul>
             <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-              Symptoms to the mind
+            Ibimenyetso kumubiri 
             </h2>
             <ul role="list" className="text-gray-600">
               <li className="flex gap-x-3">
@@ -357,7 +378,9 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Feeling light headed
+                  Kutabasha kuruhuka
+
+
                   </strong>
                 </span>
               </li>
@@ -368,7 +391,8 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Feeling restlessness
+                  Kudasinzira
+
                   </strong>
                 </span>
               </li>
@@ -379,7 +403,8 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Sleep problems
+                  Guhumeka cyane
+
                   </strong>
                 </span>
               </li>
@@ -390,7 +415,8 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Faster breathing
+                  Kubira ibyuya byinshi
+
                   </strong>
                 </span>
               </li>
@@ -401,7 +427,8 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Sweating or hot flushes
+                  Kugira iserereri
+
                   </strong>
                 </span>
               </li>
@@ -412,7 +439,8 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Nausea
+                  Gushaka gukoresha ubwiherero cyane
+
                   </strong>
                 </span>
               </li>
@@ -423,7 +451,8 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Needing to use toilet more or less
+                  Kubura ubushake bwo gukora imibonano mpuzabitsina
+
                   </strong>
                 </span>
               </li>
@@ -434,11 +463,11 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Changes in sex drive
+                  Kubabara umugongo ndetse numutwe
                   </strong>
                 </span>
               </li>
-              <li className="flex gap-x-3">
+              {/* <li className="flex gap-x-3">
                 <ArrowTrendingUpIcon
                   className="mt-1 h-5 w-5 flex-none text-red-600"
                   aria-hidden="true"
@@ -459,10 +488,10 @@ export default function PopAnxietyKinya() {
                     Headache and backache
                   </strong>
                 </span>
-              </li>
+              </li> */}
             </ul>
             <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-              Other effects of anxiety
+            Izindi ngaruka z'indwara y'umuhangayiko
             </h2>
             <ul role="list" className="text-gray-600">
               <li className="flex gap-x-3">
@@ -472,7 +501,7 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Self-care deficit
+                    Kutiyitaho
                   </strong>
                 </span>
               </li>
@@ -483,7 +512,7 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Quiting your job
+                  Kureka akazi kawe
                   </strong>
                 </span>
               </li>
@@ -494,7 +523,7 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Abusing drugs
+                  Gukoresha ibiyobyabwenge
                   </strong>
                 </span>
               </li>
@@ -505,7 +534,7 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Problems in maintaining relationships
+                  Ingorane zo gukomeza umubano n'abantu
                   </strong>
                 </span>
               </li>
@@ -516,7 +545,7 @@ export default function PopAnxietyKinya() {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Lack of engaging in Leisure and pleasure.
+                  Kutidagadura cyangwa kutinezeza
                   </strong>
                 </span>
               </li>

@@ -286,7 +286,7 @@ export const TestTableAxKinya = () => {
     if (sum >= 0 && sum <= 4) {
       setResult("Ibimenyetso bike");
       setTreatment(
-        "Ugomba gukomeza kubaho neza (indyo yuzuye, amazi ahagije, kuruhuka bihagije, gukora imyitozo ngororamubiri, gucukumbura impamvu nyamukuru itera guhangayika kugirango umenye icyo wirinda."
+        "Ugomba gukomeza kubaho neza (indyo yuzuye, amazi ahagije, kuruhuka bihagije, gukora imyitozo ngororamubiri) no gucukumbura impamvu nyamukuru itera guhangayika kugirango umenye icyo wirinda."
       );
     } else if (sum >= 5 && sum <= 9) {
       setResult("Ibimenyetso biringaniye");
@@ -379,7 +379,7 @@ export const TestTableAxKinya = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                          Kugira ubwoba,guhangayika gutuma udatuza ngo uhore hamwe
+                          Kugira ubwoba, no guhangayika gutuma udatuza
                           </div>
                         </div>
                       </td>
@@ -489,7 +489,7 @@ export const TestTableAxKinya = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                          Guhangayika cyane no kubintu bitandukanye 
+                          Guhangayikishwa n'ibintu bitandukanye kandi cyane
                           </div>
                         </div>
                       </td>
@@ -544,7 +544,7 @@ export const TestTableAxKinya = () => {
                       <td class="h-2px w-2px ">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                          Ingorane zo kuruhuka
+                          Kutabasha gutuza muri wowe
                           </div>
                         </div>
                       </td>
@@ -654,7 +654,7 @@ export const TestTableAxKinya = () => {
                       <td class="">
                         <div class="pl-6 lg:pl-3 xl:pl-0 pr-6 py-3">
                           <div class="flex items-center gap-x-3">
-                          Guhinduka byoroshye cyangwa kurakara
+                          Guhinduka cyangwa kurakara byoroshye
                           </div>
                         </div>
                       </td>
