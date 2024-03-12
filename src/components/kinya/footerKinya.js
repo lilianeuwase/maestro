@@ -153,10 +153,10 @@ export const FooterKinya = () => {
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-customized-3 sm:flex-row">
           <p className="text-sm text-customized-6">
-            © Copyright 2023 Maestro Mind Lab All rights reserved.
+            © Uburenganzira 2023 Maestro Mind Lab Ifite Uburenganzira Bwose.
             <br />
             <br />
-            Website designed & developed by{" "}
+            Urubuga rwateguwe & rwakozwe na{" "}
             <a
               href="https://8linescode.com/"
               target="_blank"
@@ -166,8 +166,9 @@ export const FooterKinya = () => {
             </a>
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
-            <a
-              href="/"
+          <a
+              href="https://twitter.com/ryvc_org"
+              target="_blank"
               className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -175,7 +176,8 @@ export const FooterKinya = () => {
               </svg>
             </a>
             <a
-              href="/"
+              href="https://www.instagram.com/rwandayvc/"
+              target="_blank"
               className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
             >
               <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -184,11 +186,22 @@ export const FooterKinya = () => {
               </svg>
             </a>
             <a
-              href="/"
+              href="https://www.facebook.com/Rwandayvchange"
+              target="_blank"
               className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
                 <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/rwanda-youth-voice-for-change/?viewAsMember=true"
+              target="_blank"
+              className="transition-colors duration-300 text-customized-6 hover:text-customized-12"
+            >
+              <svg fill="currentColor" className="h-5" viewBox="0 0 192 192">
+                <path d="M0,192v-192h192v192z" fill="none" />
+                <path d="M156,0h-120c-19.875,0 -36,16.125 -36,36v120c0,19.875 16.125,36 36,36h120c19.875,0 36,-16.125 36,-36v-120c0,-19.875 -16.125,-36 -36,-36zM59.36539,162.98077h-29.82693l-0.17307,-89.30769h29.82692zM43.70192,61.99038h-0.17308c-9.75,0 -16.03846,-6.72115 -16.03846,-15.08653c0,-8.56731 6.49039,-15.0577 16.41347,-15.0577c9.92308,0 16.00961,6.49038 16.21153,15.0577c0,8.36538 -6.31731,15.08653 -16.41346,15.08653zM162.77885,162.98077h-30.08654v-48.51923c0,-11.74039 -3.11538,-19.73077 -13.61538,-19.73077c-8.01923,0 -12.34615,5.39423 -14.42308,10.61538c-0.77885,1.875 -0.98077,4.44231 -0.98077,7.06731v50.56731h-30.23077l-0.17308,-89.30769h30.23077l0.17308,12.60577c3.86538,-5.97116 10.29808,-14.42308 25.70192,-14.42308c19.09616,0 33.37501,12.46154 33.37501,39.25961v51.86539z"></path>
               </svg>
             </a>
           </div>
