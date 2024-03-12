@@ -28,7 +28,7 @@ const MentalSupportKinya = ({ imageDetails, image }) => (
               }}
             >
               <div className="frameWelcome">
-                <Link to={`/therapy`}>
+                <Link to={`/kinyatherapy`}>
                   <ProgressiveImage
                     src={require("../../../assets/face.png")}
                     placeholder={require("../../../assets/faceCompressed.png")}
