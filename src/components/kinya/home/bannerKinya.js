@@ -15,7 +15,7 @@ const BannerKinya = () => {
             </div>
           </h2>
           <div className='btn-rowHome mt-4'>
-            <a href='/kinya'>
+            <a href='/'>
               English <RightArrow />
             </a>
           </div>
