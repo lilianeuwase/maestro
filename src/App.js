@@ -153,6 +153,7 @@ function App() {
             src={require("../src/assets/HotlineCropped.png")}
             width="200"
             alt="aaaa"
+            className="mb-16"
           />
         </a>
       </div>
