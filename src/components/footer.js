@@ -154,7 +154,7 @@ export const Footer = () => {
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-customized-3 sm:flex-row">
           <p className="text-sm text-customized-6">
-            © Copyright 2023 Maestro Mind Lab All rights reserved.
+            © Copyright {new Date().getFullYear()} Maestro Mind Lab All rights reserved.
             <br />
             <br />
             Website designed & developed by{" "}
